@@ -1,0 +1,3538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Predrag TASEVSKI - Pece - security</title><link href="https://predragtasevski.com/" rel="alternate"></link><link href="https://predragtasevski.com/feeds/tag/security.atom.xml" rel="self"></link><id>https://predragtasevski.com/</id><updated>2016-02-11T18:00:00+01:00</updated><entry><title>Beer &amp; Code #40: Drupal - winner in CMS security race</title><link href="https://predragtasevski.com/posts/2016/02/drupal-winner-security/" rel="alternate"></link><published>2016-02-11T18:00:00+01:00</published><updated>2016-02-11T18:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2016-02-11:/posts/2016/02/drupal-winner-security/</id><summary type="html">&lt;p&gt;Take a look at my understanding for a Drupal security approach. Drinking beer and giving presentation why Drupal for me is a winner when it comes in CMS (Content Management System) security.&lt;/p&gt;
+&lt;p&gt;I have used WordPress for several years, however soon as I got introduced to Drupal from my earlier …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Take a look at my understanding for a Drupal security approach. Drinking beer and giving presentation why Drupal for me is a winner when it comes in CMS (Content Management System) security.&lt;/p&gt;
+&lt;p&gt;I have used WordPress for several years, however soon as I got introduced to Drupal from my earlier colleague and a good friend I started to love it. It took me a several week to get to know the way how Drupal works, and the modules = plugins, views, content, etc. Soon as I've seen how easy is the setup, management and maintenance I felt in love from the first sight. Since then I will never switch to anther dynamic CMS solution unless is a static one, such as Pelican.&lt;/p&gt;
+&lt;p&gt;Anyway sorry for any inconvenience but the video is available only in Macedonian language. However the presentation (html) format in the archive file below is in English version.&lt;/p&gt;
+&lt;p&gt;Feel free to give any comments below or suggestions to improve the presentation.&lt;/p&gt;
+&lt;h1&gt;Video&lt;/h1&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/TRTEjyi_7-A" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h1&gt;Slides / Presentation&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://www.dropbox.com/s/3prsxwkhcl2onyk/drupal-winner-ppt.zip?dl=0" title="Dropbox: Presentation"&gt;Presentation: Drupal - winner in CMS security race&lt;/a&gt;&lt;/p&gt;</content><category term="pages"></category><category term="drupal"></category><category term="cms"></category><category term="security"></category><category term="modules"></category><category term="audit"></category><category term="presentation"></category><category term="plugins"></category><category term="talk"></category><category term="beer"></category></entry><entry><title>Workshop: Cyber Security and Privacy</title><link href="https://predragtasevski.com/posts/2015/12/workshop-cs-privacy/" rel="alternate"></link><published>2015-12-12T18:00:00+01:00</published><updated>2015-12-12T18:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2015-12-12:/posts/2015/12/workshop-cs-privacy/</id><summary type="html">&lt;p&gt;Dark Moto Studio hosted me to deliver a two days workshop in the field of &lt;strong&gt;Cyber Security and Privacy&lt;/strong&gt;, between 12 - 13 of December 2015 in Verona, Italy.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="verona Workshop: Cyber Security and Privacy" src="https://scontent-vie1-1.xx.fbcdn.net/hphotos-xpl1/t31.0-8/12371120_456362121218149_5044654840342295836_o.jpg"&gt;&lt;/p&gt;
+&lt;h1&gt;Agenda&lt;/h1&gt;
+&lt;h2&gt;Day 1:&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;What is cyber security and how the hackers think (4 hours)&lt;/em&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Introduction to cyber security and privacy&lt;/li&gt;
+&lt;li&gt;Attacking phases …&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;Dark Moto Studio hosted me to deliver a two days workshop in the field of &lt;strong&gt;Cyber Security and Privacy&lt;/strong&gt;, between 12 - 13 of December 2015 in Verona, Italy.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="verona Workshop: Cyber Security and Privacy" src="https://scontent-vie1-1.xx.fbcdn.net/hphotos-xpl1/t31.0-8/12371120_456362121218149_5044654840342295836_o.jpg"&gt;&lt;/p&gt;
+&lt;h1&gt;Agenda&lt;/h1&gt;
+&lt;h2&gt;Day 1:&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;What is cyber security and how the hackers think (4 hours)&lt;/em&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Introduction to cyber security and privacy&lt;/li&gt;
+&lt;li&gt;Attacking phases:&lt;/li&gt;
+&lt;li&gt;Reconnaissance&lt;/li&gt;
+&lt;li&gt;Scanning&lt;/li&gt;
+&lt;li&gt;Gaining Access&lt;/li&gt;
+&lt;li&gt;Maintaining/Expending Access&lt;/li&gt;
+&lt;li&gt;Covering Tracks&lt;/li&gt;
+&lt;li&gt;Most common types of attacks&lt;/li&gt;
+&lt;li&gt;What is attack&lt;/li&gt;
+&lt;li&gt;What is vulnerability&lt;/li&gt;
+&lt;li&gt;What is exploit&lt;/li&gt;
+&lt;li&gt;Demo of DoS/DDoS attack&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Day 2:&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;How to secure yourself using open source tools (4 hours)&lt;/em&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Social Engineering and Social Networking manipulation&lt;/li&gt;
+&lt;li&gt;Secure browsing and firewalls&lt;/li&gt;
+&lt;li&gt;E-mail and Instant Messaging – Chat security&lt;/li&gt;
+&lt;li&gt;Setting up Security Wireless connection and network&lt;/li&gt;
+&lt;li&gt;Secure your smart phones&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href="https://www.facebook.com/events/740993119377989/"&gt;FB Event link&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;Photos&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="Demo: network scanning" src="https://scontent-vie1-1.xx.fbcdn.net/hphotos-xpf1/t31.0-8/12487296_464598787061149_1198574937328096575_o.jpg"&gt;&lt;/p&gt;</content><category term="pages"></category><category term="security"></category><category term="privacy"></category><category term="Italy"></category><category term="cyber security"></category><category term="attacks"></category><category term="awareness"></category></entry><entry><title>Cyber Culture by Franco "Bifo" Berardi - Belgrade</title><link href="https://predragtasevski.com/posts/2015/12/bifo-digital-devide/" rel="alternate"></link><published>2015-12-06T18:00:00+01:00</published><updated>2015-12-06T18:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2015-12-06:/posts/2015/12/bifo-digital-devide/</id><summary type="html">&lt;p&gt;Early December usually in Belgrade is cold and freezing, however this time it was not so cold and frankly speaking don't know is it because the city was crowded with police forces in every corner due to the 22nd OSCE Ministerial Summit, or it was just a good luck. Additionally …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Early December usually in Belgrade is cold and freezing, however this time it was not so cold and frankly speaking don't know is it because the city was crowded with police forces in every corner due to the 22nd OSCE Ministerial Summit, or it was just a good luck. Additionally, what made the December special month for Belgrade is that the Philosophical Theater (Drama) hosted the &lt;a href="https://en.wikipedia.org/wiki/Franco_Berardi"&gt;Franco “Bifo” Berardi&lt;/a&gt; on 1th December at &lt;a href="http://www.narodnopozoriste.rs/en/--not-5169-9255-1299-2308"&gt;National Theatre in Belgrade&lt;/a&gt;. I was invited by a friend of mine to attend the discussion with one of the most known philosopher from Italy, and indeed I enjoyed a lot.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Bifo - Belgrade" src="https://scontent-frt3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/12346300_10153864400614575_6689430077986305516_n.jpg?oh=b44028c36e0f36a4769ca692d7d730a9&amp;amp;oe=56EB8EE9"&gt;&lt;/p&gt;
+&lt;p&gt;Nevertheless, I will try to highlight only the discussion in the field of cyber culture and digital divide that was reflected, and not going too much in details about the philosophy and so on. The discussion began within the reading notes from the “&lt;a href="http://www.amazon.com/After-Future-Franco-Bifo-Berardi/dp/1849350590"&gt;After the Future&lt;/a&gt;” book where Bifo reflected on the cyber culture by putting the emphasis that we must stop working due to the fact that  we have been working for the past 300-3000 years. In the background there was a song from &lt;a href="https://www.youtube.com/watch?v=Tgcc5V9Hu3g"&gt;David Bowie – Heroes&lt;/a&gt; which made the discussion much fruitful.&lt;/p&gt;
+&lt;p&gt;Moreover, Bifo also share an example of well-known social networking platform Twitter where the main and initial idea was to be an activist platform, rather what is now, and in the end soon was taken over from a big venture capitalist. In some view I might conclude that Bifo it might be a technophobe who is afraid of new technologies, however in the end he is positive and optimistic man. Furthermore, he talked a bit about the Julian Assange and Edward Snowden example, as well of hacktivist &lt;a href="https://en.wikipedia.org/wiki/Aaron_Swartz"&gt;Aaron Swartz&lt;/a&gt;. Then, he noted the symptom of hard side of advertising and how to make conspicuous and distinguishing the distances between body versus voice, as Thom Yorke has expressed his vision of a society, where people are increasingly more obsessed with pointless technology, selfishness and mindless entertainment than life itself.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="National Theatre in Belgrade" src="https://scontent-frt3-1.xx.fbcdn.net/hphotos-xfl1/v/t1.0-9/12341197_10153847782034575_2115013709091603844_n.jpg?oh=0e889d9f582e5beca4fbabc44fd77731&amp;amp;oe=56E5ECA2"&gt;&lt;/p&gt;
+&lt;p&gt;Something what made me curious is his view of terrorism and terrorists attacks today, where he mentioned that they are not due to the fact of killing someone or have something regarding religion, but in fact the main goal is to kill themselves. Questions were fruitful and he gave indeed philosophical answers, such as &lt;a href="https://en.wikipedia.org/wiki/Zenitism"&gt;Zenitism&lt;/a&gt; as an art movement in Yugoslavia. Further than about UN or different organization what is his view where he noted that the problem between society and politics are in fact relations, where male politicians governs the females – emphasizing that democracy is dead even after the elections or so on. Another question was about view of artificial intelligence how does he see it as a threat or killing the modern capitalism and he shared a positive view by highlighting that the world is smart.&lt;/p&gt;
+&lt;p&gt;In the end, after two hours and a half discussion, it was a pleasure to be there and see different views of cyber culture and digital divide opinions. Definitely it made me to over think my thoughts for sure, and at the same time to have a different opinion and to change my view of technology. However, I'm not sure yet what it is? Therefore, I will continue to search for the right answer and draw a map between security and privacy, which unfortunately in end was not discussed.&lt;/p&gt;</content><category term="pages"></category><category term="Balkan"></category><category term="digital devide"></category><category term="IoT"></category><category term="philosophy"></category><category term="Bifo"></category><category term="Franco Berardi"></category><category term="hacktivist"></category><category term="cyber"></category><category term="future"></category><category term="artificial intelligence"></category><category term="zenitism"></category><category term="policy"></category><category term="security"></category></entry><entry><title>Secrets for eavesdropping - respublica.edu.mk</title><link href="https://predragtasevski.com/posts/2015/10/eavesdropping-secrets/" rel="alternate"></link><published>2015-10-19T18:00:00+02:00</published><updated>2015-10-19T18:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2015-10-19:/posts/2015/10/eavesdropping-secrets/</id><summary type="html">&lt;p&gt;In September I have joined the academic team for writing a blog about public interest topics and actual situation in Macedonia - &lt;a href="http://respublica.edu.mk/" title="Respublica Academic Blog"&gt;ResPublica&lt;/a&gt;. My particular role is writing about policy and security concerns in IT and activists point of view.&lt;/p&gt;
+&lt;p&gt;Anyhow, for October release I've published an blog about the wiretapping …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In September I have joined the academic team for writing a blog about public interest topics and actual situation in Macedonia - &lt;a href="http://respublica.edu.mk/" title="Respublica Academic Blog"&gt;ResPublica&lt;/a&gt;. My particular role is writing about policy and security concerns in IT and activists point of view.&lt;/p&gt;
+&lt;p&gt;Anyhow, for October release I've published an blog about the wiretapping scandals in Macedonia, Balkans and elsewhere. Such topic is very attractive due to the wiretapping release of recording (i.e. bombs) from the opposition party.&lt;/p&gt;
+&lt;p&gt;Needless, following post is written in Macedonian language and it is available at &lt;a href="http://respublica.edu.mk/blog/2015-10-19-08-05-42" title="Respublica - Тајните за прислушкувањето"&gt;Тајните за прислушкувањето&lt;/a&gt; and &lt;a href="http://faktor.mk/2015/10/20/tajnite-za-prislushkuvaneto/"&gt;Фактор&lt;/a&gt;, where English version translated with google translator is &lt;a href="https://translate.google.com/translate?hl=en&amp;amp;sl=mk&amp;amp;tl=en&amp;amp;u=http%3A%2F%2Frespublica.edu.mk%2Fblog%2F2015-10-19-08-05-42" title="Respublica - Secrets for eavesdropping"&gt;Secrets for eavesdropping&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;And finally live TV interview on TOP Tema at Telma TV in Macedonian language discussion about wiretapping scandal in Macedonia.&lt;/p&gt;
+&lt;iframe width="420" height="315" src="https://www.youtube.com/embed/759ofTnyIeg" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content><category term="pages"></category><category term="surveillance"></category><category term="wiretapping"></category><category term="eavesdropping"></category><category term="mobile"></category><category term="phone"></category><category term="security"></category><category term="privacy"></category><category term="censorship"></category><category term="freedom"></category><category term="public interests"></category><category term="Balkan"></category></entry><entry><title>Freedom Not Fear panel discussion and Mobile Security Workshop</title><link href="https://predragtasevski.com/posts/2015/10/freedom-not-fear-panel/" rel="alternate"></link><published>2015-10-19T11:00:00+02:00</published><updated>2015-10-19T11:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2015-10-19:/posts/2015/10/freedom-not-fear-panel/</id><summary type="html">&lt;p&gt;Freedom Not Fear is an event that takes place each year, since 2008. However this year (2015) Metamorphosis decided to organize a panel discussion followed by the workshop for mobile security delivered by me. Here are the details of event and the workshop:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Source: metamorphosis" src="http://metamorphosis.org.mk/wp-content/uploads/2015/10/DON_84621.jpg"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Global Voices Advocacy, &lt;a href="https://advox.globalvoices.org/2015/11/06/why-did-the-giant-ears-cross-the-road-to-protest-state-surveillance-in-macedonia/#" target="_blank" title="Global Voices Advocacy"&gt;Why Did the Giant …&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Freedom Not Fear is an event that takes place each year, since 2008. However this year (2015) Metamorphosis decided to organize a panel discussion followed by the workshop for mobile security delivered by me. Here are the details of event and the workshop:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Source: metamorphosis" src="http://metamorphosis.org.mk/wp-content/uploads/2015/10/DON_84621.jpg"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Global Voices Advocacy, &lt;a href="https://advox.globalvoices.org/2015/11/06/why-did-the-giant-ears-cross-the-road-to-protest-state-surveillance-in-macedonia/#" target="_blank" title="Global Voices Advocacy"&gt;Why Did the Giant Ears Cross the Road? To Protest State Surveillance in Macedonia&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://prizma.birn.eu.com/%D0%BC%D0%BA/%D0%BD%D0%B2%D0%BE-%D0%B2%D0%B5%D1%81%D1%82%D0%B8/%D1%81%D0%BB%D0%BE%D0%B1%D0%BE%D0%B4%D0%B0-%D0%BD%D0%B0%D0%BC%D0%B5%D1%81%D1%82%D0%BE-%D1%81%D1%82%D1%80%D0%B0%D0%B2-%D1%82%D1%80%D0%B8%D0%B1%D0%B8%D0%BD%D0%B0-%D0%B8-%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%BA%D0%B0-%D0%B0%D0%BA%D1%86%D0%B8%D1%98%D0%B0-%D0%B7%D0%B0-%D1%81%D0%BB%D0%BE%D0%B1%D0%BE%D0%B4%D0%BD%D0%B0-%D0%BA%D0%BE%D0%BC%D1%83%D0%BD%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%98%D0%B0" target="_blank" title="Слобода наместо страв – трибина и активистичка акција за слободна комуникација"&gt;PRIZMA-Проект за истражувачко новинарство и соработка помеѓу медиумите и граѓанскиот сектор&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Event &lt;a href="http://metamorphosis.org.mk/aktivnosti_arhiva/sloboda-namesto-strav-tribina-i-aktivistichka-akcija-za-slobodna-komunikacija/" target="_blank"&gt;details&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=hhEicNKQdsk" target="_blank"&gt;video recorded discussion session &lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;and &lt;a href="https://drive.google.com/file/d/0B1472nuKPMN5X1l0WHAxeGQ0OWc/view?usp=sharing" target="_blank"&gt;presentation from the workshop&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content><category term="pages"></category><category term="mobile"></category><category term="smartphone"></category><category term="security"></category><category term="freedom"></category><category term="surveillance"></category><category term="wiretapping"></category><category term="awareness"></category><category term="workshop"></category></entry><entry><title>Research Paper: Macedonian Path Towards Cybersecurity</title><link href="https://predragtasevski.com/posts/2015/09/macedonian-cyber-security/" rel="alternate"></link><published>2015-09-15T19:00:00+02:00</published><updated>2015-09-15T19:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2015-09-15:/posts/2015/09/macedonian-cyber-security/</id><summary type="html">&lt;h1&gt;Abstract&lt;/h1&gt;
+&lt;p&gt;Information and communication technologies in Macedonia have experienced a phenomenal growth throughout the last decades, which has had a tremendous impact on governmental services’ presence in the Internet, as well as on everyday life. Against this background, technologies-based growth introduces new risks and threats to the cyber domain in …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Abstract&lt;/h1&gt;
+&lt;p&gt;Information and communication technologies in Macedonia have experienced a phenomenal growth throughout the last decades, which has had a tremendous impact on governmental services’ presence in the Internet, as well as on everyday life. Against this background, technologies-based growth introduces new risks and threats to the cyber domain in the country. To respond to those challenges the Macedonian government is pursing the establishment of a national authority to react to cyber attacks that occur, or a Computer Incident Response Team – MKD-CIRT, and the adoption of a National Cybersecurity Strategy. However, it should be
+taken into account that such tasks are neither easy nor simple. There are several issues that should be considered, for instance: the improvement of the measures for protection of information systems and of the critical infrastructure; the legal and policy framework; the international approach; and the formation of a cybersecurity culture, to name but a few. Simultaneously, considering that Macedonia is a candidate for accession to the EU and NATO, it has to comply with their standards when performing the reforms in the cybersecurity field. The current article briefly introduces the country’s steps towards cybersecurity, provides an analysis of the legal, policy and institutional progress achieved, and suggests recommendations that should be considered to ensure safer, secure, trustworthy and resilient cyber space
+in the country.&lt;/p&gt;
+&lt;p&gt;Link for full paper (download): &lt;a href="http://procon.bg/article/macedonian-path-towards-cybersecurity" target="_blank"&gt;Procon LTD, In Information &amp;amp; Security: An International Journal. Vol. 32., In Press&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Keywords&lt;/em&gt;: Macedonia, cyber, establishment, MKD-CIRT, strategy, security,
+national security&lt;/p&gt;</content><category term="pages"></category><category term="Macedonia"></category><category term="cyber"></category><category term="establishment"></category><category term="MKD-CIRT"></category><category term="strategy"></category><category term="security"></category><category term="national security"></category></entry><entry><title>Penetration Testing vs. Vulnerability Assessment</title><link href="https://predragtasevski.com/posts/2013/11/penetration-testing-vs-vulnerability-assessment/" rel="alternate"></link><published>2013-11-11T00:00:00+01:00</published><updated>2013-11-11T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2013-11-11:/posts/2013/11/penetration-testing-vs-vulnerability-assessment/</id><summary type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In the past few days, months and indeed years many people have
+approached me and asked me a very simple question… But bare in mind that
+this simple question was and indeed it is a still a big dilemma between
+many professionals in IT security, cyber security, management,
+decision-makers …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In the past few days, months and indeed years many people have
+approached me and asked me a very simple question… But bare in mind that
+this simple question was and indeed it is a still a big dilemma between
+many professionals in IT security, cyber security, management,
+decision-makers, policy, etc.  Thereby, the question is: What is the
+difference between Penetration testing and Vulnerability Assessment? And
+of course this question was almost always couples with the question if
+we do penetration testing does it means that we are doing as well as
+vulnerability assessment? In this content, I have decided to share with
+you the meanings, such as, methods, approaches of each process, as well
+as a further reading – papers, articles and books – that could help you
+to distinguish this difference and of course broaden your views.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;With no further do, firstly I would like to make sure that we are clear
+with the empirical terminologies used:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Vulnerability Assessment&lt;/strong&gt; is the process of identifying,
+    quantifying, and prioritizing (or ranking) the vulnerabilities in a
+    system &lt;a href="[&amp;quot;Vulnerability"&gt;2&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Penetration Testing&lt;/strong&gt; - occasionally &lt;strong&gt;pentest&lt;/strong&gt;, is a method of
+    evaluating computer and network security by simulating an attack on
+    a computer system or network from external and internal threats &lt;a href=""&gt;1&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Mostly, the above two terms are confused with each other. In other
+words, penetration testing is necessary to determine the true attack
+footprint of your environment, assets, and so fort. For this reason the
+the difference is highlighted and fully explained below in separated
+sections.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Vulnerability Assessments&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;It is used and of course it is necessary to discovering potential
+vulnerabilities throughout the environment in for instance,
+organization, company, or even asset. Usually there different scope for
+such an task, nonetheless sometimes does work only by available
+automatic tools or through manual test as well. Usually, and please bare
+this in your mind that full exploitation of systems and services is not
+generally in scope for a normal vulnerability assessment task.
+Most-likely, systems are typically enumerated and evaluated for
+vulnerabilities and testing can be done with or without authentication.
+Additionally, important in fact for the management staff is the
+actionable reports, thus reports contain details about the mitigation
+strategies, for instance, applying missing patches, correcting insecure
+system configurations and among the others [3].&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The steps to vulnerability assessments are [4]:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Cataloging assets and resources in a system&lt;/li&gt;
+&lt;li&gt;Assigning quantifiable value and importance to the resources&lt;/li&gt;
+&lt;li&gt;Identifying the vulnerabilities or potential threats to each
+    resource&lt;/li&gt;
+&lt;li&gt;And mitigating or eliminating the most serious vulnerabilities for
+    the most valuable resources&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Penetration testing&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Pen testing is coupled, or in other words it expands upon vulnerability
+assessment efforts by introducing exploitation into the matrix. The main
+purpose is to allow the business to understand if the mitigation
+strategies are actually working as it was expected.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Furthermore, pen testing requires a higher skill level than is needed
+for vulnerability analysis. Particularly, this means that the price for
+penetration test will be much higher than that of a vulnerability
+analysis [3].&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Also, there are two primary types of pen tests:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;White box, it uses vulnerability assessment and other predisclosed
+    information, and&lt;/li&gt;
+&lt;li&gt;Black box, it performed with very little knowledge of the target
+    systems and it is left to the tester to perform their own
+    reconnaissance, to gather information as much as possible..&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Usually, pen tests follow these steps [4]:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Determination of scope&lt;/li&gt;
+&lt;li&gt;Targeted information gathering or reconnaissance&lt;/li&gt;
+&lt;li&gt;Exploit attempts for access and escalation&lt;/li&gt;
+&lt;li&gt;Sensitive data collection testing&lt;/li&gt;
+&lt;li&gt;Clean up and final reporting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The key difference between those two is that pen testing goes beyond the
+level of identifying vulnerabilities and goes through the process of
+exploitation, privilege escalation, and maintaining access to the target
+system. Where on the other hand, vulnerability assessment provides a
+better picture of any existing flaws in the system with out the
+measuring the impact of the flaws to the system. However, vulnerability
+assessment carefully identifies and quantifies all the vulnerabilities
+in a non-invasive manner [5].&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Reference&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.isaca.org/Pages/Glossary.aspx?tid=651&amp;amp;char=P" title="Glossary - isaca"&gt;“Glossary”&lt;/a&gt;.
+ISACA. Retrieved 6 November 2013&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;assessment”](http://en.wikipedia.org/wiki/Vulnerability_assessment).
+Wikipedia. Retrieved 6 November 2013&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[3]: Lee Allen (May 2012). ”Advanced Penetration Testing for
+Highly-Secured Environments: The Ultimate Security Guide”. Packt
+Publishing Ltd.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[4]: Steven Drew, 2006. &lt;a href="http://www.secureworks.com/resources/newsletter/2006-03/"&gt;Vulnerability Assessments Versus Penetration
+Tests&lt;/a&gt;.
+SecureWorks. Retrieved 11.11.2013&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[5]: Shakeel Ali and Tedi Heriyanto (2011). “BackTrack 4: Assuring
+Security by Penetration Testing”. Packt Publishing Ltd.&lt;/p&gt;
+&lt;/p&gt;</content><category term="pages"></category><category term="penetration"></category><category term="vulnerability"></category><category term="assessment"></category><category term="pentest"></category><category term="security"></category></entry><entry><title>Belgrade Security Forum 2013 – Session 7: Assuring Cyber-Security in the Western Balkans and the Rest of Europe</title><link href="https://predragtasevski.com/posts/2013/10/belgrade-security-forum-2013-session-7-assuring-cyber-security-in-the-western-balkans-and-the-rest-of-europe/" rel="alternate"></link><published>2013-10-09T23:00:00+02:00</published><updated>2013-10-09T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2013-10-09:/posts/2013/10/belgrade-security-forum-2013-session-7-assuring-cyber-security-in-the-western-balkans-and-the-rest-of-europe/</id><summary type="html">&lt;p&gt;A few months ago I have received the invitation letter from
+administration of Belgrade Security Forum, within goal of inviting me to
+be a speaker in one of the break out sessions. In particular the session
+topic is: &lt;strong&gt;Assuring Cyber-Security in the Western Balkans and the Rest
+of Europe.&lt;/strong&gt; And …&lt;/p&gt;</summary><content type="html">&lt;p&gt;A few months ago I have received the invitation letter from
+administration of Belgrade Security Forum, within goal of inviting me to
+be a speaker in one of the break out sessions. In particular the session
+topic is: &lt;strong&gt;Assuring Cyber-Security in the Western Balkans and the Rest
+of Europe.&lt;/strong&gt; And of course, I have accepted the invitation. Speak of
+which, the &lt;em&gt;Belgrade Security Forum&lt;/em&gt; has been in past few years. This –
+2013 year was the third in the row event. And with it, we have continue
+the talk from the previous year session about cyber security: &lt;a href="http://2012.belgradeforum.org/agenda/session3.html%20&amp;quot;Belgrade%20Security%20Forum%202012"&gt;Cyber War
+and Cyber Crime: Responding to the Governance
+Challenges&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Turning to this year session, we had a very good chance to boost the
+enthusiasm from other panel discussion where chairman – Richard Thomson
+called me in between the discussion of Helsinki Plus 40: Strengthening
+the Security Community to Meet Current Security Challenges. Where he
+raise the issue of what and if it is possible with one click that
+someone could stop the energy, power supply or even telecommunication
+systems. And, my answer was very straightforward, indeed it is! This was
+a very good spur of inspiration of our breakout session.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Together with other speaker we came to conclusion that the best way to
+go ahead and to have an effective discussion is to open the most
+important questions relating to cyber security: &lt;strong&gt;Who? What? and How?&lt;/strong&gt;
+But before further to the answers the above question, I would like also
+to mention that the speakers where kind of divided, in a good sense
+where we came from different regions as well as specialized fields in
+cyber security. In details, &lt;strong&gt;Baroness Pauline Neville-Jones&lt;/strong&gt; was in
+related fields in government issues and challenges in cyber security.
+Where on other hand, I was a representative from the Wester Balkan
+region representative. Furthermore, &lt;strong&gt;Alexander Klimburg&lt;/strong&gt; was more
+concentrating of different stakeholder, in other words multi
+stakeholders approach. Where last but not least, &lt;strong&gt;Jovan Kurbalija&lt;/strong&gt; was
+in diplomacy, civil society and information technology. And finally, the
+moderator of the session was &lt;strong&gt;Vladimir Radunović&lt;/strong&gt;, who manage to
+create a nice vibe between the speakers and the audience from the
+beginning until the end of the session. For more details of the session
+please follow the Breakout session report: &lt;a href="http://belgradeforum.org/info/news/459/Session+7%3A+Assuring+Cyber-Security+in+the+Western+Balkans+and+the+Rest+of+Europe.html" title="Session 7: Assuring Cyber-Security in the Western Balkans and the Rest of Europe"&gt;Session 7: Assuring
+Cyber-Security in the Western Balkans and the Rest of
+Europe&lt;/a&gt;.
+For more information of the issues that we follow and given answers are
+available on the
+&lt;a href="http://www.belgradeforum.org/agenda/sesija5.html" title="Agenda"&gt;Agenda&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;From left to right: Vladimir Radunović, Predrag Tasevski, Jovan
+Kurbalija, Alexander Klimburg and Baroness Pauline Neville-Jones&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Also I would like to make some quick notes on the main cyber threats and
+possible effects that are linked to Western Balkan region. The most
+known and presented cyber threats are among the cybercrime. For instance
+in one hand are: employee fraud, minor and child pornography; using of
+mobile telephones and smartphones as tools to commit other crime;
+identity theft and credit card fraud. Where on the other hand are among
+the political, moral, ethical and other motivation reasons. Such as,
+web-based attacks, mostly committed by defacement or denial-of-service
+attacks. Then we have phising and spoofing social networking sites.
+Where the possible effects are for instance for individuals loss of
+money, and of course political or ethical doctrine. Moreover, awareness
+of roles and responsibilities of different actors, such as government,
+regulators, industry and civil society of risk are taken into
+consideration only the implementation of law. For instance, data
+protection law and so on. Turning to the industry and civil society is
+almost the same, although some of them are implementing the very known
+standards, such as ISO 27001 and so on. However, is this enough? The
+roles and responsibilities are only described in the data protection law
+and criminal law. Unfortunately, it is not carried out by the framework
+or even a strategy. Likelihood, awareness level in Western Balkans
+presented by my paper back book that I have conducted last year,
+&lt;a href="http://www.amazon.com/Interactive-Cyber-Security-Awareness-Program/dp/3659207985/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1367779682&amp;amp;sr=1-1&amp;amp;keywords=Interactive+Cyber+Security+Awareness+Program" title="Interactive Cyber Security Awareness Program"&gt;Interactive Cyber Security Awareness Program Cyber Security Awareness
+Program&lt;/a&gt;.
+This book outlines the survey done around 1000 participants, from 11 to
+63 years old. In diversity of carries, such as schools, universities,
+private and public organizations. In total we had 35% people using
+computers/internet from home and 26% from office. In particular and most
+interesting figures for us are results about the knowledge of protecting
+their IT assets, and in details: 16% are very knowledgeable, least
+knowledgeable are 13% and last but not least somewhat knowledgeable are
+40%. Therefore from the results presented we can see that awareness
+level among the end users is vary. Coming to the end, if we want to make
+sure the involvement of end users in raising trust and securing the
+cyberspace we firstly have to start from strategy, than legal framework,
+followed by implementation, and so on. However, when it comes to step to
+get done by governments should be as follows:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Develop and create strategy framework for Cyber-security, in
+    particular, not to cover the area only of cyber crime, but also how
+    to mitigate happened incidents.&lt;/li&gt;
+&lt;li&gt;Rewrite and review the cyber crime law and data protection law.&lt;/li&gt;
+&lt;li&gt;Create NGO or NPO that will deal not only for a concrete country but
+    of course the entire region, as well.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In the end I have noted that some countries in Wester Balkans do not
+have &lt;strong&gt;yet&lt;/strong&gt; either, CERT – Critical Emergency Response Team nor CIRT –
+Critical Incident Response Team. Therefore, this action should be taken
+as soon as possible.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In summary, hope that the above notes will take effect, as well as will
+raise the awareness of the important in fact issue. Therefore we have to
+be simple and follow just simple three steps:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Strategical plan which will aim in business continuity.&lt;/li&gt;
+&lt;li&gt;Partnership between Groups, such as government, private and civil.
+    As well as to provide awareness on the share bases.&lt;/li&gt;
+&lt;li&gt;Education the public, where we need to take an action of
+    re-informing the school materials, and to provide the young
+    generations guide of how to protect in cyber space and skills.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Thank you to the participant, speakers, guest, organizers and everyone
+for such a lovely stay in Belgrade.&lt;/p&gt;
+&lt;h1&gt;Pictures&lt;/h1&gt;
+&lt;p&gt;&lt;object width="500" height="375"&gt; &lt;param name="flashvars" value="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157648695812727%2Fshow%2F&amp;page_show_back_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157648695812727%2F&amp;set_id=72157648695812727&amp;jump_to="&gt;&lt;/param&gt; &lt;param name="movie" value="https://www.flickr.com/apps/slideshow/show.swf?v=1811922554"&gt;&lt;/param&gt; &lt;param name="allowFullScreen" value="true"&gt;&lt;/param&gt;&lt;embed type="application/x-shockwave-flash" src="https://www.flickr.com/apps/slideshow/show.swf?v=1811922554" allowFullScreen="true" flashvars="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157648695812727%2Fshow%2F&amp;page_show_back_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157648695812727%2F&amp;set_id=72157648695812727&amp;jump_to=" width="500" height="375"&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;</content><category term="pages"></category><category term="conference"></category><category term="security"></category><category term="cyber security"></category><category term="balkans"></category><category term="western"></category><category term="assurance"></category><category term="europe"></category></entry><entry><title>Collective Cyber Defence – The Role of Newer Members and Opportunities for Specialization of Bulgaria in the Alliance Questions and answers</title><link href="https://predragtasevski.com/posts/2013/03/collective-cyber-defence-the-role-of-newer-members-and-opportunities-for-specialization-of-bulgaria-in-the-alliance-questions-and-answers/" rel="alternate"></link><published>2013-03-12T00:00:00+01:00</published><updated>2013-03-12T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2013-03-12:/posts/2013/03/collective-cyber-defence-the-role-of-newer-members-and-opportunities-for-specialization-of-bulgaria-in-the-alliance-questions-and-answers/</id><summary type="html">&lt;p&gt;November is a month of &lt;a href="http://www.paneuropa.bg/en/news/38/PanEuropa-Bulgaria-organizes-international-conference-with-the-special-support-of-NATO" title="PanEuropa Bulgaria organizes international conference with the special support of NATO"&gt;Smart Defense and Open – Door Policy – New
+Synergies for Euro –Atlantic
+Security&lt;/a&gt;.
+Not only in Europe, but also in South-East European region as well. The
+following international event was organized
+by &lt;a href="http://www.paneuropa.bg/" title="PanEuropa Bulgaria"&gt;PanEuropa Bulgaria&lt;/a&gt; and
+it was supported by NATO. Furthermore, I was invited to take …&lt;/p&gt;</summary><content type="html">&lt;p&gt;November is a month of &lt;a href="http://www.paneuropa.bg/en/news/38/PanEuropa-Bulgaria-organizes-international-conference-with-the-special-support-of-NATO" title="PanEuropa Bulgaria organizes international conference with the special support of NATO"&gt;Smart Defense and Open – Door Policy – New
+Synergies for Euro –Atlantic
+Security&lt;/a&gt;.
+Not only in Europe, but also in South-East European region as well. The
+following international event was organized
+by &lt;a href="http://www.paneuropa.bg/" title="PanEuropa Bulgaria"&gt;PanEuropa Bulgaria&lt;/a&gt; and
+it was supported by NATO. Furthermore, I was invited to take a
+participation as a speaker on the panel discussion Collective Cyber
+Defence – The Role of Newer Members and Opportunities for Specialization
+of Bulgaria in the Alliance Questions and answers. In details, the event
+main points ware to highlight the need for specialization of each member
+state in terms of the principles of Smart Defense and the joint
+participation in future military operations.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Moreover, the event had splendid video addressing in the opening session
+of Neelie Kroes, the Vice – President of European Commission.
+Emphasizing the current online spying crisis as well as the importance
+of cyber security strategy. In additional, she highlighted the
+importance of new legal threats, information norms coupled to boost the
+trust among the Europe. As well as, that the weakest link in the chain
+should be able to raise and boost the awareness, coupled with the future
+investments in research and innovations, and projects.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Regarding the collective cyber defense panel discussion, I was delighted
+to be speaker with such strong extensive and experienced experts from
+different fields. Such as private, public, academy and business sectors.
+Speaking of which, the moderator of the panel was Prof. Veselin Tselkov,
+D. Sc., Member of the Board, Commission for Personal Data Protection in
+Bulgaria. The lectures where: unfortunately Col. Associate Prof. Dr.
+Stoyan Balabanov, Director, Institute for Defense, Ministry of Defense
+Bulgaria, was not able to attend the panel, however we had
+representative from MoD. Also from Bulgaria was Zlatogor Minchev from
+Institute of Information and Communication Technologies, Bulgaria. From
+Macedonian was Dr. Metodi Hadji-Janev (LtC), Assistant Prof., Military
+Academy ” General Mihailo Apostolski”, Skopje, Macedonia. From business
+prospective I was the presenter of
+&lt;a href="http://cybersecurity.mk" title="CyberSecurity.mk"&gt;CyberSecurity.mk&lt;/a&gt; copmany,
+based in Macedonia. In addition, Mr. Robert Griffin, Director Business
+Development – Security Systems, RSA. From all the above, we also had
+video addressing from Mr. Detlef Puhl, Senior Advisor at the Emerging
+Security Challenges Division, NATO Headquarters, and Mr. Philippe
+Roggeband, Security Sales Business Development Manager, EBG EMEAR, Cisco
+Systems. However, due to the security measures in the building where the
+event was held the video addressing was interrupted.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, here is my short presentation notes.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Cyberspace has become one of the most essential and distinguished
+bridge between government and their inhabitants. Thus, the people are
+able to get access to government services 24/7, as well as their life
+becomes more easier. However, all in this has led to advance of
+producing cyberspace to be vulnerable, coupled with information’s that
+should not be available to others. For this reason I would like to
+share three important points that are fundamental to emphasis when we
+discuss about the Cyber defense in general. First, we have to
+understand and highlight the difference between Cyber Security vs IT
+Security. Second, it is the important to boost the awareness level
+tailored to national level, social society, private sector and indeed
+multistakeholder cooperation in the region. Last but not least, we
+have to brake the lack of communications between the neighboring
+countries and to create a trusted, same level, and collaboration of
+cyber security. Where national agencies and parties should work
+together.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Without further ado, first the main goal of IT security is to protect
+information from a wide range of threats in order to ensure business
+continuity, reduce business damages and maximize return on investments
+and business opportunity. Likewise the cyber security is protecting
+Information and Communication Technologies (ICT) systems and Critical
+Infrastructure (CI). However the most important protection element in
+IT security is to reduce business risk to accepted levels and the
+protection of entire information and information systems essential to
+the organizations. Alternatively, cyber security aims at assuring
+critical IT service for CI and CII on accepted levels, in addition to
+the protection of critical information. In other words the security
+objective determiner in information security is an organization’s
+business process, while in cyber security it is for the entire state.
+Emphasizing that states may have different or complementary interests
+compared to an organization’s business interests. On one hand,
+handling cyber security problems is considered to be both a nationally
+and internationally coordinated activity to protect national CII.
+Similarly, to information security goals: confidentiality,
+availability and integrity, in cyber security the additional goals are
+non-repudiation, authentication, information systems importance and
+criticality from the standpoint of state CII/CI.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Turning to awareness, I would like to share my recent research that
+have been published as book, title: Interactive Cyber Security
+Awareness Program. It is highlighting the method, approach and the
+importance of current awareness level in Western Balkans. Coupled how
+to boost the awareness on the national level. I would not like to go
+in details, however, just want to mention that the positive results
+were presented, and that the awareness level among the end users are
+varied. Moreover, in particular we have to create and recognize the
+importance of establishing cyber security awareness strategy, coupled
+with influence of the weakest link in cyber security, which is the
+human factor, or in other words, social-technical aspects. In spite of
+our investment in technologies and in the applications, still the
+weakest link in cyber defense and security will the human behavior.
+Therefore, we will have to conceive an awareness/education to raise
+the awareness on the national behalf, such as, from the young to the
+oldest generation, tailored through social society, private sector and
+multistakeholder cooperation.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Lastly, in recent years we are witnesses of acts that have taken into
+place between neighboring countries in the region. Such acts were
+followed by different motivations of attacks. Where mostly they were
+done through defacement’s or denial-of-service attacks. Thus,
+motivations where divers. Nevertheless, in this last point is I would
+like to stress the importance of merging the best practices learned
+from past event occurrence as well as to improve the role of newer
+members and opportunities into the collective roles of cyber defence.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In summary, I am keen that after this discussion/panel will lead into
+further actions. And also thanks to the organizers for the invitation
+and done a good job in organizing such an important event.&lt;/p&gt;
+&lt;h1&gt;Pictures&lt;/h1&gt;
+&lt;p&gt;&lt;object width="500" height="375"&gt; &lt;param name="flashvars" value="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157646785203333%2Fshow%2F&amp;page_show_back_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157646785203333%2F&amp;set_id=72157646785203333&amp;jump_to="&gt;&lt;/param&gt; &lt;param name="movie" value="https://www.flickr.com/apps/slideshow/show.swf?v=1811922554"&gt;&lt;/param&gt; &lt;param name="allowFullScreen" value="true"&gt;&lt;/param&gt;&lt;embed type="application/x-shockwave-flash" src="https://www.flickr.com/apps/slideshow/show.swf?v=1811922554" allowFullScreen="true" flashvars="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157646785203333%2Fshow%2F&amp;page_show_back_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157646785203333%2F&amp;set_id=72157646785203333&amp;jump_to=" width="500" height="375"&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;</content><category term="pages"></category><category term="cyber defence"></category><category term="cyber security"></category><category term="security"></category><category term="bulgaria"></category><category term="balkan"></category><category term="conference"></category><category term="nato"></category></entry><entry><title>Network Security Toolkit</title><link href="https://predragtasevski.com/posts/2012/12/network-security-toolkit/" rel="alternate"></link><published>2012-12-25T00:00:00+01:00</published><updated>2012-12-25T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-12-25:/posts/2012/12/network-security-toolkit/</id><summary type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;A toolkit is a collection of tools, where for our motives is an assembly
+of tools to eavesdropper and scan network security for the possible
+exploitations. Moreover, these tools are designed from security
+researchers and experts, for the purpose of network administrator and
+security analysts to be able in …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;A toolkit is a collection of tools, where for our motives is an assembly
+of tools to eavesdropper and scan network security for the possible
+exploitations. Moreover, these tools are designed from security
+researchers and experts, for the purpose of network administrator and
+security analysts to be able in everyday work to conduct potential
+exploitations, to watch and to analyse the network. Additionally,
+network monitoring is a term to describe the system that is constantly
+monitoring computer network for being slow or failing peripherals, and
+it notifies the network administrator either via email, SMS or alarms in
+case of interruption of service. Equally to network monitoring, the
+security analysts are responsible for designing and monitoring security
+systems. As well as, to coordinating policies of security measures to
+protect information in computer files from unauthorized or accidental
+change, distribution or disclosure. It is therefore in this article we
+will introduce the readers with the basic concept and essential part of
+network security toolkits. As well as, already possible network security
+tools to help them to conduct network security monitoring and analysing.
+Lastly, we will give the readers with recommendation and conclusion.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Network Security Toolkit&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In this section we will take a look at a few essential components of the
+toolkits, and their main goals and purposes. When we assemble the
+toolkit, you might want to consider having at least one of the following
+components included:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Packet Sniffer&lt;/strong&gt;. It is an either software or hardware piece that
+can intercept and log traffic passing over the network or part over the
+network. As the data flaws across the network, the sniffer is capturing
+each packets and if needed it will decode the packets raw, by displaying
+the values of various fields in the packet, and it will analyse the
+content according the RFC or other specifications. This is especially
+useful when dealing with security threats that produce abnormal packets
+or enormous traffic. As well as, it will help to diagnose failed network
+hardware.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Port Scanner&lt;/strong&gt;. It is software developed to probe server or host for
+open ports. This kind of tools are essentially in every day work for
+administrators to verify security policies of their network and to find
+unwanted running services, before the attackers. They are very useful in
+fact to figure and detect unauthorized systems and services. The
+technique that most of the tools that are using are based upon finger
+print matching technology.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Intrusion Detection System (IDS)&lt;strong&gt;&lt;em&gt;. It is a device
+or application that monitors network or systems activities for malicious
+hustle or policy violations and, of course produces reports to a
+management staff. Moreover, typically they record information related to
+observed events, let know the security administrators of observed
+events, and respond to the detected threats by attempting to prevent it
+from fulfil.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;/em&gt;*Log Analysers&lt;/strong&gt;. Are dealing with large volume of
+computer generated log messages, known as event logs, audit records,
+etc. Furthermore, it deals as well as log analysis which can be in a
+real-time and in bulk after storage, also log search and last procedure
+reporting. In mace cases most of the system administrators groan of
+examining through log files for precious of information.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;/strong&gt;Vulnerability Scanners&lt;strong&gt;. It is an application designed
+to assess computers, application, computer systems and networks for
+their weaknesses. There different types of vulnerability scanners by
+distinguished from one another by a focusing to particular targets. The
+functionality varies among the different types of vulnerability
+scanners. They share common purpose of enumerating the vulnerabilities
+present in one or more targets. Also they enable you to seek out if your
+network or system has known vulnerabilities for patching.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;/strong&gt;Web Scanners&lt;strong&gt;. It is a program which communicates with
+web applications through the web front-end to be able to show potential
+security vulnerabilities in the web application and their architectural
+weaknesses. Unlike the source code scanners, web application scanners
+they don’t have access to the source code, and that is why they detect
+vulnerability by performing real attacks to the web application.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;/strong&gt;Password Crackers**. It is a process of either recovering
+or gaining access, password from data that has been stored in or
+transmitted by a computer or network. The approach is to repeatedly
+trying to guess the password. As well as, they allow you to quickly scan
+a host computer for accounts with weak password, one or the other by
+disabling them or force their owners to carry out and create stronger
+passwords.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Note that the above list is just an understandable part that you should
+have in mind to consider had them into your everyday network security
+toolkit box. In the next paragraph we will give the readers with the
+available tools that are essential for the network security toolkits.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Available Network Security Tool&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Most of the tools listed below are open source solutions and they cover
+one or more components from the above list. Additionally, for further
+detail information please refer to the following link
+&lt;a href="http://sectools.org/"&gt;http://sectools.org/&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;For instance for password cracking you might use the &lt;a href="http://www.openwall.com/john/"&gt;John the
+Ripper&lt;/a&gt; and
+&lt;a href="http://project-rainbowcrack.com/"&gt;RainbowCrack&lt;/a&gt; tools. Where for packet
+sniffing there is a big variety of tools, but most commonly known are:
+&lt;a href="http://www.wireshark.org/"&gt;Wireshark&lt;/a&gt;, &lt;a href="http://www.ntop.org/"&gt;Ntop&lt;/a&gt;,
+&lt;a href="http://www.tcpdump.org/"&gt;Tcpdump&lt;/a&gt; and many others. Moreover, to be able
+to conduct vulnerability scanning consider the following tools, such as,
+&lt;a href="http://www.tenable.com/products/nessus"&gt;Nessus&lt;/a&gt;,
+&lt;a href="http://www.openvas.org/"&gt;OpenVAS&lt;/a&gt;,
+&lt;a href="https://www.titania-security.com"&gt;Nipper&lt;/a&gt;, etc. In addition to the
+scanners, for web application the most known is a&lt;a href="http://www.portswigger.net/burp/"&gt;Burp
+Suite&lt;/a&gt;, then
+&lt;a href="http://www.websecurify.com/"&gt;Websecurify&lt;/a&gt;,
+&lt;a href="http://cirt.net/nikto2"&gt;Nikto&lt;/a&gt; and few more. For port scan you might
+want to consider &lt;a href="http://nmap.org/"&gt;Nmap&lt;/a&gt;. And finally for log analyser
+to come in handy is &lt;a href="http://sourceforge.net/projects/swatch/"&gt;Swatch&lt;/a&gt;,
+as well as for Intrusion Detection System handy tool is
+&lt;a href="http://www.snort.org/"&gt;Snort&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The above list of tools and the list of components will help and aim to
+the reader for what to have and to look at. Same as there are few of the
+many pieces of software put together from the dedicated security experts
+to advance the state of art of network security toolkit, such as,
+&lt;a href="http://networksecuritytoolkit.org/nst/index.html"&gt;Network Security
+Toolkit&lt;/a&gt; (NST)
+bootable CD/DVD, &lt;a href="http://www.backtrack-linux.org/"&gt;BackTrack&lt;/a&gt; and many
+others.&lt;/p&gt;
+&lt;/p&gt;</content><category term="pages"></category><category term="cyber security"></category><category term="network security"></category><category term="toolkits"></category><category term="security"></category></entry><entry><title>Web Servers Analysis under DoS Attacks, Secure Your Mobile, Protect Your Network and Hack More with Hakin9 11/2012!</title><link href="https://predragtasevski.com/posts/2012/11/web-servers-analysis-under-dos-attacks-secure-your-mobile-protect-your-network-and-hack-more-with-hakin9-112012/" rel="alternate"></link><published>2012-11-15T00:00:00+01:00</published><updated>2012-11-15T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-11-15:/posts/2012/11/web-servers-analysis-under-dos-attacks-secure-your-mobile-protect-your-network-and-hack-more-with-hakin9-112012/</id><summary type="html">&lt;p&gt;Publication article in Hackin9 Magazine 11/2012.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Web Servers Analysis under DoS Attacks&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;by MSc. Predrag TaSevSki&lt;/em&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Examination, determination and ability of both most common and latest
+stable web servers under DoS attacks, Apache and Nginx.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;You will learn how to perform examination of DoS attacks on different
+web servers …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Publication article in Hackin9 Magazine 11/2012.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Web Servers Analysis under DoS Attacks&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;by MSc. Predrag TaSevSki&lt;/em&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Examination, determination and ability of both most common and latest
+stable web servers under DoS attacks, Apache and Nginx.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;You will learn how to perform examination of DoS attacks on different
+web servers with lightweight Scriptkiddie script.&lt;/p&gt;
+&lt;p&gt;You should know beforehand, the configuration process of servers as well
+as virtual machine, setup and installation process of Content Management
+Systems and the basic Linux commands.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;You can download a sample from the following link of &lt;a href="http://hakin9.org/secure-your-mobile-protect-your-network-and-hack-more-with-hakin9-112012/"&gt;Secure Your
+Mobile, Protect Your Network and Hack More with Hakin9
+11/2012!.&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The article is on the &lt;em&gt;page number 66&lt;/em&gt;. Enjoy your reading.&lt;/p&gt;
+&lt;/p&gt;</content><category term="pages"></category><category term="wireless"></category><category term="security"></category><category term="cyber security"></category><category term="gms"></category><category term="wlan"></category><category term="wpan"></category><category term="threats"></category><category term="wifi"></category></entry><entry><title>Analyses of Malware Files</title><link href="https://predragtasevski.com/posts/2012/09/analyses-of-malware-files/" rel="alternate"></link><published>2012-09-30T23:00:00+02:00</published><updated>2012-09-30T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-09-30:/posts/2012/09/analyses-of-malware-files/</id><summary type="html">&lt;h1&gt;PURPOSE&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The main goal of laboratory report is to identify three analyses of
+malware files from the archive file send by the lecture. The archive
+contains 89 malware files. The way how we choice 3 files is by following
+algorithm:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Soft them by name&lt;/li&gt;
+&lt;li&gt;First use last number of your …&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;h1&gt;PURPOSE&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The main goal of laboratory report is to identify three analyses of
+malware files from the archive file send by the lecture. The archive
+contains 89 malware files. The way how we choice 3 files is by following
+algorithm:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Soft them by name&lt;/li&gt;
+&lt;li&gt;First use last number of your student code + your birthday day&lt;/li&gt;
+&lt;li&gt;Second, generate random number from &lt;a href="http://www.random.org/"&gt;http://www.random.org/&lt;/a&gt; and
+    only if it does not match first number use it for choosing the file&lt;/li&gt;
+&lt;li&gt;Third, use random number generator again and if it does not match
+    first or second number use it.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Malware archive can be download from the following link: [unfortunatly
+not available anymore]&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;WARNING FILE CONTAINS LIVE VIRUSES&lt;/em&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Task that need to be complete for this laboratory assignment:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Pick your malware&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Run your malware against 2 of next online analysis tools&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.virustotal.com/"&gt;http://www.virustotal.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://camas.comodo.com/"&gt;http://camas.comodo.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.threatexpert.com/submit.aspx"&gt;http://www.threatexpert.com/submit.aspx&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Find additional 2 online analysis tools where to analyse virus.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Things that should be presented in the laboratory report are:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Chosen numbers&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;General information about malware&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;md5&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;sha1&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;link to analysis result if it is possible&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;link to disinfecting instructions – if not possible explanation why it
+is not&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Analysis tools – links&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Your opinion about each analysis tool and comparison results.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Firstly, we are going to analyse the chosen files in section Chosen
+files and each file with the above required information and detail
+analysis results, links to disinfecting instructions, analysis tools
+used for this purpose. Secondary, expression about each analysis tool
+used and comparison results will be presented in section Analysis. In
+addition, in section Appendixes its provides what virtual environment
+has been used for this laboratory report. Because we know that if we
+open this file in our real machine we will get infected. That is why we
+are using an Linux virtual environment.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Furthermore, each file will be analysed with two different tools, in
+case to gather more information and solution for disinfecting process.
+Finally the conclusion made of all collected data will be concise in
+conclusion section.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;CHOSEN FILES&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Number of files are listed bellow and the name of the file that is going
+to be analysed:&lt;/p&gt;
+&lt;p&gt;​1. Number: 71; File name: &lt;code&gt;sales.exe; Size: 454.7 KB&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;​2. Number: 57; File name: &lt;code&gt;mgre.exe; Size: 61.4 KB&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;​3. Number: 60; File name: &lt;code&gt;moos3.ee; Size: 91.6 KB&lt;/code&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;FILE 1&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;File name: &lt;code&gt;sales.exe; Size: 454.7 KB;&lt;/code&gt; Number: 71.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    MD5: 093e72cbc78b46e977561c5874cfab4cSHA1 Hash: e79a730b01b6689c336138f39c79fbd2ea45b6c1SSDeep Hash: 12288:2Pqr7eKhHvZ3NSYqHMsD+vgp0pQe1lhJ:283vhN1qHMsD+Ip8QEz
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;Links to analyse report:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="http://www.netscty.com/report/690/e12093ea-3ae7-4fac-a%20218-5721b1aabded-347"&gt;http://www.netscty.com/report/690/e12093ea-3ae7-4fac-a
+    218-5721b1aabded-347&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.virustotal.com/file-scan/report.html?%20id=6f47a1f72fa005900f40803ede1a2a55167e641011271b49543eef748ffcb5a1-%201318408947#"&gt;http://www.virustotal.com/file-scan/report.html?id=6f47a1f72fa005900f40803ede1a2a55167e641011271b49543eef748ffcb5a1-1318408947#&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The above malware file has been reported that is capable to send out
+e-mail message with the built in SMTP client engine. Second, it contains
+characteristics of Waledac, a worm that spreads by sending an e-mail
+containing links to copies of itself. And finally, creates a startup
+registry entry.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Links provided, are demonstrating which anti virus software/application
+can disinfected the malware infection.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Tools for analysing the malware are:&lt;/p&gt;
+&lt;p&gt;​1. Netscty – Online Sandbox: &lt;a href="http://netscty.com/malware-tool"&gt;http://netscty.com/malware-tool&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;​2. Virustotal.com – &lt;a href="http://www.virustotal.com/index.html"&gt;http://www.virustotal.com/index.html&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;FILE 2&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;File name: &lt;code&gt;mgre.exe; Size: 61.4 KB;&lt;/code&gt; Number: 57.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    MD5: 1375a8e437db6acafe2b0419cfbff7ecSHA1:b48f702a5a0fa8558c278dd97ecfbd0d637fefd3SHA256: 89294d70e80547aac5b506915d2e8fc0309c0e578ab16fc9875c9a4668e63709
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;Links to analyse report:&lt;/p&gt;
+&lt;p&gt;​1.
+&lt;a href="http://camas.comodo.com/cgi-bin/submit?%20file=89294d70e80547aac5b506915d2e8fc0309c0e578ab16fc9875c9a4668e63709"&gt;http://camas.comodo.com/cgi-bin/submit?file=89294d70e80547aac5b506915d2e8fc0309c0e578ab16fc9875c9a4668e63709&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;​2.
+&lt;a href="http://wepawet.iseclab.org/view.php?%20hash=1375a8e437db6acafe2b0419cfbff7ec&amp;amp;type=js"&gt;http://wepawet.iseclab.org/view.php?hash=1375a8e437db6acafe2b0419cfbff7ec&amp;amp;type=js&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;From above analysed links we can conclude that the file creates keys, it
+changes values in registry, it change only one file, creates process
+called sample.exe and adds value to the modules.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The links do not show any way of disinfecting the following malware
+file. My personal opinion of the above links is good that they can show
+you that this file is malware, but still they do not show you enough
+information. Which can help you for further instructions and actions
+that should be consider. Not even providing you an information or links
+which anti virus software can help you.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Tools for analysing the malware are:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Comodo Instant Malware Analysis – &lt;a href="http://camas.comodo.com/"&gt;http://camas.comodo.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Wepawe – &lt;a href="http://wepawet.iseclab.org/"&gt;http://wepawet.iseclab.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;FILE 3&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;File name: &lt;code&gt;moos3.exe; Size: 91.6 KB;&lt;/code&gt; Number: 60.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    MD5: 4ddade6548142d5fd5b742f34b71e1daSHA-1: 5345bdd52591b0fcd8e9a81fed7a7b588e24a15d
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;Links to analyse report:&lt;/p&gt;
+&lt;p&gt;​1.
+&lt;a href="http://anubis.iseclab.org/?%20action=result&amp;amp;task_id=13e22805d763a08d4d158904eae5e709d&amp;amp;format=html"&gt;http://anubis.iseclab.org/?action=result&amp;amp;task_id=13e22805d763a08d4d158904eae5e709d&amp;amp;format=html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;​2.
+&lt;a href="http://www.threatexpert.com/report.aspx?%20md5=4ddade6548142d5fd5b742f34b71e1da"&gt;http://www.threatexpert.com/report.aspx?md5=4ddade6548142d5fd5b742f34b71e1da&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The malware file, contains characteristics of an identified security
+risk. Possible security risk is Backdoor.Agent.AJU [Backdoor.Agent.AJU].
+The threat category is network-aware worm and malicious trojan horse.
+Its modifying file system, memory and registry. The origin of this
+malware indicates possible country, Russian Federation.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;From the reports we can conclude that most of the known anti virus
+software has hit of this malware infection and it can disinfected.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Tools for analysing the malware are:&lt;/p&gt;
+&lt;p&gt;​1. Anubis: Analyzing Unknown Binaries – &lt;a href="http://anubis.iseclab.org/"&gt;http://anubis.iseclab.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;​2. ThreatExpert – &lt;a href="http://www.threatexpert.com/"&gt;http://www.threatexpert.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;ANALYSIS&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The web tool that we have used to analysis three of random chosen files
+are listed bellow.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Moreover, we will compare each one of those service, what kind of
+information they show, provide and do they supply with disinfected
+solution, if so how, and why not.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Netscty – Online Sandbox: &lt;a href="http://netscty.com/malware-tool"&gt;http://netscty.com/malware-tool&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Virustotal.com – &lt;a href="http://www.virustotal.com/index.html"&gt;http://www.virustotal.com/index.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Comodo Instant Malware Analysis – &lt;a href="http://camas.comodo.com/"&gt;http://camas.comodo.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Wepawe – &lt;a href="http://wepawet.iseclab.org/"&gt;http://wepawet.iseclab.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Anubis: Analyzing Unknown Binaries – &lt;a href="http://anubis.iseclab.org/"&gt;http://anubis.iseclab.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ThreatExpert – &lt;a href="http://www.threatexpert.com/"&gt;http://www.threatexpert.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;p&gt;To compare our results from the above list of online analysing tools I
+have setup an score from 1 to 5 of each section. Where the highest score
+is better solution. With the following attributes:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;table&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;thead&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;th align="right"&gt;
+Easy to use
+
+&lt;/th&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;th align="center"&gt;
+Provides enough information
+
+&lt;/th&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;th align="center"&gt;
+Disinfected information
+
+&lt;/th&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;th align="right"&gt;
+TOTAL
+
+&lt;/th&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/thead&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tbody&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+Netscty
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+4
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+5
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+4
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+Virustotal.com
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+5
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+4
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+5
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+Comodo
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+5
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+3
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+2
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+Wepawe
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+4
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+1
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+1
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+Anubis
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+5
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+3
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+1
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+ThreatExpert
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+5
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+5
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+5
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tbody&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/table&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;The above table give as an perfect over view, which tool is easy to use,
+provides enough information, disinfected information and gain the
+highest mark.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;CONCLUSION&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;I would like to generalize that from the above information we see that
+each online analysing tool has own means, criteria and different
+information to distribute. On the whole, some of them were not that easy
+and simple to use, yet they provide as with expectant information and
+disinfected solutions. Therefore, our succeeder for this test
+is ThreatExpert. But bear in mind that I have not measure and compare
+all the online tool-kits for analysing the files, just the ones listed
+in the previous section. For furthermore, please refer to the following
+article that was publish in 2010 by Lenny Zeltser
+[MalwareAnalysisToolkit].&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In summary, we found out that the chosen files are malware. Likewise,
+can harm our computer in different methods. Yet we got an information
+for some, for instance how to disinfected the computer. Therefore, we
+made a comparison table to scale the best online analysing tool for
+malware. Where total number is 6 tools, and different score rank. The
+first one is TheratExpert, secondly is Virustotal.com and the third is
+Netscty. Still all of mentioned tools score difference with one point.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;APPENDIXES&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Appendix 1 is configuration of the virtual environment.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;APPENDIX 1&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    Virtual environment: Oracle VirtualBox Version 4.1.2 r73507. Downloadable from the following link: https://www.virtualbox.org/wiki/DownloadsSecurity Fedora 14 32 bit – Client: http://spins.fedoraproject.org/security/• Base Memory: 512 MB• Acceleration: VT-x/AMD-V, Nested Paging• Display – Video memory: 12 MB• Storage: SATA Controller, Port 0: 8 GB• Network:◦ Adapter 1: Adapter 1: Parvirtualized Network (NAT)◦ Adapter 2: Adapter 2: Inter PRO/1000 MT Desktop (Host-only adapter, VirtualBox Host- Only Enternet Adapter)
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;h1&gt;Bibliography&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Backdoor.Agent.AJU: ThreatExpert, ThreatExpert’s Statistics for
+Backdoor.Agent.AJU [PC Tools], 2011,
+&lt;a href="http://www.threatexpert.com/threats/backdoor-agent-aju.html"&gt;http://www.threatexpert.com/threats/backdoor-agent-aju.html&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;MalwareAnalysisToolkit: Lenny Zeltser, 5 Steps to Building a Malware
+Analysis Toolkit Using Free Tools, January 2010,
+&lt;a href="http://zeltser.com/malware-analysis-toolkit/"&gt;http://zeltser.com/malware-analysis-toolkit/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;</content><category term="pages"></category><category term="malware"></category><category term="online"></category><category term="security"></category><category term="binary"></category><category term="malicious code"></category></entry><entry><title>Company Brochure and Founder Notes, Cybersecurity.mk</title><link href="https://predragtasevski.com/posts/2012/09/company-brochure-and-founder-notes-cybersecuritymk/" rel="alternate"></link><published>2012-09-20T23:00:00+02:00</published><updated>2012-09-20T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-09-20:/posts/2012/09/company-brochure-and-founder-notes-cybersecuritymk/</id><summary type="html">&lt;p&gt;COMPANY BROCHURE: Cybersecurity.mk&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Your IT infrastructure could be taken under the shoulder of
+professionals&lt;/p&gt;
+&lt;p&gt;September 2012&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Founder Notes:&lt;/p&gt;
+&lt;p&gt;Recently, Macedonian government has announced to open a CERT agency.
+This news was not only shock to us, but to everyone else, indeed.
+However, we are supporting this initiative and hope …&lt;/p&gt;</summary><content type="html">&lt;p&gt;COMPANY BROCHURE: Cybersecurity.mk&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Your IT infrastructure could be taken under the shoulder of
+professionals&lt;/p&gt;
+&lt;p&gt;September 2012&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Founder Notes:&lt;/p&gt;
+&lt;p&gt;Recently, Macedonian government has announced to open a CERT agency.
+This news was not only shock to us, but to everyone else, indeed.
+However, we are supporting this initiative and hope that will be able to
+elaborate and corporate within organization.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Macedonian situation in a field of information and cyber security is not
+on very surprising or signification level. Therefore our main goal is to
+increase and merge the collaboration with neighbour countries as well as
+with international organizations and agencies.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Moreover, our belief lies that we will be able to bring better
+understanding of very important issues that concern information and
+cyber security, and to lead to better national awareness.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In this matter, our company will continue to expend the partnership as
+well as international collaboration. We will constantly checking for
+updates for existing solutions, also to search for new solutions to
+update our offerings and services. And further development of our
+projects.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In this brochure we would like to introduce you with our company
+profile, such as, our services, partners, clients, projects and our blog
+posts.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Link to PDF version of the brochure is on the following link:
+&lt;a href="http://cybersecurity.mk/about.html"&gt;http://cybersecurity.mk/about.html&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;</content><category term="pages"></category><category term="cert"></category><category term="CIRT"></category><category term="cyber security"></category><category term="cybersecurity"></category><category term="cybersecurity.mk"></category><category term="internet"></category><category term="macedonia"></category><category term="mkd"></category><category term="online"></category><category term="security"></category></entry><entry><title>What is wireless network security?</title><link href="https://predragtasevski.com/posts/2012/08/what-is-wireless-network-security/" rel="alternate"></link><published>2012-08-10T23:00:00+02:00</published><updated>2012-08-10T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-08-10:/posts/2012/08/what-is-wireless-network-security/</id><summary type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The first wireless telecommunications was established in early 20th
+century, within successful transmitted radio signal across Atlantic
+Ocean. And it was known as the first wireless communication across the
+ocean. However, in this time likewise the computers were not widespread,
+the inventors and developers of wireless have not had …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The first wireless telecommunications was established in early 20th
+century, within successful transmitted radio signal across Atlantic
+Ocean. And it was known as the first wireless communication across the
+ocean. However, in this time likewise the computers were not widespread,
+the inventors and developers of wireless have not had in mind that this
+technology will be so spread and to carry out a security into the
+wireless telecommunications. Whereabouts, nowadays computers are
+worldwide spread in every home, in every office, and especially when we
+are on the road or when we travel. We used them in fact as our main
+devices to be able to complete and conduct our everyday tasks throughout
+wireless technology. Such as, to share picture, media, use different
+instant chatting application, video and voice calls – skype, etc.
+Additionally, wireless technologies have been very popular recently, in
+home and business users. Due to the fact that it is costs-effective,
+useful, no mess cables into the build or house, it is easy to set up,
+and it provides a great mobility.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Owing to the expansibility, mobility and usability, the wireless
+technology and telecommunication could be at great risk. Therefore, in
+this article we will introduce the readers within the different
+categories coverage range wireless networks. Then we will go over the
+wireless standards, as well as the most commonly known security threats.
+Last but not least, we will introduce the readers with the basic
+wireless security measures. And finally we will summarise the article
+with the conclusion.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Wireless Network&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Wireless network it is used to transport data between devices and among
+devices. They are often categorized into three groups based on the
+coverage range, such as: Wireless Wide Area Networks (WWAN), WLANs, and
+Wireless Personal Area Networks (WPAN). Where WWAN it involves wide
+coverage area of technologies, such as, Global System for Mobile
+Communication (GSM), 2G cellular, and many other. In the other hand,
+WLAN unlike the traditional wired network does not need cables, it
+connects computers and other parts to the network using an access point
+device, and it has coverage areas of up to 300 feet. In contrast the
+WLAN, the WPAN is representing the wireless personal area network
+technologies such as Bluetooth and Infra-Red. Please note that these
+technologies receive and send information using electromagnetic waves.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Wireless Standards&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Wireless technologies comply with a variety of standards and offer
+different levels of security features. The advantages of standards are
+to encourage mass production, as well as to allow products from
+different vendors to interoperate. For this article we have limited the
+discussion to the most commonly known IEEE 802.11 and the Bluetooth
+standard.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Moreover, the two standards are described below:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;IEEE 802.11 standard. Are first developed in 1997. It is designed to
+    support medium range, higher data rate for applications, for
+    instance, Ethernet networks and to mobile address and portable
+    stations. In addition, WLAN standards are designed for 1 Mbps to 2
+    Mbps wireless transmissions. Hence advanced support it was followed
+    in 1999 by 802.11a, then by 802.11b standard, where the later on the
+    security vulnerabilities of the standard have been exposed. Another
+    standard still in draft has been developed – 802.11g, yet the
+    massive WLAN productions now are based on the 802.11b standard.&lt;/li&gt;
+&lt;li&gt;Bluetooth standard. It is an ad-hoc network standard. Are designed
+    owing to interconnect different types of devices between each
+    other’s, such as computers, mobile phones, PDAs, etc. Their
+    applications include wireless synchronization, e-mail, internet
+    access using personal computer connections, hands free headsets and
+    car kits, and many others.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Wireless Security Threats&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;As the effect of that the wireless networks are widely spread and they
+are available around us it represents the potential treats in wireless
+network. Also the security threats could be made from errors and to
+personal privacy. However, the most commonly known concerns in wireless
+security are devices theft, vulnerabilities, denial of service attacks,
+malicious code and hackers, services theft and foreign and industrial
+espionage. Moreover, authorized and unauthorized access of the wireless
+device may commit fraud and theft. As well as, malicious hackers may
+break into a network without authorizations, by exploiting the
+vulnerability, by brute forcing the password or other security
+vulnerability flow to do hard or to gain personal information or needs.
+In addition, malicious hackers or crackers are usually people from
+outside of an organization or agency. Conversely, users within
+organization and agency are a threat as well. Furthermore, they could
+gain access to the wireless access point by eavesdropping on wireless
+device communication. Additionally, malicious code includes such as,
+worms, Trojan horses, viruses, or other unwanted code, application that
+are designed for purpose to damage files or bring down the system or the
+entire network. Service theft is when for instance an unauthorized user
+gains access to the network and in worst case customer data or network
+resources. And last, foreign and industrial espionage covers gathering
+data from corporation or intelligence information from government.
+Especially in wireless network espionage is very simple because the
+transmission of data is across radio waves.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Wireless Security Measures&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;From the previous paragraph we can conclude that actually wireless
+network it has different approaches and methods of threats. Therefore,
+in this section we will concentrate of how to apply security measures in
+our wireless network, either are for a personal or organizational usage.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;First step is to create a Security Policy. It defines what it means to
+be secure, as well as includes restrictions on wireless LAN functions,
+traffic, flow, and access. Second is to configure for Secured Network
+Access, by implementing and configuring setup password protection, also
+to physically secure the WLAN and to secure the WLAN. It can be secured
+from intruders by wireless authentication, such as: WEP (Wired
+Equivalency Privacy) – which can be hacked very easily); WPA and WPA2
+(Wi-Fi Protected Access) – are more secure alternatives, where unlike
+the WEP and WPA, WPA uses the AES (Advance Encryption Standard) and it
+supports two modes of authentication – WPA2-PSK (Pre-shared key) and
+WPA2-Enterprise (EAP/RADIUS) mode. Thirdly by controlling wireless
+visibility by Service Set Identifier (SSID), this is visible and real
+name of the wireless network. Last but not least, by securing the
+network with virtual segmentation, called Virtual LAN. Finally, we
+recommend on-going security maintenance and continue education.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Today wireless networks are helping and definitely providing the
+opportunity to the organizations, individuals and business to cut costs,
+to increase the productivity and mobility. By following the above
+recommended security measures the everyday work will in fact continue
+without any interference. The key to keep up and creating a security
+wireless network is on-going running business and organization.&lt;/p&gt;
+&lt;/p&gt;</content><category term="pages"></category><category term="wireless"></category><category term="security"></category><category term="cyber security"></category><category term="gms"></category><category term="wlan"></category><category term="wpan"></category><category term="threats"></category><category term="wifi"></category></entry><entry><title>Ministry of Interior – Macedonia, website defacement: http://mvr.gov.mk</title><link href="https://predragtasevski.com/posts/2012/06/ministry-of-interior-macedonia-website-defacement-httpmvrgovmk/" rel="alternate"></link><published>2012-06-25T23:00:00+02:00</published><updated>2012-06-25T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-06-25:/posts/2012/06/ministry-of-interior-macedonia-website-defacement-httpmvrgovmk/</id><summary type="html">&lt;h1&gt;Purpose&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Yesterday, the 25 of June 2012, the Macedonian website of Ministry of
+Interior (MVR) was defaced by Kosovo Network Security (KNS) group, below
+figure. However, after we have noticed and some of the social networking
+sites have informed me, I was concern to find out what just have
+happened …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Purpose&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Yesterday, the 25 of June 2012, the Macedonian website of Ministry of
+Interior (MVR) was defaced by Kosovo Network Security (KNS) group, below
+figure. However, after we have noticed and some of the social networking
+sites have informed me, I was concern to find out what just have
+happened and how did happen, and of course how they have done it. So for
+this purpose, I have done some digging into details, about the previous
+defacement activities of this very important government site. But before
+we continue with more details, let just talk about the situation of
+yesterday and what did the authorities take protective measures steps
+and actions.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;On Monday, 25 June 2012 at 19:38, one friend have updated his status in
+one of the social networking sites, as follows: “Хакован
+&lt;a href="http://mvr.gov.mk/"&gt;http://mvr.gov.mk/&lt;/a&gt;” (Hacked &lt;a href="http://mvr.gov.mk/"&gt;http://mvr.gov.mk/&lt;/a&gt;). And it made me
+extremely intrigue to see what actually have just happened. The below
+figure, displays the message spread from the KNS group.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Screenshot from the mvr.gov.mk defaced version&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Moreover, what makes the situation even more interesting is that after
+the report that the site was defaced the authorities have taken a
+measures steps to fix the issue, by either shutting down the server or
+restoring the content of the site from the backup. Then after one or two
+minutes the site was defaced again. I did not want to lose the time and
+the nervous to check every five or ten minutes to see when it will be
+back again.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, after 15 hours, or one stressful – hard core night for the
+administrators of the site, the usability and functionalities where back
+as normal, let just see how long will stay!&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Therefore, in the current post the idea is to give and overview, of what
+actually is going on when it comes to case of cyber space, cyber
+security issues in Macedonia. The structure of this post is introduces
+first with the issue, or the problem that actuality made me to write
+this post. Followed by the background investigation about the previous
+defacement activities on the Ministry of Interior website in Macedonia.
+Then with the background investigation about the KNS group, moreover,
+with the self pen-testing site with different attacking methodologies.
+And finally, closing by with a conclusion and action plan that should be
+taken, for hence actions. This post does not only involves the public
+sector, but even and the private sector too. Those agencies,
+organizations are too much careless and do not take any actions of
+securing their IT assets.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Ministry of Interior in Macedonia site offers different online services.
+The site primary idea is to inform the inhabitance about the news,
+actions, useful information, public relations, analysis and statistics;
+international cooperation and legislation; and finally the services. And
+secondly is to give and opportunities to the population scheduling of
+service, if their document is issued, etc.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In one short sentence, this site, for some people, it may be very useful
+or not. However, I need to empathize that the site is only available in
+Macedonian language, nor Albania, nor English version. So, in simple
+conclusion this site is only useful for Macedonian speakers, and not for
+foreigners, yet still represents one of very important public service,
+government agency.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, in the next section we will discuses the previous
+defacement and hacking attacks of this site.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Background&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The service of this site, or the domain first was registered in 22
+October 2003, and unfortunate I do not remember when was first time
+available and published. However, in the pass years I have heard many
+times that this site was defaced and hacked, but still no actions or
+results were shown. Therefore, it made me very interesting to find out,
+if this defacement activities where notified and when and how many
+where. For this purpose I have use a site service that I know few years
+ago, the &lt;a href="http://www.zone-h.org/"&gt;Zone-H&lt;/a&gt;. Moreover,
+&lt;a href="http://www.zone-h.org/"&gt;Zone-H&lt;/a&gt; is neither responsible for the reported
+computer crimes nor it is directly or indirectly involved with them, it
+is just and simple site where collects the cybercrime activities
+notified anonymously. The bellow figure provides a details of previous
+reported/notified cybercrime activities of MVR site in Macedonia.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In details, total notifications are 4 of which 2 are single IP and 2 are
+mass defacements. The first mass defacement was done in 29 July 2009,
+when the site use a OS: Windows 2000, then in 2011 it was the
+re-defacement and the server operating system is Windows 2008. Followed
+by the other massive defacement in this year 2012 in March 18, and same
+year, few days before the current attack, 22 of June it was
+re-defacement. And the attack, defacement that we write for it was not
+notified or reported.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;From these data, and schedule, we can come to a conclusion that the site
+was defaced just 3 days before the mass defacement attack, so it might
+be a simple warning, to taken an action before something goes really
+wrong. But most probably, non of those administrators, or authorities
+did not taken any serious actions, until the case yesterday appears.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Details&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;To be able to do an analysis of what actually have happened, we need to
+take some actions.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;First, we have done a simple web sniffer, to find out what kind of
+system, and services the site, server is using. If we request the &lt;a href="http://en.wikipedia.org/wiki/List_of_HTTP_header_fields"&gt;HTTP
+Request Header&lt;/a&gt;
+we will receive an HTTP Response Header with a following data:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    Status: HTTP/1.1 200 OKCache-Control: privateContent-Type: text/html; charset=utf-8Server: Microsoft-IIS/7.0Set-Cookie: ASP.NET_SessionId=3lti3gep3usg4255ggf34tjn; path=/; HttpOnlyX-AspNet-Version: 2.0.50727X-Powered-By: ASP.NETDate: Tue, 26 Jun 2012 08:18:34 GMTConnection: closeContent-Length: 103773
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;The above data, is useful in a sense that provides as an information
+about the Server and the ASP.Net Version. Then, if we want to find more
+details about the open and close ports and operating system we can use
+the &lt;a href="http://nmap.org/"&gt;nmap&lt;/a&gt; tool with the following command line:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;nmap -O -v IP-Address&lt;/code&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;And the results will be as follows:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    PORT STATE SERVICE21/tcp open ftp80/tcp open httpRunning (JUST GUESSING) : Microsoft Windows Vista|2008|7 (89%)
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;From the web sniffing and from the OS version scanning we can assume
+that the server is running Microsoft Windows 2008. The current
+vulnerabilities and possible exploitations are visible on the &lt;a href="http://technet.microsoft.com/en-us/security/bulletin/"&gt;Microsoft
+Security
+Bulletins&lt;/a&gt;
+website. By knowing the vulnerabilities it is very easy task to find out
+a way either to commit DoS attack or remote server access. However, in
+this post we will not go into details and exploitation descriptions.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Moreover, the KNS, we assume the domain is followed:
+&lt;a href="http://kns-team.com/"&gt;http://kns-team.com&lt;/a&gt;. However, the site is down,
+therefore, we will have to understand who is behind this domain
+registration. Therefore, we will use the whois database to understand
+more, or even we can use another site that have been defaced by this
+group to find out more. So there is the list presented the members in
+the groups and their archive of notified defaced sites:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.zone-h.org/archive/notifier=cracker-besi"&gt;rAcKeR-BeSi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GP&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.zone-h.org/archive/notifier=L0wHacker"&gt;L0wHacker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;sLizer&lt;/li&gt;
+&lt;li&gt;X-r00t&lt;/li&gt;
+&lt;li&gt;SpyHackz&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The Facebook fan page is:
+&lt;a href="https://www.facebook.com/pages/Kosova-Network-Security/176195849098989"&gt;https://www.facebook.com/pages/Kosova-Network-Security/176195849098989&lt;/a&gt;.
+For more info I was short of time to do more digging, but I hope that
+someone will.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Action&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;After understanding the details about the MVR site, operating system and
+their server services, and information about the KNS, it is time to take
+an action of trying to see how vulnerable is MVR site, and to see if
+these lads had very difficult time of defacing the content of the site,
+or even gaining access to the server-side.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;But before, we carry on, I want to stress out that this section is not
+to give you an idea how, or knowledge to exploit or use any
+vulnerabilities to deface or gain access to the site. We will just
+demonstrate you a very simple
+&lt;a href="http://en.wikipedia.org/wiki/Cross-site_scripting"&gt;XSS&lt;/a&gt; exploit of MVR
+site that we have found a vulnerability, figure below.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Example of exploitation by XSS vulnerability, mvr.gov.mk&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;It is therefore, from this very simple and easy exploitation of XSS
+vulnerability of the MVS site we will be able to run more advance and
+complicated shell scripts to gain access and maintain access of the
+server. Our initial idea is not to show you how to do it, but to expose
+to the audience that actually hence actions is need it. And we hope that
+the administrators, developers and the authorities will take an action
+of mitigating the risk, and further vulnerabilities of the site.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In Macedonia, cyber space, cyber crime, cyber security, cyber warefare,
+cyber terrorism are actually unknown words, terminology. They are not
+even specified or added into the Macedonian dictionary, nor in IT
+dictionary. However, this is not the first or least defacement, attack
+that has happened in Macedonia, nor the first attack that has been done,
+implemented by neighbor countries, or someone else. I just don’t
+understand why people in this country are so careless about how to
+protect their IT assets, and everything else, as well.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Furthermore, it is not an issue that we do not have specialists to
+conduct a pen-testing to the sites and services that not only the
+government agencies are offering but even the banks and private sectors
+as well. We even have a cyber crime unit in Ministry of Interior, and
+one of very successful information security research and development
+laboratory in Macedonia: &lt;a href="http://www.zeroscience.mk/en/"&gt;Zero Science
+Lab&lt;/a&gt;. Also, the &lt;a href="http://cybersecurity.mk/icsap/"&gt;ICSAP – Interactive
+Cyber Security Awareness Program&lt;/a&gt;,
+Macedonia project, developed by myself.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, in final conclusion, I would like to recommend the
+authorities to take actions about the above described activities done by
+KNS and hope that the security awareness will boost up, and the further
+actions will be considered of securing cyber space.&lt;/p&gt;
+&lt;/p&gt;</content><category term="pages"></category><category term="Attacks"></category><category term="cyber security"></category><category term="information warfare"></category><category term="legal aspects of cyber security"></category><category term="log mining"></category><category term="DDoS"></category><category term="exploitation"></category><category term="kns"></category><category term="macedonia"></category><category term="mvr"></category><category term="online"></category><category term="security"></category><category term="vulnerability"></category><category term="expolit"></category></entry><entry><title>Security Programing Techniques</title><link href="https://predragtasevski.com/posts/2012/02/security-programing-techniques/" rel="alternate"></link><published>2012-02-21T00:00:00+01:00</published><updated>2012-02-21T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-02-21:/posts/2012/02/security-programing-techniques/</id><summary type="html">&lt;h1&gt;INTRODUCTION&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The main goal of this post is to introduce the reader with the security
+programing techniques into deferent program languages and operating
+system security models. The post is introducing four following topics:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Session storage’s in Ruby on Rail&lt;/li&gt;
+&lt;li&gt;Parameterized statements into Java with JDBC, C# with ASP.NET …&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;h1&gt;INTRODUCTION&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The main goal of this post is to introduce the reader with the security
+programing techniques into deferent program languages and operating
+system security models. The post is introducing four following topics:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Session storage’s in Ruby on Rail&lt;/li&gt;
+&lt;li&gt;Parameterized statements into Java with JDBC, C# with ASP.NET,
+    PHP5, php-mysqli, Perl, Python and Hibernate Query Language (HQL)&lt;/li&gt;
+&lt;li&gt;Unix permission model, Unix ACL and Windows 7 security model&lt;/li&gt;
+&lt;li&gt;Finding all the security vulnerabilities in bash script&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Each topic will be divided into own section, where at the end of each
+topic we stated the reference and additional reading material. The
+source code, scrips and the additional task were given by the lecture.
+However this will help the readers and people interesting into
+programing for further work and involvement with the above topics.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;1. Session storage’s in Ruby on Rail&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Session in Rails is a hash-like structure which allows you to store data
+across requests. Sessions can hold any kind of data object (with some
+limitations) because they store data using Data Marshalling.Session in
+rails it is not a hash. Session creates new instant of session in every
+time new user visit the site. Recommendation is to not store large
+objects in a session and critical data should not be stored in
+session.Rails way of&lt;/p&gt;
+&lt;p&gt;implementing session is:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;session_id is a 32 hex character MD5 hash based upon time, random
+    number and constant string. It is stored in cookie at client
+    browser. Rails provides transparent support for session_id.&lt;/li&gt;
+&lt;li&gt;Session storage discussed below.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Ruby on Rails provides with many session storage option:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;PStore – it implements a file based persistence mechanism based on a
+    Hash. User code can store hierarchies of Ruby objects (values) into
+    the data store file by name (keys). An object hierarchy may be just
+    a single object. User code may later read values back from the data
+    store or even update data, as needed. The files that are stored are
+    usually located in the tmp/sessions folder for the Rails app. The
+    main downside of using the PStore is that you will have to do some
+    session-pruning periodically because performance decreases as the
+    number of sessions stored increases.&lt;/li&gt;
+&lt;li&gt;ActiveRecordStore – keeps the session id and hash in a database
+    table and saves and retrieves the hash on every request.&lt;/li&gt;
+&lt;li&gt;CookieStore – it saves the session hash directly in a cookie on the
+    client-side. The server retrieves the session hash from the cookie
+    and eliminates the need for a session id. Cookie-based sessions are
+    just faster to retrieve and process than hitting the file-system on
+    every request, were it was previously. Cookies are generally limited
+    to 4K in size. While not an issue for most (proper) usage of the
+    session, this could be a legitimate limit for some scenarios. If
+    your application abuses the session, you’ll need to decide on a
+    different session store that are available. The cookie has a SHA512
+    fingerprint attached and is hashed with a secret stored up on the
+    server and there are, however, derivatives of CookieStore which
+    encrypt the session hash, so the client cannot see it.&lt;/li&gt;
+&lt;li&gt;DRbStore – it store uses distributed Ruby to store a user’s session
+    data. The performance is great, but it requires a bit more setup
+    than the other stores.&lt;/li&gt;
+&lt;li&gt;FileStore – This store keeps the fragments on the hard disk instead
+    of in memory. It works well if you have a lot of file storage and
+    have outgrown the MemoryStore.&lt;/li&gt;
+&lt;li&gt;MemoryStore – keeps your session data in server memory. It keeps the
+    fragments in your application’s memory, which can potentially take
+    up a lot of memory on your server. It is used by default, but it is
+    hard to manage and scale if your application becomes popular.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Ruby on Rail CookieStore is available only in edge rails.
+PStore is the default option for stable release, whereas its CookieStore
+as default for edge rails.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;Reference&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Ruby On Rails Security Guide, From:
+&lt;a href="http://guides.rubyonrails.org/security.html"&gt;http://guides.rubyonrails.org/security.html&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Sessions and cookies in Ruby on Rails, From:
+&lt;a href="http://www.quarkruby.com/2007/10/21/%20sessions-and-cookies-in-ruby-on-rails#sstorage"&gt;http://www.quarkruby.com/2007/10/21/sessions-and-cookies-in-ruby-on-rails#sstorage&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;What’s New in Edge Rails: Cookie Based Sessions are the New Default,
+From:
+&lt;a href="http://ryandaigle.com/articles/2007/2/21/what-s-new-in-edge-rails-cookie-based-sessions"&gt;http://ryandaigle.com/articles/2007/2/21/what-s-new-in-edge-rails-cookie-based-sessions&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;2. Parameterized statements into Java with JDBC, C# with ASP.NET, PHP5, php-mysqli, Perl, Python and Hibernate Query Language (HQL)&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;For this task we will take a look at the parameterized statement API-s
+and we will find out and document how much does each of them protect
+against the following possible misuses of SQL statements:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;String injection (quotes, double quotes)&lt;/li&gt;
+&lt;li&gt;SQL statement injection (expression syntax etc)&lt;/li&gt;
+&lt;li&gt;Out of range integers&lt;/li&gt;
+&lt;li&gt;Blind SQL injection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;Java with JDBC&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    PreparedStatement prep =conn.prepareStatement("SELECT * FROMUSERSWHERE USERNAME=? AND PASSWORD=?");prep.setString(1, username);prep.setString(2, password);prep.executeQuery();
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;There are no possibilities of string injection because of the filtering
+the statements. It enables users’ input to be initially filtered
+instead  of directly embedding it in the SQL statements. In this example
+is that the each parameter is a scalar, not a table, where the user
+input is then assigned (bound) to a parameter. It is a good idea if the
+character range is limited. Another thing that can be done to avoid SQL
+injection is to convert numeric values to integers before parsing them
+into the SQL statement. Or using ISNUMERIC to verify that they are
+integers.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;C# with ASP.NET&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    using (SqlCommand myCommand =new SqlCommand("SELECT * FROM USERSWHEREUSERNAME=@user ANDPASSWORD=HASHBYTES(’SHA1’, @pwd)",myConnection)){myCommand.Parameters.AddWithValue("@user",user);myCommand.Parameters.AddWithValue("@pwd",pass);myConnection.Open();SqlDataReader myReader =myCommand.ExecuteReader();...}
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;The placeholder – @user and the hashbyte value of password @pws – has
+become part  if the hardcoded SQL. At runtime, the value provided by the
+querystring is passed to the database along with the hardcoded SQL, and
+the database will check the Username and password field as it attempts
+to bind the parameter value to it. This ensures a level of strong
+typing. If the parameter value is not the right type for the database
+field (a string, or numeric that’s out of range for the field type), the
+database will be unable to convert it to the right type and will reject
+it. If the target field datatype is a string (char, nvarchar etc), the
+parameter value will be “stringified” automatically, which includes
+escaping single quotes. It will not form part of the SQL statement to be
+executed.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;PHP5&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    $db = new PDO(’pgsql:dbname=database’);$stmt = $db-prepare("SELECT priv FROM testUsers WHERE username=:username AND password=:password");$stmt-bindParam(’:username’, $user);$stmt-bindParam(’:password’, $pass);$stmt-execute();
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;In this example to protect against SQL injection, it is used an input
+not directly to be  embedded in SQL statements. Instead, it is used an
+parameterized statements (preferred), or user input must be carefully
+escaped or filtered. This example shows and parameterized
+example/statement in php v. 5 and PDO database to protect from SQL
+injections and blind SQL injections.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;PHP-MySQLi&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    $db = new mysqli("host", "user", "pass","database");$stmt = $db - prepare("SELECT priv FROM testUsers WHERE username=? AND password=?");$stmt -  bind_param("ss", $user, $pass);$stmt - execute();
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;Same as above but this time it is used the vendor-specific methods; for
+instance, using the mysqli extension for MySQL 4.1 and create
+parameterized statements to protect from the SQL injection.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;Perl&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    use DBI;my $db = DBI-connect(’DBI:mysql:mydatabase:host’, ’login’, ’password’);$statment = $db-&amp;amp;amp;amp;amp;amp;gt;prepare("UPDATE players SET name = ?, score = ?, active = ? WHERE jerseyNum = ?");$rows_affected = $statment-&amp;amp;amp;amp;amp;amp;gt;execute("Smith, Steve", 42, ’true’, 99);
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;Automatically “sanitize” input to parameterized SQL statements to avoid
+the catastrophic  database attacks.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;Python&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    import sqlite3db = sqlite3.connect(’:memory:’)db.execute(’update players set name=:name, score=:score,active=:active where jerseyNum=:num’, {’num’: 100, ’name’: ’John Doe’, ’active’: False, ’score’: -1})
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;It is parameterized statement with an example of named placeholders.
+Which insure to avoid the SQL injections and database attacks.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;Hibernate Query Language (HQL)&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    Query safeHQLQuery = session.createQuery("from Inventory where productID=:productid");safeHQLQuery.setParameter("productid", userSuppliedParameter);
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;Unsafe example: Query unsafeHQLQuery = session.createQuery(“from
+Inventory where productID=’”+userSuppliedParameter+”‘”); The example
+from left it’s used prepared statement approach because all the SQL code
+stays within the application. This makes your application relatively
+database independent. However, other options allow you to store all the
+SQL code in the database itself, which has both security and
+non-security advantages and the approach is called Stored Procedure&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;3. Unix permission model, Unix ACL and Windows 7 security model&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In this topic we will describe two security set-ups that can not be
+expressed with traditional Unix permission model, UNIX ACL and Windows 7
+security model.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;Unix permission model&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Giving an different permission to different users in the same group&lt;/li&gt;
+&lt;li&gt;Read and write permission/access to all groups, which gives and
+    access to the ‘private files’, and you can gain access through a
+    root account by an unwanted user, which brings and complete breach
+    of the system&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;Unix ACL- enabled permission model&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;If the user has permission over the file, he can read/write and
+    delete it, which brings that it is not possible to give ‘some’
+    permission to the user.&lt;/li&gt;
+&lt;li&gt;ACL’s are not very portable and are very hard to maintain. For
+    instance good example is transferring of files with ACL’s between
+    different of Unix systems is an exercise for brave person, even if
+    the both file systems support them. Which brings a difficulty to
+    maintain for existing files for instance backup, restore, copying,
+    etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;Windows 7 security model&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;As a standard user you can perform an action that requires
+    administrator privileges by the UAC(User Access Control), which is
+    controlled by the Admin Approval Mode. It can be turn off and on.
+    Every time when you need to gain an access of the administration
+    privileges it will be prompt a dialog box to gain and provide the
+    password for an access. Therefore in the medium settings with any
+    malware could turn it off.&lt;/li&gt;
+&lt;li&gt;And the settings of the UAC are in medium mode not off, still brings
+    an opportunity to being turn off by the malware.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;4. Finding all the security vulnerabilities in bash script&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In this topic we will find all the possible vulnerabilities into the
+following bash script:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;+--------------------------------------+--------------------------------------+
+| &lt;div class="linenodiv"&gt;              | &lt;div class="highlight"&gt;              |
+|                                      |                                      |
+|      1 2 3 4 5 6 7 8 910111213141516 |     #!/bin/sh# remove files with nam |
+| 17181920212223                       | e pattern matching regexpif [ x$1 =  |
+|                                      | x ]; then# if [[ x$1 = x ]]echo -n " |
+| &lt;/div&gt;                               | Please enter directory name: "read d |
+|                                      | irelsedir=$1fiif [ x$2 = x ]; then#  |
+|                                      | if [[ x$2 = x ]]echo -n "Please ente |
+|                                      | r pattern: "read patternelsepattern= |
+|                                      | $2fifind $dir &amp;amp;amp;amp;amp;amp;g |
+|                                      | t; /tmp/listing# can use &amp;amp;amp;am |
+|                                      | p;amp;amp;gt;&amp;amp;amp;amp;amp;amp;gt |
+|                                      | ; or print the output first beforecm |
+|                                      | d='rm &lt;code&gt;grep '$pattern' /tmp/listing&lt;/code&gt; |
+|                                      | ' #+the command is executeecho "Runn |
+|                                      | ing command $cmd"eval $cmd //it conv |
+|                                      | erts string in commandrm /tmp/listin |
+|                                      | gexit 0                              |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
+|                                      |                                      |
+|                                      | &lt;/p&gt;                                 |
+|                                      | &lt;p&gt;                                  |
++--------------------------------------+--------------------------------------+&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;We should avoid temporary file, instead we should use pipes [2]. We
+should avoid eval [2].&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Using the double brackets, instead of single one &lt;code&gt;[[... ]]&lt;/code&gt; it is
+comment on the script above [1]. \$REPLY can be used to read the
+previous value of the dir and pattern variable [1]. We can use instead
+of find, while read contracture (loop) [1]. Find – can be set with a
+cycle, for or while to check the validation of the file and the
+directory/path, also comment on the script or using
+&lt;code&gt;“$pattern” /tmp/listing&lt;/code&gt; [1]. No sensitization of the input, the user
+can put any value and therefore, execute any command to create another
+command. As we can see above the script it looks like that it is
+security vulnerable. If we want to implement the security in the script
+we should implement the above changes into the script.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;Reference&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[1] Mendel Cooper, 30 April 2011. Advanced Bash-Scripting Guide; An
+in-depth exploration of the art of shell scripting. Retrieved from:
+&lt;a href="http://tldp.org/LDP/abs/html/index.html"&gt;http://tldp.org/LDP/abs/html/index.html&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[2] Lecture 8 slides Scripting, Meelis Roos. Retrieved from file:
+08-scripting.pdf&lt;/p&gt;
+&lt;/p&gt;</content><category term="pages"></category><category term="ASP.NET"></category><category term="bash"></category><category term="C#"></category><category term="cyber security"></category><category term="HQL"></category><category term="java"></category><category term="JDBC"></category><category term="Perl"></category><category term="PHP5"></category><category term="python"></category><category term="Ruby on Rail"></category><category term="security"></category><category term="security model"></category><category term="Unix"></category><category term="windows 7"></category></entry><entry><title>Mobile Malware Analysis</title><link href="https://predragtasevski.com/posts/2012/01/mobile-malware-analysis/" rel="alternate"></link><published>2012-01-17T00:00:00+01:00</published><updated>2012-01-17T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-01-17:/posts/2012/01/mobile-malware-analysis/</id><summary type="html">&lt;h1&gt;PURPOSE&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The goal of this post is to identify and analyze mobile malware file:
+&lt;a href="https://sim.cert.ee/hw/mmc.jar"&gt;mmc.jar&lt;/a&gt;. Thereby please follow the
+following steps for completing the task:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Unpack the file (hint – using zip on .jar)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Examine .class files using tool available
+    &lt;a href="http://java.decompiler.free.fr/?q=jdgui"&gt;here&lt;/a&gt; (local copies for
+    &lt;a href="https://sim.cert.ee/hw/jd-gui-0.3.3.osx.i686.dmg"&gt;Mac&lt;/a&gt; and
+    &lt;a href="https://sim.cert.ee/hw/jd-gui-0.3.3.linux.i686.tar.gz"&gt;Linux&lt;/a&gt; and
+    &lt;a href="https://sim.cert.ee/hw/jd-gui-0.3.3.windows.zip"&gt;Win&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Find …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;PURPOSE&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The goal of this post is to identify and analyze mobile malware file:
+&lt;a href="https://sim.cert.ee/hw/mmc.jar"&gt;mmc.jar&lt;/a&gt;. Thereby please follow the
+following steps for completing the task:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Unpack the file (hint – using zip on .jar)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Examine .class files using tool available
+    &lt;a href="http://java.decompiler.free.fr/?q=jdgui"&gt;here&lt;/a&gt; (local copies for
+    &lt;a href="https://sim.cert.ee/hw/jd-gui-0.3.3.osx.i686.dmg"&gt;Mac&lt;/a&gt; and
+    &lt;a href="https://sim.cert.ee/hw/jd-gui-0.3.3.linux.i686.tar.gz"&gt;Linux&lt;/a&gt; and
+    &lt;a href="https://sim.cert.ee/hw/jd-gui-0.3.3.windows.zip"&gt;Win&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Find code sending SMSes using ‘sms://’ URI&lt;/li&gt;
+&lt;li&gt;Calculate short number used in SM.send&lt;/li&gt;
+&lt;li&gt;Finally for compiling the code use the developing tool &lt;a href="http://www.eclipse.org/"&gt;Eclipse
+    IDE&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Firstly, we are going to analysis the Java source code after
+decompilation. The accent is to find the code that is sending an SMSes
+using the ‘sms://’ URL. After identifying the linking associated classes
+we have to compile the code to move toward to final results of URLs. For
+this purpose we are using the developing tool &lt;a href="http://www.eclipse.org/downloads/"&gt;Eclipse
+IDE&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Therefore, the results and the sent SMSes URLs are going to be presented
+into conclusion section. Which will complete the task and will yield the
+basic analysis of mobile malware file.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;ANALYSIS&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;After running the decompiler tool we are examining and analyzing the
+Java source code. Whereby on the source code on the class M.class line
+343 we have found the following source code:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    if ((i &amp;gt;= 35)  (SM.isSending != true)  (i % 6 == 0) (f &amp; count_query)) {  if (SM.GS()) f += 1;   if (f == 1) {            RS.L(rs);            RS.L("Slide");            rs = RS.j("Slide");            game = RS.L(rs, Integer.toString((int)(System.currentTimeMillis() / 1000L)));            RS.L(rs);   }if (f &amp;lt; count_query) {  game = SM.send("sms://" + ms[1][b], ms[2][b]); // sms://  if (b == count_query) b = 1; else b += 1;}
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;The above code is associated with the class SM.class. With the following
+source code:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    public static int send(String s, String s1){   if (isSending) return 0;      new SM(s, s1);   return -1;}public SM(String s, String s1) { success = false; isSending = true; this.destination = s; this.message = s1; try {      Thread thread = new Thread(this);      thread.start(); } catch (Exception exception) { isSending = false;}
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;The above code is checking if the message and the destination is
+correct  &lt;/p&gt;
+&lt;p&gt;and if the message is sent. Coloration is more like the first public
+static method named &lt;em&gt;send&lt;/em&gt; with the two string values of &lt;em&gt;s&lt;/em&gt; and &lt;em&gt;s1&lt;/em&gt;.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;All the above extraction was finished by JD-Gui version 0.3.3 and
+JD-Core version 0.6.0 and using the menu bar for search, with the
+criteria that will meet our needs.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The bellow are executable results presented, done by eclipse after
+compiling the code:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    /0SIF|6XI8ULE|YNLD5QDA6WM|YJ90RL/+WPJDAFY2 DC3QJ/+3RKA/5YPA0MD-5QFDwhile 7375/88600168904|7202/65510006691|1899/FTEME 1283|8385/88600168904|1 162 333 494 667375 88600168904 //sms://73757202 65510006691 //sms://72021899 fteme 1283 //sms://18998385 88600168904 //sms://8385decoded367375 88600168904427202 65510006691481899 fteme 128354
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;From the above presented results after compiling the code we have
+identify the number of SMSes URLs and in addition the exact URLs.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;CONCLUSION&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;We live in a world where nowadays for everyday work, communication, etc.
+the most essentially tool is our mobile phones, smart phones, etc. We
+used them for communication, sending SMS, playing games, checking
+e-mails, social networking, bank transaction, etc. That is why today
+there are hundreds and rising everyday mobile malware files. We need to
+make sure what we are installing in our devices, what kind of games,
+applications, etc. Therefore, this post will help for a people who are
+interested to learn basic of how to analysis and identify malware files
+for mobile phones. However, this is only a basic, and a good guide to
+give you an idea of what kind of tools, applications you should have.
+This task is done only for a Java source code mobile malware game.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Furthermore, from the above section we have identify the number of SMSes
+that are sent and to what numbers. The total number of SMSes is 4 and
+sent to the following URLs:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    sms://7375sms://7202sms://1899sms://8385
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;Finally, mobile malware is rising and it is about to explode, therefore
+users need education[1]. By delivering basic and advance mobile malware
+security awareness program we will have less malware attacks and better
+security policy into everyday mobile, smart phones usage.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Bibliography&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[1] Chris Martin, Mobile malware is about to explode, users need
+education, 20 Jan. 2012,
+&lt;a href="http://www.theinquirer.net/inquirer/opinion/2140338/mobile-malware-explode-users-education"&gt;http://www.theinquirer.net/inquirer/opinion/2140338/mobile-malware-explode-users-education&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;</content><category term="pages"></category><category term="cell phone"></category><category term="malware"></category><category term="mobile"></category><category term="mobile malware analysis"></category><category term="network crime"></category><category term="phone"></category><category term="phone games"></category><category term="phone malware"></category><category term="security"></category><category term="sms"></category><category term="binary"></category></entry><entry><title>Script Kiddie</title><link href="https://predragtasevski.com/posts/2011/10/script-kiddie/" rel="alternate"></link><published>2011-10-19T23:00:00+02:00</published><updated>2011-10-19T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2011-10-19:/posts/2011/10/script-kiddie/</id><summary type="html">&lt;h1&gt;PURPOSE and SCENARIO&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The goal of this laboratory test is to make effort to attack server and
+to deface website. Here is the scenario: your client is worried about
+some stuff posted on a blog. They ask You to take care of it. They have
+a throwaway “script kiddie”[Script …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;PURPOSE and SCENARIO&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The goal of this laboratory test is to make effort to attack server and
+to deface website. Here is the scenario: your client is worried about
+some stuff posted on a blog. They ask You to take care of it. They have
+a throwaway “script kiddie”[Script kiddie] in a third world country, who
+will mount the attack so You don’t need to worry about hiding the
+attackers identity.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Therefore, we need to devise a way to attack wordpress (default
+installation) based site to render it unusable (page view times over 60
+seconds). Attack resources: one PC with Microsoft Windows XP, a script
+kiddie, internet connection of 2Mbit/s. In addition, server has to stay
+down for two days and script kiddie has up to 1 day to set up the
+attack.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;For scenario above their three different proposals from the fallow
+students. Each proposal is described in section Proposals and their
+effectiveness, installation process and the evaluation of the efficient
+use of available resources.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Firstly, easy solution for limiting the internet connection of 2Mbit/s
+by Oracle VirtualBox configuration manager. Secondly, the bandwidth
+capacity of the connection and their performance is measured by vnstat1
+for graphs to display our utilization. The steps are vivid on section
+Methods.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Finally, providing measurement results with different proposals will
+help us to identify the most beneficial proposal for above scenario,
+declared in Conclusion section.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Moreover, after each attack, test the virtual server environment is
+restarted, because of the affective situation that server after attack
+needs time to recover.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;METHODS&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Because of requirements of our scenario we need to limit the internet
+connection of 2 Mbit/s and to provide graphs that can help as with the
+measurement results to conclude which proposals is more competent.
+Therefore, Method 1 is describing the step how we limited the connection
+bandwidth and Method 2 providing as solution how to setup that can help
+you in measuring the speed and the bandwidth.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;METHOD 1&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;For limiting the internet traffic of the server we have to do the
+following steps in command prompt. The following solution is gathered
+from Manual of Oracle Virtualbox, Chapter 8 [User Manual].&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Limiting VirtualBox – virtual environment speed of network interface:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    VBoxManage modifyvm "[name of virtualbox]" --nicspeed2 2048
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;Where you need to replace name of virtual box with real one, and specie
+which network interface adapter you wont to limited. In the above
+illustration is only second network adapter affected and then you set
+the limitation, in our case is 2 Mbit/s.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Furthermore, to make sure that the result have been effective please use
+the following command:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    VBoxManage showvminfo "[name of virtualbox]"
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;Results and information important to be aware refer to Appendix 1.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;METHOD 2&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;We are going to install an application that will help us to gather a
+visual graphs of traffic manipulation of script kiddie. The application
+is vnstat.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In the server virtual environment in command prompt please type the
+following command:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    sudo apt-get install vnstat&lt;br&gt;
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;Next step is to select which interface should be monitored and create
+graphs. In our case is eth1, which is second network interface. For
+furthermore detailed installation process please refer to the following
+link:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.4geeksfromnet.com/2009/04/graphical-bandwidth-monitor-for-ubuntu.html"&gt;http://www.4geeksfromnet.com/2009/04/graphical-bandwidth-monitor-for-ubuntu.html&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;To check if the installation process is finished please use your
+browser, as shown in illustration 1 and on the address bar type:
+http://192.168.56.102/vnstat&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Illustration 1: Vnstat PHP interface&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;PROPOSALS&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The three proposals are following and described in each different
+section and their results. The main measure goal which is going to grate
+for kiddie script is: easy to use instructions, the most efficient use
+of available resources and can the script be up to 1 day attacking.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Moreover, the results will be provided with two different graphs in
+period of 5 minutes attack and 10 minutes attack. Which would guide us
+to compare which kiddie script has performed the attack more in force.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;PROPOSAL 1&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;This is the first proposal and the installation process instruction:
+Script kiddie uses a little program to connection flood the WordPress
+installation! The program uses Apache autobench to take the site down in
+seconds.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Guide for the scipt Kiddie:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Download the program from
+    &lt;a href="http://enos.itcollege.ee/~avein/anti2.rar"&gt;http://enos.itcollege.ee/~avein/anti2.rar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Unpack and run AntiXakkerv2.0.exe&lt;/li&gt;
+&lt;li&gt;Enter the address for wordpress site and press the button&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Above script did no run/work on the VirtualMachine Windows XP.
+Therefore, from the same author we have other solution:&lt;/p&gt;
+&lt;p&gt;​1. Download
+&lt;a href="http://enos.itcollege.ee/%7Eavein/anti.exe"&gt;http://enos.itcollege.ee/\~avein/anti.exe&lt;/a&gt;,
+save it on Desktop&lt;/p&gt;
+&lt;p&gt;​2. Open Start menu, select run and type “cmd” into the box and press
+enter&lt;/p&gt;
+&lt;p&gt;​3. Drag anti.exe file to the black box (commandline) , select the box
+and type the address of your server ( eg. www.delfi.ee ) after the
+anti.exe&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;For example, if the address for your webserver is 192.168.56.101 type
+the following:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    anti.exe 192.168.56.101&lt;br&gt;
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Press enter and the site will go down very soon :=) P.S. This is
+    lightweight version tat doesnot use much bandwith and is targeted
+    against a bug in apache server :)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;h3&gt;RESULT 1&lt;/h3&gt;
+&lt;/p&gt;
+
+&lt;p&gt;After running the first proposal we can see that the script kiddie does
+attack the server, but the server was reachable after a bit long delay,
+but still we could access to the wordpress.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Here are some results graphs.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;5 minutes attack&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Illustration 2: Proposal 1, 5 min, traffic graph&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;10 minutes attack&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Illustration 3: Proposal 1, 10 min, traffic graph&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;On the one hand the script kiddie did attack the server, but on the
+other hand the server was still accessible. I’d like to conclude by
+stating that the above script did not meet our needs, and it did not
+stop, bring down the response time of the server.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;PROPOSAL 2&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Second proposal and the installation process:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;You (Script kiddie) download the file from &lt;a href="http://share.ee/x49176f"&gt;http://share.ee/x49176f&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;You will get an warning message, but you continue to download anyway&lt;/li&gt;
+&lt;li&gt;In chrome it looks like this&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Execute the file&lt;/li&gt;
+&lt;li&gt;Will get a warning but continue&lt;/li&gt;
+&lt;li&gt;Will look something like this&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Insert the URL to attack and define how long you want to attack&lt;/li&gt;
+&lt;li&gt;Will look like&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Enjoy&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The script is basic vbscript that will overwhelm the server by as many
+connections that are required to keep the server down for as long as you
+define.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The above script did not work on the laboratory performance, because it
+had an code error. Therefore, for this proposal we are not able to
+provide you with the result graphs&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;PROPOSAL 3&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Third proposal and the installation process is listed below: There is a
+free and very easy Denial of service script written in PHP, called
+Keep-Dead (Version 1.14). You can download it from the following link:
+&lt;a href="http://www.esrun.co.uk/blog/imp/2011/03/Keep-Dead.zip"&gt;http://www.esrun.co.uk/blog/imp/2011/03/Keep-Dead.zip&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;It is developed for a research purpose, but still we can use it for our
+scenario. The good think is primarily meant for use via the terminal;
+although it will also work if launched via the browser.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Unpack the Keep-Dead.zip&lt;/li&gt;
+&lt;li&gt;Open in notepad or any other text/script editor&lt;/li&gt;
+&lt;li&gt;On line #26 change the
+    &lt;code&gt;$target_url = “http://www.example.com/wordpress/?s=%rand%”;&lt;/code&gt; to our
+    targeted wordpress blog. We can stop even certain page or post in
+    wordpres or use of &lt;code&gt;%rand%&lt;/code&gt; for a random value to be automatically
+    generated for each individual request • You can change the maximum
+    number of requests to be made on line #32&lt;/li&gt;
+&lt;li&gt;Changeable is maximum number of requests to be made per connection
+    #37, etc.&lt;/li&gt;
+&lt;li&gt;After setting the setting of our needs save the file.&lt;/li&gt;
+&lt;li&gt;And in terminal you need to run the following script:
+    &lt;code&gt;php –e keep-dead.php&lt;/code&gt; or if you run a xamp or other webserver it is
+    possible to run the script from your browser.&lt;/li&gt;
+&lt;li&gt;You can terminate the script by pressing CTRL+C in terminal console
+    or stop/close the browser.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;p&gt;For more information or video tutorials please refer to the following
+link: &lt;a href="http://www.esrun.co.uk/blog/keep-alive-dos-script/"&gt;http://www.esrun.co.uk/blog/keep-alive-dos-script/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;If we follow the above steps we can perform our scenario 3 to make the
+server to stay down for two days or even more.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;There many ways to keep the server down for two days, this script for me
+is kind of easy usable. In addition, the author had provide and more
+details with following content: In addition of my proposal pls install
+the following script:
+&lt;a href="http://windows.php.net/downloads/releases/php-5.3.8-nts-Win32-VC9-x86.msi"&gt;http://windows.php.net/downloads/releases/php-5.3.8-nts-Win32-VC9-x86.msi&lt;/a&gt;
+in the installation process in the section of Select Web Server you wish
+to setup please chose Do not setup a web server -&gt; Next click on the
+PHP small narrow down icon and select Entire future will be installed on
+local hard drive (second option) -&gt; Next -&gt;Install&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The results and graphs of the above proposal are demonstrated in the
+next section.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;This is the script that actually does the job and it keeps the server
+down until the script is down.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h3&gt;RESULT 3&lt;/h3&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Test results are following:&lt;/p&gt;
+&lt;p&gt;​1. 5 minutes attack&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Illustration 4: Proposal 3, 5 min, traffic graph&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;10 minutes attack&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Illustration 5: Proposal 3, 10 min, traffic graph&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;A case in point is that from the above graphs we can see that the server
+does get more traffic and it does get attacked by the script kiddie.
+Illustration 6, bellow demonstrated that actually the server is down, is
+not responding any more to requests.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Illustration 6: Proposal 3, server down after trying to reach the blog&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;CONCLUSION&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;There are three points that we should consider and to see which proposal
+was more accurate and it did the job that was required in the scenario.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;First I would like to start with rating from 1 to 5 each proposal.
+Higher score present better results. Which is proving our destination to
+hold down the server for longer then one day. The bellow table
+demonstrates which proposal has succeed.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;table&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;thead&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;th&gt;
+&lt;/th&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;th align="center"&gt;
+Proposal 1
+
+&lt;/th&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;th align="center"&gt;
+Proposal 2
+
+&lt;/th&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;th align="right"&gt;
+Proposal 3
+
+&lt;/th&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/thead&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tbody&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td&gt;
+Easy installation
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+5
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+5
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+4
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td&gt;
+Server down
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+3
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+1
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+5
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td&gt;
+TOTAL
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+8
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+6
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+9
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tbody&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/table&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;On the scoring rate 3 of server down is means that the server was down,
+but after few seconds was retrievable. Where the highest score 5 means
+that the server was not retrievable during this proposal test until we
+shutdown or cancel the process of script kiddie. In addition, the
+Proposal 3 due to a code error was not able to perform attack, that is
+why it is graded with server down score of 1. Therefore, our winner for
+this laboratory test is Proposal 3 with script kiddie Keep-dead.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The next issue that I would like to focus is to the network speed,
+tested with other tool bmon2 which manifests that the speed limit of the
+bandwidth did not go over the 2 Mbit/s.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In conclusion, the above proposals are nice and good example to have an
+view of how and with what tools we should perform script kiddie
+techniques. How to shutdown access to a server. On the whole, it show as
+how to use tools and methods of measuring the bandwidth of network and
+how to limit the transfer in comfortable way.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;APPENDIXES&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Appendix 1 is connected with the Method 1, which highlighted points are
+illustration on what information we should check, to clarify that the
+virtual environment has limitation of the network interface. Where
+Appendix 2 is for installation process of Ubuntu Server 10.04 LTS and
+wordpress, mysql installation.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;APPENDIX 1&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    Name: ubuntu-serverGuest OS: UbuntuUUID: fe16451a-f8b1-4ceb-bb90-8650d08c3c0eConfig file: C:\Users\predrag\Documents\Master_CyberSecurity\VirtualBox VMs\ubuntu-server\ubuntu-server.vboxSnapshot folder: C:\Users\predrag\Documents\Master_CyberSecurity\VirtualBox VMs\ubuntu-server\SnapshotsLog folder: C:\Users\predrag\Documents\Master_CyberSecurity\VirtualBox VMs\ubuntu-server\LogsHardware UUID: fe16451a-f8b1-4ceb-bb90-8650d08c3c0eMemory size: 512MBPage Fusion: offVRAM size: 12MBCPU exec cap: 100%HPET: offChipset: piix3Firmware: BIOSNumber of CPUs: 1Synthetic Cpu: offCPUID overrides: NoneBoot menu mode: message and menuBoot Device (1): FloppyBoot Device (2): DVDBoot Device (3): HardDiskBoot Device (4): Not AssignedACPI: onIOAPIC: offPAE: offTime offset: 0 msRTC: UTCHardw. virt.ext: onHardw. virt.ext exclusive: offNested Paging: onLarge Pages: onVT-x VPID: onState: running (since 2011-10-11T11:26:30.089000000)Monitor count: 13D Acceleration: off2D Video Acceleration: offTeleporter Enabled: offTeleporter Port: 0Teleporter Address:Teleporter Password:Storage Controller Name (0): IDE ControllerStorage Controller Type (0): PIIX4Storage Controller Instance Number (0): 0Storage Controller Max Port Count (0): 2Storage Controller Port Count (0): 2Storage Controller Bootable (0): onStorage Controller Name (1): SATA ControllerStorage Controller Type (1): IntelAhciStorage Controller Instance Number (1): 0Storage Controller Max Port Count (1): 30Storage Controller Port Count (1): 1Storage Controller Bootable (1): onSATA Controller (0, 0): C:\Users\predrag\Documents\Master_CyberSecurity\VirtualBox VMs\ubuntu-server\ubuntu-server.vdi (UUID: bf4c167a-ec0a-42fa-915f-2ffbe2fd66fb) NIC 1: MAC: 0800274572ED, Attachment: NAT, Cable connected: on, Trace:off (file: none), Type: 82540EM, &lt;span style="color: #ff0000;"&gt;Reported speed: 2 Mbps&lt;/span&gt;, Boot priority: 0, Promisc Policy: denyNIC 1 Settings: MTU: 0, Socket (send: 64, receive: 64), TCP Window (send:64, receive: 64) NIC 2: MAC: 0800270858EA, Attachment: Host-only Interface 'VirtualBoxHost-Only Ethernet Adapter', Cable connected: on, Trace: off (file: none), Type:82540EM, Reported speed: 2 Mbps , Boot priority: 0, Promisc Policy: denyNIC 3: disabledNIC 4: disabledNIC 5: disabledNIC 6: disabledNIC 7: disabledNIC 8: disabledPointing Device: USB TabletKeyboard Device: PS/2 KeyboardUART 1: disabledUART 2: disabledAudio: enabled (Driver: DSOUND, Controller: AC97)Clipboard Mode: BidirectionalVideo mode: 640x480x0VRDE: disabledUSB: enabledUSB Device Filters: &amp;lt;none&amp;gt;Available remote USB devices: &amp;lt;none&amp;gt;Currently Attached USB Devices: &amp;lt;none&amp;gt;Shared folders: &amp;lt;none&amp;gt;VRDE Connection: not activeClients so far: 0Guest: Configured memory balloon size: 0 MBOS type: UbuntuAdditions run level: 0Guest Facilities: No active facilities.
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;h2&gt;APPENDIX 2&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Installation media: Ubuntu 10.04 LTS 32bit iso image;&lt;/li&gt;
+&lt;li&gt;HW: Virtualbox, 1CPU 32bit, 512MB RAM, 8GB HD (dynamic allocation);&lt;/li&gt;
+&lt;li&gt;NIC1 NAT;&lt;/li&gt;
+&lt;li&gt;NIC2 host only (for ssh and http access from host);&lt;/li&gt;
+&lt;li&gt;Language used in installation process: English and country Estonia;&lt;/li&gt;
+&lt;li&gt;Keyboard Layout English;&lt;/li&gt;
+&lt;li&gt;Hostname: pece&lt;/li&gt;
+&lt;li&gt;Partition methods: Guided, use entire disk&lt;/li&gt;
+&lt;li&gt;Username: pece&lt;/li&gt;
+&lt;li&gt;no http proxy&lt;/li&gt;
+&lt;li&gt;Default applications&lt;/li&gt;
+&lt;li&gt;sudo apt-get install lamp phpmyadmin&lt;/li&gt;
+&lt;li&gt;wget -c http://wordpress.org/latest.tar.gz&lt;/li&gt;
+&lt;li&gt;tar xvjf latest.tar.gz&lt;/li&gt;
+&lt;li&gt;sudo cp wordpress /var/www/wordpress&lt;/li&gt;
+&lt;li&gt;sudo nano /var/www/wordpress/wp-config.php Change the settings to
+    your needs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Bibliography&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Script kiddie: Wikipedia, Script Kiddie, October 2011,
+&lt;a href="http://en.wikipedia.org/wiki/Script_kiddie"&gt;http://en.wikipedia.org/wiki/Script_kiddie&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;User Manual: Oracle Corporation, User Manual, 2004-2011,
+&lt;a href="http://www.virtualbox.org/manual/ch08.html"&gt;http://www.virtualbox.org/manual/ch08.html&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Footnotes:&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[1] vnstat – &lt;a href="http://humdi.net/vnstat/"&gt;http://humdi.net/vnstat/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[2] Bmon – &lt;a href="http://www.infradead.org/~tgr/bmon/"&gt;http://www.infradead.org/~tgr/bmon/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;</content><category term="pages"></category><category term="attacks"></category><category term="cyber security"></category><category term="DDoS"></category><category term="internet"></category><category term="script kiddie"></category><category term="security"></category><category term="server attack"></category><category term="wordpress attack"></category></entry><entry><title>Cost of DDoS, leak of credit card numbers, infected machine and spam</title><link href="https://predragtasevski.com/posts/2011/10/cost-of-ddos-leak-of-credit-card-numbers-infected-machine-and-spam/" rel="alternate"></link><published>2011-10-12T23:00:00+02:00</published><updated>2011-10-12T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2011-10-12:/posts/2011/10/cost-of-ddos-leak-of-credit-card-numbers-infected-machine-and-spam/</id><summary type="html">&lt;h1&gt;PURPOSE&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The main goal of laboratory report is to identify the costs of nowadays
+most known attack  DDOS, leak of credit card numbers, infected machine
+and never the less sending spam for 1 000 000 (one million) people.
+There are few points that should be presented:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Where did we discovered …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;PURPOSE&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The main goal of laboratory report is to identify the costs of nowadays
+most known attack  DDOS, leak of credit card numbers, infected machine
+and never the less sending spam for 1 000 000 (one million) people.
+There are few points that should be presented:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Where did we discovered the information (links or sources)&lt;/li&gt;
+&lt;li&gt;What kind of source of communication we used, for instance: instant
+    messing, ICQ, IRC, which contact we have gather the information&lt;/li&gt;
+&lt;li&gt;What are the prices for the above attacks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;First of all, we must bear in mind that collecting the above information
+it is presented to a numerous affected sources ( i.e. Website, news,
+forums, IRC chat,etc.). By visiting the source can lead you to a virus,
+trojan, malicious code, malware, etc. Which can damage your system.
+Therefore, we are going to use virtual environment to find our demands.
+In addition, we will use different languages and different search
+engines.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Construction of report is separated by tasks section. Where each section
+is presented with the source, communication type and the costs of the
+service. In addition, in Appendix 1 we give the configuration of virtual
+environment.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Finally the conclusion made of all collected data will be concise in
+conclusion section.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;TASKS&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Following list is the numeration of the tasks:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;DDoS&lt;/li&gt;
+&lt;li&gt;Credit Card Numbers&lt;/li&gt;
+&lt;li&gt;Infected Machines&lt;/li&gt;
+&lt;li&gt;Spam for 1 000 000 people&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;TASK 1&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Source where we can find information about the cost of DDoS attacks are
+provided in Russian most known [Hackzone] forum. This is the source will
+give as more of the answers. But again be careful when you accessing
+this site. It is on your own risk.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;From the following link we received an information about DDoS
+attacks: [HackzoneDDoS]. With the following translated statement:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    The average price of service from $ 50 per day. Depends on the complexity of the &lt;em&gt;attacked site. Methods of payment accepted via WebMoney. The network is practically around the clock!Commands:http / https / icmp / post / syn / udp /Price:Day from $ 50Week from $ 350From $ 1200 per month(Prices may change depending of type and timing of orders on the complexity of the attacked site)Demo test for 5-10 minutes.Contact:Icq :20-**-29Inspections completed:hack-world.orgwww.xaker.nameforum.xaknet.ruMost of the DDoS attack service are around per day $ 50, here is an other source and contact details:Contact details Icq:22-**-327Icq:875-**3E-mail:anti**os@jab**r.ru
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;The above information is from the following link:
+&lt;a href="http://www.hackzone.ru/forum/open/id/15608/"&gt;http://www.hackzone.ru/forum/open/id/15608/&lt;/a&gt;. Other sources that can be
+found are with&lt;/p&gt;
+&lt;p&gt;the following links: &lt;a href="http://www.hackzone.ru/forum/open/id/16067/"&gt;http://www.hackzone.ru/forum/open/id/16067/&lt;/a&gt; and
+&lt;a href="http://www.hackzone.ru/forum/open/id/17187/"&gt;http://www.hackzone.ru/forum/open/id/17187/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;As we stated above that the price is from \$50 per day and it goes until
+\$350 per month and so on.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;TASK 2&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The number of credit cards leaked in the web are numerous amount. The
+prices are not that high as people expected. For card that comes from
+European country is the highest price and for the other are much
+cheaper.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Here some information from the following link, leak from &lt;a href="http://www.hackzone.ru/memb/view/name/Support_BM/"&gt;Support_BM
+Originar&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;source is in Russian language, so for this report is translated to
+English. From the source [CartNumber].&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    At the moment there is only us, ca, cvv.Databases are updated every 2-3 days, Walid varies from 75 to 90%.Price:us visa, mc cvv = $ 1.5us amex, diss = $ 1.5us without vbv \ mksk = $ 2us not tied and PayPal = $ 2EU = $ 6-9World = $ 3-6CIS is not and never will.Sorted by: bean = $ 1Sample on any other criterion = +0.5 $Sampling only on the following criteria: bin, judge, state, city, type, zip.WARNING! I do not select “No vbv”, “No attachment to the paypal”, “Give me a map that would be held there now and then.”Terms and conditions of service provision:1. Replacement non valid within 48 hours of purchase.2. I only 04/05/51 Declined, Hold-Call, check only CCN + EXP + CVV3. On messages such as “Here?” “Hi, how are” probably will not answer.4. Money Beg do not.5. Do not change the board, check it before selling.6. I believe only their own way, proven in battle, checker, so your results, another checker,&amp;nbsp;and so do not pay attention.7. Using my service, you automatically agree with everything stated in this post.8. Reserve the right to refuse service to anyone, without explanation.9. I am not responsible for the account balances card-holders.10. I do not give advice on the use of the material.11. Do not keep a bazaar talks about the reductions.12. I do not care where you do not go away if you gave Checker Walid Walid means.Card format:Credit Card Number | CVV2 | ??Exp.date | Name | Address Line | City | State | Zip Code |Country | Phone (Not Always) | Email Address (not always)Attention! Before you knock a replacement non valid, make sure that all the provided maps not valid if none of these cards will be found a valid card and a replacement will be denied.Learn to appreciate their own and other people’s time, get a checker, and live happily ever after.Contact the seller checker can provide for everyone.I accept payment only WMZ and LibertyReserveMy WMID has 70BL, as well as on-demand in icq give links to many reviews.Contact:ICQ: 604000**0JID: ***nager@thes**ure.bizPosted 13.10.2010 13:45:51 (8 days 18 hours 31 minutes 59 seconds)Other source that cross is from Russian banks Alfa debit or others the price from$175. Source is published by contact details: Jabber: v**yt@exp**it.im, ICQ: 25**165,Skype: V**yt_. On the following link:&lt;a href="http://lab-one.net/showthread.php?t=664" target="_blank"&gt; http://lab-one.net/showthread.php?t=664&lt;/a&gt;
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;h2&gt;TASK 3&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Nowadays it is not hard to find an infected machine/computer. Because
+most of the user PC’s are based with operating system Windows and are
+most of them infected. I have try so hard to find infected machine
+price, but until today, I did not come up with any good source.
+Therefore, I would like if it is possible to add this source and discuss
+this source and information with the fellow students.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;TASK 4&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Spamming for one million people it sounds impossible, but still out
+there someone is offering this service. Here is from Kazakhstan source
+with the following information, translated in English:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    E-mail newsletter:1 post = 1 m., minimum order 10 000 posts.For large orders – big discounts!At present there is action: 10 000 tenge, we send 20 000 messages. + Action: 50 000 tenge, we send your letter to 360 000 email ardesov in Almaty, send 3 times in one month!The action is over, send a time.E-mail database:In Almaty:60 000 LEGAL Address – Almaty Yuredicheskie email addresses, the entire directory guide “our town” and directory site “Samruk Kazyna”430 000 – private address Almaty residents collected via mail search agent criteria:country, city, gender, age.Throughout Kazakhstan:240 000 – LEGAL person Kazakhstan LLP, Ltd., Inc., Ltd., etc. collected from various references such as “yellow pages” “compass” etc.3.4 million – individuals, all of Kazakhstan. – Collected through the mail search agent criteria: country, city, gender, age.P.S. you can build a base of email addresses to any city in Kazakhstan, or any other city in any other country, can you give us the criteria and we will collect your base, an example of criteria:I try, the city, Age, sex, online, not online.P.S. Legal mailings are engaged for 3 years, dispatching more than 5 years.To Order: +7-701-1**5575, +7 (727) -329-61-**.E-mail: d**z@i**ox.ru
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;Indeed, for 10 000 KZT = 67.45 USD and the amount of message send are 20
+000 spam. Then the price for one million spam is 3.372.5 USD without
+discount. The above links is from the following source [Rassilka.kz].&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;CONCLUSION&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;I would like to generalize that from the above information we see that
+for any service that we looked for, it has a price. Value that are
+different in other countries and currencies. Yet, before you start this
+research make sure that you are not using your local machine.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Likewise, I have used an virtual environment to be able to collect all
+the above data. Because the sites, forums, links, etc. are infected with
+malicious code, or can be easily traceable.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In summary, we utter gather as much as possible different sources and
+different prices. Most expensive is the spam for one million people,
+second is DDoS attacks and never the last is to gain an credit card
+numbers from different countries and different price.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;For more info please refer to following source [QuinStreet Inc] why I
+have chose Russia as the main source.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;APPENDIX&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Appendix 1 is configuration of the virtual environment.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;APPENDIX 1&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Virtual environment: Oracle VirtualBox Version 4.1.2 r73507.
+Downloadable from the following link:
+https://www.virtualbox.org/wiki/Downloads&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Security Fedora 14 32 bit – Client:
+http://spins.fedoraproject.org/security/&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Base Memory: 512 MB&lt;/li&gt;
+&lt;li&gt;Acceleration: VT-x/AMD-V, Nested Paging&lt;/li&gt;
+&lt;li&gt;Display – Video memory: 12 MB&lt;/li&gt;
+&lt;li&gt;Storage: SATA Controller, Port 0: 8 GB&lt;/li&gt;
+&lt;li&gt;Network:&lt;/li&gt;
+&lt;li&gt;Adapter 1: Adapter 1: Parvirtualized Network (NAT)&lt;/li&gt;
+&lt;li&gt;Adapter 2: Adapter 2: Inter PRO/1000 MT Desktop (Host-only
+    adapter, „VirtualBox Host- Only Enternet Adapter“)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Bibliography&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Hackzone: HackZone.ru, Forum, 2011, &lt;a href="http://www.hackzone.ru/"&gt;http://www.hackzone.ru/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;HackzoneDDoS: Master_DDoS, Качественный DDoS Сервис,
+&lt;a href="http://www.hackzone.ru/forum/open/id/17387/"&gt;http://www.hackzone.ru/forum/open/id/17387/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;CartNumber: Support_BM, Качественный US\EU\WORLD картон, 2011,
+&lt;a href="http://www.hackzone.ru/forum/open/id/14936/"&gt;http://www.hackzone.ru/forum/open/id/14936/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Rassilka.kz: kamondimon, E-mail рассылки!, 2011,
+&lt;a href="http://rassilka.kz/rassilki-rassilka-kz/47-e-mailrassylki.html"&gt;http://rassilka.kz/rassilki-rassilka-kz/47-e-mailrassylki.html&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;QuinStreet Inc: Paul Rubens, Understanding the Russian Hacker
+Underground, Aug 13, 2010,
+&lt;a href="http://www.enterprisenetworkingplanet.com/netsecur/article.php/3898601/Understanding-the-Russian-Hacker-Underground.htm"&gt;http://www.enterprisenetworkingplanet.com/netsecur/article.php/3898601/Understanding-the-Russian-Hacker-Underground.htm&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;</content><category term="pages"></category><category term="acceleration"></category><category term="optamization"></category><category term="simmulation of attacks and defence"></category><category term="wordpress attacks"></category><category term="credit card numbers"></category><category term="cyber security"></category><category term="DDoS"></category><category term="defence"></category><category term="infected machine"></category><category term="internet"></category><category term="malware"></category><category term="network"></category><category term="online"></category><category term="security"></category><category term="spam"></category></entry><entry><title>Major changes in warfare from antiquity to modern</title><link href="https://predragtasevski.com/posts/2011/04/major-changes-in-warfare-from-antiquity-to-modern/" rel="alternate"></link><published>2011-04-20T23:00:00+02:00</published><updated>2011-04-20T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2011-04-20:/posts/2011/04/major-changes-in-warfare-from-antiquity-to-modern/</id><summary type="html">&lt;h1&gt;Analyse the major changes in warfare from antiquity to modern days. What are the most significant changes? What has remained unchanged?&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Before we start the discussion about the major changes in warfare from
+antiquity to present day we will precede with definition of War and its
+significant and remained unchanged …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Analyse the major changes in warfare from antiquity to modern days. What are the most significant changes? What has remained unchanged?&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Before we start the discussion about the major changes in warfare from
+antiquity to present day we will precede with definition of War and its
+significant and remained unchanged changes.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;WAR in its literal meaning is fighting, for fighting alone is the
+efficient principle in the manifold activity which, in a wide sense, is
+called war. But fighting is a trial of strength of the moral and
+physical forces by means of the latter. That the moral cannot be omitted
+is evident of itself, for the condition of the mind has always the most
+decisive influence on the forces employed in war (Graham, 2002).&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Humanity has wedged war since antiquity through nowadays for million
+causes, national and religious freedom, hatred, grudge, human rights,
+liberating the enslaved etc. But one principle in war has always been
+present from the depths of history till today, that is, wars are fought
+for one purpose only, conquest of new territory from which economic
+benefit is to be acquired for the soul use of the conqueror. Nowhere is
+this more obvious than in the armed clashes of the beginning of the XXI
+century, when under the pretext of human rights countries are being
+robed from their natural resources and air-raids are killing those whom
+should protect.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;After we met with the theory of war and moral principles, it is time to
+consider changes that have occurred between the ancient and modern
+times. The military of ancient Egypt had introduced the new technologies
+of metal, where they used bronze in the Middle Kingdom as main weapons
+source, after it changed to iron in the New Kingdom and all during the
+Late Dynastic Period. The Old Kingdom soldiers were equipped with a
+great variety of weapons: shields, spears, cudgels, maces, daggers, bows
+and arrows. The New Kingdom carried spears, battle axes, sickleswords
+(MdC transliteration: xpS – khepesh or khopesh) and daggers. After the
+bowmen, either on foot or on chariots, had softened up the enemy forces
+with a shower of arrows (Dollinger, Dynasties XVIII to XX, 2004), the
+infantry would rush in, breaking their ranks with hand weapons, maces
+with wooden handles and stone – later metal – heads, battle axes,
+hatchets, clubs, swords, sickleswords and daggers (Dollinger, Weapons,
+2010).&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Persian Army had only three wars, started from 490 BC until 478BC, the
+army was very multicultural, were organizes in a decimal basis,
+regiments, units and corps were grouped in tens, hundreds and thousands
+(Drury, 2006). Officers were being responsible for ten men, another for
+one hundred, one thousand and ten thousand. Heavily equipped with
+weapons, which are: Thrusting Spear, palta, Akinakes , Xiphos, kopis,
+bow etc (Wildfiregames, 2004).&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Greece war, first nine years of the war consisted of both war in Troy
+and war against the neighbouring regions, where destroyed Trojan
+economy, allowed Greeks to getter a large amount of resources. The
+Greeks won most of the battles, but they still could not break the walls
+of Troy. The weapons that were used in those battles were bows and
+arrows. As for strategies the famous Trojan horse, when Odysseus had a
+perfect idea to build a big wooden horse where inside will be field with
+the soldiers, which bring and invasion of Troy from the Greeks (Rita,
+2010).&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Army of Macedonia was the army of ancient Kingdom of Macedonia. It
+considers a grate military force where there were reforms constructed
+from the suggestion of King Philip II of Macedon and then his son
+Alexander the Great. The introduction was in innovation of weapons and
+new tactics, along with unique elements combination of military
+elements, which bring a great intercontinental empire (Ellis, 1979).
+Philip II had implemented in Macedonian phalanx army separation which
+one group were on a mission to conquer a city and the other to conquer
+castles. Each phalangite carried as his primary weapon a sarissa, but
+the phalangite were not the focal point for the battle, they have used
+other forces like: skirmishers, range troops, reserves of allied
+hoplites, and artillery (Hellenica, 2005).&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Rome in the wars had adapted weapons, armour and tactics of many enemies
+they fought. Main weapons of Rome soldiers were Spanish sword – gladius,
+it had two throwing spears, a large shield, body armour and a helmet.
+They have also operated with the fire supported weapons, scorpios,
+carroballistas, onagers. For a fest moves they started to build bridges,
+so that the soldiers and the army can move faster. The army can march up
+to 30 km a day. They were very evil, trained to stab a 5 cm deep wound,
+after breaking the enemy, Romans tended to kill as many enemies as
+possible and their cavalry pursued fleeing enemy.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;After the Rome the medieval Europe warfare followed, which was the war
+of legal and acceptable justification, nobility (knights) and the main
+force on the battlefield was a heavy cavalry, where the law of the armed
+conflict was born. The second largest empire in human history was the
+Mongol empire. Mongols army had the capacity to move up to 150 km a day.
+The weapons of the army consisted of massive fire (bow) speed and
+manoeuvres.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Wars of the XVI Century were mostly protracted and indecisive. There was
+insistency on building a fortress that was very difficult to conquer.
+The most important improvement is the side of the weapons with adoption
+of light guns and gunpowder. Gustavus Adolphus had guns in his army, he
+had 1 gun per 83, but his enemies had 1 gun per 2000 men. The main thing
+was to build and modify the fortresses for safety and hard to conquer.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;World War I, sometimes described as ‘the war to end all wars’ (Creveld,
+2000, p. 162), the strategies were based on first manoeuvre, and then
+attrition. Forces and armaments were infantry, cavalry artillery, and
+surface navy (initially); later – tanks, planes, submarines, chemical
+weapons. The tactics were manoeuvre, frontal assaults, fortified
+defence, artillery concentration (initially); the theoretical thinking:
+seeking the way out of dead end, but not finding the means and ways. The
+first known bombardment from the sky, using airplanes was by Bulgarian
+army on the 16 of October 1912 at battle of Adrianople, where they were
+captivated by the Turkish army. From the German newspaper “Geschichte
+des Luftkriegs”, Militarverlag der DDR, Berlin, 1975, though the 1912
+United Kingdom had 23 air planes, Russian – 99, German – 46, Italian –
+22, Japan – 10 and USA – 3 air planes.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Second World War, where the technology and the concept of the war were
+getting bigger, developed into a prolonged and extremely deadly struggle
+of attrition. The Germans invented the rockets (vau1 and vau2).
+Hiroshima and Nagasaki are the first and only events of deployments of
+nuclear weapons in the world.  &lt;/p&gt;
+&lt;p&gt;Second half of the 20th century, after the valuable technical point, the
+arms forward for an outbreak of terrorism. That means that wars are no
+longer big and global; the enemy is no longer in uniforman in force. And
+size is no longer as great as it was the enemy can attack from anywhere.
+Therefore, no longer wars head-do met the two armies, but running by
+partisan / guerillas. Terrorism is an unconventional war de facto, i.e.
+anti-insurgent operation, i.e. counter insurgency. Which create the kind
+of combat actions that are performed nowadays in Afghanistan and Iraq.
+In the 20th century, has one goal, redistribution of resources, i.e. to
+get to justify the need to test before the war for democracy and human
+rights. Macedonia is the country that is inclined towards terrorism, the
+early 20th century, April 28 1903rd in Thessaloniki, the boatmen of
+Thessaloniki have committed terrorist actions against the capital of
+Western Europe and Turkey, i.e. have planted bombs in the Ottoman Bank
+in Thessaloniki, the main post office, and planted a bomb in a ship
+(Sotros, 2004 December).&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;As can read above the changes are very drastic. Humanity is fighting for
+the different purpose; starting from the antiquity to nowadays, not only
+in weapons that were used and presented, but in the strategies in a
+tactics and theoretical thinking. Therefore, there are no more battles
+wars, people are grouping and they can embattle from anywhere, which
+gives a content of the terroristic activities of the wars. Today the
+humanity and the scholars should getter together to work around of the
+problems and solutions for the future, possibilities of internet (social
+networks, VOIP, IM etc.), net generations1, thus today it is the main
+source of grouping the population for massive protests or any other
+actions, which can end-up to a war or scandal.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Consequently the technology and science are rising, the possibilities
+and the changes in an aspect of wars will change. For instant is Russian
+– Georgian conflict in 2008 as a result of territorial attack and in
+sequence with it there was an cyber-attack in progress2; or powerful
+internet worm repeatedly targeted five nuclear industrial facilities in
+Iran and many others3. Therefore, nowadays this actions and concept of
+warfare is different, no more uniforms, battles etc. Warfare’s are
+getting new aspect and new ways to approach through the technology.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Reference&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Creveld, M. V. (2000). THE INTERWAR PERIOD. In M. v. Creveld, The Art of
+War – War and Military Thought. London: Cassell.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Dollinger, A. (2004, November). Dynasties XVIII to XX. Retrieved from
+Ancient Egyptian history:
+&lt;a href="http://www.reshafim.org.il/ad/egypt/history18-20.htm#merneptah"&gt;http://www.reshafim.org.il/ad/egypt/history18-20.htm#merneptah&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Dollinger, A. (2010, March). Weapons. Retrieved from Pharaonic Egypt:
+&lt;a href="http://www.reshafim.org.il/ad/egypt/weapons/index.html#rem4"&gt;http://www.reshafim.org.il/ad/egypt/weapons/index.html#rem4&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Drury, M. (2006, February). Battles of the Achaemenid Empire . Retrieved
+from A History Resource by Mark Drury:
+&lt;a href="http://members.ozemail.com.au/~ancientpersia/batt_frm.html"&gt;http://members.ozemail.com.au/~ancientpersia/batt_frm.html&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Ellis, J. R. (1979). Philip II and Macedonian Imperialism.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Graham, C. J. (2002). On The Theory Of War, Section: Branches of the Art
+of War. Retrieved 2011, from Clausewitz, ON WAR:
+&lt;a href="http://www.clausewitz.com/readings/OnWar1873/BK2ch01.html"&gt;http://www.clausewitz.com/readings/OnWar1873/BK2ch01.html&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Hellenica. (2005, 04). Macedonian phalanx. Retrieved from Hellenica:
+&lt;a href="http://www.mlahanas.de/Greeks/LX/MacedonianPhalanx.html"&gt;http://www.mlahanas.de/Greeks/LX/MacedonianPhalanx.html&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Rita. (2010). The Trojan War. Retrieved from Stanford University:
+&lt;a href="/http://www.stanford.edu/~plomio/history.html#anchor202941"&gt;http://www.stanford.edu/\~plomio/history.html#anchor202941&lt;/a&gt;&lt;a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Sotros, J. (2004 December). The Greek Speaking Anarchist and
+Revolutionary Movement (1830–1940) Writings for a History. No God-No
+Masters.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Wildfiregames. (2004, September). Persia: Arms of the Shah-an-Shah –
+Persian Arms an. Retrieved from 0 A.D. :: Wildfire Games:
+&lt;a href="http://wildfiregames.com/0ad/page.php?p=1581"&gt;http://wildfiregames.com/0ad/page.php?p=1581&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[1] The Net Generation Brain by Don Tapscott (2009)&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[2] &lt;a href="http://zdnet.com/blog"&gt;ZDnet.com/blog&lt;/a&gt; – Coordinated Russia vs
+Georgia cyber attack in progress  &lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[3] &lt;a href="http://bbc.co.uk/technology"&gt;BBC.co.uk/technology&lt;/a&gt; – Stuxnet virus
+targets and spread revealed&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/p&gt;&lt;/p&gt;</content><category term="pages"></category><category term="antiquity"></category><category term="art of war"></category><category term="changes warfare"></category><category term="cyber"></category><category term="cyber security"></category><category term="cyber warfare"></category><category term="history"></category><category term="internet"></category><category term="modern"></category><category term="networking"></category><category term="new war"></category><category term="nework crime"></category><category term="security"></category><category term="war"></category><category term="war strategy"></category></entry><entry><title>IP Responsibility and abuse reporting procedure</title><link href="https://predragtasevski.com/posts/2011/03/ip-responsibility-and-abuse-reporting-procedure/" rel="alternate"></link><published>2011-03-11T00:00:00+01:00</published><updated>2011-03-11T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2011-03-11:/posts/2011/03/ip-responsibility-and-abuse-reporting-procedure/</id><summary type="html">&lt;h1&gt;PURPOSE&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The main goal of laboratory report is to identify the responsibilities
+for the IP addresses below and how we can make connection to them. IP
+addresses are randomly chosen by the lecture.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;IP addresses:&lt;/p&gt;
+&lt;p&gt;​1. 69.163.171.238&lt;/p&gt;
+&lt;p&gt;​2. 31.44.184.101&lt;/p&gt;
+&lt;p&gt;​3. 188.72.228.69 …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;PURPOSE&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The main goal of laboratory report is to identify the responsibilities
+for the IP addresses below and how we can make connection to them. IP
+addresses are randomly chosen by the lecture.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;IP addresses:&lt;/p&gt;
+&lt;p&gt;​1. 69.163.171.238&lt;/p&gt;
+&lt;p&gt;​2. 31.44.184.101&lt;/p&gt;
+&lt;p&gt;​3. 188.72.228.69&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;External IP that is used for purpose of this test is following:
+193.40.244.0/255 1. The ISP that provides this network is EENet2.
+Organization that is behind is Tallinn Technical University, Estonia.
+City location is Tallinn and the region is Harjumaa. The phone number of
+my ISP is: +372 73&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;. The e-mail we should report abuse are: first
+persons that is in charge: Viktor Borisevitch (e-mail:&lt;/strong&gt;tor at cc.ttu.ee
+and phone number: +372-2-&lt;strong&gt;&lt;em&gt;*46) and Andres Lepp (e-mail: l&lt;/em&gt;&lt;/strong&gt; at
+cc.ttu.ee and phone number: +372 6 &lt;strong&gt;*&lt;/strong&gt;55). In addition, if we wont to
+submit an abuse we should use both persons of network administration and
+then we can submit and security incident on the following ISP e-mail:
+turvas@eeenet.ee [RIPE NCC].&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;All in all, Method 1 and Appendix 1 describes the website, tools and
+application that are used to conduct this laboratory report. In
+addition, Method 2 and Appendix 2 will introduce website tools and
+databases where we can check if following IP’s have been reported before
+as abuse and security risk. Both methods are represented with answer and
+consequences confront in the result section.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Finally the conclusion made of all collected data will be concise in
+conclusion section of this report.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;METHODS&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;First method describes and demonstrates web tools that have been used to
+collect the needed information from the stated IP’s addresses. Second
+method is pointing out website tools and databases that can be applied
+if the IP has been reported previously as a abuse, spam or security
+threat.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;METHOD 1&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Firstly, we need to collect as much as we can details about the IP
+address. In Appendix 1 is showing the wholly information of the IP’s,
+contact details, organization name, address, location, state, country,
+technicians contact, abuse phone number, abuse e-mail, etc.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Depending on the location of IP we should make sure that not only we
+know the ISP or abuse contact details, but we should know national CERT
+3 agency that is in charge too. Therefore, to collect the information we
+have used different web sites, agencies: [RIPENCC, LACNIC, AfriNIC,
+APNIC, ARIN]. The above reference are agencies collected from IANA4.
+Authority responsible for global coordination of the Internet Protocol
+addressing systems [IANA].&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Moreover, to have more details about the route of the IP’s we are using
+command prompt in Windows 7 with the following command, where the
+results are presented in Appendix 2 section:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    tracert [0.0.0.0]To illustrate, the details information are presented in Result 1 section.
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;h2&gt;METHOD 2&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;After we have collected the wholly information about the concrete IP
+proposals, we should check if in addition those IP’s previously have
+been reported as abused, spam or security threat. To complete the
+following method we need to check concrete database system that is
+offering following service. First that crossed on web is [MalwareURL]
+which is dedicated to fighting malware, trojans and a multitude of other
+web-related threats. In addition, we can check if the IP addresses are
+listed in anti-spam databases. With other words blacklist check
+[MyIPAddress].&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;RESULTS&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Results from Method 1 are presented in Result 1, further Method 2 is
+presented in Result 2.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;RESULT 1&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;For each IP are presented only the most important data details that we
+need to collect for our goal. In addition, full description and details
+are presented in Appendix 1. The tables bellow are illustrating the most
+important information that we should look-for. In addition, the
+highlighted lines are indicating the abuse e-mail box that should be
+send mail too.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    69.163.171.238OrgName: New Dream Network, LLCAddress: 417 Associated Rd.Address: PMB #257City: BreaStateProv: CAPostalCode: 92821Country: US#technician in chargeOrgTechName: Nagel, MarkOrgTechPhone: +1-714-706-4182OrgTechEmail: mna47-arin at dreamhost.com#abuse in chargeOrgAbuseName: DreamHost Abuse TeamOrgAbusePhone: +1-714-706-4182OrgAbuseEmail: abuse&amp;nbsp; at dreamhost.comTable 131.44.184.101person: Chris Burnsaddress: Building 4&gt;address: City West Office Parkaddress: Gelderd Roadaddress: Leeds LS12 6LXaddress: Englandphone: +44-208-901-2332#abuse e-mail: abuse-mailbox: abuse at laveconetworks.co.ukTable 288.72.228.69role: Mannesmann Arcor Network Operation Centeraddress: Arcor AG &amp;amp; Co. KGaddress: Department TBSaddress: Otto-Volger-Str. 19address: D-65843 Sulzbach/Ts.address: Germanyphone: +49 6196 523 0864#abuse e-mailabuse-mailbox: abuse at arcor-ip.deTable 3
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;However, now that we know the abuse e-mail, phone number and contact
+person details, still is this information enough for us. If we look in
+details all of the IP’s are from different countries. Therefore we need
+to find what is the national CERT agency contact details. First table is
+based in USA, therefore we need to use their reporting system, which is
+locate in the following link: &lt;a href="http://www.us-cert.gov/"&gt;http://www.us-cert.gov/&lt;/a&gt; . Second table
+is UK, the national CERT agency link:
+&lt;a href="http://www.ukcert.org.uk/"&gt;www.ukcert.org.uk&lt;/a&gt;. Third table is based in
+Germany, the CERT agency link: &lt;a href="http://www.cert-verbund.de/"&gt;http://www.cert-verbund.de/&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;From the routing trace we can conclude that the first IP and the third
+respond and it did not miss route trace, where in the second IP,
+31.44.184.101 there is miss route trace.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;That is why we will run this IP address to Method 2. Despite the fact,
+still we will run the rest of IP’s in the Method 2, to be trusted that
+are not in the abuse list.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;RESULT 2&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Next step is to attempt to search the IP address to check if they have
+been previously report as a abuse, trojan, malware, security threat,
+etc.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;To check and verify the security status we are using the service
+available [MalwareURL]. Where results for 69.163.171.238 and
+88.72.228.69 are with status that have not been previously reported as
+abuse. On the other hand, 31.44.184.101 IP address is detected as an
+security threat before. More details are presented in Appendix 3. Where
+is demonstrating that the
+&lt;code&gt;/404.php?type=stats&amp;amp;amp;affid=531&amp;amp;amp;subid=03&amp;amp;amp;iruns&lt;/code&gt; has been
+reported as malicious URL and it is in a blacklist of Google, MyWOT,
+etc.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Not only that it is listed in the malware database list, but also if we
+double check on service [MyIPAddress] that the 31.44.184.101 IP address
+is listed in few blacklist which is assess by DNSBL5.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;CONCLUSION&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In conclusion, I would like to reiterate that the concrete IP’s that we
+analysis in this report are demonstrating the process and methods that
+should be done in future to detect, report abuse, malware, threat,
+trojan, security risk, etc. Where we should gather the detail
+information, and to whom to turn the abuse. To be precise that are not
+in blacklist, spam list, etc.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In spite of following IP’s: 69.163.171.238 and 88.72.228.69, from
+performing methods and delivering results are safe and secure, still
+think can be exploited in easy manners. The opposite, IP address
+31.44.184.101 it has been already report infected as malicious code from
+few blacklist providers. When checking the DNS, host name is linking to
+UK company that deals with IP Transit. For further information please
+check the following link: &lt;a href="http://www.laveconetworks.co.uk/"&gt;http://www.laveconetworks.co.uk/&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In general, hope that laboratory report and the analyse will help to
+anyone else to guide them for future use.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;APPENDIXES&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Appendix 1 is list of details collected from service. Appendix 2 is
+trace route details. Where Appendix 3 is the result collected from the
+black list database.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Because of large content please download
+[&lt;a href="http://predragtasevski.com/pdf/Predrag_Tasevski_Lab3_Report_IP_responsibility.pdf"&gt;PDF&lt;/a&gt;]&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Bibliography&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;RIPE NCC: RIPE NCC, Data &amp;amp; Tools, 2011,
+&lt;a href="https://www.ripe.net/data-tools"&gt;https://www.ripe.net/data-tools&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;LACNIC: Internet Address Registry for Latin America and the Caribbean,
+REGISTRATION SERVICES , &lt;a href="http://lacnic.net/cgi-bin/lacnic/whois?lg=EN"&gt;http://lacnic.net/cgi-bin/lacnic/whois?lg=EN&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;AfriNIC: AfriNIC LTD, Query the AfriNIC Whois Database, 2011,
+href="http://www.afrinic.net/cgi-bin/whois"
+target="_blank"&gt;http://www.afrinic.net/cgi-bin/whois&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;APNIC: APNIC, APNIC – Query the APNIC Whois Database, 2011,
+&lt;a href="http://wq.apnic.net/apnic-bin/whois.pl"&gt;http://wq.apnic.net/apnic-bin/whois.pl&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;ARIN: ARIN, WHOIS-RWS, 2011,
+&lt;a href="http://whois.arin.net/"&gt;http://whois.arin.net&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;IANA: IANA, Number Resources, 2011, &lt;a href="http://www.iana.org/numbers/"&gt;http://www.iana.org/numbers/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;MalwareURL: The MalwareURL Team, The MalwareURL Team, 2011,
+&lt;a href="http://www.malwareurl.com/"&gt;http://www.malwareurl.com&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;MyIPAddress: What Is My IP Address, Blacklist Check, 2011,
+&lt;a href="http://whatismyipaddress.com/blacklist-check"&gt;http://whatismyipaddress.com/blacklist-check&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Footnotes:&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[1] I will not show my own IP address&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[2] EENet – &lt;a href="http://www.eenet.ee/EENet/"&gt;http://www.eenet.ee/EENet/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[3] CERT – Computer Emergency Response Team&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[4] IANA – Internet Assigned Numbers Authority – &lt;a href="http://www.iana.org/"&gt;http://www.iana.org/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[5] DNSBL – Domain Name System Blacklist&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Changed on purpose, not to disclose the exposure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</content><category term="pages"></category><category term="attacks"></category><category term="cyber security"></category><category term="DDoS"></category><category term="external IP"></category><category term="Internet Protocol addressing systems"></category><category term="IP addresses"></category><category term="malware"></category><category term="online"></category><category term="report abuse"></category><category term="security"></category><category term="security risk"></category></entry></feed>

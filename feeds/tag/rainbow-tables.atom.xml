@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Predrag TASEVSKI - Pece - rainbow tables</title><link href="https://predragtasevski.com/" rel="alternate"></link><link href="https://predragtasevski.com/feeds/tag/rainbow-tables.atom.xml" rel="self"></link><id>https://predragtasevski.com/</id><updated>2011-07-26T23:00:00+02:00</updated><entry><title>Password Attacks and Generation Strategies</title><link href="https://predragtasevski.com/posts/2011/07/password-attacks-and-generation-strategies/" rel="alternate"></link><published>2011-07-26T23:00:00+02:00</published><updated>2011-07-26T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2011-07-26:/posts/2011/07/password-attacks-and-generation-strategies/</id><summary type="html">&lt;h1&gt;Abstract&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Nowadays, attacking the passwords is one of the most straightforward
+attack vectors, which authorize access to information system. There are
+numerous feasible methods, attempt to guess or crack passwords, with a
+different methods, approaches and tools. This paper analyzes the
+possibilities of using the tools and gives an example …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Abstract&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Nowadays, attacking the passwords is one of the most straightforward
+attack vectors, which authorize access to information system. There are
+numerous feasible methods, attempt to guess or crack passwords, with a
+different methods, approaches and tools. This paper analyzes the
+possibilities of using the tools and gives an example of how to
+accomplish the password guesses in different methods with tests which
+can be demonstrated together with comparison of input dictionary lists.
+The overall service to the follower is to insure for the potential
+needs: preventing password cracking, information security audit,
+password recovery, security policy etc.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Keywords: password attacks, password generation, dictionary generation, dictionary password attacks, rainbow tables, brute force&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Download:&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://predragtasevski.com/pdf/PasswordAttacksAndGenerationStrategy_FINAL.PDF"&gt;PDF&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://predragtasevski.com/PasswordAttacksAndGenerationStrategyPT.pdf"&gt;Presentation
+PDF&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;</content><category term="pages"></category><category term="brute force"></category><category term="dictionary generation"></category><category term="dictionary password attacks"></category><category term="password attacks"></category><category term="password generation"></category><category term="rainbow tables"></category></entry></feed>

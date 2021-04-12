@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Predrag TASEVSKI - Pece - acceleration</title><link href="https://predragtasevski.com/" rel="alternate"></link><link href="https://predragtasevski.com/feeds/tag/acceleration.atom.xml" rel="self"></link><id>https://predragtasevski.com/</id><updated>2011-10-12T23:00:00+02:00</updated><entry><title>Cost of DDoS, leak of credit card numbers, infected machine and spam</title><link href="https://predragtasevski.com/posts/2011/10/cost-of-ddos-leak-of-credit-card-numbers-infected-machine-and-spam/" rel="alternate"></link><published>2011-10-12T23:00:00+02:00</published><updated>2011-10-12T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2011-10-12:/posts/2011/10/cost-of-ddos-leak-of-credit-card-numbers-infected-machine-and-spam/</id><summary type="html">&lt;h1&gt;PURPOSE&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The main goal of laboratory report is to identify the costs of nowadays
+most known attack  DDOS, leak of credit card numbers, infected machine
+and never the less sending spam for 1 000 000 (one million) people.
+There are few points that should be presented:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Where did we discovered …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;PURPOSE&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The main goal of laboratory report is to identify the costs of nowadays
+most known attack  DDOS, leak of credit card numbers, infected machine
+and never the less sending spam for 1 000 000 (one million) people.
+There are few points that should be presented:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Where did we discovered the information (links or sources)&lt;/li&gt;
+&lt;li&gt;What kind of source of communication we used, for instance: instant
+    messing, ICQ, IRC, which contact we have gather the information&lt;/li&gt;
+&lt;li&gt;What are the prices for the above attacks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;First of all, we must bear in mind that collecting the above information
+it is presented to a numerous affected sources ( i.e. Website, news,
+forums, IRC chat,etc.). By visiting the source can lead you to a virus,
+trojan, malicious code, malware, etc. Which can damage your system.
+Therefore, we are going to use virtual environment to find our demands.
+In addition, we will use different languages and different search
+engines.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Construction of report is separated by tasks section. Where each section
+is presented with the source, communication type and the costs of the
+service. In addition, in Appendix 1 we give the configuration of virtual
+environment.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Finally the conclusion made of all collected data will be concise in
+conclusion section.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;TASKS&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Following list is the numeration of the tasks:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;DDoS&lt;/li&gt;
+&lt;li&gt;Credit Card Numbers&lt;/li&gt;
+&lt;li&gt;Infected Machines&lt;/li&gt;
+&lt;li&gt;Spam for 1 000 000 people&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;TASK 1&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Source where we can find information about the cost of DDoS attacks are
+provided in Russian most known [Hackzone] forum. This is the source will
+give as more of the answers. But again be careful when you accessing
+this site. It is on your own risk.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;From the following link we received an information about DDoS
+attacks: [HackzoneDDoS]. With the following translated statement:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    The average price of service from $ 50 per day. Depends on the complexity of the &lt;em&gt;attacked site. Methods of payment accepted via WebMoney. The network is practically around the clock!Commands:http / https / icmp / post / syn / udp /Price:Day from $ 50Week from $ 350From $ 1200 per month(Prices may change depending of type and timing of orders on the complexity of the attacked site)Demo test for 5-10 minutes.Contact:Icq :20-**-29Inspections completed:hack-world.orgwww.xaker.nameforum.xaknet.ruMost of the DDoS attack service are around per day $ 50, here is an other source and contact details:Contact details Icq:22-**-327Icq:875-**3E-mail:anti**os@jab**r.ru
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;The above information is from the following link:
+&lt;a href="http://www.hackzone.ru/forum/open/id/15608/"&gt;http://www.hackzone.ru/forum/open/id/15608/&lt;/a&gt;. Other sources that can be
+found are with&lt;/p&gt;
+&lt;p&gt;the following links: &lt;a href="http://www.hackzone.ru/forum/open/id/16067/"&gt;http://www.hackzone.ru/forum/open/id/16067/&lt;/a&gt; and
+&lt;a href="http://www.hackzone.ru/forum/open/id/17187/"&gt;http://www.hackzone.ru/forum/open/id/17187/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;As we stated above that the price is from \$50 per day and it goes until
+\$350 per month and so on.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;TASK 2&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The number of credit cards leaked in the web are numerous amount. The
+prices are not that high as people expected. For card that comes from
+European country is the highest price and for the other are much
+cheaper.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Here some information from the following link, leak from &lt;a href="http://www.hackzone.ru/memb/view/name/Support_BM/"&gt;Support_BM
+Originar&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;source is in Russian language, so for this report is translated to
+English. From the source [CartNumber].&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    At the moment there is only us, ca, cvv.Databases are updated every 2-3 days, Walid varies from 75 to 90%.Price:us visa, mc cvv = $ 1.5us amex, diss = $ 1.5us without vbv \ mksk = $ 2us not tied and PayPal = $ 2EU = $ 6-9World = $ 3-6CIS is not and never will.Sorted by: bean = $ 1Sample on any other criterion = +0.5 $Sampling only on the following criteria: bin, judge, state, city, type, zip.WARNING! I do not select “No vbv”, “No attachment to the paypal”, “Give me a map that would be held there now and then.”Terms and conditions of service provision:1. Replacement non valid within 48 hours of purchase.2. I only 04/05/51 Declined, Hold-Call, check only CCN + EXP + CVV3. On messages such as “Here?” “Hi, how are” probably will not answer.4. Money Beg do not.5. Do not change the board, check it before selling.6. I believe only their own way, proven in battle, checker, so your results, another checker,&amp;nbsp;and so do not pay attention.7. Using my service, you automatically agree with everything stated in this post.8. Reserve the right to refuse service to anyone, without explanation.9. I am not responsible for the account balances card-holders.10. I do not give advice on the use of the material.11. Do not keep a bazaar talks about the reductions.12. I do not care where you do not go away if you gave Checker Walid Walid means.Card format:Credit Card Number | CVV2 | ??Exp.date | Name | Address Line | City | State | Zip Code |Country | Phone (Not Always) | Email Address (not always)Attention! Before you knock a replacement non valid, make sure that all the provided maps not valid if none of these cards will be found a valid card and a replacement will be denied.Learn to appreciate their own and other people’s time, get a checker, and live happily ever after.Contact the seller checker can provide for everyone.I accept payment only WMZ and LibertyReserveMy WMID has 70BL, as well as on-demand in icq give links to many reviews.Contact:ICQ: 604000**0JID: ***nager@thes**ure.bizPosted 13.10.2010 13:45:51 (8 days 18 hours 31 minutes 59 seconds)Other source that cross is from Russian banks Alfa debit or others the price from$175. Source is published by contact details: Jabber: v**yt@exp**it.im, ICQ: 25**165,Skype: V**yt_. On the following link:&lt;a href="http://lab-one.net/showthread.php?t=664" target="_blank"&gt; http://lab-one.net/showthread.php?t=664&lt;/a&gt;
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;h2&gt;TASK 3&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Nowadays it is not hard to find an infected machine/computer. Because
+most of the user PC’s are based with operating system Windows and are
+most of them infected. I have try so hard to find infected machine
+price, but until today, I did not come up with any good source.
+Therefore, I would like if it is possible to add this source and discuss
+this source and information with the fellow students.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;TASK 4&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Spamming for one million people it sounds impossible, but still out
+there someone is offering this service. Here is from Kazakhstan source
+with the following information, translated in English:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    E-mail newsletter:1 post = 1 m., minimum order 10 000 posts.For large orders – big discounts!At present there is action: 10 000 tenge, we send 20 000 messages. + Action: 50 000 tenge, we send your letter to 360 000 email ardesov in Almaty, send 3 times in one month!The action is over, send a time.E-mail database:In Almaty:60 000 LEGAL Address – Almaty Yuredicheskie email addresses, the entire directory guide “our town” and directory site “Samruk Kazyna”430 000 – private address Almaty residents collected via mail search agent criteria:country, city, gender, age.Throughout Kazakhstan:240 000 – LEGAL person Kazakhstan LLP, Ltd., Inc., Ltd., etc. collected from various references such as “yellow pages” “compass” etc.3.4 million – individuals, all of Kazakhstan. – Collected through the mail search agent criteria: country, city, gender, age.P.S. you can build a base of email addresses to any city in Kazakhstan, or any other city in any other country, can you give us the criteria and we will collect your base, an example of criteria:I try, the city, Age, sex, online, not online.P.S. Legal mailings are engaged for 3 years, dispatching more than 5 years.To Order: +7-701-1**5575, +7 (727) -329-61-**.E-mail: d**z@i**ox.ru
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;Indeed, for 10 000 KZT = 67.45 USD and the amount of message send are 20
+000 spam. Then the price for one million spam is 3.372.5 USD without
+discount. The above links is from the following source [Rassilka.kz].&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;CONCLUSION&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;I would like to generalize that from the above information we see that
+for any service that we looked for, it has a price. Value that are
+different in other countries and currencies. Yet, before you start this
+research make sure that you are not using your local machine.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Likewise, I have used an virtual environment to be able to collect all
+the above data. Because the sites, forums, links, etc. are infected with
+malicious code, or can be easily traceable.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In summary, we utter gather as much as possible different sources and
+different prices. Most expensive is the spam for one million people,
+second is DDoS attacks and never the last is to gain an credit card
+numbers from different countries and different price.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;For more info please refer to following source [QuinStreet Inc] why I
+have chose Russia as the main source.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;APPENDIX&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Appendix 1 is configuration of the virtual environment.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;APPENDIX 1&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Virtual environment: Oracle VirtualBox Version 4.1.2 r73507.
+Downloadable from the following link:
+https://www.virtualbox.org/wiki/Downloads&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Security Fedora 14 32 bit – Client:
+http://spins.fedoraproject.org/security/&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Base Memory: 512 MB&lt;/li&gt;
+&lt;li&gt;Acceleration: VT-x/AMD-V, Nested Paging&lt;/li&gt;
+&lt;li&gt;Display – Video memory: 12 MB&lt;/li&gt;
+&lt;li&gt;Storage: SATA Controller, Port 0: 8 GB&lt;/li&gt;
+&lt;li&gt;Network:&lt;/li&gt;
+&lt;li&gt;Adapter 1: Adapter 1: Parvirtualized Network (NAT)&lt;/li&gt;
+&lt;li&gt;Adapter 2: Adapter 2: Inter PRO/1000 MT Desktop (Host-only
+    adapter, „VirtualBox Host- Only Enternet Adapter“)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Bibliography&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Hackzone: HackZone.ru, Forum, 2011, &lt;a href="http://www.hackzone.ru/"&gt;http://www.hackzone.ru/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;HackzoneDDoS: Master_DDoS, Качественный DDoS Сервис,
+&lt;a href="http://www.hackzone.ru/forum/open/id/17387/"&gt;http://www.hackzone.ru/forum/open/id/17387/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;CartNumber: Support_BM, Качественный US\EU\WORLD картон, 2011,
+&lt;a href="http://www.hackzone.ru/forum/open/id/14936/"&gt;http://www.hackzone.ru/forum/open/id/14936/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Rassilka.kz: kamondimon, E-mail рассылки!, 2011,
+&lt;a href="http://rassilka.kz/rassilki-rassilka-kz/47-e-mailrassylki.html"&gt;http://rassilka.kz/rassilki-rassilka-kz/47-e-mailrassylki.html&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;QuinStreet Inc: Paul Rubens, Understanding the Russian Hacker
+Underground, Aug 13, 2010,
+&lt;a href="http://www.enterprisenetworkingplanet.com/netsecur/article.php/3898601/Understanding-the-Russian-Hacker-Underground.htm"&gt;http://www.enterprisenetworkingplanet.com/netsecur/article.php/3898601/Understanding-the-Russian-Hacker-Underground.htm&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;</content><category term="pages"></category><category term="acceleration"></category><category term="optamization"></category><category term="simmulation of attacks and defence"></category><category term="wordpress attacks"></category><category term="credit card numbers"></category><category term="cyber security"></category><category term="DDoS"></category><category term="defence"></category><category term="infected machine"></category><category term="internet"></category><category term="malware"></category><category term="network"></category><category term="online"></category><category term="security"></category><category term="spam"></category></entry><entry><title>WordPress CMS acceleration and optamization</title><link href="https://predragtasevski.com/posts/2011/04/wordpress-cms-acceleration-and-optamization/" rel="alternate"></link><published>2011-04-09T23:00:00+02:00</published><updated>2011-04-09T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2011-04-09:/posts/2011/04/wordpress-cms-acceleration-and-optamization/</id><summary type="html">&lt;h1&gt;PURPOSE&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The goal of this laboratory test is to evaluate speed-up solution for
+already mounted clean, by default wordpress CMS platform. The measures
+were made by custom script for Linux operating system, in our case the
+server side is Ubuntu server 10.04 LTS running on 32 bit system with …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;PURPOSE&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The goal of this laboratory test is to evaluate speed-up solution for
+already mounted clean, by default wordpress CMS platform. The measures
+were made by custom script for Linux operating system, in our case the
+server side is Ubuntu server 10.04 LTS running on 32 bit system with
+512MB Ram and testing platform Fedora 14 for more details see section
+appendixes.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The laboratory task is to assist anyone else to be able to perform
+optimization in easy meaner to their blog, homepage, magazine, etc.
+without any advantage of technical knowledge.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Presenting stepwise solution with installing firstly wordpress
+optimization cache plugin, secondary installing PHP solution for
+increasing the acceleration performance of the server and changing the
+permalinks settings to the CMS platform for higher optimization. All of
+the above solutions are free open source, and are taking care of the low
+budget.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In addition providing measurement results with different scenarios will
+help us to get wide picture of how affective was optimization.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;METHODS&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Optimization of the access to wordpress CMS platform is done in behalf
+of three different scenarios have been proved while performance is
+getting slightly higher. Test script is measuring the response time of
+the link provided and it is recording the results in a text file. Which
+contains the three attends respondent time of the server. For each
+method we will provide the results in analyses section.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The following steps should be done on the server side.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;METHOD 1&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Installing procedure [WP-Super-Cache Installation], first method of
+wordpress plugin: WP Super Cache Version 0.9.9.9&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    In a terminal please type the following lines:wget -c http://downloads.wordpress.org/plugin/wp-super-cache.0.9.9.9.zipsudo apt-get install unzipunzip wp-super-cache.0.9.9.9.zipmv /home/[user]/wp-super-cache /var/www/wordpress/plugins
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;In wordpress administration link:
+&lt;a href="http://192.168.56.102/wordpress/wp-admin"&gt;http://192.168.56.102/wordpress/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://192.168.56.102/wordpress/wp-admin"&gt;wp-admin&lt;/a&gt;, log in with the
+credentials, from the panel select &lt;em&gt;Plugins&lt;/em&gt; -&gt; &lt;em&gt;WP-Super-Cache&lt;/em&gt; -&gt;
+&lt;em&gt;Activate&lt;/em&gt;. After the activation is done, go to &lt;em&gt;Settings&lt;/em&gt; -&gt;
+&lt;em&gt;WP-Super-Cache&lt;/em&gt;, on the first tab activate the cache by selecting the
+On cache and on the Advance tab select only the “(Recommended)”
+settings. After your done, select &lt;em&gt;Update Settings&lt;/em&gt; and on the bottom of
+the page you can see a red text that needs to be copy in one of the
+files that is located on the server. Connect to your server by FTP
+client and locate the &lt;em&gt;.htaccess&lt;/em&gt; file on the wordpress directory and
+open it and paste the following lines and save the file:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    # BEGIN WPSuperCache &amp;lt;IfModule mod_rewrite.c&amp;gt;RewriteEngine On RewriteBase /wordpress/AddDefaultCharset UTF-8RewriteCond %{REQUEST_URI} !^.*[^/]$RewriteCond %{REQUEST_URI} !^.*//.*$ RewriteCond %{REQUEST_METHOD} !POST RewriteCond %{QUERY_STRING} !.*=.*RewriteCond %{HTTP:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$RewriteCond %{HTTP:X-Wap-Profile} !^[a-z0-9\"]+ [NC]RewriteCond %{HTTP:Profile} !^[a-z0-9\"]+ [NC]RewriteCond %{HTTP_USER_AGENT} !^.*(2.0\ MMP|240x320|400X240|AvantGo|BlackBerry|Blazer| Cellphone|Danger|DoCoMo|Elaine/3.0|Eu$ RewriteCond %{HTTP_user_agent} !^(w3c\ |w3c-|acs-|alav|alca|amoi|audi|avan|benq|bird| blac|blaz|brew|cell|cldc|cmd-|dang|doco$ RewriteCond %{HTTP:Accept-Encoding} gzip RewriteCond %{DOCUMENT_ROOT}/wordpress/wp-content/cache/supercache/% {HTTP_HOST}/wordpress/$1/index.html.gz -f RewriteRule ^(.*)"/wordpress/wp-content/cache/supercache/%{HTTP_HOST}/wordpress/ $1/index.html.gz" [L] RewriteCond %{REQUEST_URI} !^.*[^/]$RewriteCond %{REQUEST_URI} !^.*//.*$ RewriteCond %{REQUEST_METHOD} !POST RewriteCond %{QUERY_STRING} !.*=.*RewriteCond %{HTTP:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$RewriteCond %{HTTP:X-Wap-Profile} !^[a-z0-9\"]+ [NC]RewriteCond %{HTTP:Profile} !^[a-z0-9\"]+ [NC]RewriteCond %{HTTP_USER_AGENT} !^.*(2.0\ MMP|240x320|400X240|AvantGo|BlackBerry|Blazer| Cellphone|Danger|DoCoMo|Elaine/3.0|Eu$ RewriteCond %{HTTP_user_agent} !^(w3c\ |w3c-|acs-|alav|alca|amoi|audi|avan|benq|bird| blac|blaz|brew|cell|cldc|cmd-|dang|doco$ RewriteCond %{DOCUMENT_ROOT}/wordpress/wp-content/cache/supercache/% {HTTP_HOST}/wordpress/$1/index.html -f RewriteRule ^(.*) "/wordpress/wp-content/cache/supercache/%{HTTP_HOST}/wordpress/ $1/index.html" [L] &amp;lt;/IfModule&amp;gt;# END WPSuperCache
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;h2&gt;METHOD 2&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The second approach is to install an PHP accelerator and optimizer
+[EAccelerator Installing from source]. The main goal is to increases the
+performance of PHP scripts by caching them in their compiled state.
+Which will augment the acceleration applied with method 1.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Therefore, please follow the steps to install from source code
+eAccelerator [2].&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    sudo apt-get install php-devwget -c http://ignum.dl.sourceforge.net/project/eaccelerator/eaccelerator/eAccelerator%200.9.6.1/eaccelerator-0.9.6.1.tar.bz2tar xvfj eaccelerator-0.9.6.1.tar.bz2cd eaccelerator-0.9.6.1phpize./configuremakesudo make installsudo cp /eaccelerator-0.9.6.1 /etc/apache2/php.inisudo mkdir /tmp/eacceleratorsudo chmod 0777 /tmp/eacceleratorsudo /etc/init.d/apache2 restart
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;After you have completed the above steps it is good way to test the php
+if the eaccelerator is working and correctly installed. In any case,
+please create a file called &lt;em&gt;info.php&lt;/em&gt; on your wordpress directory with
+the following code inside:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    &lt;?php phpinfo(); &gt;
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;Access the link to your server vie the link
+http://192.168.56.102/wordpress/info.php. If you see the configuration
+information and details of PHP, the quickest way is to search for
+eaccelerator, and if the result is positive, most lightly you have
+installed eaccelerator correctly.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;METHOD 3&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;After we have completed the first and second methods it is time to grow
+the interactiveness of our wordpress project. Therefore, we will change
+setting to wordpress configuration where will speed-up the performance
+[Using Permalinks]. If can still add more optimization and acceleration
+applications, yet this laboratory report is performed only with three
+easy and maintained steps.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Please log in to the wordpress administration panel, and on &lt;em&gt;Settings&lt;/em&gt;
+-&gt; &lt;em&gt;Permalinks&lt;/em&gt; select &lt;em&gt;Default&lt;/em&gt;. After the step is done, then we need
+to edit the &lt;em&gt;.htaccess&lt;/em&gt; file and add the following lines at the end of
+the file and please save it:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    # BEGIN WordPressIfModule mod_rewrite.c&amp;gt;RewriteRule ^index\.php$ - [L]RewriteCond %{REQUEST_FILENAME} !-fRewriteCond %{REQUEST_FILENAME} !-dRewriteRule . /wordpress/index.php [L]&amp;lt;/IfModule&amp;gt;# END WordPress&lt;/pre&gt;
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;h1&gt;ANALYSIS&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;After completing each one of the method we should perform analysis of
+the system, were it will provide results of performance speed and can
+compare it if it is utter to improve the effectiveness of wordpress.
+Please refer to the appendix 3 to get the code of the script.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Meanwhile the below show the results served pages per/second with three
+sets from the automatically created file from the custom script, named
+&lt;em&gt;results_lab2.txt&lt;/em&gt;.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;table&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;thead&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;th&gt;
+&lt;/th&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;th align="center"&gt;
+Set1
+
+&lt;/th&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;th align="center"&gt;
+Set2
+
+&lt;/th&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;th align="center"&gt;
+Set3
+
+&lt;/th&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;th align="right"&gt;
+Avg
+
+&lt;/th&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/thead&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tbody&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td&gt;
+wordpress default
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+3.15
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+3.7
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+3.84
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+3.56
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td&gt;
+WP WP-super-cache + eaccelerator
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+26.48
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+44.34
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+45.68
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+38.83
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td&gt;
+WP WP-super-cache + eaccelerator
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+148.46
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+173.03
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+132.57
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+151.35
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td&gt;
+.htaccess default permalink + wp-super-cache + eaccelerator
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+158.57
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+1734.11
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+117.03
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+136.57
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tbody&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/table&gt;
+
+&lt;/p&gt;
+
+&lt;h1&gt;CONCLUSION&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;From the analysis above we can see that performance has increased and
+wordpress project is more affectively respondent to our needs.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Illustrations shows that wordpress as a default setting, clean installed
+and configure response with 3.15, 3.70 and 3.84 pages/per-second, which
+is not good enough to satisfaction. Similar to, after installation and
+configuration of wordpress plugin WP-Super-Cache we that notice that the
+performance slightly has grown but still the performance doesn’t
+satisfied higher. However after implying the second method, installing
+eaccelerator the results drastically increased. From the above
+illustration we can see that the different methods produce different set
+results. Thus increasing changes performing different methods vs sets of
+pages/per-second are specified in the illustration 1.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Finally the results were expected and demonstrating example how we can
+increase the addictiveness of wordpress performance and increase the
+respondent time pages view per/second.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;However, if we need to get higher effectiveness and response time for
+wordpress than should consider apply nginx[3] server and third party
+projects, applications to increase the optimization of wordpress. For
+instance good tutorial is on following blog [Howto hginx+php].&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;APPENDIXES&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Appendix 1 is for installation process of Ubuntu Server 10.04 LTS and
+wordpress, mysql installation, other appendix 2 is for virtual machines
+configuration. The last appendix 4 is the custom script that will help
+us to perform the analysis of the system.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;APPENDIX 1&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Installation media: Ubuntu 10.04 LTS 32bit iso image;&lt;/li&gt;
+&lt;li&gt;HW: Virtualbox, 1CPU 32bit, 512MB RAM, 8GB HD (dynamic allocation);&lt;/li&gt;
+&lt;li&gt;NIC1 NAT;&lt;/li&gt;
+&lt;li&gt;NIC2 host only (for ssh and http access from host);&lt;/li&gt;
+&lt;li&gt;Language used in installation process: English and country Estonia;&lt;/li&gt;
+&lt;li&gt;Keyboard Layout English;&lt;/li&gt;
+&lt;li&gt;Hostname: pece&lt;/li&gt;
+&lt;li&gt;Partition methods: Guided, use entire disk&lt;/li&gt;
+&lt;li&gt;Username: pece&lt;/li&gt;
+&lt;li&gt;no http proxy&lt;/li&gt;
+&lt;li&gt;Default applications&lt;/li&gt;
+&lt;li&gt;sudo apt-get install lamp phpmyadmin&lt;/li&gt;
+&lt;li&gt;wget -c http://wordpress.org/latest.tar.gz&lt;/li&gt;
+&lt;li&gt;tar xvjf latest.tar.gz&lt;/li&gt;
+&lt;li&gt;sudo cp wordpress /var/www/wordpress&lt;/li&gt;
+&lt;li&gt;sudo nano /var/www/wordpress/wp-config.php&lt;/li&gt;
+&lt;li&gt;Change the settings to your needs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;APPENDIX 2&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Ubuntu Server 10.04 LTS 32bit – Server&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Base Memory: 512 MB&lt;/li&gt;
+&lt;li&gt;Acceleration: VT-x/AMD-V, Nested Paging&lt;/li&gt;
+&lt;li&gt;Display – Video memory: 12 MB&lt;/li&gt;
+&lt;li&gt;Storage: SATA Controller, Port 0: 8 GB&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Network:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adapter 1: Intel PRO/1000 MT Desktop (NAT)&lt;/li&gt;
+&lt;li&gt;Adapter 2: Inter PRO/1000 MT Desktop (Host-only adapter,
+    „VirtualBox Host-Only Enternet Adapter“)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Security Fedora 14 32 bit – Client&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;base Memory: 512 MB&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Acceleration: VT-x/AMD-V, Nested Paging&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Display – Video memory: 12 MB&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Storage: SATA Controller, Port 0: 8 GB&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Network:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Adapter 1: Adapter 1: Parvirtualized Network (NAT)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Adapter 2: Adapter 2: Inter PRO/1000 MT Desktop (Host-only
+adapter,„VirtualBox Host- Only Enternet Adapter“)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/p&gt;&lt;/p&gt;
+&lt;h2&gt;APPENDIX 3&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;File called lab2_test.sh. Content of the file:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;+--------------------------------------+--------------------------------------+
+| &lt;div class="linenodiv"&gt;              | &lt;div class="highlight"&gt;              |
+|                                      |                                      |
+|      1 2 3 4 5 6 7 8 910111213141516 |     #!/bin/bash#Author Margus Ernits |
+| 1718192021222324                     | #License GPLCONCURENCY=10RESULTS_FIL |
+|                                      | E=results.txtif [ $# -ne 1 ]; thenec |
+| &lt;/div&gt;                               | ho "Use $0 http://yourwordpressIP/yo |
+|                                      | urwordpresssite/"echo "for example:" |
+|                                      | echo "$0 http://192.168.56.102/wordp |
+|                                      | ress/"exit 1fiecho "give name for th |
+|                                      | is test"echo "for example: wordpress |
+|                                      |  with supercache"read TEST_NAMEtest  |
+|                                      | -e ${RESULTS_FILE} || echo "Test Nam |
+|                                      | e,Set 1,Set 2,Set 3"&amp;gt;${RESULTS_FI |
+|                                      | LE}RESULTS=$TEST_NAMEfor setno in $( |
+|                                      | seq 1 3); doecho "Set $setno ..."SET |
+|                                      | _RESULT=$(ab -c$CONCURENCY -n200 $1| |
+|                                      | grep "Requests per second:"|cut -f2- |
+|                                      | d:|cut -f1 -d'[')RESULTS=${RESULTS}, |
+|                                      | $SET_RESULTdoneecho "$RESULTS"&amp;gt;&amp;amp;g |
+|                                      | t;${RESULTS_FILE}echo "test: $TEST_N |
+|                                      | AME done"                            |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
+|                                      |                                      |
+|                                      | &lt;/p&gt;                                 |
+|                                      | &lt;p&gt;                                  |
++--------------------------------------+--------------------------------------+&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Bibliography&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;WP-Super-Cache Installation: WP, Installation, 2011,
+&lt;a href="http://wordpress.org/extend/plugins/wp-super-%20cache/installation/" title="http://wordpress.org/extend/plugins/wp-super- cache/installation/"&gt;http://wordpress.org/extend/plugins/wp-super-cache/installation/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;EAccelerator Installing from source: eAccelerator project, Installation
+from source code, 2011, &lt;a href="http://eaccelerator.net/wiki/InstallFromSource"&gt;http://eaccelerator.net/wiki/InstallFromSource&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Using Permalinks: WordPress, Using Permalinks, 2011,
+&lt;a href="http://codex.wordpress.org/Using_Permalinks"&gt;http://codex.wordpress.org/Using_Permalinks&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Howto hginx+php: joneslee85, Howto nginx + php5 + mysql + phpmyadmin +
+ubuntu shortest setup, 2010,
+&lt;a href="http://joneslee85.wordpress.com/2010/02/28/howto-nginx-php5-mysql-phpmyadmin-%20ubuntu-shortest-setup/" title="http://joneslee85.wordpress.com/2010/02/28/howto-nginx-php5-mysql-phpmyadmin-ubuntu-shortest-setup/"&gt;http://joneslee85.wordpress.com/2010/02/28/howto-nginx-php5-mysql-phpmyadmin-ubuntu-shortest-setup/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Footnotes&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[1] WP Super Cache –
+&lt;a href="http://wordpress.org/extend/plugins/wp-super-cache/&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;p&amp;gt;[2]%20eAccelerator%20-%20&amp;lt;a%20href="&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[2] eAccelerator - &lt;a href="http://eaccelerator.net/"&gt;http://eaccelerator.net/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[3] Nginx Inc – http://nginx.net/&lt;/p&gt;
+&lt;/p&gt;</content><category term="pages"></category><category term="acceleration"></category><category term="optamization"></category><category term="simmulation of attacks and defence"></category><category term="wordpress"></category></entry></feed>

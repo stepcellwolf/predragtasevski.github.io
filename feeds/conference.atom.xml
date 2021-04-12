@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Predrag TASEVSKI - Pece - conference</title><link href="http://predragtasevski.com/" rel="alternate"></link><link href="http://predragtasevski.com/feeds/conference.atom.xml" rel="self"></link><id>http://predragtasevski.com/</id><updated>2014-08-31T23:00:00+02:00</updated><entry><title>Kaspersky – CyberSecurity European Round 2014, Milan, Italy</title><link href="http://predragtasevski.com/posts/2014/08/kaspersky-cybersecurity-european-round-2014-milan-italy/" rel="alternate"></link><published>2014-08-31T23:00:00+02:00</published><updated>2014-08-31T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2014-08-31:/posts/2014/08/kaspersky-cybersecurity-european-round-2014-milan-italy/</id><summary type="html">&lt;p&gt;Predrag Tasevski, presenting Methodological approach to security
+awareness – Kaspersky CyberSecurity Round 2014, Politecnico di Milano,
+Italy.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;December was a last month of 2013, and for sure the best month. Not
+because of the parties, holidays and vacation that they were coming. But
+it is because I was selected in a …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Predrag Tasevski, presenting Methodological approach to security
+awareness – Kaspersky CyberSecurity Round 2014, Politecnico di Milano,
+Italy.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;December was a last month of 2013, and for sure the best month. Not
+because of the parties, holidays and vacation that they were coming. But
+it is because I was selected in a final round of &lt;a href="http://academy.kaspersky.com/cybersecurity/european-round-2014/"&gt;Kaspersky Academy
+European Round
+2014&lt;/a&gt;
+in Milan, Italy. The conference was a part of &lt;a href="http://academy.kaspersky.com/cybersecurity/"&gt;CyberSecurity for the
+Next Generation&lt;/a&gt; events
+that are happening all over the world. The event took place in 11 until
+13 of December 2013, in beautiful and unfortunate at that time foggy
+city Milan, and hosted at Politecnico di Milano. Nevertheless, we had a
+wonderful time. Before I continue with the presentation of my research
+paper I would like to thanks the organizers for such a great
+organization and full and frankly not that busy and indeed interesting
+agenda. Nice work guys, love you and of course miss you.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Turning to research paper that I presented, "Methodological approach to
+security awareness", the presentation is available below as well as my presentation notes.
+Without any further ado I will let the notes to speak for themself, as
+well as the presentation and the pictures. Hope that you enjoy the
+reading.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Ladies and gentlemen, dear committee, my name is Predrag Tasevski from
+Macedonia and currently I’m a post-master student in Eurecom, France.
+Today I will present you my research study Methodological approach to
+security awareness. But before we start I would like to share a short
+story.&lt;/p&gt;
+&lt;p&gt;Previously I was studying MSc in Cyber security in Estonia. When I was
+in the middle of the studies, in the 2011, it was one year after
+finished the first year. I went home for the Christmas holidays. At
+that time I was curious in opening a company in Macedonia. And for
+this reason I went to Central register office.&lt;/p&gt;
+&lt;p&gt;When I reached the room number 10 I knocked on the door. Once, two,
+three times, and still there was no answer. I push the door and I
+entered in empty room full of 6 computers. I shouted few times,
+however there was no answer.&lt;/p&gt;
+&lt;p&gt;So I started to watch the screens. Unlikely from Estonia, frankly in
+Macedonia people love paper-work. Indeed, in the bureaus there where
+open documents and the computer’s ware unlocked. Usually, I always I
+have with me an external hard drive…&lt;/p&gt;
+&lt;p&gt;Then the good side and bad side of me come out .…&lt;/p&gt;
+&lt;p&gt;It took me a few minutes to decide,… and likely the good side of me
+won. After 30 minutes I was able to get the answers.&lt;/p&gt;
+&lt;p&gt;Let us just stop for a second and thing what I could do with this data
+…. Could you imagine how reach I would be nowadays if I backup the
+data…&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;While I was on the way back home, I started to think why people are so
+careless about the information. In reality it just takes one second to
+lock the computer. Why people coupled with human factor are actually
+the weakest link in security? And therefore for this reason, we
+introduce you this study.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Today we will discuss the problem statement and related work. Coupled
+with the current awareness level. Secondly, methods and approached
+that we have introduced in this study and the curriculum. Last but not
+least, we will present the results of the syllabus as a consequence of
+the implementation in schools, universities, private and public
+organizations. And finally we will conclude.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Numerous amounts of awareness programs exist in the last 20 years.
+However their approaches and methods are different. Up to now almost
+all the academic effort in information security training has
+concentrated on solving the technical and policy aspects, rather than
+designing security systems to take into account the human factor. The
+human factor is being the most vulnerable threat in the system, and it
+could jeopardize the overall efficiency of the organization and
+nation. Lastly, few of them have the questionnaire quizzes
+implemented.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The ideas for the awareness program we have implemented are usually
+not new, but the uniqueness of our awareness program lies in the style
+of communication, the systematic approach of the targeted groups and
+the content delivered. Other unique factors are the baseline survey
+and questionnaire quiz, and lastly the topic adviser. We believe that
+no other previously related work as mention in this study has used
+such systematic approach, methods and targeted groups.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;There are three systematical target groups in the syllabus: basic,
+advance and management. Each part contains certain number of modules,
+divided into units, which are pursued into separate curriculum. In
+fact the idea of the target groups is to elevate the awareness level
+of three different types of groups of information security. We
+emphasize that the weakest element is human behavior, followed by the
+socio-technical aspect. Please bear in mind, that this syllabus does
+not cover the legal aspects.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The study provided the entrance for participants only with the Basic
+curriculum. The focus is to examine the response of the prior concern
+about safety and knowledge of protection of IT assets compared to the
+scores earned. In total we had around 1000 participants, from 11 to 63
+years old and around 700 of them where male and the rest female. Most
+of the them use the computers either at home or work. In the content
+of how they want to get education about the IT security is that around
+430 answered through Online training. Turning to the current awareness
+level before they entered the course is in fact that only 400 of them
+were somewhat knowledgeable of how to secure their assets. Also
+another interesting fact is that a greater number of the participants
+are least concerned about protecting their mobile devices.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In comparison with the current awareness level we also demonstrate the
+average percentage score gained in each unit. Subsequently it allows
+us to pin-point modules which participants are more and less
+knowledgeable. So as to take tailored measurements for future actions.
+For instance Network &amp;amp; Internet Security is the most knowledgeable,
+rather than Physical security.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Finally, the threats to cybersecurity are constantly evolving. Thus we
+need to ensure that not only the specialist who are protecting IT
+systems get a proper awareness education, but also the basic, everyday
+users and managers should too. Every manager can be a user, but every
+user can not be a manager.&lt;/p&gt;
+&lt;p&gt;Thereby, only significant changes in user perception, culture and
+education can effectively reduce the number of information and
+cybersecurity breaches. Consequently this will raise the awareness
+level of the human factor in using technologies in everyday life.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The strength of our study lies in the results and evidence of
+implemented syllabus and it improve everyday work and usage of
+technologies.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;We believe that this approach could be implemented effectively in
+private, public, military, nations, etc. without a significant
+degradation in performance.&lt;/p&gt;
+&lt;p&gt;As well as future studies should examine broader views on policy and
+legal aspects.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Although I did not win, however let me just remind the others that we
+are all winners. There were around 60 papers submitted and only 15 were
+selected for finale round. We should be proud of our self. And of course
+each one of us did a perfect job in presenting own work. Hope that you
+all will continue in this path, as well as to see you soon. Friendship
+and networking that we had there is my gift from others and Kaspersky.
+Thank you once again. Congrats to the winners. Here is a short note from
+Kaspersky about the conference, &lt;a href="http://academy.kaspersky.com/cybersecurity-in-milano/" title="CyberSecurity in Milan - Kaspersky"&gt;CyberSecurity in
+Milan&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Presentation&lt;/h1&gt;
+&lt;iframe src="https://docs.google.com/file/d/0B1472nuKPMN5ZjRJeEhKczdQS0E/preview" width="640" height="480"&gt;&lt;/iframe&gt;
+
+&lt;h1&gt;Pictures&lt;/h1&gt;
+&lt;p&gt;&lt;object width="500" height="375"&gt; &lt;param name="flashvars" value="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157648705166198%2Fshow%2F&amp;page_show_back_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157648705166198%2F&amp;set_id=72157648705166198&amp;jump_to="&gt;&lt;/param&gt; &lt;param name="movie" value="https://www.flickr.com/apps/slideshow/show.swf?v=1811922554"&gt;&lt;/param&gt; &lt;param name="allowFullScreen" value="true"&gt;&lt;/param&gt;&lt;embed type="application/x-shockwave-flash" src="https://www.flickr.com/apps/slideshow/show.swf?v=1811922554" allowFullScreen="true" flashvars="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157648705166198%2Fshow%2F&amp;page_show_back_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157648705166198%2F&amp;set_id=72157648705166198&amp;jump_to=" width="500" height="375"&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;</content><category term="kaspersky"></category><category term="cyber security"></category><category term="european round"></category><category term="milan"></category><category term="italy"></category><category term="conference"></category><category term="research"></category></entry><entry><title>Camp in Plav – Montenegro with Young, Smart and Enthusiast people – REACT 2013 Montenegro</title><link href="http://predragtasevski.com/posts/2013/12/camp-in-plav-montenegro-with-young-smart-and-enthusiast-people-react-2013-montenegro/" rel="alternate"></link><published>2013-12-09T00:00:00+01:00</published><updated>2013-12-09T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2013-12-09:/posts/2013/12/camp-in-plav-montenegro-with-young-smart-and-enthusiast-people-react-2013-montenegro/</id><summary type="html">&lt;p&gt;I’m always in big favor when it comes to share, discuss and to spend six
+days in camp with young, smart, enthusiast, academical, non-academical,
+scholars, military, history critics and politicians in a venue in wild
+beauty of Montenegro, near the Plavsko lake in Plav. The location of the
+camp …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I’m always in big favor when it comes to share, discuss and to spend six
+days in camp with young, smart, enthusiast, academical, non-academical,
+scholars, military, history critics and politicians in a venue in wild
+beauty of Montenegro, near the Plavsko lake in Plav. The location of the
+camp was in a such a beautiful area. My eyes could not stop looking for
+something, such as either it was the top of the mountain, or the Plavsko
+lake, or even the green hills and valleys.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Anyhow, let me return to the main point here. Firstly I will like to
+share a couple of history background of &lt;a href="http://www.reactmontenegro.me/"&gt;Regional Euro Atlantic Camp
+REACT&lt;/a&gt;, organized by &lt;a href="http://www.alfacentar.org/"&gt;ALFA Center
+Montenegro&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;First REACT camp took place in 2008, since then it takes place every
+year, until now six years. The best and intriguing part of this camp is
+that each year the venue of the event is in different place, therefore
+the participants have a change to meet the beauty of Montenegro. The
+idea in behalf of the organizers is very good, and I do support them in
+this matter. Sometimes Montenegro routs could be a very heavy for the
+drivers, however still this beauty should be exposed to the rest of the
+world. Additionally, each year the number of participants varies
+depending on the applications. However, this year there where
+participants from 25 different countries, which make is in total 75
+participants from elsewhere, such as, Balkans countries, Ex-Soviet Union
+countries, Hungary, Slovakia, Czech Republic and many others.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Turning to the
+&lt;a href="http://www.reactmontenegro.me/agenda/agenda.html"&gt;agenda&lt;/a&gt; of REACT
+2013, it was quite densely deployed, with lectures, panel discussions,
+etc. Although it was heavy still the best side was the picnic adventures
+and cultural evenings. Please feel free to see the pictures below of the
+post.&lt;/p&gt;
+&lt;p&gt;Secondly, I would like to take a time to concentrate more on the issue
+of cyber security. During the event the
+&lt;a href="http://www.reactmontenegro.me/agenda/list-of-speakers.html"&gt;speakers&lt;/a&gt;
+where representative of governments from sixteen countries, as well as
+NGOs, media, students, researchers, among the others. Mostly, the topics
+where concentrating on intention to see the pros and cons of join to
+NATO, where indeed the countries from this region have in mind. However,
+when it comes to the goals of NATO, and new threats, such as cyber
+threats, cyber crime coupled with strategies, framework and so on, only
+one speaker it emphasized the importance of cyber security as one of the
+greatest risk now a day and in future, of course. I will not delay too
+much, as you might all unravel it was the USA Deputy Chief of Mission in
+Montenegro, Mr. Jones. Mr. Jones was very precise in his speech,
+moreover he mentioned the importance of infrastructure as well as the
+stability and security in Balkan region. I would like to cite one of the
+lectures, Mr. Petric he said “Together we are stronger!”. How the days
+go by, I was just wondering and always trying to ask questions about the
+cyber security, and the importance of this issue, however, most of the
+speakers where no that specialized or somehow not interested of in fact
+important unit of integration requirements in NATO.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Additionally, I was a moderator to a topic Kosovo open or close? The
+question was which topics, fields are close or open, regarding the
+Kosovo as a new country in the region.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In short summary, please feel free to see the pictures below and I hope
+that in future to REACT Camp we will have much more discussions and
+panels and topics about the new threats that we are facing. Likewise, I
+always say, no matter how much we pour money in infrastructure and
+security, still the weakest chain will be the human factor, because it
+is not a aware of the importance of cyber security. Consequently, we
+will have to keep in mind that this issue and importance of cyber
+security is in benefits to wide security, economy and political aspects,
+by process of joining and integrating the region to the path of NATO.&lt;/p&gt;
+&lt;h1&gt;Pictures&lt;/h1&gt;
+&lt;p&gt;&lt;object width="500" height="375"&gt; &lt;param name="flashvars" value="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157648705121698%2Fshow%2F&amp;page_show_back_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157648705121698%2F&amp;set_id=72157648705121698&amp;jump_to="&gt;&lt;/param&gt; &lt;param name="movie" value="https://www.flickr.com/apps/slideshow/show.swf?v=1811922554"&gt;&lt;/param&gt; &lt;param name="allowFullScreen" value="true"&gt;&lt;/param&gt;&lt;embed type="application/x-shockwave-flash" src="https://www.flickr.com/apps/slideshow/show.swf?v=1811922554" allowFullScreen="true" flashvars="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157648705121698%2Fshow%2F&amp;page_show_back_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157648705121698%2F&amp;set_id=72157648705121698&amp;jump_to=" width="500" height="375"&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;</content><category term="camp"></category><category term="react"></category><category term="nato"></category><category term="conference"></category><category term="montenegro"></category><category term="cyber security"></category><category term="cyberwar"></category><category term="cyber"></category><category term="plav"></category></entry><entry><title>Belgrade Security Forum 2013 – Session 7: Assuring Cyber-Security in the Western Balkans and the Rest of Europe</title><link href="http://predragtasevski.com/posts/2013/10/belgrade-security-forum-2013-session-7-assuring-cyber-security-in-the-western-balkans-and-the-rest-of-europe/" rel="alternate"></link><published>2013-10-09T23:00:00+02:00</published><updated>2013-10-09T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2013-10-09:/posts/2013/10/belgrade-security-forum-2013-session-7-assuring-cyber-security-in-the-western-balkans-and-the-rest-of-europe/</id><summary type="html">&lt;p&gt;A few months ago I have received the invitation letter from
+administration of Belgrade Security Forum, within goal of inviting me to
+be a speaker in one of the break out sessions. In particular the session
+topic is: &lt;strong&gt;Assuring Cyber-Security in the Western Balkans and the Rest
+of Europe.&lt;/strong&gt; And …&lt;/p&gt;</summary><content type="html">&lt;p&gt;A few months ago I have received the invitation letter from
+administration of Belgrade Security Forum, within goal of inviting me to
+be a speaker in one of the break out sessions. In particular the session
+topic is: &lt;strong&gt;Assuring Cyber-Security in the Western Balkans and the Rest
+of Europe.&lt;/strong&gt; And of course, I have accepted the invitation. Speak of
+which, the &lt;em&gt;Belgrade Security Forum&lt;/em&gt; has been in past few years. This –
+2013 year was the third in the row event. And with it, we have continue
+the talk from the previous year session about cyber security: &lt;a href="http://2012.belgradeforum.org/agenda/session3.html%20&amp;amp;quot;Belgrade%20Security%20Forum%202012"&gt;Cyber War
+and Cyber Crime: Responding to the Governance
+Challenges&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Turning to this year session, we had a very good chance to boost the
+enthusiasm from other panel discussion where chairman – Richard Thomson
+called me in between the discussion of Helsinki Plus 40: Strengthening
+the Security Community to Meet Current Security Challenges. Where he
+raise the issue of what and if it is possible with one click that
+someone could stop the energy, power supply or even telecommunication
+systems. And, my answer was very straightforward, indeed it is! This was
+a very good spur of inspiration of our breakout session.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Together with other speaker we came to conclusion that the best way to
+go ahead and to have an effective discussion is to open the most
+important questions relating to cyber security: &lt;strong&gt;Who? What? and How?&lt;/strong&gt;
+But before further to the answers the above question, I would like also
+to mention that the speakers where kind of divided, in a good sense
+where we came from different regions as well as specialized fields in
+cyber security. In details, &lt;strong&gt;Baroness Pauline Neville-Jones&lt;/strong&gt; was in
+related fields in government issues and challenges in cyber security.
+Where on other hand, I was a representative from the Wester Balkan
+region representative. Furthermore, &lt;strong&gt;Alexander Klimburg&lt;/strong&gt; was more
+concentrating of different stakeholder, in other words multi
+stakeholders approach. Where last but not least, &lt;strong&gt;Jovan Kurbalija&lt;/strong&gt; was
+in diplomacy, civil society and information technology. And finally, the
+moderator of the session was &lt;strong&gt;Vladimir Radunović&lt;/strong&gt;, who manage to
+create a nice vibe between the speakers and the audience from the
+beginning until the end of the session. For more details of the session
+please follow the Breakout session report: &lt;a href="http://belgradeforum.org/info/news/459/Session+7%3A+Assuring+Cyber-Security+in+the+Western+Balkans+and+the+Rest+of+Europe.html" title="Session 7: Assuring Cyber-Security in the Western Balkans and the Rest of Europe"&gt;Session 7: Assuring
+Cyber-Security in the Western Balkans and the Rest of
+Europe&lt;/a&gt;.
+For more information of the issues that we follow and given answers are
+available on the
+&lt;a href="http://www.belgradeforum.org/agenda/sesija5.html" title="Agenda"&gt;Agenda&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;From left to right: Vladimir Radunović, Predrag Tasevski, Jovan
+Kurbalija, Alexander Klimburg and Baroness Pauline Neville-Jones&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Also I would like to make some quick notes on the main cyber threats and
+possible effects that are linked to Western Balkan region. The most
+known and presented cyber threats are among the cybercrime. For instance
+in one hand are: employee fraud, minor and child pornography; using of
+mobile telephones and smartphones as tools to commit other crime;
+identity theft and credit card fraud. Where on the other hand are among
+the political, moral, ethical and other motivation reasons. Such as,
+web-based attacks, mostly committed by defacement or denial-of-service
+attacks. Then we have phising and spoofing social networking sites.
+Where the possible effects are for instance for individuals loss of
+money, and of course political or ethical doctrine. Moreover, awareness
+of roles and responsibilities of different actors, such as government,
+regulators, industry and civil society of risk are taken into
+consideration only the implementation of law. For instance, data
+protection law and so on. Turning to the industry and civil society is
+almost the same, although some of them are implementing the very known
+standards, such as ISO 27001 and so on. However, is this enough? The
+roles and responsibilities are only described in the data protection law
+and criminal law. Unfortunately, it is not carried out by the framework
+or even a strategy. Likelihood, awareness level in Western Balkans
+presented by my paper back book that I have conducted last year,
+&lt;a href="http://www.amazon.com/Interactive-Cyber-Security-Awareness-Program/dp/3659207985/ref=sr_1_1?s=books&amp;amp;amp;ie=UTF8&amp;amp;amp;qid=1367779682&amp;amp;amp;sr=1-1&amp;amp;amp;keywords=Interactive+Cyber+Security+Awareness+Program" title="Interactive Cyber Security Awareness Program"&gt;Interactive Cyber Security Awareness Program Cyber Security Awareness
+Program&lt;/a&gt;.
+This book outlines the survey done around 1000 participants, from 11 to
+63 years old. In diversity of carries, such as schools, universities,
+private and public organizations. In total we had 35% people using
+computers/internet from home and 26% from office. In particular and most
+interesting figures for us are results about the knowledge of protecting
+their IT assets, and in details: 16% are very knowledgeable, least
+knowledgeable are 13% and last but not least somewhat knowledgeable are
+40%. Therefore from the results presented we can see that awareness
+level among the end users is vary. Coming to the end, if we want to make
+sure the involvement of end users in raising trust and securing the
+cyberspace we firstly have to start from strategy, than legal framework,
+followed by implementation, and so on. However, when it comes to step to
+get done by governments should be as follows:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Develop and create strategy framework for Cyber-security, in
+    particular, not to cover the area only of cyber crime, but also how
+    to mitigate happened incidents.&lt;/li&gt;
+&lt;li&gt;Rewrite and review the cyber crime law and data protection law.&lt;/li&gt;
+&lt;li&gt;Create NGO or NPO that will deal not only for a concrete country but
+    of course the entire region, as well.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In the end I have noted that some countries in Wester Balkans do not
+have &lt;strong&gt;yet&lt;/strong&gt; either, CERT – Critical Emergency Response Team nor CIRT –
+Critical Incident Response Team. Therefore, this action should be taken
+as soon as possible.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In summary, hope that the above notes will take effect, as well as will
+raise the awareness of the important in fact issue. Therefore we have to
+be simple and follow just simple three steps:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Strategical plan which will aim in business continuity.&lt;/li&gt;
+&lt;li&gt;Partnership between Groups, such as government, private and civil.
+    As well as to provide awareness on the share bases.&lt;/li&gt;
+&lt;li&gt;Education the public, where we need to take an action of
+    re-informing the school materials, and to provide the young
+    generations guide of how to protect in cyber space and skills.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Thank you to the participant, speakers, guest, organizers and everyone
+for such a lovely stay in Belgrade.&lt;/p&gt;
+&lt;h1&gt;Pictures&lt;/h1&gt;
+&lt;p&gt;&lt;object width="500" height="375"&gt; &lt;param name="flashvars" value="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157648695812727%2Fshow%2F&amp;page_show_back_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157648695812727%2F&amp;set_id=72157648695812727&amp;jump_to="&gt;&lt;/param&gt; &lt;param name="movie" value="https://www.flickr.com/apps/slideshow/show.swf?v=1811922554"&gt;&lt;/param&gt; &lt;param name="allowFullScreen" value="true"&gt;&lt;/param&gt;&lt;embed type="application/x-shockwave-flash" src="https://www.flickr.com/apps/slideshow/show.swf?v=1811922554" allowFullScreen="true" flashvars="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157648695812727%2Fshow%2F&amp;page_show_back_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157648695812727%2F&amp;set_id=72157648695812727&amp;jump_to=" width="500" height="375"&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;</content><category term="conference"></category><category term="security"></category><category term="cyber security"></category><category term="balkans"></category><category term="western"></category><category term="assurance"></category><category term="europe"></category></entry><entry><title>Stockholm Internet Forum 2013</title><link href="http://predragtasevski.com/posts/2013/06/stockholm-internet-forum-2013/" rel="alternate"></link><published>2013-06-05T23:00:00+02:00</published><updated>2013-06-05T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2013-06-05:/posts/2013/06/stockholm-internet-forum-2013/</id><summary type="html">&lt;p&gt;This year the Stockholm Internet Forum 2013 was addressing the freedom
+of Internet, human rights, freedom of speech, censorship, privacy as
+well as importance of security. Among the topics, also we have touched
+the cyber security, surveillance, importance of information security
+coupled with critical information infrastructure and critical
+infrastructure. Once …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This year the Stockholm Internet Forum 2013 was addressing the freedom
+of Internet, human rights, freedom of speech, censorship, privacy as
+well as importance of security. Among the topics, also we have touched
+the cyber security, surveillance, importance of information security
+coupled with critical information infrastructure and critical
+infrastructure. Once Alex Levin has said – “The reason there is so
+little crime in Germany is that it’s against the law.” – What a hack he
+was talking? Was he right or wrong? For this reason, the SIF was held
+this year with more than 94 different countries participants, from all
+over the world. And indeed, it was one of the best conference organized
+so far. Nevertheless the number of differential participants let the
+talks and the conference topics just to flow. Even that the four days of
+talking was not enough. However, this was just a start, or for someone
+the beginning of an idea due to the poverty of our thoughts.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The opening speech was by Carl Bildt where he presented in fact an
+importance of digital revolution, African development through
+connectivity, political debates for freedom of Internet. In addition, he
+gave a couple of great examples, such as legislations of blocking sites
+in Russia, violations of human rights in Syria, Vietnam among the
+others. Also, he noted the security importance of cyber security, where
+security should be thought but of course should not be used in purpose
+to limit the human rights. One very good quote, even after two weeks
+from the conference I still have it in my head, is &lt;strong&gt;*“Free societies
+are strong societies”&lt;/strong&gt;. Last but not least, was that we should take an
+examples from the leading nations of ICT, such as, Sweden, where the
+security coupled with human rights are presented on Internet.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Frankly, in the opening session we have touched the issue with
+surveillance and software used for this purpose, coupled with the
+viability of digital divide popular in Africa and among others.
+Moreover, we have purse the issue of Internet jurisdiction projects, as
+well as that we have to boost the awareness of regulations united with
+the important factor to increased the civil societies in freedom. For
+more info please visit the summaries notes from the session, &lt;a href="http://www.stockholminternetforum.se/program/opening-session/" title="Opening session"&gt;Opening
+session&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;To continue with the first session again we have to come back some
+example of the above issue, surveillance, where Mexico has
+&lt;a href="http://en.wikipedia.org/wiki/Closed-circuit_television" title="Closed-circuit television - Wikipedia"&gt;CCTV&lt;/a&gt;
+in private sector for 3 to 4 years. Among the surveillance we have
+discuss the issue during the riots in London, Syria and Panama as a
+recent examples where they have shutdown the mobile phone network.
+Additionally, point in some countries is that people do trust the law
+enforcement in privacy, where opposite such as in Pakistan they trust
+only the companies, and not law enforcement agencies. Moreover, hate
+speech, digital freedom and democracy of freedom was carried out, along
+with how the law works on Internet with civil societies and that the
+police need to do their own job. Nevertheless, the note was that
+vocabulary of cyber security is missing, and it should become a national
+security and of course the security is a huge problem. This problem is
+done due to the lack of new laws, by definition of what we mean by a
+single law treaty. Whom we should secure? What should be asked? In
+sentence of security importance, civil society. We really need a cyber
+security strategy, by introducing the legislation and laws throughout
+experience. In spite of vocabulary e should define and terms, such as,
+&lt;a href="http://en.wikipedia.org/wiki/Hacktivism" title="Hacktivism - Wiki"&gt;hacktivism&lt;/a&gt;
+and
+&lt;a href="https://en.wikipedia.org/wiki/Cyberterrorism" title="Cyberterrorism - Wiki"&gt;cyberterrorism&lt;/a&gt;.
+One important note was mentioned that we do not want global cyber
+security law. For more info of the session please visit the following
+link &lt;a href="http://www.stockholminternetforum.se/program/session-1/informal-summary/" title="Session 1: Reconciling freedom and security in cyberspace"&gt;Reconciling freedom and security in
+cyberspace&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As we mentioned above the frustration was between the west and
+developing countries in sentence of digital divide. Also one note was
+that Sweden people trust to the government agencies, as well as that
+e-voting system in Sweden will help ICT to boost. The session where
+split into three parts:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.stockholminternetforum.se/program/session-1a/informal-summary-of-session-1a/" title="1A Global security and human rights in the internet age"&gt;1A Global security and human rights in the internet
+    age&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.stockholminternetforum.se/program/session-1b/informal-summary/" title="1B Distributed security in a national context"&gt;1B Distributed security in a national
+    context&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.stockholminternetforum.se/program/session-1c/informal-summary/" title="1C Free and secure communication in a multinational context"&gt;1C Free and secure communication in a multinational
+    context&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Next day, the second day of the forum (SIF13) we have touched a facts
+about the free and open Internet and open communications. The second day
+I will remember forever for speech of the famous Cuban blogger Yoani
+Sánchez, which said very good quote “Cuba Internet on Internet” or
+another one is that if your relatives or you personally travel to Cuba
+bring the old and unused gadgets with you and leave them in Cuba or just
+give them, rather than you should just dispose them or throw them into
+the trash. For more info please visit the &lt;a href="http://www.stockholminternetforum.se/summaries-2013/" title="Summaries 2013 | Stockholm Internet Forum"&gt;Summaries 2013
+page&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In conclusion, I might say that the SIF 13 was very successful, as well
+as very important questions and topics were discussed. However, we
+should concentrate for the next year forum on more specific topics,
+either freedom or only a security. It is very difficult when we speak
+about freedom coupled with security. Does two topics are very linked and
+fragile. In the end, I would like to thank a lot to the organizers,
+&lt;a href="https://www.iis.se/" title=".SE"&gt;.SE&lt;/a&gt;, &lt;a href="http://www.government.se/sb/d/2059" title="Ministry for Foreign Affairs - Sweden"&gt;Ministry for Foreign Affairs –
+Sweden&lt;/a&gt;
+and &lt;a href="http://www.sida.se/Svenska/" title="SIDA"&gt;SIDA&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Pictures&lt;/h1&gt;
+&lt;p&gt;&lt;object width="500" height="375"&gt; &lt;param name="flashvars" value="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157648696553859%2Fshow%2F&amp;page_show_back_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157648696553859%2F&amp;set_id=72157648696553859&amp;jump_to="&gt;&lt;/param&gt; &lt;param name="movie" value="https://www.flickr.com/apps/slideshow/show.swf?v=1811922554"&gt;&lt;/param&gt; &lt;param name="allowFullScreen" value="true"&gt;&lt;/param&gt;&lt;embed type="application/x-shockwave-flash" src="https://www.flickr.com/apps/slideshow/show.swf?v=1811922554" allowFullScreen="true" flashvars="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157648696553859%2Fshow%2F&amp;page_show_back_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157648696553859%2F&amp;set_id=72157648696553859&amp;jump_to=" width="500" height="375"&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;</content><category term="internet"></category><category term="forum"></category><category term="conference"></category><category term="stockholm"></category><category term="freedom"></category></entry><entry><title>Collective Cyber Defence – The Role of Newer Members and Opportunities for Specialization of Bulgaria in the Alliance Questions and answers</title><link href="http://predragtasevski.com/posts/2013/03/collective-cyber-defence-the-role-of-newer-members-and-opportunities-for-specialization-of-bulgaria-in-the-alliance-questions-and-answers/" rel="alternate"></link><published>2013-03-12T00:00:00+01:00</published><updated>2013-03-12T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2013-03-12:/posts/2013/03/collective-cyber-defence-the-role-of-newer-members-and-opportunities-for-specialization-of-bulgaria-in-the-alliance-questions-and-answers/</id><summary type="html">&lt;p&gt;November is a month of &lt;a href="http://www.paneuropa.bg/en/news/38/PanEuropa-Bulgaria-organizes-international-conference-with-the-special-support-of-NATO" title="PanEuropa Bulgaria organizes international conference with the special support of NATO"&gt;Smart Defense and Open – Door Policy – New
+Synergies for Euro –Atlantic
+Security&lt;/a&gt;.
+Not only in Europe, but also in South-East European region as well. The
+following international event was organized
+by &lt;a href="http://www.paneuropa.bg/" title="PanEuropa Bulgaria"&gt;PanEuropa Bulgaria&lt;/a&gt; and
+it was supported by NATO. Furthermore, I was invited to take …&lt;/p&gt;</summary><content type="html">&lt;p&gt;November is a month of &lt;a href="http://www.paneuropa.bg/en/news/38/PanEuropa-Bulgaria-organizes-international-conference-with-the-special-support-of-NATO" title="PanEuropa Bulgaria organizes international conference with the special support of NATO"&gt;Smart Defense and Open – Door Policy – New
+Synergies for Euro –Atlantic
+Security&lt;/a&gt;.
+Not only in Europe, but also in South-East European region as well. The
+following international event was organized
+by &lt;a href="http://www.paneuropa.bg/" title="PanEuropa Bulgaria"&gt;PanEuropa Bulgaria&lt;/a&gt; and
+it was supported by NATO. Furthermore, I was invited to take a
+participation as a speaker on the panel discussion Collective Cyber
+Defence – The Role of Newer Members and Opportunities for Specialization
+of Bulgaria in the Alliance Questions and answers. In details, the event
+main points ware to highlight the need for specialization of each member
+state in terms of the principles of Smart Defense and the joint
+participation in future military operations.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Moreover, the event had splendid video addressing in the opening session
+of Neelie Kroes, the Vice – President of European Commission.
+Emphasizing the current online spying crisis as well as the importance
+of cyber security strategy. In additional, she highlighted the
+importance of new legal threats, information norms coupled to boost the
+trust among the Europe. As well as, that the weakest link in the chain
+should be able to raise and boost the awareness, coupled with the future
+investments in research and innovations, and projects.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Regarding the collective cyber defense panel discussion, I was delighted
+to be speaker with such strong extensive and experienced experts from
+different fields. Such as private, public, academy and business sectors.
+Speaking of which, the moderator of the panel was Prof. Veselin Tselkov,
+D. Sc., Member of the Board, Commission for Personal Data Protection in
+Bulgaria. The lectures where: unfortunately Col. Associate Prof. Dr.
+Stoyan Balabanov, Director, Institute for Defense, Ministry of Defense
+Bulgaria, was not able to attend the panel, however we had
+representative from MoD. Also from Bulgaria was Zlatogor Minchev from
+Institute of Information and Communication Technologies, Bulgaria. From
+Macedonian was Dr. Metodi Hadji-Janev (LtC), Assistant Prof., Military
+Academy ” General Mihailo Apostolski”, Skopje, Macedonia. From business
+prospective I was the presenter of
+&lt;a href="http://cybersecurity.mk" title="CyberSecurity.mk"&gt;CyberSecurity.mk&lt;/a&gt; copmany,
+based in Macedonia. In addition, Mr. Robert Griffin, Director Business
+Development – Security Systems, RSA. From all the above, we also had
+video addressing from Mr. Detlef Puhl, Senior Advisor at the Emerging
+Security Challenges Division, NATO Headquarters, and Mr. Philippe
+Roggeband, Security Sales Business Development Manager, EBG EMEAR, Cisco
+Systems. However, due to the security measures in the building where the
+event was held the video addressing was interrupted.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, here is my short presentation notes.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Cyberspace has become one of the most essential and distinguished
+bridge between government and their inhabitants. Thus, the people are
+able to get access to government services 24/7, as well as their life
+becomes more easier. However, all in this has led to advance of
+producing cyberspace to be vulnerable, coupled with information’s that
+should not be available to others. For this reason I would like to
+share three important points that are fundamental to emphasis when we
+discuss about the Cyber defense in general. First, we have to
+understand and highlight the difference between Cyber Security vs IT
+Security. Second, it is the important to boost the awareness level
+tailored to national level, social society, private sector and indeed
+multistakeholder cooperation in the region. Last but not least, we
+have to brake the lack of communications between the neighboring
+countries and to create a trusted, same level, and collaboration of
+cyber security. Where national agencies and parties should work
+together.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Without further ado, first the main goal of IT security is to protect
+information from a wide range of threats in order to ensure business
+continuity, reduce business damages and maximize return on investments
+and business opportunity. Likewise the cyber security is protecting
+Information and Communication Technologies (ICT) systems and Critical
+Infrastructure (CI). However the most important protection element in
+IT security is to reduce business risk to accepted levels and the
+protection of entire information and information systems essential to
+the organizations. Alternatively, cyber security aims at assuring
+critical IT service for CI and CII on accepted levels, in addition to
+the protection of critical information. In other words the security
+objective determiner in information security is an organization’s
+business process, while in cyber security it is for the entire state.
+Emphasizing that states may have different or complementary interests
+compared to an organization’s business interests. On one hand,
+handling cyber security problems is considered to be both a nationally
+and internationally coordinated activity to protect national CII.
+Similarly, to information security goals: confidentiality,
+availability and integrity, in cyber security the additional goals are
+non-repudiation, authentication, information systems importance and
+criticality from the standpoint of state CII/CI.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Turning to awareness, I would like to share my recent research that
+have been published as book, title: Interactive Cyber Security
+Awareness Program. It is highlighting the method, approach and the
+importance of current awareness level in Western Balkans. Coupled how
+to boost the awareness on the national level. I would not like to go
+in details, however, just want to mention that the positive results
+were presented, and that the awareness level among the end users are
+varied. Moreover, in particular we have to create and recognize the
+importance of establishing cyber security awareness strategy, coupled
+with influence of the weakest link in cyber security, which is the
+human factor, or in other words, social-technical aspects. In spite of
+our investment in technologies and in the applications, still the
+weakest link in cyber defense and security will the human behavior.
+Therefore, we will have to conceive an awareness/education to raise
+the awareness on the national behalf, such as, from the young to the
+oldest generation, tailored through social society, private sector and
+multistakeholder cooperation.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Lastly, in recent years we are witnesses of acts that have taken into
+place between neighboring countries in the region. Such acts were
+followed by different motivations of attacks. Where mostly they were
+done through defacement’s or denial-of-service attacks. Thus,
+motivations where divers. Nevertheless, in this last point is I would
+like to stress the importance of merging the best practices learned
+from past event occurrence as well as to improve the role of newer
+members and opportunities into the collective roles of cyber defence.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In summary, I am keen that after this discussion/panel will lead into
+further actions. And also thanks to the organizers for the invitation
+and done a good job in organizing such an important event.&lt;/p&gt;
+&lt;h1&gt;Pictures&lt;/h1&gt;
+&lt;p&gt;&lt;object width="500" height="375"&gt; &lt;param name="flashvars" value="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157646785203333%2Fshow%2F&amp;page_show_back_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157646785203333%2F&amp;set_id=72157646785203333&amp;jump_to="&gt;&lt;/param&gt; &lt;param name="movie" value="https://www.flickr.com/apps/slideshow/show.swf?v=1811922554"&gt;&lt;/param&gt; &lt;param name="allowFullScreen" value="true"&gt;&lt;/param&gt;&lt;embed type="application/x-shockwave-flash" src="https://www.flickr.com/apps/slideshow/show.swf?v=1811922554" allowFullScreen="true" flashvars="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157646785203333%2Fshow%2F&amp;page_show_back_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157646785203333%2F&amp;set_id=72157646785203333&amp;jump_to=" width="500" height="375"&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;</content><category term="cyber defence"></category><category term="cyber security"></category><category term="security"></category><category term="bulgaria"></category><category term="balkan"></category><category term="conference"></category><category term="nato"></category></entry></feed>

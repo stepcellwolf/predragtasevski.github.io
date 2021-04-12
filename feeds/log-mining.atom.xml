@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Predrag TASEVSKI - Pece - log mining</title><link href="http://predragtasevski.com/" rel="alternate"></link><link href="http://predragtasevski.com/feeds/log-mining.atom.xml" rel="self"></link><id>http://predragtasevski.com/</id><updated>2012-06-25T23:00:00+02:00</updated><entry><title>Ministry of Interior – Macedonia, website defacement: http://mvr.gov.mk</title><link href="http://predragtasevski.com/posts/2012/06/ministry-of-interior-macedonia-website-defacement-httpmvrgovmk/" rel="alternate"></link><published>2012-06-25T23:00:00+02:00</published><updated>2012-06-25T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-06-25:/posts/2012/06/ministry-of-interior-macedonia-website-defacement-httpmvrgovmk/</id><summary type="html">&lt;h1&gt;Purpose&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Yesterday, the 25 of June 2012, the Macedonian website of Ministry of
+Interior (MVR) was defaced by Kosovo Network Security (KNS) group, below
+figure. However, after we have noticed and some of the social networking
+sites have informed me, I was concern to find out what just have
+happened …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Purpose&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Yesterday, the 25 of June 2012, the Macedonian website of Ministry of
+Interior (MVR) was defaced by Kosovo Network Security (KNS) group, below
+figure. However, after we have noticed and some of the social networking
+sites have informed me, I was concern to find out what just have
+happened and how did happen, and of course how they have done it. So for
+this purpose, I have done some digging into details, about the previous
+defacement activities of this very important government site. But before
+we continue with more details, let just talk about the situation of
+yesterday and what did the authorities take protective measures steps
+and actions.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;On Monday, 25 June 2012 at 19:38, one friend have updated his status in
+one of the social networking sites, as follows: “Хакован
+&lt;a href="http://mvr.gov.mk/"&gt;http://mvr.gov.mk/&lt;/a&gt;” (Hacked &lt;a href="http://mvr.gov.mk/"&gt;http://mvr.gov.mk/&lt;/a&gt;). And it made me
+extremely intrigue to see what actually have just happened. The below
+figure, displays the message spread from the KNS group.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Screenshot from the mvr.gov.mk defaced version&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Moreover, what makes the situation even more interesting is that after
+the report that the site was defaced the authorities have taken a
+measures steps to fix the issue, by either shutting down the server or
+restoring the content of the site from the backup. Then after one or two
+minutes the site was defaced again. I did not want to lose the time and
+the nervous to check every five or ten minutes to see when it will be
+back again.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, after 15 hours, or one stressful – hard core night for the
+administrators of the site, the usability and functionalities where back
+as normal, let just see how long will stay!&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Therefore, in the current post the idea is to give and overview, of what
+actually is going on when it comes to case of cyber space, cyber
+security issues in Macedonia. The structure of this post is introduces
+first with the issue, or the problem that actuality made me to write
+this post. Followed by the background investigation about the previous
+defacement activities on the Ministry of Interior website in Macedonia.
+Then with the background investigation about the KNS group, moreover,
+with the self pen-testing site with different attacking methodologies.
+And finally, closing by with a conclusion and action plan that should be
+taken, for hence actions. This post does not only involves the public
+sector, but even and the private sector too. Those agencies,
+organizations are too much careless and do not take any actions of
+securing their IT assets.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Ministry of Interior in Macedonia site offers different online services.
+The site primary idea is to inform the inhabitance about the news,
+actions, useful information, public relations, analysis and statistics;
+international cooperation and legislation; and finally the services. And
+secondly is to give and opportunities to the population scheduling of
+service, if their document is issued, etc.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In one short sentence, this site, for some people, it may be very useful
+or not. However, I need to empathize that the site is only available in
+Macedonian language, nor Albania, nor English version. So, in simple
+conclusion this site is only useful for Macedonian speakers, and not for
+foreigners, yet still represents one of very important public service,
+government agency.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, in the next section we will discuses the previous
+defacement and hacking attacks of this site.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Background&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The service of this site, or the domain first was registered in 22
+October 2003, and unfortunate I do not remember when was first time
+available and published. However, in the pass years I have heard many
+times that this site was defaced and hacked, but still no actions or
+results were shown. Therefore, it made me very interesting to find out,
+if this defacement activities where notified and when and how many
+where. For this purpose I have use a site service that I know few years
+ago, the &lt;a href="http://www.zone-h.org/"&gt;Zone-H&lt;/a&gt;. Moreover,
+&lt;a href="http://www.zone-h.org/"&gt;Zone-H&lt;/a&gt; is neither responsible for the reported
+computer crimes nor it is directly or indirectly involved with them, it
+is just and simple site where collects the cybercrime activities
+notified anonymously. The bellow figure provides a details of previous
+reported/notified cybercrime activities of MVR site in Macedonia.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In details, total notifications are 4 of which 2 are single IP and 2 are
+mass defacements. The first mass defacement was done in 29 July 2009,
+when the site use a OS: Windows 2000, then in 2011 it was the
+re-defacement and the server operating system is Windows 2008. Followed
+by the other massive defacement in this year 2012 in March 18, and same
+year, few days before the current attack, 22 of June it was
+re-defacement. And the attack, defacement that we write for it was not
+notified or reported.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;From these data, and schedule, we can come to a conclusion that the site
+was defaced just 3 days before the mass defacement attack, so it might
+be a simple warning, to taken an action before something goes really
+wrong. But most probably, non of those administrators, or authorities
+did not taken any serious actions, until the case yesterday appears.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Details&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;To be able to do an analysis of what actually have happened, we need to
+take some actions.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;First, we have done a simple web sniffer, to find out what kind of
+system, and services the site, server is using. If we request the &lt;a href="http://en.wikipedia.org/wiki/List_of_HTTP_header_fields"&gt;HTTP
+Request Header&lt;/a&gt;
+we will receive an HTTP Response Header with a following data:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    Status: HTTP/1.1 200 OKCache-Control: privateContent-Type: text/html; charset=utf-8Server: Microsoft-IIS/7.0Set-Cookie: ASP.NET_SessionId=3lti3gep3usg4255ggf34tjn; path=/; HttpOnlyX-AspNet-Version: 2.0.50727X-Powered-By: ASP.NETDate: Tue, 26 Jun 2012 08:18:34 GMTConnection: closeContent-Length: 103773
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;The above data, is useful in a sense that provides as an information
+about the Server and the ASP.Net Version. Then, if we want to find more
+details about the open and close ports and operating system we can use
+the &lt;a href="http://nmap.org/"&gt;nmap&lt;/a&gt; tool with the following command line:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;nmap -O -v IP-Address&lt;/code&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;And the results will be as follows:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    PORT STATE SERVICE21/tcp open ftp80/tcp open httpRunning (JUST GUESSING) : Microsoft Windows Vista|2008|7 (89%)
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;From the web sniffing and from the OS version scanning we can assume
+that the server is running Microsoft Windows 2008. The current
+vulnerabilities and possible exploitations are visible on the &lt;a href="http://technet.microsoft.com/en-us/security/bulletin/"&gt;Microsoft
+Security
+Bulletins&lt;/a&gt;
+website. By knowing the vulnerabilities it is very easy task to find out
+a way either to commit DoS attack or remote server access. However, in
+this post we will not go into details and exploitation descriptions.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Moreover, the KNS, we assume the domain is followed:
+&lt;a href="http://kns-team.com/"&gt;http://kns-team.com&lt;/a&gt;. However, the site is down,
+therefore, we will have to understand who is behind this domain
+registration. Therefore, we will use the whois database to understand
+more, or even we can use another site that have been defaced by this
+group to find out more. So there is the list presented the members in
+the groups and their archive of notified defaced sites:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.zone-h.org/archive/notifier=cracker-besi"&gt;rAcKeR-BeSi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GP&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.zone-h.org/archive/notifier=L0wHacker"&gt;L0wHacker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;sLizer&lt;/li&gt;
+&lt;li&gt;X-r00t&lt;/li&gt;
+&lt;li&gt;SpyHackz&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The Facebook fan page is:
+&lt;a href="https://www.facebook.com/pages/Kosova-Network-Security/176195849098989"&gt;https://www.facebook.com/pages/Kosova-Network-Security/176195849098989&lt;/a&gt;.
+For more info I was short of time to do more digging, but I hope that
+someone will.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Action&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;After understanding the details about the MVR site, operating system and
+their server services, and information about the KNS, it is time to take
+an action of trying to see how vulnerable is MVR site, and to see if
+these lads had very difficult time of defacing the content of the site,
+or even gaining access to the server-side.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;But before, we carry on, I want to stress out that this section is not
+to give you an idea how, or knowledge to exploit or use any
+vulnerabilities to deface or gain access to the site. We will just
+demonstrate you a very simple
+&lt;a href="http://en.wikipedia.org/wiki/Cross-site_scripting"&gt;XSS&lt;/a&gt; exploit of MVR
+site that we have found a vulnerability, figure below.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Example of exploitation by XSS vulnerability, mvr.gov.mk&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;It is therefore, from this very simple and easy exploitation of XSS
+vulnerability of the MVS site we will be able to run more advance and
+complicated shell scripts to gain access and maintain access of the
+server. Our initial idea is not to show you how to do it, but to expose
+to the audience that actually hence actions is need it. And we hope that
+the administrators, developers and the authorities will take an action
+of mitigating the risk, and further vulnerabilities of the site.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In Macedonia, cyber space, cyber crime, cyber security, cyber warefare,
+cyber terrorism are actually unknown words, terminology. They are not
+even specified or added into the Macedonian dictionary, nor in IT
+dictionary. However, this is not the first or least defacement, attack
+that has happened in Macedonia, nor the first attack that has been done,
+implemented by neighbor countries, or someone else. I just don’t
+understand why people in this country are so careless about how to
+protect their IT assets, and everything else, as well.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Furthermore, it is not an issue that we do not have specialists to
+conduct a pen-testing to the sites and services that not only the
+government agencies are offering but even the banks and private sectors
+as well. We even have a cyber crime unit in Ministry of Interior, and
+one of very successful information security research and development
+laboratory in Macedonia: &lt;a href="http://www.zeroscience.mk/en/"&gt;Zero Science
+Lab&lt;/a&gt;. Also, the &lt;a href="http://cybersecurity.mk/icsap/"&gt;ICSAP – Interactive
+Cyber Security Awareness Program&lt;/a&gt;,
+Macedonia project, developed by myself.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, in final conclusion, I would like to recommend the
+authorities to take actions about the above described activities done by
+KNS and hope that the security awareness will boost up, and the further
+actions will be considered of securing cyber space.&lt;/p&gt;
+&lt;/p&gt;</content><category term="Attacks"></category><category term="cyber security"></category><category term="information warfare"></category><category term="legal aspects of cyber security"></category><category term="log mining"></category><category term="DDoS"></category><category term="exploitation"></category><category term="kns"></category><category term="macedonia"></category><category term="mvr"></category><category term="online"></category><category term="security"></category><category term="vulnerability"></category><category term="expolit"></category></entry><entry><title>Regular Expression</title><link href="http://predragtasevski.com/posts/2012/01/regular-expression/" rel="alternate"></link><published>2012-01-16T00:00:00+01:00</published><updated>2012-01-16T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-01-16:/posts/2012/01/regular-expression/</id><summary type="html">&lt;p&gt;This post delivers solution of advance regular expression. In the
+following lines we describe the goal and the rules of the task, whereby
+follows with the working solution.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Task&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Write a regular expression for matching the names which follow the
+following rules:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Each name consists of one or more parts …&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;This post delivers solution of advance regular expression. In the
+following lines we describe the goal and the rules of the task, whereby
+follows with the working solution.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Task&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Write a regular expression for matching the names which follow the
+following rules:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Each name consists of one or more parts. If there are two or more
+    parts, they are separated either with a single space (” “) or dash
+    (“-”) character.&lt;/li&gt;
+&lt;li&gt;Each name part must consist of letters only. The name part must
+    begin with an upper-case letter which are followed by one or more
+    lower-case letters. Each name part can  have an optional prefix
+    which begins with an upper-case letter, followed by one or more
+    lower-case letters.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Solution&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    ^([A-Z][a-z]+([A-Z][a-z]+)?(\s|-))*[A-Z][a-z]+([A-Z][a-z]+)?$
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;For completing the task, we are dividing into several sub-tasks.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Firstly, we had to find expression, which satisfies the first
+requirement of the task: representing one or more parts, which can be
+separated either with space (“ “) or dash (“-”). Thereby, we can
+represent space and dash with the following expression (\s|-).&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;If the entry is just one legitimate part (without space or dash after),
+(\s|-) has 0 occurrences. Yet the entry may consist of many legitimate
+parts divided by spaces or dashes. The expression should be (\s|-)*.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;As for the legitimate parts, we have to write expression considering
+second part of requirements.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Legitimate part should consist of letters only, begin with (only one)
+uppercase letter and followed by one or more lowercase letters.
+Legitimate part can have prefix beginning with (only one) uppercase
+letter, followed by one or more lowercase letters.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Therefore, &lt;code&gt;[A-Z][a-z]+&lt;/code&gt; represents the entry which begins uppercase
+letter and is followed by one or more lower case letters. In addition,
+to represent prefix, which occurs either 0 or 1 time, we will have the
+following expression: &lt;code&gt;([A-Z][a-z]+)?&lt;/code&gt;. Moreover, to represent the whole
+legitimate entry, we merge the two expressions (it does not matter
+whether prefix expression comes first) with:
+&lt;code&gt;[A-Z][a-z]+([A-Z][a-z]+)?&lt;/code&gt;. Thus with this expression we go back to
+(\s|-)* where putting &lt;code&gt;[A-Z][a-z]+([A-Z][az]+)&lt;/code&gt; into parentheses with
+(\s|-) and take * outside of parentheses (as this whole expression)
+legitimate part with either space or dash should be presented for 0
+or more consecutive times.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;(([A-Z][a-z]+([A-Z][a-z]+)?(\s|-))*&lt;/code&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;To be able to exclude entries, which end with “-”, we add expression of
+legitimate part. and add “\^” and “\$” respectively at the beginning and
+the end of expression, to mark the  beginning and an end of the string.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;^(([A-Z][a-z]+([A-Z][a-z]+)?(|s|-))*([A-Z][a-z]+([A-Z][a-z]+)?$&lt;/code&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Finally, we have the whole expression we have to test it (we have to put
+the expression in quotation marks).&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;egrep ‘^([A-Z][a-z]+([A-Z][a-z]+)?(\s|-))*[A-Z][a-z]+([A-Z][a-z]+)?$’   file_name&lt;/code&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The above solution is written by: Predrag Tasevski and Mikheil Basilaia&lt;/p&gt;
+&lt;/p&gt;</content><category term="grep"></category><category term="log mining"></category><category term="regular expression"></category><category term="linux"></category><category term="unix"></category></entry></feed>

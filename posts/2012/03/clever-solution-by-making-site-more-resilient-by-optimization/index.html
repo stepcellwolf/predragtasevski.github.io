@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
+<head>
+    <title>Clever solution by making site more resilient by optimization - Predrag TASEVSKI - Pece</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link rel="canonical" href="../../../../posts/2012/03/clever-solution-by-making-site-more-resilient-by-optimization/">
+
+        <meta name="author" content="Predrag TASEVSKI - Pece" />
+        <meta name="keywords" content="ab,attacks,clever solution,cyber security,DDoS,internet,jmeter,malicious code,wordpress" />
+        <meta name="description" content="PURPOSE &amp; SCENARIO The objective of this laboratory test, scenario is to make explore alternative “clever” solutions (as opposed to making the site more resilient by optimizing it) to protect your site against attacks. Moreover, DDoS [1] attacks, malicious code, etc. Therefore, we need to develop countermeasures for the working attacks …" />
+
+        <meta property="og:site_name" content="Predrag TASEVSKI - Pece" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="Clever solution by making site more resilient by optimization"/>
+        <meta property="og:url" content="../../../../posts/2012/03/clever-solution-by-making-site-more-resilient-by-optimization/"/>
+        <meta property="og:description" content="PURPOSE &amp; SCENARIO The objective of this laboratory test, scenario is to make explore alternative “clever” solutions (as opposed to making the site more resilient by optimizing it) to protect your site against attacks. Moreover, DDoS [1] attacks, malicious code, etc. Therefore, we need to develop countermeasures for the working attacks …"/>
+        <meta property="article:published_time" content="2012-03-23" />
+            <meta property="article:section" content="pages" />
+            <meta property="article:tag" content="ab" />
+            <meta property="article:tag" content="attacks" />
+            <meta property="article:tag" content="clever solution" />
+            <meta property="article:tag" content="cyber security" />
+            <meta property="article:tag" content="DDoS" />
+            <meta property="article:tag" content="internet" />
+            <meta property="article:tag" content="jmeter" />
+            <meta property="article:tag" content="malicious code" />
+            <meta property="article:tag" content="wordpress" />
+            <meta property="article:author" content="Predrag TASEVSKI - Pece" />
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="../../../../theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="../../../../theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="../../../../theme/css/pygments/emacs.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../../theme/css/style.css" type="text/css"/>
+
+        <link href="../../../../feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Predrag TASEVSKI - Pece ATOM Feed"/>
+
+
+
+        <link href="../../../../feeds/category/{slug}.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Predrag TASEVSKI - Pece pages ATOM Feed"/>
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="../../../../" class="navbar-brand">
+Predrag TASEVSKI - Pece            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="../../../../pages/about.html">
+                             About
+                          </a></li>
+                         <li><a href="../../../../pages/cv.html">
+                             CV
+                          </a></li>
+                         <li><a href="../../../../pages/photography.html">
+                             Photography
+                          </a></li>
+                         <li><a href="../../../../pages/projects.html">
+                             Projects
+                          </a></li>
+                         <li><a href="../../../../pages/publications.html">
+                             Publications
+                          </a></li>
+                         <li><a href="../../../../pages/talks.html">
+                             Talks
+                          </a></li>
+                         <li><a href="../../../../pages/teachings.html">
+                             Teachings
+                          </a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="../../../../posts/2012/03/clever-solution-by-making-site-more-resilient-by-optimization/"
+                       rel="bookmark"
+                       title="Permalink to Clever solution by making site more resilient by optimization">
+                        Clever solution by making site more resilient by optimization
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2012-03-23T00:00:00+01:00"> Fri, 23 Mar 2012</time>
+    </span>
+
+
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="../../../../tag/ab/">ab</a>
+        /
+	<a href="../../../../tag/attacks/">attacks</a>
+        /
+	<a href="../../../../tag/clever-solution/">clever solution</a>
+        /
+	<a href="../../../../tag/cyber-security/">cyber security</a>
+        /
+	<a href="../../../../tag/ddos/">DDoS</a>
+        /
+	<a href="../../../../tag/internet/">internet</a>
+        /
+	<a href="../../../../tag/jmeter/">jmeter</a>
+        /
+	<a href="../../../../tag/malicious-code/">malicious code</a>
+        /
+	<a href="../../../../tag/wordpress/">wordpress</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <h1>PURPOSE &amp; SCENARIO</h1>
+</p>
+
+<p>The objective of this laboratory test, scenario is to make explore
+alternative “clever” solutions (as opposed to making the site more
+resilient by optimizing it) to protect your site against attacks.
+Moreover, DDoS [1] attacks, malicious code, etc.</p>
+</p>
+
+<p>Therefore, we need to develop countermeasures for the <strong>working</strong>
+attacks simulated with a standard DoS attack from a single IP address
+(performed with AB [2] or Jmeter). Limitations for this scenarios is
+highlighted:</p>
+</p>
+
+<ul>
+<li>No additional hardware can be used</li>
+<li>The wordpress installation can not be optimized: no caching plugins,
+    no reverse-proxy (varnish, squid etc)</li>
+<li>No reactive measures that automatically block incoming traffic: the
+    site must respond to at least some of the requests coming from the
+    attacker at all times</li>
+<li>
+<p>The countermeasures must not have negative effects on “normal usage
+    pattern”. Normal usage pattern is defined as:</p>
+<ul>
+<li>Bursts of 10 connections per IP address in 1 second</li>
+<li>Page load times not over 10 seconds</li>
+</ul>
+<p></p>
+<p>
+-   Normal usage must be possible from the same IP address that the
+attack originated from after a 20 second delay maximum.</p>
+</li>
+</ul>
+</p>
+
+<p>In addition, we have to make much of the rules for the scenario. Rules
+as follow: Fresh installation of the latest version of Ubuntu Server and
+the most recent WordPress as of 20.10.2011. First priority: No normal
+usage pattern connections can be dropped! Second priority: service speed
+of normal connections. Defined by number of connections / second (easy
+to measure). Third priority: How fast after the attack is stopped, the
+site can be accessed from the attacking IP again.</p>
+</p>
+
+<p>Each test and measured results will be exposed in to Test section.
+Whereas, the process of installation of clever solution and attacking
+scripts will be provided in to Appendixes section.</p>
+</p>
+
+<p>Finally, the measurement results will be compared with the first state
+without attack and any security solutions applied. Alternatively,
+providing measurement results with one solution and attack will help us
+to identify the most beneficial security solution. Therefore, in
+Conclusion section comparison results will be highlighted.</p>
+</p>
+
+<h1>TESTS</h1>
+</p>
+
+<p>Because of requirements of our scenario we need to display the results
+before security solution is applied and attacker performance. For this
+purpose we are going to use an AB script to display the response time of
+the server:</p>
+</p>
+
+<p><code>ab -t 10 -n 10 -c 10 http://192.168.56.102/wordpress/</code></p>
+</p>
+
+<p>The above script provides detail information, yet only important is
+Request per second. Thus, with an fresh installation and without any
+security solution, it provided with result of 3.95 [#/sec]. With other
+word, 3.95 number of request per second. After applying different
+security solution and performing an attack to the server, results will
+be divers.</p>
+</p>
+
+<p>In addition, test were done by two different virtual environment
+machines. One is for testing results and the other one is to perform
+attack with the following script:</p>
+</p>
+
+<p><code>ab -n 100 -c 10 http://192.168.56.102/wordpress/</code></p>
+</p>
+
+<h2>TEST 1</h2>
+</p>
+
+<p>First test is to install libapache2-mod-evasive
+[libapache2-mod-evasive]. Where, mod_evasive is an evasive maneuvers
+module for Apache is to provide some protection in the event of an HTTP
+DoS or DDoS attack or brute force attack. It is also designed to be a
+detection tool, and can be easily configured to talk to ipchains,
+firewalls, routers, and etcetera.</p>
+</p>
+
+<p>The process of installation and configuration refer to the Appendix 1.</p>
+</p>
+
+<p>After completed the installation and configuration process it is time to
+test the security solution and to highlight the results. Before
+performing the attack the results were somehow, lower then, before
+installing the mod-evasive, 2.06 number request per second. When we
+start the attack and in same time analysis the server responded with
+timeout. The conclusion is that mod-evasive it is not enough solution.</p>
+</p>
+
+<h2>TEST 2</h2>
+</p>
+
+<p>From previous test we can see that the solution was not enough clever
+for our needs. The server somehow was dead. However, we are going to
+install now <code>mod_security</code> module for apache, with side of previous
+test. For more detail information of installation process and
+configuration refer to Appendix 2 or to the following source
+[mod_security].</p>
+</p>
+
+<h1>CONCLUSION</h1>
+</p>
+
+<p>There are three points that we should consider and to see which proposal
+was more accurate and it did the job that was required in the scenario.</p>
+</p>
+
+<p>In conclusion, the above proposals are nice and good example to have an
+view of how and with what tools we should perform script kiddie
+techniques. How to shutdown access to a server. On the whole, it show as
+how to use tools and methods of measuring the bandwidth of network and
+how to limit the transfer in comfortable way.</p>
+</p>
+
+<h1>APPENDIXES</h1>
+</p>
+
+<p>Appendix 1 is connected with the Method 1, which highlighted points are
+illustration on what information we should check, to clarify that the
+virtual environment has limitation of the network interface. Where
+Appendix 2 is for installation process of Ubuntu Server 10.04 LTS and
+wordpress, mysql installation.</p>
+</p>
+
+<h2>APPENDIX 1</h2>
+</p>
+
+<p>Installation process:</p>
+<p><code>sudo apt-get install libapache2-mod-evasive</code></p>
+<p>Configuration process is followed and gather from the following source
+[Evasive Module], for addition proposal please refer to[Blacklist]:</p>
+</p>
+
+<div class="highlight">
+
+    sudo mkdir /var/log/apache2/mod_evasivesudo chown www-data /var/log/apache2/mod_evasive
+
+</div>
+
+</p>
+
+<p>Afterwards, create its configuration file with a default content, with
+the following command:</p>
+</p>
+
+<div class="highlight">
+
+    sudo nano /etc/apache2/apache2.conf IfModule mod_evasive20.c;DOSHashTableSize 3097DOSPageCount 2DOSSiteCount 50DOSPageInterval 1DOSSiteInterval 1DOSBlockingPeriod 10DOSLogDir /var/log/apache2/mod_evasiveDOSEmailNotify root@localhostDOSWhitelist 127.0.0.1DOSSystemCommand &amp;quot;/sbin/iptables -I INPUT -p tcp --dport 80 -s %s -j DROP/IfModule;
+
+</div>
+
+</p>
+
+<p>The above changes to take effect please restart the apache service by:</p>
+</p>
+
+<p><code>sudo service apache2 restart</code></p>
+</p>
+
+<p>You can test whether it works using a script included in the deb
+package:</p>
+</p>
+
+<p><code>perl /usr/share/doc/libapache2-mod-evasive/examples/test.pl</code></p>
+</p>
+
+<h2>APPENDIX 2</h2>
+</p>
+
+<p>Installation and configuration of mod_security:</p>
+</p>
+
+<p><code>apt-get install libapache2-modsecurity /etc/init.d/apache2 force-reload</code></p>
+</p>
+
+<ul>
+<li>Installation media: Ubuntu 11.10 32bit iso image;</li>
+<li>HW: Virtualbox, 1CPU 32bit, 512MB RAM, 8GB HD (dynamic allocation);</li>
+<li>NIC1 NAT;</li>
+<li>NIC2 host only (for ssh and http access from host);</li>
+<li>Language used in installation process: English and country Estonia;</li>
+<li>Keyboard Layout English;</li>
+<li>no http proxy</li>
+<li>Default applications</li>
+<li><code>sudo apt-get install lamp phpmyadmin</code></li>
+<li><code>wget -c http://wordpress.org/latest.tar.gz</code></li>
+<li><code>tar xvjf latest.tar.gz</code></li>
+<li><code>sudo cp wordpress /var/www/wordpress</code></li>
+<li><code>sudo nano /var/www/wordpress/wp-config.php</code></li>
+<li>Change the settings to your needs</li>
+</ul>
+</p>
+
+<h1>Bibliography</h1>
+</p>
+
+<p>[libapache2-mod-evasive] Canonical Ltd., Package: libapache2-mod-evasive
+(1.10.1-1), 2011,
+<a href="http://packages.ubuntu.com/hardy/libapache2-mod-evasive">http://packages.ubuntu.com/hardy/libapache2-mod-evasive</a></p>
+</p>
+
+<p>[modsecurity] How to Forge, Secure Your Apache With mod_security, 2006,
+<a href="http://www.howtoforge.com/apache_mod_security">http://www.howtoforge.com/apache_mod_security</a></p>
+</p>
+
+<p>[Evasive Module] Deep Logic, Inc., Apache Evasive Maneuvers Module,
+2005,
+<a href="http://fossies.org/unix/www/apache_httpd_modules/mod_evasive_1.10.1.tar.gz:t/mod_evasive/README">http://fossies.org/unix/www/apache_httpd_modules/mod_evasive_1.10.1.tar.gz:t/mod_evasive/README</a></p>
+</p>
+
+<p>[Blacklist] Jeff Starr, Eight Ways to Blacklist with Apache’s
+mod_rewrite, Feb 2009,
+<a href="http://perishablepress.com/press/2009/02/03/eight-ways-to-blacklist-with-apaches-mod_rewrite/">http://perishablepress.com/press/2009/02/03/eight-ways-to-blacklist-with-apaches-mod_rewrite/</a></p>
+</p>
+
+<h1>Footnotes</h1>
+</p>
+
+<p>[1] DDoS – Denial-of-service attack</p>
+</p>
+
+<p>[2] AB - <a href="http://httpd.apache.org/docs/2.0/programs/ab.html">http://httpd.apache.org/docs/2.0/programs/ab.html</a></p>
+</p>
+            </div>
+            <!-- /.entry-content -->
+<section class="well" id="related-posts">
+    <h4>Related Posts:</h4>
+    <ul>
+        <li><a href="../../../../posts/2011/10/script-kiddie/">Script Kiddie</a></li>
+        <li><a href="../../../../posts/2012/10/what-is-network-security/">What is network security?</a></li>
+        <li><a href="../../../../posts/2012/06/ministry-of-interior-macedonia-website-defacement-httpmvrgovmk/">Ministry of Interior – Macedonia, website defacement: http://mvr.gov.mk</a></li>
+        <li><a href="../../../../posts/2011/03/ip-responsibility-and-abuse-reporting-procedure/">IP Responsibility and abuse reporting procedure</a></li>
+        <li><a href="../../../../posts/2012/03/testing-snort-ids-rulesets/">Testing SNORT – IDS rulesets</a></li>
+        <li><a href="../../../../posts/2012/01/testing-ids/">Testing IDS</a></li>
+        <li><a href="../../../../posts/2011/10/cost-of-ddos-leak-of-credit-card-numbers-infected-machine-and-spam/">Cost of DDoS, leak of credit card numbers, infected machine and spam</a></li>
+        <li><a href="../../../../posts/2015/12/workshop-cs-privacy/">Workshop: Cyber Security and Privacy</a></li>
+        <li><a href="../../../../posts/2014/07/stockholm-internet-forum-2014/">Stockholm Internet Forum 2014</a></li>
+        <li><a href="../../../../posts/2012/09/company-brochure-and-founder-notes-cybersecuritymk/">Company Brochure and Founder Notes, Cybersecurity.mk</a></li>
+    </ul>
+</section>
+        </article>
+    </section>
+
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+<!-- Sidebar -->
+<section class="well well-sm">
+  <ul class="list-group list-group-flush">
+
+<!-- Sidebar/Social -->
+<li class="list-group-item">
+  <h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
+  <ul class="list-group" id="social">
+    <li class="list-group-item"><a href="https://www.linkedin.com/in/tpredrag"><i class="fa fa-linkedin-square fa-lg"></i> Linkedin</a></li>
+    <li class="list-group-item"><a href="https://twitter.com/stepcellwolf"><i class="fa fa-twitter-square fa-lg"></i> Twitter</a></li>
+    <li class="list-group-item"><a href="https://github.com/stepcellwolf/"><i class="fa fa-github-square fa-lg"></i> Github</a></li>
+    <li class="list-group-item"><a href="https://plus.google.com/u/0/+PredragTasevski/posts/p/pub"><i class="fa fa-google-plus-square fa-lg"></i> Google+</a></li>
+    <li class="list-group-item"><a href="https://www.flickr.com/photos/29569957@N00"><i class="fa fa-flickr fa-lg"></i> Flickr</a></li>
+    <li class="list-group-item"><a href="/feeds/all.atom.xml"><i class="fa fa-rss-square fa-lg"></i> RSS</a></li>
+    <li class="list-group-item"><a href="https://www.instagram.com/stepcellwolf/"><i class="fa fa-instagram fa-lg"></i> Instagram</a></li>
+    <li class="list-group-item"><a href="https://www.strava.com/athletes/60401767"><i class="fa fa-🏃🏻‍♂️-strava-square fa-lg"></i> 🏃🏻‍♂️ Strava</a></li>
+  </ul>
+</li>
+<!-- End Sidebar/Social -->
+
+<!-- Sidebar/Tag Cloud -->
+<li class="list-group-item">
+  <a href="../../../../"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+  <ul class="list-group " id="tags">
+    <li class="list-group-item tag-1">
+      <a href="../../../../tag/security/">security</a>
+    </li>
+    <li class="list-group-item tag-1">
+      <a href="../../../../tag/cyber-security/">cyber security</a>
+    </li>
+    <li class="list-group-item tag-1">
+      <a href="../../../../tag/internet/">internet</a>
+    </li>
+    <li class="list-group-item tag-1">
+      <a href="../../../../tag/online/">online</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/network/">network</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/conference/">conference</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/ddos/">DDoS</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/malware/">malware</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/awareness/">awareness</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/cyber/">cyber</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/networking/">networking</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/balkan/">Balkan</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/privacy/">privacy</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/interview/">interview</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/macedonia/">Macedonia</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/freedom/">freedom</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/attacks/">attacks</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/policy/">policy</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/mobile/">mobile</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/human-factor/">human factor</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/malicious-code/">malicious code</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/ids/">ids</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/forum/">forum</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/testing-ids/">testing ids</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/cybersecurity/">cybersecurity</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/vulnerability/">vulnerability</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/prediction/">prediction</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/presentation/">presentation</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/risk-assessment/">risk assessment</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/ubuntu/">ubuntu</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/nato/">nato</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/information-warfare/">information warfare</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/ransomware/">ransomware</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/iot/">IoT</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/italy/">Italy</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/digital-divide/">digital divide</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/gms/">gms</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wiretapping/">wiretapping</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/hactivism/">hactivism</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/acceleration/">acceleration</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/syn-flood/">SYN flood</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/vulnerability-scanning/">vulnerability scanning</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wpan/">wpan</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/strategy/">strategy</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/simmulation-of-attacks-and-defence/">simmulation of attacks and defence</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/course/">course</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/risk-management/">risk management</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/port-scan/">Port scan</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/social/">social</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wordpress/">wordpress</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/eavesdropping/">eavesdropping</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/botnet/">botnet</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/encryption/">encryption</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/unix/">Unix</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/data-breaches/">data breaches</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/log-mining/">log mining</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/network-crime/">network crime</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/it-security/">IT security</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wireless/">wireless</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/surveillance/">surveillance</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/mvr/">mvr</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/binary/">binary</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/network-security/">network security</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/teaching/">teaching</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/phone/">phone</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/optamization/">optamization</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wlan/">wlan</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/snort/">snort</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/threats/">threats</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wifi/">wifi</a>
+    </li>
+  </ul>
+</li>
+<!-- End Sidebar/Tag Cloud -->
+
+<!-- Sidebar/Twitter Timeline -->
+<li class="list-group-item">
+  <h4><i class="fa fa-twitter fa-lg"></i><span class="icon-label">Latest Tweets</span></h4>
+  <div id="twitter_timeline">
+    <a class="twitter-timeline" data-width="250" data-height="300" data-dnt="true" data-theme="light" href="https://twitter.com/stepcellwolf">Tweets by stepcellwolf</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+</li>
+<!-- End Sidebar/Twitter Timeline -->
+
+<!-- Sidebar/Links -->
+<li class="list-group-item">
+  <h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
+  <ul class="list-group" id="links">
+    <li class="list-group-item">
+      <a href="http://cybersecurity.mk/" target="_blank">Cybersecurity.mk</a>
+    </li>
+    <li class="list-group-item">
+      <a href="http://getpelican.com/" target="_blank">Pelican</a>
+    </li>
+    <li class="list-group-item">
+      <a href="http://python.org/" target="_blank">Python.org</a>
+    </li>
+    <li class="list-group-item">
+      <a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a>
+    </li>
+  </ul>
+</li>
+<!-- End Sidebar/Links -->
+  </ul>
+</section>
+<!-- End Sidebar -->            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2019 Predrag TASEVSKI - Pece
+            &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>                <p><small>  <a rel="license" href="https://creativecommons.org/licenses/by-nd/4.0/deed.en"><img alt="Creative Commons License" style="border-width:0" src="//i.creativecommons.org/l/by-nd/4.0/80x15.png" /></a>
+    Content
+  licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nd/4.0/deed.en">Creative Commons Attribution-NoDerivatives 4.0 International License</a>, except where indicated otherwise.
+</small></p>
+         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="../../../../theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../../../../theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="../../../../theme/js/respond.min.js"></script>
+
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-600234-3']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <!-- End Google Analytics Code -->
+
+
+</body>
+</html>

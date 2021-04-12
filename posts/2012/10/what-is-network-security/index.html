@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
+<head>
+    <title>What is network security? - Predrag TASEVSKI - Pece</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link rel="canonical" href="../../../../posts/2012/10/what-is-network-security/">
+
+        <meta name="author" content="Predrag TASEVSKI - Pece" />
+        <meta name="keywords" content="network security,cyber security,access,confidentiality,authentication,non-repudation,DDoS,Man-in-the-middle,attacks,address spoofing,eavesdropping" />
+        <meta name="description" content="Introduction A computer network, or in other words simply a network, is a collection of computers and other hardware components interconnected by communication channels that allow sharing of data, resources and information [1]. Adopt for both_ private or public needs, which are used in everyday tasks to conduct transactions and …" />
+
+        <meta property="og:site_name" content="Predrag TASEVSKI - Pece" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="What is network security?"/>
+        <meta property="og:url" content="../../../../posts/2012/10/what-is-network-security/"/>
+        <meta property="og:description" content="Introduction A computer network, or in other words simply a network, is a collection of computers and other hardware components interconnected by communication channels that allow sharing of data, resources and information [1]. Adopt for both_ private or public needs, which are used in everyday tasks to conduct transactions and …"/>
+        <meta property="article:published_time" content="2012-10-26" />
+            <meta property="article:section" content="pages" />
+            <meta property="article:tag" content="network security" />
+            <meta property="article:tag" content="cyber security" />
+            <meta property="article:tag" content="access" />
+            <meta property="article:tag" content="confidentiality" />
+            <meta property="article:tag" content="authentication" />
+            <meta property="article:tag" content="non-repudation" />
+            <meta property="article:tag" content="DDoS" />
+            <meta property="article:tag" content="Man-in-the-middle" />
+            <meta property="article:tag" content="attacks" />
+            <meta property="article:tag" content="address spoofing" />
+            <meta property="article:tag" content="eavesdropping" />
+            <meta property="article:author" content="Predrag TASEVSKI - Pece" />
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="../../../../theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="../../../../theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="../../../../theme/css/pygments/emacs.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../../theme/css/style.css" type="text/css"/>
+
+        <link href="../../../../feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Predrag TASEVSKI - Pece ATOM Feed"/>
+
+
+
+        <link href="../../../../feeds/category/{slug}.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Predrag TASEVSKI - Pece pages ATOM Feed"/>
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="../../../../" class="navbar-brand">
+Predrag TASEVSKI - Pece            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="../../../../pages/about.html">
+                             About
+                          </a></li>
+                         <li><a href="../../../../pages/cv.html">
+                             CV
+                          </a></li>
+                         <li><a href="../../../../pages/photography.html">
+                             Photography
+                          </a></li>
+                         <li><a href="../../../../pages/projects.html">
+                             Projects
+                          </a></li>
+                         <li><a href="../../../../pages/publications.html">
+                             Publications
+                          </a></li>
+                         <li><a href="../../../../pages/talks.html">
+                             Talks
+                          </a></li>
+                         <li><a href="../../../../pages/teachings.html">
+                             Teachings
+                          </a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="../../../../posts/2012/10/what-is-network-security/"
+                       rel="bookmark"
+                       title="Permalink to What is network security?">
+                        What is network security?
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2012-10-26T23:00:00+02:00"> Fri, 26 Oct 2012</time>
+    </span>
+
+
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="../../../../tag/network-security/">network security</a>
+        /
+	<a href="../../../../tag/cyber-security/">cyber security</a>
+        /
+	<a href="../../../../tag/access/">access</a>
+        /
+	<a href="../../../../tag/confidentiality/">confidentiality</a>
+        /
+	<a href="../../../../tag/authentication/">authentication</a>
+        /
+	<a href="../../../../tag/non-repudation/">non-repudation</a>
+        /
+	<a href="../../../../tag/ddos/">DDoS</a>
+        /
+	<a href="../../../../tag/man-in-the-middle/">Man-in-the-middle</a>
+        /
+	<a href="../../../../tag/attacks/">attacks</a>
+        /
+	<a href="../../../../tag/address-spoofing/">address spoofing</a>
+        /
+	<a href="../../../../tag/eavesdropping/">eavesdropping</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <h1>Introduction</h1>
+</p>
+
+<p>A computer network, or in other words simply a network, is a collection
+of computers and other hardware components interconnected by
+communication channels that allow sharing of data, resources and
+information [1]. Adopt for both_ private or public needs, which are
+used in everyday tasks to conduct transactions and communications among
+individuals, business, government agencies, etc. The network consists of
+nodes, which are individual user computers (client terminals), and one
+or more servers and/or host computers. Which are linked by communication
+systems, some of might be private, for example company, and other which
+might be open to public access. Obvious example of a network system that
+is open to public access is the Internet, where indeed, many private
+networks utilize publicly accessible communications, as well. Nowadays
+for instance, company host computers can be accessed by their employees
+whether in their offices over a private communications network, or from
+their homes, or while there on the road.</p>
+</p>
+
+<p>It is therefore, network security involves all activities that
+individuals, organizations, enterprises and institutions are undertaking
+to protect their value and on-going employment of assets and the
+integrity and continuity of operations. For that reason this article
+will introduce the readers and end users with the history of network
+security. Furthermore, with an introduction of effective network
+security strategy requires and most common network attacks methods.
+Please bear in mind that in fact, this article is not going to discuss
+over the depth details, rather than is going to deliver you introductory
+knowledge and suggestions for further perusal. And finally, we will
+finalize the article within conclusion.</p>
+</p>
+
+<h1>History</h1>
+</p>
+
+<p>Securing information over a network had its roots in the late 1960s when
+networks only existed in the sense of huge mainframes and multiple
+networked terminals. Hundreds of thousands and millions of dumb
+terminals were connected via hubs and concentrators to the huge central
+processing units, spinning tapes, and rotating drives in some distant
+air-conditioned, properly humidifier windowless room [2]. Without the
+presence of client-server network models, sharing or multi-user,
+multi-tasking processors, network security was not yet a real concern.
+Network security, however, has evolved over the years due to the
+increasing reliance on public networks not to disclose personal,
+financial, and other restricted information [3]. Such as, there are
+numerous instances Kevin Mitnick [4] and Vladimir Levin [5] cases that
+prompted organizations across all industries to re-think the way they
+handle information, including its transmission and disclosure. The
+popularity of the Internet was one of the most important developments
+that prompted an intensified effort in data security [3].</p>
+</p>
+
+<p>A growing number of people are using their personal computers to gain
+access to the resources that the Internet has to offer. From electronic
+email, commerce transactions and research interests, the Internet has
+taken place as one of the most important development of 20th century.
+However, the Internet Protocol (IP) in early stage was not designed to
+be secure. There were no approved securities standards build into the
+Transmission Control Protocol (TCP) and IP communication stack, which
+allowing it open to potentially malicious users and processes across the
+network. Where modern developments have made Internet communication more
+secure, yet there are still incidents that gain eminent attention and
+alert us to the fact that nothing is completely safe and secure.</p>
+</p>
+
+<p>Where in early 2000 a different type of attacks were unleashed on
+several of the most heavily trafficked site on the Internet, such as,
+yahoo.com, cnn.com, amazon.com and many others. Furthermore, in 2007, a
+data breach exploiting the widely known weaknesses of the Wired
+Equivalent Privacy (WEP) wireless encryption protocol resulted [6].
+Indefinitely all those incidents have granted billion of records and
+money to end up in the behalf of the thief.</p>
+</p>
+
+<p>Therefore, these results enforce the reality that computer and network
+security has become a quantifiable and justifiable expense for IT
+budgets. Organizations that require data integrity and high availability
+elicit the skills of system administrators, developers, and engineers to
+ensure 24×7 reliability of their systems, services, and information.
+Falling victim to malicious users, processes, or coordinated attacks is
+a direct threat to the success of the organization, as well as
+individual [3].</p>
+</p>
+
+<h1>Network Security</h1>
+</p>
+
+<p>System and network technology is in fact a key technology for a wide
+variety of applications. Security is crucial factor to networks and
+applications. Although, network security is a critical requirement in
+emerging networks, there is a significant lack of security methods that
+can be easily implemented [7].</p>
+</p>
+
+<p>There is an existing communication gap between the developers of
+security technology and developers of networks. When considering network
+security, it must be emphasized that the while network is secured.
+Moreover, network security does not only concern the security in the
+computers at each end of communication sequence. Also when transmitting
+data the communication channel should not be vulnerable to attack. A
+hacker could target the communication channel, and could obtain the
+data, and decrypt it and re-insert a false value. In fact, securing the
+network is just as important as securing the computers.</p>
+</p>
+
+<p>As a result when developing a secure network, the following need to be
+considered [8]:</p>
+</p>
+
+<p>Access – authorized users are provided the means to communicate to and
+from a particular network</p>
+<p>Confidentiality – Information in the network remains private</p>
+<p>Authentication – Ensure the users of the network are who they say they
+are</p>
+<p>Integrity – Ensure the message has not been modified in transit</p>
+<p>Non‐repudiation – Ensure the user does not refute that he used the
+network</p>
+<p>Moreover, an effective network security plan is developed with the
+understanding of security issues, potential attackers and attacking
+methods, needed level of security, and factors that make a network
+vulnerable to attack. The different attacking methods are followed
+throughout this article endeavour.</p>
+</p>
+
+<h1>Common Network Attacks Methods</h1>
+</p>
+
+<p>Whiteout implemented security measures and controls in place, your
+network and data might be subjected to an attack. Some attacks for
+instance could be passive, meaning that information is monitored; other
+could be active, meaning the information is varying within intent to
+destroy or corrupt the data or the network itself.</p>
+</p>
+
+<p>Likelihood your networks and data are vulnerable to any of the following
+types of attacks if you do not have a security plan in place [9]:</p>
+</p>
+
+<ul>
+<li>Eavesdropping – Interception of communications by an unauthorized
+    party</li>
+<li>Data Modification – Data altering, reading from unauthorized party</li>
+<li>Identity Spoofing (IP Address Spoofing) – IP address to be falsely
+    assumed— identity spoofing and the attacker can modify, reroute, or
+    delete your data</li>
+<li>Password-Based Attacks – By gaining your access rights to a computer
+    and network resources are determined by who you are, that is, your
+    user name and your password</li>
+<li>Denial-of-Service Attack – Prevents normal use of your computer or
+    network by valid users, and it could be used for sending invalid
+    data to application, to flood the computer, block traffic, etc.</li>
+<li>Man-in-the-Middle Attack – Is when someone between you and the
+    person with whom you are communicating is actively monitoring,
+    capturing, and controlling your communication transparently</li>
+<li>Application-Layer Attack – It targets application servers by
+    deliberately causing a fault in a server’s operating system or
+    applications and the attacker gaining the ability to bypass normal
+    access controls</li>
+<li>Anyhow, this is just a most commonly known network attacks methods,
+    and indeed there plenty of more.</li>
+</ul>
+</p>
+
+<h1>Conclusion</h1>
+</p>
+
+<p>That is why network security is an important field that is increasingly
+gaining attention as the Internet usage increases. The security threats
+and Internet protocols were analysed to determine the necessary security
+technology. However, the current development in network security is not
+very impressive and significant.</p>
+</p>
+
+<p>Therefore, researchers and scholars are rapidly evolving in developing
+and investigating the threats further in a future. And with this
+information in mind, the process can be formalized and the path becomes
+clearer as you delve deeper into the specifics of the security process,
+as well.</p>
+</p>
+
+<h1>References</h1>
+</p>
+
+<p>[1] Computer network definition, Retrieved from
+http://www.atis.org/glossary/definition.aspx?id=6555</p>
+</p>
+
+<p>[2] Stallings, William, Internet Security Handbook, IDG Books Worldwide,
+Inc., 1995.</p>
+</p>
+
+<p>[3] RedHat, Inc, Chapter 1. Security Overview. Retrieved from
+https://access.redhat.com/knowledge/docs/en-US/Red_Hat_Enterprise_Linux/6/html/Security_Guide/chap-Security_Guide-Security_Overview.html</p>
+</p>
+
+<p>[4] Kevin Mitnick Case: 1999 – No Bail, No Computer, Hacker Pleads
+Guilty. Retrieved from
+http://law.jrank.org/pages/3791/Kevin-Mitnick-Case-1999.html</p>
+</p>
+
+<p>[5] Vladimir Levin. Retrieved from
+http://www.livinginternet.com/i/ia_hackers_levin.htm</p>
+</p>
+
+<p>[6] Dan Goodin, May 2007. Lax security led to TJX breach. Retrieved from
+http://www.theregister.co.uk/2007/05/04/txj_nonfeasance/</p>
+</p>
+
+<p>[7] Bhavya Daya, Network Security: History, Importance, and Future.</p>
+</p>
+
+<p>[8] Dowd, P.W.; McHenry, J.T., “Network security: it’s time to take it
+seriously,” Computer, vol.31, no.9, pp.24‐28, Sep 1998</p>
+</p>
+
+<p>[9] Common Types of Network Attacks. Retrieved from:
+http://technet.microsoft.com/en-us/library/cc959354.aspx</p>
+</p>
+            </div>
+            <!-- /.entry-content -->
+<section class="well" id="related-posts">
+    <h4>Related Posts:</h4>
+    <ul>
+        <li><a href="../../../../posts/2012/06/ministry-of-interior-macedonia-website-defacement-httpmvrgovmk/">Ministry of Interior – Macedonia, website defacement: http://mvr.gov.mk</a></li>
+        <li><a href="../../../../posts/2012/03/clever-solution-by-making-site-more-resilient-by-optimization/">Clever solution by making site more resilient by optimization</a></li>
+        <li><a href="../../../../posts/2011/10/script-kiddie/">Script Kiddie</a></li>
+        <li><a href="../../../../posts/2011/03/ip-responsibility-and-abuse-reporting-procedure/">IP Responsibility and abuse reporting procedure</a></li>
+        <li><a href="../../../../posts/2012/12/network-security-toolkit/">Network Security Toolkit</a></li>
+        <li><a href="../../../../posts/2015/12/workshop-cs-privacy/">Workshop: Cyber Security and Privacy</a></li>
+        <li><a href="../../../../posts/2012/03/testing-snort-ids-rulesets/">Testing SNORT – IDS rulesets</a></li>
+        <li><a href="../../../../posts/2012/01/testing-ids/">Testing IDS</a></li>
+        <li><a href="../../../../posts/2011/10/cost-of-ddos-leak-of-credit-card-numbers-infected-machine-and-spam/">Cost of DDoS, leak of credit card numbers, infected machine and spam</a></li>
+        <li><a href="../../../../posts/2019/09/digital-transformation-keynote/">International Cooperation Between National Cyber Security Strategies for building a sustainable Digital Transformation, and Critical Infrastructure and Industry</a></li>
+    </ul>
+</section>
+        </article>
+    </section>
+
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+<!-- Sidebar -->
+<section class="well well-sm">
+  <ul class="list-group list-group-flush">
+
+<!-- Sidebar/Social -->
+<li class="list-group-item">
+  <h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
+  <ul class="list-group" id="social">
+    <li class="list-group-item"><a href="https://www.linkedin.com/in/tpredrag"><i class="fa fa-linkedin-square fa-lg"></i> Linkedin</a></li>
+    <li class="list-group-item"><a href="https://twitter.com/stepcellwolf"><i class="fa fa-twitter-square fa-lg"></i> Twitter</a></li>
+    <li class="list-group-item"><a href="https://github.com/stepcellwolf/"><i class="fa fa-github-square fa-lg"></i> Github</a></li>
+    <li class="list-group-item"><a href="https://plus.google.com/u/0/+PredragTasevski/posts/p/pub"><i class="fa fa-google-plus-square fa-lg"></i> Google+</a></li>
+    <li class="list-group-item"><a href="https://www.flickr.com/photos/29569957@N00"><i class="fa fa-flickr fa-lg"></i> Flickr</a></li>
+    <li class="list-group-item"><a href="/feeds/all.atom.xml"><i class="fa fa-rss-square fa-lg"></i> RSS</a></li>
+    <li class="list-group-item"><a href="https://www.instagram.com/stepcellwolf/"><i class="fa fa-instagram fa-lg"></i> Instagram</a></li>
+    <li class="list-group-item"><a href="https://www.strava.com/athletes/60401767"><i class="fa fa-🏃🏻‍♂️-strava-square fa-lg"></i> 🏃🏻‍♂️ Strava</a></li>
+  </ul>
+</li>
+<!-- End Sidebar/Social -->
+
+<!-- Sidebar/Tag Cloud -->
+<li class="list-group-item">
+  <a href="../../../../"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+  <ul class="list-group " id="tags">
+    <li class="list-group-item tag-1">
+      <a href="../../../../tag/security/">security</a>
+    </li>
+    <li class="list-group-item tag-1">
+      <a href="../../../../tag/cyber-security/">cyber security</a>
+    </li>
+    <li class="list-group-item tag-1">
+      <a href="../../../../tag/internet/">internet</a>
+    </li>
+    <li class="list-group-item tag-1">
+      <a href="../../../../tag/online/">online</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/network/">network</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/conference/">conference</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/ddos/">DDoS</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/malware/">malware</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/awareness/">awareness</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/cyber/">cyber</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/networking/">networking</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/balkan/">Balkan</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/privacy/">privacy</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/interview/">interview</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/macedonia/">Macedonia</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/freedom/">freedom</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/attacks/">attacks</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/policy/">policy</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/mobile/">mobile</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/human-factor/">human factor</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/malicious-code/">malicious code</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/ids/">ids</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/forum/">forum</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/testing-ids/">testing ids</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/cybersecurity/">cybersecurity</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/vulnerability/">vulnerability</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/prediction/">prediction</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/presentation/">presentation</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/risk-assessment/">risk assessment</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/ubuntu/">ubuntu</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/nato/">nato</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/information-warfare/">information warfare</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/ransomware/">ransomware</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/iot/">IoT</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/italy/">Italy</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/digital-divide/">digital divide</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/gms/">gms</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wiretapping/">wiretapping</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/hactivism/">hactivism</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/acceleration/">acceleration</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/syn-flood/">SYN flood</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/vulnerability-scanning/">vulnerability scanning</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wpan/">wpan</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/strategy/">strategy</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/simmulation-of-attacks-and-defence/">simmulation of attacks and defence</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/course/">course</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/risk-management/">risk management</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/port-scan/">Port scan</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/social/">social</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wordpress/">wordpress</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/eavesdropping/">eavesdropping</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/botnet/">botnet</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/encryption/">encryption</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/unix/">Unix</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/data-breaches/">data breaches</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/log-mining/">log mining</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/network-crime/">network crime</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/it-security/">IT security</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wireless/">wireless</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/surveillance/">surveillance</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/mvr/">mvr</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/binary/">binary</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/network-security/">network security</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/teaching/">teaching</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/phone/">phone</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/optamization/">optamization</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wlan/">wlan</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/snort/">snort</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/threats/">threats</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wifi/">wifi</a>
+    </li>
+  </ul>
+</li>
+<!-- End Sidebar/Tag Cloud -->
+
+<!-- Sidebar/Twitter Timeline -->
+<li class="list-group-item">
+  <h4><i class="fa fa-twitter fa-lg"></i><span class="icon-label">Latest Tweets</span></h4>
+  <div id="twitter_timeline">
+    <a class="twitter-timeline" data-width="250" data-height="300" data-dnt="true" data-theme="light" href="https://twitter.com/stepcellwolf">Tweets by stepcellwolf</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+</li>
+<!-- End Sidebar/Twitter Timeline -->
+
+<!-- Sidebar/Links -->
+<li class="list-group-item">
+  <h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
+  <ul class="list-group" id="links">
+    <li class="list-group-item">
+      <a href="http://cybersecurity.mk/" target="_blank">Cybersecurity.mk</a>
+    </li>
+    <li class="list-group-item">
+      <a href="http://getpelican.com/" target="_blank">Pelican</a>
+    </li>
+    <li class="list-group-item">
+      <a href="http://python.org/" target="_blank">Python.org</a>
+    </li>
+    <li class="list-group-item">
+      <a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a>
+    </li>
+  </ul>
+</li>
+<!-- End Sidebar/Links -->
+  </ul>
+</section>
+<!-- End Sidebar -->            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2019 Predrag TASEVSKI - Pece
+            &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>                <p><small>  <a rel="license" href="https://creativecommons.org/licenses/by-nd/4.0/deed.en"><img alt="Creative Commons License" style="border-width:0" src="//i.creativecommons.org/l/by-nd/4.0/80x15.png" /></a>
+    Content
+  licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nd/4.0/deed.en">Creative Commons Attribution-NoDerivatives 4.0 International License</a>, except where indicated otherwise.
+</small></p>
+         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="../../../../theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../../../../theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="../../../../theme/js/respond.min.js"></script>
+
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-600234-3']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <!-- End Google Analytics Code -->
+
+
+</body>
+</html>
