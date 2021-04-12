@@ -1,0 +1,1632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Predrag TASEVSKI - Pece - attacks</title><link href="https://predragtasevski.com/" rel="alternate"></link><link href="https://predragtasevski.com/feeds/tag/attacks.atom.xml" rel="self"></link><id>https://predragtasevski.com/</id><updated>2015-12-12T18:00:00+01:00</updated><entry><title>Workshop: Cyber Security and Privacy</title><link href="https://predragtasevski.com/posts/2015/12/workshop-cs-privacy/" rel="alternate"></link><published>2015-12-12T18:00:00+01:00</published><updated>2015-12-12T18:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2015-12-12:/posts/2015/12/workshop-cs-privacy/</id><summary type="html">&lt;p&gt;Dark Moto Studio hosted me to deliver a two days workshop in the field of &lt;strong&gt;Cyber Security and Privacy&lt;/strong&gt;, between 12 - 13 of December 2015 in Verona, Italy.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="verona Workshop: Cyber Security and Privacy" src="https://scontent-vie1-1.xx.fbcdn.net/hphotos-xpl1/t31.0-8/12371120_456362121218149_5044654840342295836_o.jpg"&gt;&lt;/p&gt;
+&lt;h1&gt;Agenda&lt;/h1&gt;
+&lt;h2&gt;Day 1:&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;What is cyber security and how the hackers think (4 hours)&lt;/em&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Introduction to cyber security and privacy&lt;/li&gt;
+&lt;li&gt;Attacking phases …&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;Dark Moto Studio hosted me to deliver a two days workshop in the field of &lt;strong&gt;Cyber Security and Privacy&lt;/strong&gt;, between 12 - 13 of December 2015 in Verona, Italy.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="verona Workshop: Cyber Security and Privacy" src="https://scontent-vie1-1.xx.fbcdn.net/hphotos-xpl1/t31.0-8/12371120_456362121218149_5044654840342295836_o.jpg"&gt;&lt;/p&gt;
+&lt;h1&gt;Agenda&lt;/h1&gt;
+&lt;h2&gt;Day 1:&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;What is cyber security and how the hackers think (4 hours)&lt;/em&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Introduction to cyber security and privacy&lt;/li&gt;
+&lt;li&gt;Attacking phases:&lt;/li&gt;
+&lt;li&gt;Reconnaissance&lt;/li&gt;
+&lt;li&gt;Scanning&lt;/li&gt;
+&lt;li&gt;Gaining Access&lt;/li&gt;
+&lt;li&gt;Maintaining/Expending Access&lt;/li&gt;
+&lt;li&gt;Covering Tracks&lt;/li&gt;
+&lt;li&gt;Most common types of attacks&lt;/li&gt;
+&lt;li&gt;What is attack&lt;/li&gt;
+&lt;li&gt;What is vulnerability&lt;/li&gt;
+&lt;li&gt;What is exploit&lt;/li&gt;
+&lt;li&gt;Demo of DoS/DDoS attack&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Day 2:&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;How to secure yourself using open source tools (4 hours)&lt;/em&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Social Engineering and Social Networking manipulation&lt;/li&gt;
+&lt;li&gt;Secure browsing and firewalls&lt;/li&gt;
+&lt;li&gt;E-mail and Instant Messaging – Chat security&lt;/li&gt;
+&lt;li&gt;Setting up Security Wireless connection and network&lt;/li&gt;
+&lt;li&gt;Secure your smart phones&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href="https://www.facebook.com/events/740993119377989/"&gt;FB Event link&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;Photos&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="Demo: network scanning" src="https://scontent-vie1-1.xx.fbcdn.net/hphotos-xpf1/t31.0-8/12487296_464598787061149_1198574937328096575_o.jpg"&gt;&lt;/p&gt;</content><category term="pages"></category><category term="security"></category><category term="privacy"></category><category term="Italy"></category><category term="cyber security"></category><category term="attacks"></category><category term="awareness"></category></entry><entry><title>What is network security?</title><link href="https://predragtasevski.com/posts/2012/10/what-is-network-security/" rel="alternate"></link><published>2012-10-26T23:00:00+02:00</published><updated>2012-10-26T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-10-26:/posts/2012/10/what-is-network-security/</id><summary type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;A computer network, or in other words simply a network, is a collection
+of computers and other hardware components interconnected by
+communication channels that allow sharing of data, resources and
+information [1]. Adopt for both_ private or public needs, which are
+used in everyday tasks to conduct transactions and …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;A computer network, or in other words simply a network, is a collection
+of computers and other hardware components interconnected by
+communication channels that allow sharing of data, resources and
+information [1]. Adopt for both_ private or public needs, which are
+used in everyday tasks to conduct transactions and communications among
+individuals, business, government agencies, etc. The network consists of
+nodes, which are individual user computers (client terminals), and one
+or more servers and/or host computers. Which are linked by communication
+systems, some of might be private, for example company, and other which
+might be open to public access. Obvious example of a network system that
+is open to public access is the Internet, where indeed, many private
+networks utilize publicly accessible communications, as well. Nowadays
+for instance, company host computers can be accessed by their employees
+whether in their offices over a private communications network, or from
+their homes, or while there on the road.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;It is therefore, network security involves all activities that
+individuals, organizations, enterprises and institutions are undertaking
+to protect their value and on-going employment of assets and the
+integrity and continuity of operations. For that reason this article
+will introduce the readers and end users with the history of network
+security. Furthermore, with an introduction of effective network
+security strategy requires and most common network attacks methods.
+Please bear in mind that in fact, this article is not going to discuss
+over the depth details, rather than is going to deliver you introductory
+knowledge and suggestions for further perusal. And finally, we will
+finalize the article within conclusion.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;History&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Securing information over a network had its roots in the late 1960s when
+networks only existed in the sense of huge mainframes and multiple
+networked terminals. Hundreds of thousands and millions of dumb
+terminals were connected via hubs and concentrators to the huge central
+processing units, spinning tapes, and rotating drives in some distant
+air-conditioned, properly humidifier windowless room [2]. Without the
+presence of client-server network models, sharing or multi-user,
+multi-tasking processors, network security was not yet a real concern.
+Network security, however, has evolved over the years due to the
+increasing reliance on public networks not to disclose personal,
+financial, and other restricted information [3]. Such as, there are
+numerous instances Kevin Mitnick [4] and Vladimir Levin [5] cases that
+prompted organizations across all industries to re-think the way they
+handle information, including its transmission and disclosure. The
+popularity of the Internet was one of the most important developments
+that prompted an intensified effort in data security [3].&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;A growing number of people are using their personal computers to gain
+access to the resources that the Internet has to offer. From electronic
+email, commerce transactions and research interests, the Internet has
+taken place as one of the most important development of 20th century.
+However, the Internet Protocol (IP) in early stage was not designed to
+be secure. There were no approved securities standards build into the
+Transmission Control Protocol (TCP) and IP communication stack, which
+allowing it open to potentially malicious users and processes across the
+network. Where modern developments have made Internet communication more
+secure, yet there are still incidents that gain eminent attention and
+alert us to the fact that nothing is completely safe and secure.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Where in early 2000 a different type of attacks were unleashed on
+several of the most heavily trafficked site on the Internet, such as,
+yahoo.com, cnn.com, amazon.com and many others. Furthermore, in 2007, a
+data breach exploiting the widely known weaknesses of the Wired
+Equivalent Privacy (WEP) wireless encryption protocol resulted [6].
+Indefinitely all those incidents have granted billion of records and
+money to end up in the behalf of the thief.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Therefore, these results enforce the reality that computer and network
+security has become a quantifiable and justifiable expense for IT
+budgets. Organizations that require data integrity and high availability
+elicit the skills of system administrators, developers, and engineers to
+ensure 24×7 reliability of their systems, services, and information.
+Falling victim to malicious users, processes, or coordinated attacks is
+a direct threat to the success of the organization, as well as
+individual [3].&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Network Security&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;System and network technology is in fact a key technology for a wide
+variety of applications. Security is crucial factor to networks and
+applications. Although, network security is a critical requirement in
+emerging networks, there is a significant lack of security methods that
+can be easily implemented [7].&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;There is an existing communication gap between the developers of
+security technology and developers of networks. When considering network
+security, it must be emphasized that the while network is secured.
+Moreover, network security does not only concern the security in the
+computers at each end of communication sequence. Also when transmitting
+data the communication channel should not be vulnerable to attack. A
+hacker could target the communication channel, and could obtain the
+data, and decrypt it and re-insert a false value. In fact, securing the
+network is just as important as securing the computers.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;As a result when developing a secure network, the following need to be
+considered [8]:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Access – authorized users are provided the means to communicate to and
+from a particular network&lt;/p&gt;
+&lt;p&gt;Confidentiality – Information in the network remains private&lt;/p&gt;
+&lt;p&gt;Authentication – Ensure the users of the network are who they say they
+are&lt;/p&gt;
+&lt;p&gt;Integrity – Ensure the message has not been modified in transit&lt;/p&gt;
+&lt;p&gt;Non‐repudiation – Ensure the user does not refute that he used the
+network&lt;/p&gt;
+&lt;p&gt;Moreover, an effective network security plan is developed with the
+understanding of security issues, potential attackers and attacking
+methods, needed level of security, and factors that make a network
+vulnerable to attack. The different attacking methods are followed
+throughout this article endeavour.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Common Network Attacks Methods&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Whiteout implemented security measures and controls in place, your
+network and data might be subjected to an attack. Some attacks for
+instance could be passive, meaning that information is monitored; other
+could be active, meaning the information is varying within intent to
+destroy or corrupt the data or the network itself.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Likelihood your networks and data are vulnerable to any of the following
+types of attacks if you do not have a security plan in place [9]:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Eavesdropping – Interception of communications by an unauthorized
+    party&lt;/li&gt;
+&lt;li&gt;Data Modification – Data altering, reading from unauthorized party&lt;/li&gt;
+&lt;li&gt;Identity Spoofing (IP Address Spoofing) – IP address to be falsely
+    assumed— identity spoofing and the attacker can modify, reroute, or
+    delete your data&lt;/li&gt;
+&lt;li&gt;Password-Based Attacks – By gaining your access rights to a computer
+    and network resources are determined by who you are, that is, your
+    user name and your password&lt;/li&gt;
+&lt;li&gt;Denial-of-Service Attack – Prevents normal use of your computer or
+    network by valid users, and it could be used for sending invalid
+    data to application, to flood the computer, block traffic, etc.&lt;/li&gt;
+&lt;li&gt;Man-in-the-Middle Attack – Is when someone between you and the
+    person with whom you are communicating is actively monitoring,
+    capturing, and controlling your communication transparently&lt;/li&gt;
+&lt;li&gt;Application-Layer Attack – It targets application servers by
+    deliberately causing a fault in a server’s operating system or
+    applications and the attacker gaining the ability to bypass normal
+    access controls&lt;/li&gt;
+&lt;li&gt;Anyhow, this is just a most commonly known network attacks methods,
+    and indeed there plenty of more.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;That is why network security is an important field that is increasingly
+gaining attention as the Internet usage increases. The security threats
+and Internet protocols were analysed to determine the necessary security
+technology. However, the current development in network security is not
+very impressive and significant.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Therefore, researchers and scholars are rapidly evolving in developing
+and investigating the threats further in a future. And with this
+information in mind, the process can be formalized and the path becomes
+clearer as you delve deeper into the specifics of the security process,
+as well.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;References&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[1] Computer network definition, Retrieved from
+http://www.atis.org/glossary/definition.aspx?id=6555&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[2] Stallings, William, Internet Security Handbook, IDG Books Worldwide,
+Inc., 1995.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[3] RedHat, Inc, Chapter 1. Security Overview. Retrieved from
+https://access.redhat.com/knowledge/docs/en-US/Red_Hat_Enterprise_Linux/6/html/Security_Guide/chap-Security_Guide-Security_Overview.html&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[4] Kevin Mitnick Case: 1999 – No Bail, No Computer, Hacker Pleads
+Guilty. Retrieved from
+http://law.jrank.org/pages/3791/Kevin-Mitnick-Case-1999.html&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[5] Vladimir Levin. Retrieved from
+http://www.livinginternet.com/i/ia_hackers_levin.htm&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[6] Dan Goodin, May 2007. Lax security led to TJX breach. Retrieved from
+http://www.theregister.co.uk/2007/05/04/txj_nonfeasance/&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[7] Bhavya Daya, Network Security: History, Importance, and Future.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[8] Dowd, P.W.; McHenry, J.T., “Network security: it’s time to take it
+seriously,” Computer, vol.31, no.9, pp.24‐28, Sep 1998&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[9] Common Types of Network Attacks. Retrieved from:
+http://technet.microsoft.com/en-us/library/cc959354.aspx&lt;/p&gt;
+&lt;/p&gt;</content><category term="pages"></category><category term="network security"></category><category term="cyber security"></category><category term="access"></category><category term="confidentiality"></category><category term="authentication"></category><category term="non-repudation"></category><category term="DDoS"></category><category term="Man-in-the-middle"></category><category term="attacks"></category><category term="address spoofing"></category><category term="eavesdropping"></category></entry><entry><title>Ministry of Interior – Macedonia, website defacement: http://mvr.gov.mk</title><link href="https://predragtasevski.com/posts/2012/06/ministry-of-interior-macedonia-website-defacement-httpmvrgovmk/" rel="alternate"></link><published>2012-06-25T23:00:00+02:00</published><updated>2012-06-25T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-06-25:/posts/2012/06/ministry-of-interior-macedonia-website-defacement-httpmvrgovmk/</id><summary type="html">&lt;h1&gt;Purpose&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Yesterday, the 25 of June 2012, the Macedonian website of Ministry of
+Interior (MVR) was defaced by Kosovo Network Security (KNS) group, below
+figure. However, after we have noticed and some of the social networking
+sites have informed me, I was concern to find out what just have
+happened …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Purpose&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Yesterday, the 25 of June 2012, the Macedonian website of Ministry of
+Interior (MVR) was defaced by Kosovo Network Security (KNS) group, below
+figure. However, after we have noticed and some of the social networking
+sites have informed me, I was concern to find out what just have
+happened and how did happen, and of course how they have done it. So for
+this purpose, I have done some digging into details, about the previous
+defacement activities of this very important government site. But before
+we continue with more details, let just talk about the situation of
+yesterday and what did the authorities take protective measures steps
+and actions.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;On Monday, 25 June 2012 at 19:38, one friend have updated his status in
+one of the social networking sites, as follows: “Хакован
+&lt;a href="http://mvr.gov.mk/"&gt;http://mvr.gov.mk/&lt;/a&gt;” (Hacked &lt;a href="http://mvr.gov.mk/"&gt;http://mvr.gov.mk/&lt;/a&gt;). And it made me
+extremely intrigue to see what actually have just happened. The below
+figure, displays the message spread from the KNS group.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Screenshot from the mvr.gov.mk defaced version&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Moreover, what makes the situation even more interesting is that after
+the report that the site was defaced the authorities have taken a
+measures steps to fix the issue, by either shutting down the server or
+restoring the content of the site from the backup. Then after one or two
+minutes the site was defaced again. I did not want to lose the time and
+the nervous to check every five or ten minutes to see when it will be
+back again.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, after 15 hours, or one stressful – hard core night for the
+administrators of the site, the usability and functionalities where back
+as normal, let just see how long will stay!&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Therefore, in the current post the idea is to give and overview, of what
+actually is going on when it comes to case of cyber space, cyber
+security issues in Macedonia. The structure of this post is introduces
+first with the issue, or the problem that actuality made me to write
+this post. Followed by the background investigation about the previous
+defacement activities on the Ministry of Interior website in Macedonia.
+Then with the background investigation about the KNS group, moreover,
+with the self pen-testing site with different attacking methodologies.
+And finally, closing by with a conclusion and action plan that should be
+taken, for hence actions. This post does not only involves the public
+sector, but even and the private sector too. Those agencies,
+organizations are too much careless and do not take any actions of
+securing their IT assets.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Ministry of Interior in Macedonia site offers different online services.
+The site primary idea is to inform the inhabitance about the news,
+actions, useful information, public relations, analysis and statistics;
+international cooperation and legislation; and finally the services. And
+secondly is to give and opportunities to the population scheduling of
+service, if their document is issued, etc.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In one short sentence, this site, for some people, it may be very useful
+or not. However, I need to empathize that the site is only available in
+Macedonian language, nor Albania, nor English version. So, in simple
+conclusion this site is only useful for Macedonian speakers, and not for
+foreigners, yet still represents one of very important public service,
+government agency.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, in the next section we will discuses the previous
+defacement and hacking attacks of this site.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Background&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The service of this site, or the domain first was registered in 22
+October 2003, and unfortunate I do not remember when was first time
+available and published. However, in the pass years I have heard many
+times that this site was defaced and hacked, but still no actions or
+results were shown. Therefore, it made me very interesting to find out,
+if this defacement activities where notified and when and how many
+where. For this purpose I have use a site service that I know few years
+ago, the &lt;a href="http://www.zone-h.org/"&gt;Zone-H&lt;/a&gt;. Moreover,
+&lt;a href="http://www.zone-h.org/"&gt;Zone-H&lt;/a&gt; is neither responsible for the reported
+computer crimes nor it is directly or indirectly involved with them, it
+is just and simple site where collects the cybercrime activities
+notified anonymously. The bellow figure provides a details of previous
+reported/notified cybercrime activities of MVR site in Macedonia.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In details, total notifications are 4 of which 2 are single IP and 2 are
+mass defacements. The first mass defacement was done in 29 July 2009,
+when the site use a OS: Windows 2000, then in 2011 it was the
+re-defacement and the server operating system is Windows 2008. Followed
+by the other massive defacement in this year 2012 in March 18, and same
+year, few days before the current attack, 22 of June it was
+re-defacement. And the attack, defacement that we write for it was not
+notified or reported.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;From these data, and schedule, we can come to a conclusion that the site
+was defaced just 3 days before the mass defacement attack, so it might
+be a simple warning, to taken an action before something goes really
+wrong. But most probably, non of those administrators, or authorities
+did not taken any serious actions, until the case yesterday appears.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Details&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;To be able to do an analysis of what actually have happened, we need to
+take some actions.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;First, we have done a simple web sniffer, to find out what kind of
+system, and services the site, server is using. If we request the &lt;a href="http://en.wikipedia.org/wiki/List_of_HTTP_header_fields"&gt;HTTP
+Request Header&lt;/a&gt;
+we will receive an HTTP Response Header with a following data:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    Status: HTTP/1.1 200 OKCache-Control: privateContent-Type: text/html; charset=utf-8Server: Microsoft-IIS/7.0Set-Cookie: ASP.NET_SessionId=3lti3gep3usg4255ggf34tjn; path=/; HttpOnlyX-AspNet-Version: 2.0.50727X-Powered-By: ASP.NETDate: Tue, 26 Jun 2012 08:18:34 GMTConnection: closeContent-Length: 103773
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;The above data, is useful in a sense that provides as an information
+about the Server and the ASP.Net Version. Then, if we want to find more
+details about the open and close ports and operating system we can use
+the &lt;a href="http://nmap.org/"&gt;nmap&lt;/a&gt; tool with the following command line:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;nmap -O -v IP-Address&lt;/code&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;And the results will be as follows:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    PORT STATE SERVICE21/tcp open ftp80/tcp open httpRunning (JUST GUESSING) : Microsoft Windows Vista|2008|7 (89%)
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;From the web sniffing and from the OS version scanning we can assume
+that the server is running Microsoft Windows 2008. The current
+vulnerabilities and possible exploitations are visible on the &lt;a href="http://technet.microsoft.com/en-us/security/bulletin/"&gt;Microsoft
+Security
+Bulletins&lt;/a&gt;
+website. By knowing the vulnerabilities it is very easy task to find out
+a way either to commit DoS attack or remote server access. However, in
+this post we will not go into details and exploitation descriptions.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Moreover, the KNS, we assume the domain is followed:
+&lt;a href="http://kns-team.com/"&gt;http://kns-team.com&lt;/a&gt;. However, the site is down,
+therefore, we will have to understand who is behind this domain
+registration. Therefore, we will use the whois database to understand
+more, or even we can use another site that have been defaced by this
+group to find out more. So there is the list presented the members in
+the groups and their archive of notified defaced sites:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.zone-h.org/archive/notifier=cracker-besi"&gt;rAcKeR-BeSi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GP&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.zone-h.org/archive/notifier=L0wHacker"&gt;L0wHacker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;sLizer&lt;/li&gt;
+&lt;li&gt;X-r00t&lt;/li&gt;
+&lt;li&gt;SpyHackz&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The Facebook fan page is:
+&lt;a href="https://www.facebook.com/pages/Kosova-Network-Security/176195849098989"&gt;https://www.facebook.com/pages/Kosova-Network-Security/176195849098989&lt;/a&gt;.
+For more info I was short of time to do more digging, but I hope that
+someone will.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Action&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;After understanding the details about the MVR site, operating system and
+their server services, and information about the KNS, it is time to take
+an action of trying to see how vulnerable is MVR site, and to see if
+these lads had very difficult time of defacing the content of the site,
+or even gaining access to the server-side.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;But before, we carry on, I want to stress out that this section is not
+to give you an idea how, or knowledge to exploit or use any
+vulnerabilities to deface or gain access to the site. We will just
+demonstrate you a very simple
+&lt;a href="http://en.wikipedia.org/wiki/Cross-site_scripting"&gt;XSS&lt;/a&gt; exploit of MVR
+site that we have found a vulnerability, figure below.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Example of exploitation by XSS vulnerability, mvr.gov.mk&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;It is therefore, from this very simple and easy exploitation of XSS
+vulnerability of the MVS site we will be able to run more advance and
+complicated shell scripts to gain access and maintain access of the
+server. Our initial idea is not to show you how to do it, but to expose
+to the audience that actually hence actions is need it. And we hope that
+the administrators, developers and the authorities will take an action
+of mitigating the risk, and further vulnerabilities of the site.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In Macedonia, cyber space, cyber crime, cyber security, cyber warefare,
+cyber terrorism are actually unknown words, terminology. They are not
+even specified or added into the Macedonian dictionary, nor in IT
+dictionary. However, this is not the first or least defacement, attack
+that has happened in Macedonia, nor the first attack that has been done,
+implemented by neighbor countries, or someone else. I just don’t
+understand why people in this country are so careless about how to
+protect their IT assets, and everything else, as well.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Furthermore, it is not an issue that we do not have specialists to
+conduct a pen-testing to the sites and services that not only the
+government agencies are offering but even the banks and private sectors
+as well. We even have a cyber crime unit in Ministry of Interior, and
+one of very successful information security research and development
+laboratory in Macedonia: &lt;a href="http://www.zeroscience.mk/en/"&gt;Zero Science
+Lab&lt;/a&gt;. Also, the &lt;a href="http://cybersecurity.mk/icsap/"&gt;ICSAP – Interactive
+Cyber Security Awareness Program&lt;/a&gt;,
+Macedonia project, developed by myself.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, in final conclusion, I would like to recommend the
+authorities to take actions about the above described activities done by
+KNS and hope that the security awareness will boost up, and the further
+actions will be considered of securing cyber space.&lt;/p&gt;
+&lt;/p&gt;</content><category term="pages"></category><category term="Attacks"></category><category term="cyber security"></category><category term="information warfare"></category><category term="legal aspects of cyber security"></category><category term="log mining"></category><category term="DDoS"></category><category term="exploitation"></category><category term="kns"></category><category term="macedonia"></category><category term="mvr"></category><category term="online"></category><category term="security"></category><category term="vulnerability"></category><category term="expolit"></category></entry><entry><title>Clever solution by making site more resilient by optimization</title><link href="https://predragtasevski.com/posts/2012/03/clever-solution-by-making-site-more-resilient-by-optimization/" rel="alternate"></link><published>2012-03-23T00:00:00+01:00</published><updated>2012-03-23T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-03-23:/posts/2012/03/clever-solution-by-making-site-more-resilient-by-optimization/</id><summary type="html">&lt;h1&gt;PURPOSE &amp;amp; SCENARIO&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The objective of this laboratory test, scenario is to make explore
+alternative “clever” solutions (as opposed to making the site more
+resilient by optimizing it) to protect your site against attacks.
+Moreover, DDoS [1] attacks, malicious code, etc.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Therefore, we need to develop countermeasures for the &lt;strong&gt;working&lt;/strong&gt;
+attacks …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;PURPOSE &amp;amp; SCENARIO&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The objective of this laboratory test, scenario is to make explore
+alternative “clever” solutions (as opposed to making the site more
+resilient by optimizing it) to protect your site against attacks.
+Moreover, DDoS [1] attacks, malicious code, etc.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Therefore, we need to develop countermeasures for the &lt;strong&gt;working&lt;/strong&gt;
+attacks simulated with a standard DoS attack from a single IP address
+(performed with AB [2] or Jmeter). Limitations for this scenarios is
+highlighted:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;No additional hardware can be used&lt;/li&gt;
+&lt;li&gt;The wordpress installation can not be optimized: no caching plugins,
+    no reverse-proxy (varnish, squid etc)&lt;/li&gt;
+&lt;li&gt;No reactive measures that automatically block incoming traffic: the
+    site must respond to at least some of the requests coming from the
+    attacker at all times&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The countermeasures must not have negative effects on “normal usage
+    pattern”. Normal usage pattern is defined as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bursts of 10 connections per IP address in 1 second&lt;/li&gt;
+&lt;li&gt;Page load times not over 10 seconds&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;
+-   Normal usage must be possible from the same IP address that the
+attack originated from after a 20 second delay maximum.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In addition, we have to make much of the rules for the scenario. Rules
+as follow: Fresh installation of the latest version of Ubuntu Server and
+the most recent WordPress as of 20.10.2011. First priority: No normal
+usage pattern connections can be dropped! Second priority: service speed
+of normal connections. Defined by number of connections / second (easy
+to measure). Third priority: How fast after the attack is stopped, the
+site can be accessed from the attacking IP again.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Each test and measured results will be exposed in to Test section.
+Whereas, the process of installation of clever solution and attacking
+scripts will be provided in to Appendixes section.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Finally, the measurement results will be compared with the first state
+without attack and any security solutions applied. Alternatively,
+providing measurement results with one solution and attack will help us
+to identify the most beneficial security solution. Therefore, in
+Conclusion section comparison results will be highlighted.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;TESTS&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Because of requirements of our scenario we need to display the results
+before security solution is applied and attacker performance. For this
+purpose we are going to use an AB script to display the response time of
+the server:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ab -t 10 -n 10 -c 10 http://192.168.56.102/wordpress/&lt;/code&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The above script provides detail information, yet only important is
+Request per second. Thus, with an fresh installation and without any
+security solution, it provided with result of 3.95 [#/sec]. With other
+word, 3.95 number of request per second. After applying different
+security solution and performing an attack to the server, results will
+be divers.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In addition, test were done by two different virtual environment
+machines. One is for testing results and the other one is to perform
+attack with the following script:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ab -n 100 -c 10 http://192.168.56.102/wordpress/&lt;/code&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;TEST 1&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;First test is to install libapache2-mod-evasive
+[libapache2-mod-evasive]. Where, mod_evasive is an evasive maneuvers
+module for Apache is to provide some protection in the event of an HTTP
+DoS or DDoS attack or brute force attack. It is also designed to be a
+detection tool, and can be easily configured to talk to ipchains,
+firewalls, routers, and etcetera.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The process of installation and configuration refer to the Appendix 1.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;After completed the installation and configuration process it is time to
+test the security solution and to highlight the results. Before
+performing the attack the results were somehow, lower then, before
+installing the mod-evasive, 2.06 number request per second. When we
+start the attack and in same time analysis the server responded with
+timeout. The conclusion is that mod-evasive it is not enough solution.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;TEST 2&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;From previous test we can see that the solution was not enough clever
+for our needs. The server somehow was dead. However, we are going to
+install now &lt;code&gt;mod_security&lt;/code&gt; module for apache, with side of previous
+test. For more detail information of installation process and
+configuration refer to Appendix 2 or to the following source
+[mod_security].&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;CONCLUSION&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;There are three points that we should consider and to see which proposal
+was more accurate and it did the job that was required in the scenario.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In conclusion, the above proposals are nice and good example to have an
+view of how and with what tools we should perform script kiddie
+techniques. How to shutdown access to a server. On the whole, it show as
+how to use tools and methods of measuring the bandwidth of network and
+how to limit the transfer in comfortable way.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;APPENDIXES&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Appendix 1 is connected with the Method 1, which highlighted points are
+illustration on what information we should check, to clarify that the
+virtual environment has limitation of the network interface. Where
+Appendix 2 is for installation process of Ubuntu Server 10.04 LTS and
+wordpress, mysql installation.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;APPENDIX 1&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Installation process:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo apt-get install libapache2-mod-evasive&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Configuration process is followed and gather from the following source
+[Evasive Module], for addition proposal please refer to[Blacklist]:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    sudo mkdir /var/log/apache2/mod_evasivesudo chown www-data /var/log/apache2/mod_evasive
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;Afterwards, create its configuration file with a default content, with
+the following command:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    sudo nano /etc/apache2/apache2.conf IfModule mod_evasive20.c;DOSHashTableSize 3097DOSPageCount 2DOSSiteCount 50DOSPageInterval 1DOSSiteInterval 1DOSBlockingPeriod 10DOSLogDir /var/log/apache2/mod_evasiveDOSEmailNotify root@localhostDOSWhitelist 127.0.0.1DOSSystemCommand &amp;amp;quot;/sbin/iptables -I INPUT -p tcp --dport 80 -s %s -j DROP/IfModule;
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;The above changes to take effect please restart the apache service by:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo service apache2 restart&lt;/code&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;You can test whether it works using a script included in the deb
+package:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;perl /usr/share/doc/libapache2-mod-evasive/examples/test.pl&lt;/code&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;APPENDIX 2&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Installation and configuration of mod_security:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;apt-get install libapache2-modsecurity /etc/init.d/apache2 force-reload&lt;/code&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Installation media: Ubuntu 11.10 32bit iso image;&lt;/li&gt;
+&lt;li&gt;HW: Virtualbox, 1CPU 32bit, 512MB RAM, 8GB HD (dynamic allocation);&lt;/li&gt;
+&lt;li&gt;NIC1 NAT;&lt;/li&gt;
+&lt;li&gt;NIC2 host only (for ssh and http access from host);&lt;/li&gt;
+&lt;li&gt;Language used in installation process: English and country Estonia;&lt;/li&gt;
+&lt;li&gt;Keyboard Layout English;&lt;/li&gt;
+&lt;li&gt;no http proxy&lt;/li&gt;
+&lt;li&gt;Default applications&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo apt-get install lamp phpmyadmin&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;wget -c http://wordpress.org/latest.tar.gz&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;tar xvjf latest.tar.gz&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo cp wordpress /var/www/wordpress&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo nano /var/www/wordpress/wp-config.php&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Change the settings to your needs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Bibliography&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[libapache2-mod-evasive] Canonical Ltd., Package: libapache2-mod-evasive
+(1.10.1-1), 2011,
+&lt;a href="http://packages.ubuntu.com/hardy/libapache2-mod-evasive"&gt;http://packages.ubuntu.com/hardy/libapache2-mod-evasive&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[modsecurity] How to Forge, Secure Your Apache With mod_security, 2006,
+&lt;a href="http://www.howtoforge.com/apache_mod_security"&gt;http://www.howtoforge.com/apache_mod_security&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[Evasive Module] Deep Logic, Inc., Apache Evasive Maneuvers Module,
+2005,
+&lt;a href="http://fossies.org/unix/www/apache_httpd_modules/mod_evasive_1.10.1.tar.gz:t/mod_evasive/README"&gt;http://fossies.org/unix/www/apache_httpd_modules/mod_evasive_1.10.1.tar.gz:t/mod_evasive/README&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[Blacklist] Jeff Starr, Eight Ways to Blacklist with Apache’s
+mod_rewrite, Feb 2009,
+&lt;a href="http://perishablepress.com/press/2009/02/03/eight-ways-to-blacklist-with-apaches-mod_rewrite/"&gt;http://perishablepress.com/press/2009/02/03/eight-ways-to-blacklist-with-apaches-mod_rewrite/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Footnotes&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[1] DDoS – Denial-of-service attack&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[2] AB - &lt;a href="http://httpd.apache.org/docs/2.0/programs/ab.html"&gt;http://httpd.apache.org/docs/2.0/programs/ab.html&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;</content><category term="pages"></category><category term="ab"></category><category term="attacks"></category><category term="clever solution"></category><category term="cyber security"></category><category term="DDoS"></category><category term="internet"></category><category term="jmeter"></category><category term="malicious code"></category><category term="wordpress"></category></entry><entry><title>Script Kiddie</title><link href="https://predragtasevski.com/posts/2011/10/script-kiddie/" rel="alternate"></link><published>2011-10-19T23:00:00+02:00</published><updated>2011-10-19T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2011-10-19:/posts/2011/10/script-kiddie/</id><summary type="html">&lt;h1&gt;PURPOSE and SCENARIO&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The goal of this laboratory test is to make effort to attack server and
+to deface website. Here is the scenario: your client is worried about
+some stuff posted on a blog. They ask You to take care of it. They have
+a throwaway “script kiddie”[Script …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;PURPOSE and SCENARIO&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The goal of this laboratory test is to make effort to attack server and
+to deface website. Here is the scenario: your client is worried about
+some stuff posted on a blog. They ask You to take care of it. They have
+a throwaway “script kiddie”[Script kiddie] in a third world country, who
+will mount the attack so You don’t need to worry about hiding the
+attackers identity.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Therefore, we need to devise a way to attack wordpress (default
+installation) based site to render it unusable (page view times over 60
+seconds). Attack resources: one PC with Microsoft Windows XP, a script
+kiddie, internet connection of 2Mbit/s. In addition, server has to stay
+down for two days and script kiddie has up to 1 day to set up the
+attack.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;For scenario above their three different proposals from the fallow
+students. Each proposal is described in section Proposals and their
+effectiveness, installation process and the evaluation of the efficient
+use of available resources.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Firstly, easy solution for limiting the internet connection of 2Mbit/s
+by Oracle VirtualBox configuration manager. Secondly, the bandwidth
+capacity of the connection and their performance is measured by vnstat1
+for graphs to display our utilization. The steps are vivid on section
+Methods.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Finally, providing measurement results with different proposals will
+help us to identify the most beneficial proposal for above scenario,
+declared in Conclusion section.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Moreover, after each attack, test the virtual server environment is
+restarted, because of the affective situation that server after attack
+needs time to recover.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;METHODS&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Because of requirements of our scenario we need to limit the internet
+connection of 2 Mbit/s and to provide graphs that can help as with the
+measurement results to conclude which proposals is more competent.
+Therefore, Method 1 is describing the step how we limited the connection
+bandwidth and Method 2 providing as solution how to setup that can help
+you in measuring the speed and the bandwidth.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;METHOD 1&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;For limiting the internet traffic of the server we have to do the
+following steps in command prompt. The following solution is gathered
+from Manual of Oracle Virtualbox, Chapter 8 [User Manual].&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Limiting VirtualBox – virtual environment speed of network interface:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    VBoxManage modifyvm "[name of virtualbox]" --nicspeed2 2048
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;Where you need to replace name of virtual box with real one, and specie
+which network interface adapter you wont to limited. In the above
+illustration is only second network adapter affected and then you set
+the limitation, in our case is 2 Mbit/s.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Furthermore, to make sure that the result have been effective please use
+the following command:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    VBoxManage showvminfo "[name of virtualbox]"
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;Results and information important to be aware refer to Appendix 1.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;METHOD 2&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;We are going to install an application that will help us to gather a
+visual graphs of traffic manipulation of script kiddie. The application
+is vnstat.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In the server virtual environment in command prompt please type the
+following command:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    sudo apt-get install vnstat&lt;br&gt;
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;Next step is to select which interface should be monitored and create
+graphs. In our case is eth1, which is second network interface. For
+furthermore detailed installation process please refer to the following
+link:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.4geeksfromnet.com/2009/04/graphical-bandwidth-monitor-for-ubuntu.html"&gt;http://www.4geeksfromnet.com/2009/04/graphical-bandwidth-monitor-for-ubuntu.html&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;To check if the installation process is finished please use your
+browser, as shown in illustration 1 and on the address bar type:
+http://192.168.56.102/vnstat&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Illustration 1: Vnstat PHP interface&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;PROPOSALS&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The three proposals are following and described in each different
+section and their results. The main measure goal which is going to grate
+for kiddie script is: easy to use instructions, the most efficient use
+of available resources and can the script be up to 1 day attacking.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Moreover, the results will be provided with two different graphs in
+period of 5 minutes attack and 10 minutes attack. Which would guide us
+to compare which kiddie script has performed the attack more in force.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;PROPOSAL 1&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;This is the first proposal and the installation process instruction:
+Script kiddie uses a little program to connection flood the WordPress
+installation! The program uses Apache autobench to take the site down in
+seconds.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Guide for the scipt Kiddie:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Download the program from
+    &lt;a href="http://enos.itcollege.ee/~avein/anti2.rar"&gt;http://enos.itcollege.ee/~avein/anti2.rar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Unpack and run AntiXakkerv2.0.exe&lt;/li&gt;
+&lt;li&gt;Enter the address for wordpress site and press the button&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Above script did no run/work on the VirtualMachine Windows XP.
+Therefore, from the same author we have other solution:&lt;/p&gt;
+&lt;p&gt;​1. Download
+&lt;a href="http://enos.itcollege.ee/%7Eavein/anti.exe"&gt;http://enos.itcollege.ee/\~avein/anti.exe&lt;/a&gt;,
+save it on Desktop&lt;/p&gt;
+&lt;p&gt;​2. Open Start menu, select run and type “cmd” into the box and press
+enter&lt;/p&gt;
+&lt;p&gt;​3. Drag anti.exe file to the black box (commandline) , select the box
+and type the address of your server ( eg. www.delfi.ee ) after the
+anti.exe&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;For example, if the address for your webserver is 192.168.56.101 type
+the following:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    anti.exe 192.168.56.101&lt;br&gt;
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Press enter and the site will go down very soon :=) P.S. This is
+    lightweight version tat doesnot use much bandwith and is targeted
+    against a bug in apache server :)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;h3&gt;RESULT 1&lt;/h3&gt;
+&lt;/p&gt;
+
+&lt;p&gt;After running the first proposal we can see that the script kiddie does
+attack the server, but the server was reachable after a bit long delay,
+but still we could access to the wordpress.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Here are some results graphs.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;5 minutes attack&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Illustration 2: Proposal 1, 5 min, traffic graph&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;10 minutes attack&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Illustration 3: Proposal 1, 10 min, traffic graph&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;On the one hand the script kiddie did attack the server, but on the
+other hand the server was still accessible. I’d like to conclude by
+stating that the above script did not meet our needs, and it did not
+stop, bring down the response time of the server.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;PROPOSAL 2&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Second proposal and the installation process:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;You (Script kiddie) download the file from &lt;a href="http://share.ee/x49176f"&gt;http://share.ee/x49176f&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;You will get an warning message, but you continue to download anyway&lt;/li&gt;
+&lt;li&gt;In chrome it looks like this&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Execute the file&lt;/li&gt;
+&lt;li&gt;Will get a warning but continue&lt;/li&gt;
+&lt;li&gt;Will look something like this&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Insert the URL to attack and define how long you want to attack&lt;/li&gt;
+&lt;li&gt;Will look like&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Enjoy&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The script is basic vbscript that will overwhelm the server by as many
+connections that are required to keep the server down for as long as you
+define.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The above script did not work on the laboratory performance, because it
+had an code error. Therefore, for this proposal we are not able to
+provide you with the result graphs&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;PROPOSAL 3&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Third proposal and the installation process is listed below: There is a
+free and very easy Denial of service script written in PHP, called
+Keep-Dead (Version 1.14). You can download it from the following link:
+&lt;a href="http://www.esrun.co.uk/blog/imp/2011/03/Keep-Dead.zip"&gt;http://www.esrun.co.uk/blog/imp/2011/03/Keep-Dead.zip&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;It is developed for a research purpose, but still we can use it for our
+scenario. The good think is primarily meant for use via the terminal;
+although it will also work if launched via the browser.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Unpack the Keep-Dead.zip&lt;/li&gt;
+&lt;li&gt;Open in notepad or any other text/script editor&lt;/li&gt;
+&lt;li&gt;On line #26 change the
+    &lt;code&gt;$target_url = “http://www.example.com/wordpress/?s=%rand%”;&lt;/code&gt; to our
+    targeted wordpress blog. We can stop even certain page or post in
+    wordpres or use of &lt;code&gt;%rand%&lt;/code&gt; for a random value to be automatically
+    generated for each individual request • You can change the maximum
+    number of requests to be made on line #32&lt;/li&gt;
+&lt;li&gt;Changeable is maximum number of requests to be made per connection
+    #37, etc.&lt;/li&gt;
+&lt;li&gt;After setting the setting of our needs save the file.&lt;/li&gt;
+&lt;li&gt;And in terminal you need to run the following script:
+    &lt;code&gt;php –e keep-dead.php&lt;/code&gt; or if you run a xamp or other webserver it is
+    possible to run the script from your browser.&lt;/li&gt;
+&lt;li&gt;You can terminate the script by pressing CTRL+C in terminal console
+    or stop/close the browser.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;p&gt;For more information or video tutorials please refer to the following
+link: &lt;a href="http://www.esrun.co.uk/blog/keep-alive-dos-script/"&gt;http://www.esrun.co.uk/blog/keep-alive-dos-script/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;If we follow the above steps we can perform our scenario 3 to make the
+server to stay down for two days or even more.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;There many ways to keep the server down for two days, this script for me
+is kind of easy usable. In addition, the author had provide and more
+details with following content: In addition of my proposal pls install
+the following script:
+&lt;a href="http://windows.php.net/downloads/releases/php-5.3.8-nts-Win32-VC9-x86.msi"&gt;http://windows.php.net/downloads/releases/php-5.3.8-nts-Win32-VC9-x86.msi&lt;/a&gt;
+in the installation process in the section of Select Web Server you wish
+to setup please chose Do not setup a web server -&gt; Next click on the
+PHP small narrow down icon and select Entire future will be installed on
+local hard drive (second option) -&gt; Next -&gt;Install&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The results and graphs of the above proposal are demonstrated in the
+next section.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;This is the script that actually does the job and it keeps the server
+down until the script is down.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h3&gt;RESULT 3&lt;/h3&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Test results are following:&lt;/p&gt;
+&lt;p&gt;​1. 5 minutes attack&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Illustration 4: Proposal 3, 5 min, traffic graph&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;10 minutes attack&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Illustration 5: Proposal 3, 10 min, traffic graph&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;A case in point is that from the above graphs we can see that the server
+does get more traffic and it does get attacked by the script kiddie.
+Illustration 6, bellow demonstrated that actually the server is down, is
+not responding any more to requests.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Illustration 6: Proposal 3, server down after trying to reach the blog&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;CONCLUSION&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;There are three points that we should consider and to see which proposal
+was more accurate and it did the job that was required in the scenario.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;First I would like to start with rating from 1 to 5 each proposal.
+Higher score present better results. Which is proving our destination to
+hold down the server for longer then one day. The bellow table
+demonstrates which proposal has succeed.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;table&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;thead&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;th&gt;
+&lt;/th&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;th align="center"&gt;
+Proposal 1
+
+&lt;/th&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;th align="center"&gt;
+Proposal 2
+
+&lt;/th&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;th align="right"&gt;
+Proposal 3
+
+&lt;/th&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/thead&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tbody&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td&gt;
+Easy installation
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+5
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+5
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+4
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td&gt;
+Server down
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+3
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+1
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+5
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td&gt;
+TOTAL
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+8
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+6
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+9
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tbody&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/table&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;On the scoring rate 3 of server down is means that the server was down,
+but after few seconds was retrievable. Where the highest score 5 means
+that the server was not retrievable during this proposal test until we
+shutdown or cancel the process of script kiddie. In addition, the
+Proposal 3 due to a code error was not able to perform attack, that is
+why it is graded with server down score of 1. Therefore, our winner for
+this laboratory test is Proposal 3 with script kiddie Keep-dead.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The next issue that I would like to focus is to the network speed,
+tested with other tool bmon2 which manifests that the speed limit of the
+bandwidth did not go over the 2 Mbit/s.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In conclusion, the above proposals are nice and good example to have an
+view of how and with what tools we should perform script kiddie
+techniques. How to shutdown access to a server. On the whole, it show as
+how to use tools and methods of measuring the bandwidth of network and
+how to limit the transfer in comfortable way.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;APPENDIXES&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Appendix 1 is connected with the Method 1, which highlighted points are
+illustration on what information we should check, to clarify that the
+virtual environment has limitation of the network interface. Where
+Appendix 2 is for installation process of Ubuntu Server 10.04 LTS and
+wordpress, mysql installation.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;APPENDIX 1&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    Name: ubuntu-serverGuest OS: UbuntuUUID: fe16451a-f8b1-4ceb-bb90-8650d08c3c0eConfig file: C:\Users\predrag\Documents\Master_CyberSecurity\VirtualBox VMs\ubuntu-server\ubuntu-server.vboxSnapshot folder: C:\Users\predrag\Documents\Master_CyberSecurity\VirtualBox VMs\ubuntu-server\SnapshotsLog folder: C:\Users\predrag\Documents\Master_CyberSecurity\VirtualBox VMs\ubuntu-server\LogsHardware UUID: fe16451a-f8b1-4ceb-bb90-8650d08c3c0eMemory size: 512MBPage Fusion: offVRAM size: 12MBCPU exec cap: 100%HPET: offChipset: piix3Firmware: BIOSNumber of CPUs: 1Synthetic Cpu: offCPUID overrides: NoneBoot menu mode: message and menuBoot Device (1): FloppyBoot Device (2): DVDBoot Device (3): HardDiskBoot Device (4): Not AssignedACPI: onIOAPIC: offPAE: offTime offset: 0 msRTC: UTCHardw. virt.ext: onHardw. virt.ext exclusive: offNested Paging: onLarge Pages: onVT-x VPID: onState: running (since 2011-10-11T11:26:30.089000000)Monitor count: 13D Acceleration: off2D Video Acceleration: offTeleporter Enabled: offTeleporter Port: 0Teleporter Address:Teleporter Password:Storage Controller Name (0): IDE ControllerStorage Controller Type (0): PIIX4Storage Controller Instance Number (0): 0Storage Controller Max Port Count (0): 2Storage Controller Port Count (0): 2Storage Controller Bootable (0): onStorage Controller Name (1): SATA ControllerStorage Controller Type (1): IntelAhciStorage Controller Instance Number (1): 0Storage Controller Max Port Count (1): 30Storage Controller Port Count (1): 1Storage Controller Bootable (1): onSATA Controller (0, 0): C:\Users\predrag\Documents\Master_CyberSecurity\VirtualBox VMs\ubuntu-server\ubuntu-server.vdi (UUID: bf4c167a-ec0a-42fa-915f-2ffbe2fd66fb) NIC 1: MAC: 0800274572ED, Attachment: NAT, Cable connected: on, Trace:off (file: none), Type: 82540EM, &lt;span style="color: #ff0000;"&gt;Reported speed: 2 Mbps&lt;/span&gt;, Boot priority: 0, Promisc Policy: denyNIC 1 Settings: MTU: 0, Socket (send: 64, receive: 64), TCP Window (send:64, receive: 64) NIC 2: MAC: 0800270858EA, Attachment: Host-only Interface 'VirtualBoxHost-Only Ethernet Adapter', Cable connected: on, Trace: off (file: none), Type:82540EM, Reported speed: 2 Mbps , Boot priority: 0, Promisc Policy: denyNIC 3: disabledNIC 4: disabledNIC 5: disabledNIC 6: disabledNIC 7: disabledNIC 8: disabledPointing Device: USB TabletKeyboard Device: PS/2 KeyboardUART 1: disabledUART 2: disabledAudio: enabled (Driver: DSOUND, Controller: AC97)Clipboard Mode: BidirectionalVideo mode: 640x480x0VRDE: disabledUSB: enabledUSB Device Filters: &amp;lt;none&amp;gt;Available remote USB devices: &amp;lt;none&amp;gt;Currently Attached USB Devices: &amp;lt;none&amp;gt;Shared folders: &amp;lt;none&amp;gt;VRDE Connection: not activeClients so far: 0Guest: Configured memory balloon size: 0 MBOS type: UbuntuAdditions run level: 0Guest Facilities: No active facilities.
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;h2&gt;APPENDIX 2&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Installation media: Ubuntu 10.04 LTS 32bit iso image;&lt;/li&gt;
+&lt;li&gt;HW: Virtualbox, 1CPU 32bit, 512MB RAM, 8GB HD (dynamic allocation);&lt;/li&gt;
+&lt;li&gt;NIC1 NAT;&lt;/li&gt;
+&lt;li&gt;NIC2 host only (for ssh and http access from host);&lt;/li&gt;
+&lt;li&gt;Language used in installation process: English and country Estonia;&lt;/li&gt;
+&lt;li&gt;Keyboard Layout English;&lt;/li&gt;
+&lt;li&gt;Hostname: pece&lt;/li&gt;
+&lt;li&gt;Partition methods: Guided, use entire disk&lt;/li&gt;
+&lt;li&gt;Username: pece&lt;/li&gt;
+&lt;li&gt;no http proxy&lt;/li&gt;
+&lt;li&gt;Default applications&lt;/li&gt;
+&lt;li&gt;sudo apt-get install lamp phpmyadmin&lt;/li&gt;
+&lt;li&gt;wget -c http://wordpress.org/latest.tar.gz&lt;/li&gt;
+&lt;li&gt;tar xvjf latest.tar.gz&lt;/li&gt;
+&lt;li&gt;sudo cp wordpress /var/www/wordpress&lt;/li&gt;
+&lt;li&gt;sudo nano /var/www/wordpress/wp-config.php Change the settings to
+    your needs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Bibliography&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Script kiddie: Wikipedia, Script Kiddie, October 2011,
+&lt;a href="http://en.wikipedia.org/wiki/Script_kiddie"&gt;http://en.wikipedia.org/wiki/Script_kiddie&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;User Manual: Oracle Corporation, User Manual, 2004-2011,
+&lt;a href="http://www.virtualbox.org/manual/ch08.html"&gt;http://www.virtualbox.org/manual/ch08.html&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Footnotes:&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[1] vnstat – &lt;a href="http://humdi.net/vnstat/"&gt;http://humdi.net/vnstat/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[2] Bmon – &lt;a href="http://www.infradead.org/~tgr/bmon/"&gt;http://www.infradead.org/~tgr/bmon/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;</content><category term="pages"></category><category term="attacks"></category><category term="cyber security"></category><category term="DDoS"></category><category term="internet"></category><category term="script kiddie"></category><category term="security"></category><category term="server attack"></category><category term="wordpress attack"></category></entry><entry><title>IP Responsibility and abuse reporting procedure</title><link href="https://predragtasevski.com/posts/2011/03/ip-responsibility-and-abuse-reporting-procedure/" rel="alternate"></link><published>2011-03-11T00:00:00+01:00</published><updated>2011-03-11T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2011-03-11:/posts/2011/03/ip-responsibility-and-abuse-reporting-procedure/</id><summary type="html">&lt;h1&gt;PURPOSE&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The main goal of laboratory report is to identify the responsibilities
+for the IP addresses below and how we can make connection to them. IP
+addresses are randomly chosen by the lecture.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;IP addresses:&lt;/p&gt;
+&lt;p&gt;​1. 69.163.171.238&lt;/p&gt;
+&lt;p&gt;​2. 31.44.184.101&lt;/p&gt;
+&lt;p&gt;​3. 188.72.228.69 …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;PURPOSE&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The main goal of laboratory report is to identify the responsibilities
+for the IP addresses below and how we can make connection to them. IP
+addresses are randomly chosen by the lecture.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;IP addresses:&lt;/p&gt;
+&lt;p&gt;​1. 69.163.171.238&lt;/p&gt;
+&lt;p&gt;​2. 31.44.184.101&lt;/p&gt;
+&lt;p&gt;​3. 188.72.228.69&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;External IP that is used for purpose of this test is following:
+193.40.244.0/255 1. The ISP that provides this network is EENet2.
+Organization that is behind is Tallinn Technical University, Estonia.
+City location is Tallinn and the region is Harjumaa. The phone number of
+my ISP is: +372 73&lt;strong&gt;&lt;em&gt;*&lt;/em&gt;. The e-mail we should report abuse are: first
+persons that is in charge: Viktor Borisevitch (e-mail:&lt;/strong&gt;tor at cc.ttu.ee
+and phone number: +372-2-&lt;strong&gt;&lt;em&gt;*46) and Andres Lepp (e-mail: l&lt;/em&gt;&lt;/strong&gt; at
+cc.ttu.ee and phone number: +372 6 &lt;strong&gt;*&lt;/strong&gt;55). In addition, if we wont to
+submit an abuse we should use both persons of network administration and
+then we can submit and security incident on the following ISP e-mail:
+turvas@eeenet.ee [RIPE NCC].&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;All in all, Method 1 and Appendix 1 describes the website, tools and
+application that are used to conduct this laboratory report. In
+addition, Method 2 and Appendix 2 will introduce website tools and
+databases where we can check if following IP’s have been reported before
+as abuse and security risk. Both methods are represented with answer and
+consequences confront in the result section.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Finally the conclusion made of all collected data will be concise in
+conclusion section of this report.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;METHODS&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;First method describes and demonstrates web tools that have been used to
+collect the needed information from the stated IP’s addresses. Second
+method is pointing out website tools and databases that can be applied
+if the IP has been reported previously as a abuse, spam or security
+threat.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;METHOD 1&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Firstly, we need to collect as much as we can details about the IP
+address. In Appendix 1 is showing the wholly information of the IP’s,
+contact details, organization name, address, location, state, country,
+technicians contact, abuse phone number, abuse e-mail, etc.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Depending on the location of IP we should make sure that not only we
+know the ISP or abuse contact details, but we should know national CERT
+3 agency that is in charge too. Therefore, to collect the information we
+have used different web sites, agencies: [RIPENCC, LACNIC, AfriNIC,
+APNIC, ARIN]. The above reference are agencies collected from IANA4.
+Authority responsible for global coordination of the Internet Protocol
+addressing systems [IANA].&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Moreover, to have more details about the route of the IP’s we are using
+command prompt in Windows 7 with the following command, where the
+results are presented in Appendix 2 section:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    tracert [0.0.0.0]To illustrate, the details information are presented in Result 1 section.
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;h2&gt;METHOD 2&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;After we have collected the wholly information about the concrete IP
+proposals, we should check if in addition those IP’s previously have
+been reported as abused, spam or security threat. To complete the
+following method we need to check concrete database system that is
+offering following service. First that crossed on web is [MalwareURL]
+which is dedicated to fighting malware, trojans and a multitude of other
+web-related threats. In addition, we can check if the IP addresses are
+listed in anti-spam databases. With other words blacklist check
+[MyIPAddress].&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;RESULTS&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Results from Method 1 are presented in Result 1, further Method 2 is
+presented in Result 2.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;RESULT 1&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;For each IP are presented only the most important data details that we
+need to collect for our goal. In addition, full description and details
+are presented in Appendix 1. The tables bellow are illustrating the most
+important information that we should look-for. In addition, the
+highlighted lines are indicating the abuse e-mail box that should be
+send mail too.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    69.163.171.238OrgName: New Dream Network, LLCAddress: 417 Associated Rd.Address: PMB #257City: BreaStateProv: CAPostalCode: 92821Country: US#technician in chargeOrgTechName: Nagel, MarkOrgTechPhone: +1-714-706-4182OrgTechEmail: mna47-arin at dreamhost.com#abuse in chargeOrgAbuseName: DreamHost Abuse TeamOrgAbusePhone: +1-714-706-4182OrgAbuseEmail: abuse&amp;nbsp; at dreamhost.comTable 131.44.184.101person: Chris Burnsaddress: Building 4&gt;address: City West Office Parkaddress: Gelderd Roadaddress: Leeds LS12 6LXaddress: Englandphone: +44-208-901-2332#abuse e-mail: abuse-mailbox: abuse at laveconetworks.co.ukTable 288.72.228.69role: Mannesmann Arcor Network Operation Centeraddress: Arcor AG &amp;amp; Co. KGaddress: Department TBSaddress: Otto-Volger-Str. 19address: D-65843 Sulzbach/Ts.address: Germanyphone: +49 6196 523 0864#abuse e-mailabuse-mailbox: abuse at arcor-ip.deTable 3
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;However, now that we know the abuse e-mail, phone number and contact
+person details, still is this information enough for us. If we look in
+details all of the IP’s are from different countries. Therefore we need
+to find what is the national CERT agency contact details. First table is
+based in USA, therefore we need to use their reporting system, which is
+locate in the following link: &lt;a href="http://www.us-cert.gov/"&gt;http://www.us-cert.gov/&lt;/a&gt; . Second table
+is UK, the national CERT agency link:
+&lt;a href="http://www.ukcert.org.uk/"&gt;www.ukcert.org.uk&lt;/a&gt;. Third table is based in
+Germany, the CERT agency link: &lt;a href="http://www.cert-verbund.de/"&gt;http://www.cert-verbund.de/&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;From the routing trace we can conclude that the first IP and the third
+respond and it did not miss route trace, where in the second IP,
+31.44.184.101 there is miss route trace.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;That is why we will run this IP address to Method 2. Despite the fact,
+still we will run the rest of IP’s in the Method 2, to be trusted that
+are not in the abuse list.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;RESULT 2&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Next step is to attempt to search the IP address to check if they have
+been previously report as a abuse, trojan, malware, security threat,
+etc.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;To check and verify the security status we are using the service
+available [MalwareURL]. Where results for 69.163.171.238 and
+88.72.228.69 are with status that have not been previously reported as
+abuse. On the other hand, 31.44.184.101 IP address is detected as an
+security threat before. More details are presented in Appendix 3. Where
+is demonstrating that the
+&lt;code&gt;/404.php?type=stats&amp;amp;amp;affid=531&amp;amp;amp;subid=03&amp;amp;amp;iruns&lt;/code&gt; has been
+reported as malicious URL and it is in a blacklist of Google, MyWOT,
+etc.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Not only that it is listed in the malware database list, but also if we
+double check on service [MyIPAddress] that the 31.44.184.101 IP address
+is listed in few blacklist which is assess by DNSBL5.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;CONCLUSION&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In conclusion, I would like to reiterate that the concrete IP’s that we
+analysis in this report are demonstrating the process and methods that
+should be done in future to detect, report abuse, malware, threat,
+trojan, security risk, etc. Where we should gather the detail
+information, and to whom to turn the abuse. To be precise that are not
+in blacklist, spam list, etc.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In spite of following IP’s: 69.163.171.238 and 88.72.228.69, from
+performing methods and delivering results are safe and secure, still
+think can be exploited in easy manners. The opposite, IP address
+31.44.184.101 it has been already report infected as malicious code from
+few blacklist providers. When checking the DNS, host name is linking to
+UK company that deals with IP Transit. For further information please
+check the following link: &lt;a href="http://www.laveconetworks.co.uk/"&gt;http://www.laveconetworks.co.uk/&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In general, hope that laboratory report and the analyse will help to
+anyone else to guide them for future use.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;APPENDIXES&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Appendix 1 is list of details collected from service. Appendix 2 is
+trace route details. Where Appendix 3 is the result collected from the
+black list database.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Because of large content please download
+[&lt;a href="http://predragtasevski.com/pdf/Predrag_Tasevski_Lab3_Report_IP_responsibility.pdf"&gt;PDF&lt;/a&gt;]&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Bibliography&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;RIPE NCC: RIPE NCC, Data &amp;amp; Tools, 2011,
+&lt;a href="https://www.ripe.net/data-tools"&gt;https://www.ripe.net/data-tools&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;LACNIC: Internet Address Registry for Latin America and the Caribbean,
+REGISTRATION SERVICES , &lt;a href="http://lacnic.net/cgi-bin/lacnic/whois?lg=EN"&gt;http://lacnic.net/cgi-bin/lacnic/whois?lg=EN&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;AfriNIC: AfriNIC LTD, Query the AfriNIC Whois Database, 2011,
+href="http://www.afrinic.net/cgi-bin/whois"
+target="_blank"&gt;http://www.afrinic.net/cgi-bin/whois&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;APNIC: APNIC, APNIC – Query the APNIC Whois Database, 2011,
+&lt;a href="http://wq.apnic.net/apnic-bin/whois.pl"&gt;http://wq.apnic.net/apnic-bin/whois.pl&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;ARIN: ARIN, WHOIS-RWS, 2011,
+&lt;a href="http://whois.arin.net/"&gt;http://whois.arin.net&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;IANA: IANA, Number Resources, 2011, &lt;a href="http://www.iana.org/numbers/"&gt;http://www.iana.org/numbers/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;MalwareURL: The MalwareURL Team, The MalwareURL Team, 2011,
+&lt;a href="http://www.malwareurl.com/"&gt;http://www.malwareurl.com&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;MyIPAddress: What Is My IP Address, Blacklist Check, 2011,
+&lt;a href="http://whatismyipaddress.com/blacklist-check"&gt;http://whatismyipaddress.com/blacklist-check&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Footnotes:&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[1] I will not show my own IP address&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[2] EENet – &lt;a href="http://www.eenet.ee/EENet/"&gt;http://www.eenet.ee/EENet/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[3] CERT – Computer Emergency Response Team&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[4] IANA – Internet Assigned Numbers Authority – &lt;a href="http://www.iana.org/"&gt;http://www.iana.org/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[5] DNSBL – Domain Name System Blacklist&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Changed on purpose, not to disclose the exposure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</content><category term="pages"></category><category term="attacks"></category><category term="cyber security"></category><category term="DDoS"></category><category term="external IP"></category><category term="Internet Protocol addressing systems"></category><category term="IP addresses"></category><category term="malware"></category><category term="online"></category><category term="report abuse"></category><category term="security"></category><category term="security risk"></category></entry></feed>

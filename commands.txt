@@ -1,0 +1,8 @@
+$ pelican content/ -o output/ -s pelicanconf.py
+$ ghp-import output/
+$ git push origin gh-pages
+
+$ cd output && python -m SimpleHTTPServer ; cd ..
+$ cd output && python3 -m http.server ; cd ..
+
+uQelh4UI9&73

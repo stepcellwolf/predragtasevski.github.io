@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Predrag TASEVSKI - Pece - snort rules</title><link href="https://predragtasevski.com/" rel="alternate"></link><link href="https://predragtasevski.com/feeds/tag/snort-rules.atom.xml" rel="self"></link><id>https://predragtasevski.com/</id><updated>2012-03-13T00:00:00+01:00</updated><entry><title>Testing SNORT – IDS rulesets</title><link href="https://predragtasevski.com/posts/2012/03/testing-snort-ids-rulesets/" rel="alternate"></link><published>2012-03-13T00:00:00+01:00</published><updated>2012-03-13T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-03-13:/posts/2012/03/testing-snort-ids-rulesets/</id><summary type="html">&lt;h1&gt;SCENARIO&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The objective of this laboratory test, scenario is to create a solution
+and instructions for testing an IDS^1^ systems usefulness for detecting
+attacks against a wordpress site. In addition, we have to
+develop/download/find/whatever a SNORT configuration (rulesets,
+preprocessors, whatever) that performs better than the default …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;SCENARIO&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The objective of this laboratory test, scenario is to create a solution
+and instructions for testing an IDS^1^ systems usefulness for detecting
+attacks against a wordpress site. In addition, we have to
+develop/download/find/whatever a SNORT configuration (rulesets,
+preprocessors, whatever) that performs better than the default
+configuration in previous post. By better we mean:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Less false positives&lt;/li&gt;
+&lt;li&gt;Less false negatives&lt;/li&gt;
+&lt;li&gt;The objectives are contradictory so the rule of thumb is one false
+    negative per 10 false positives eg. solution with 10 false positives
+    and 2 false negatives is better than the solution with 100 false
+    positives and 1 false negatives, but the solution with 10 false
+    positives and 1 false negative is better than the solution with 1
+    false positive and 2 false negatives.&lt;/li&gt;
+&lt;li&gt;Attack is defined by a single invocation of all the test scripts in
+    a row.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Meanwhile, the new rules have to be able to detect not only the default
+attacks that are set to a default snort configuration, yet they have to
+be able to detect SQL injection, brute force password, apache killer
+script, pytbull, etc. Furthermore, in figure 1 we are illustrating the
+scenario.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Illustration 1: Illustration of Scenario&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Therefore, in the proposal section we will present two proposals that
+have been submitted due to this laboratory test and additionally in
+result section we will highlighted the identification numbers made by
+snort set new rules. In section appendixes we will provide you with more
+details configuration procedures, configuration of VM’s – Virtual
+Machines, attacks, etc.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Finally, closing with an conclusion and the results of best set of rules
+made of the proposals.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;SETUP of SNORT&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;To setup snort in a right way, that will work for the second Host only
+network please following the instruction link provided with a full
+description and configuration of snort [SNORT2].&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;PROPOSALS&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In total two proposals are presented in next sub-sections.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;PROPOSAL 1&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Add &lt;a href="http://www.tud.ttu.ee/~t061780/attacks/robert.rules"&gt;http://www.tud.ttu.ee/~t061780/attacks/robert.rules&lt;/a&gt; to your Snort.
+On your Snort machine:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    cd /etc/snort/ruleswget http://www.tud.ttu.ee/~t061780/attacks/robert.rules
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;Now you have the rules, add them to your snort conf file (default
+/etc/snort/snort.conf). To do that inser:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;include $RULE_PATH/robert.rules&lt;/code&gt; somewhere with rest of the rules after
+line 800. Run Snort and test.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;PROPOSAL 2&lt;/h2&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Add the following rules: &lt;a href="http://predragtasevski.com/src/predrag.rules"&gt;http://predragtasevski.com/src/predrag.rules&lt;/a&gt;.
+To be able to insert the snort rules in to the snort file please double
+check where it is located. You can find the location with the following
+command: find / -name snort.conf Before you continue please change the
+IP address to your server address on line number #6, example alert tcp
+any any -&gt; 192.168.56.X where x is your octet. Then to add the
+following rules at the conf file do the following command:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;cat predrag.rules &amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;gt; snort.conf&lt;/code&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Now it is time to start or restart snort. It should work.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;RESULTS&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;After executing the above proposal we will highlight the results into
+the table bellow. Result are presented from the total amount of reports,
+registered alerts in the snort. This is done by help of web interface of
+Basic Analysis and Security Engine in addition Analysis Console for
+Intrusion Databases (ACID) project tool [ACID]. Therefore, the result
+from the proposals are highlighted below:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;table&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;thead&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;th align="right"&gt;
+Attack performed
+
+&lt;/th&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;th align="center"&gt;
+Proposal number
+
+&lt;/th&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;th align="center"&gt;
+Baseline Total number of Alerts
+
+&lt;/th&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;th align="center"&gt;
+Total number of Alerts
+
+&lt;/th&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;th align="right"&gt;
+Unique Alerts
+
+&lt;/th&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/thead&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tbody&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+SQL injection
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+1
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+0
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+0
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+0
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+SQL injection
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+2
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+0
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+52
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+1
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+Pytbull – evasion
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+1
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+N/A
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+128
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+6
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+SQL injection + nmap
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+Combine both
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+N/A
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+36
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+5
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+Pytbull
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+Combine both
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+N/A
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="center"&gt;
+844
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;td align="right"&gt;
+7
+
+&lt;/td&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tr&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/tbody&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/table&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;Table 1: Details of total report numbers of alerts made by SNORT and the
+different proposal rule sets. Details of the attacks conducted in the
+table are presented in appendixes section.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Additionally, figure 2 is presenting the pine chart of the total number
+alerts recognized by Snort.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Illustration 2: Total number of Alerts.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Secondly, figure 3 is representing the pine chart of total number of
+unique alerts recognized by Snort.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Illustration 3: Total number of Unique Alerts&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;CONCLUSION&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;From the above results we came to conclusion that the new applied rules
+were successful and were able to recognize alerts more then the default
+rule set of Snort. Meanwhile, only proposal 2 was able to recognized an
+SQL injections without any additional tweaking. Although proposal 1 was
+still useful, on the other hand the best solution is when we combine the
+both rule sets proposals. Then the Snort is able to recognized an
+significant number of total alerts and additionally for our laboratory
+report more interesting is unique total number alerts.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Closing, even the default Snort rules configuration is good, yet when
+you tweak it by&lt;/p&gt;
+&lt;p&gt;your own needs, you will have much better IDS system for your network.
+In future it should be recommended always refer to [snort_rules], to
+gather more available advance Snort rules, made by experts. Where will
+help you to configure and setup Snort IDS system to detecting attacks
+against a wordpress site, etc.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;APPENDIXES&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Appendix 1 is the configuration of the attacker virtual machine, in more
+detail Blacktrack 5 distribution. Secondly, Appendix 2 is the ubuntu
+wordpress configuration server and additional is the configuration and
+setup process and refer links of IDS Snort virtual machine. Appendix 4,
+5 and 6 are providing brief details about the attacks that were
+conducted during this laboratory test.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;APPENDIX 1&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Installation media: Black Track 5 GNOME 32bit iso image;&lt;/li&gt;
+&lt;li&gt;HW: Virtualbox, 1CPU 32bit, 512MB RAM, 8GB HD (dynamic allocation);&lt;/li&gt;
+&lt;li&gt;NIC1 NAT;&lt;/li&gt;
+&lt;li&gt;NIC2 host only (for ssh and http access from host);&lt;/li&gt;
+&lt;li&gt;Downloadable link: &lt;a href="http://www.backtrack-linux.org/downloads/"&gt;http://www.backtrack-linux.org/downloads/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;
+APPENDIX 2
+
+&lt;/h2&gt;
+&lt;/h1&gt;
+
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Installation media: Ubuntu 10.04 32bit iso image;&lt;/li&gt;
+&lt;li&gt;HW: Virtualbox, 1CPU 32bit, 512MB RAM, 8GB HD (dynamic allocation);&lt;/li&gt;
+&lt;li&gt;NIC1 NAT;&lt;/li&gt;
+&lt;li&gt;NIC2 host only (for ssh and http access from host);&lt;/li&gt;
+&lt;li&gt;Language used in installation process: English and country Estonia;&lt;/li&gt;
+&lt;li&gt;Keyboard Layout English;&lt;/li&gt;
+&lt;li&gt;Hostname: pece&lt;/li&gt;
+&lt;li&gt;Partition methods: Guided, use entire disk&lt;/li&gt;
+&lt;li&gt;Username: pece&lt;/li&gt;
+&lt;li&gt;no http proxy&lt;/li&gt;
+&lt;li&gt;Default applications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    sudo apt-get install lamp phpmyadminwget -c http://wordpress.org/latest.tar.gztar xvjf latest.tar.gzsudo cp wordpress /var/www/wordpresssudo nano /var/www/wordpress/wp-config.php Change the settings to your needs
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;h1&gt;APPENDIX 3&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Installation media: Ubuntu 10.04 32bit iso image;&lt;/li&gt;
+&lt;li&gt;HW: Virtualbox, 1CPU 32bit, 512MB RAM, 8GB HD (dynamic allocation);&lt;/li&gt;
+&lt;li&gt;NIC1 NAT;&lt;/li&gt;
+&lt;li&gt;NIC2 host only (for ssh and http access from host);&lt;/li&gt;
+&lt;li&gt;Language used in installation process: English and country Estonia;&lt;/li&gt;
+&lt;li&gt;Keyboard Layout English;&lt;/li&gt;
+&lt;li&gt;Hostname: pece&lt;/li&gt;
+&lt;li&gt;Partition methods: Guided, use entire disk&lt;/li&gt;
+&lt;li&gt;Username: pece&lt;/li&gt;
+&lt;li&gt;no http proxy&lt;/li&gt;
+&lt;li&gt;Default applications&lt;/li&gt;
+&lt;li&gt;Snort configuration and installation refer to [SNORT1] in addition,
+    please refer to [SNORT2].&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;APPENDIX 4&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Here we test typical SQL- injection in URLs&lt;/p&gt;
+&lt;p&gt;Commands used:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;
+
+    wget "http://192.168.56.101/?p=1'%20OR%20'1'='1"wget "http://192.168.56.101/?p=1'%20AND%201=(SELECT%20COUNT(*)%20FROM%20tabname);%20—"
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;Snort by default does not detect this, where in applying the proposal 2
+rules, it did detect.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;APPENDIX 5&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;To test Snort and acidbase, perform a portscan of the Snort host.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo nmap -p1-65535 -sV -sS -O 192.168.56.102&lt;/code&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;APPENDIX 6&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;To setup pytbull it is a bit of pain, yet if you follow the rules and
+the documentation it will work like shark. For documentation please
+refer to [pytbull_doc].&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Bibliography&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[SNORT2] Nick Moore, Snort 2.8.4.1 Ubuntu 9 Installation Guide, June
+2009, &lt;a href="http://www.snort.org/assets/113/Snort_2.8.4.1_Ubuntu.pdf"&gt;http://www.snort.org/assets/113/Snort_2.8.4.1_Ubuntu.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[ACID] Basic Analysis and Security Engine, Welcome to the Basic Analysis
+and Security Engine (BASE) project ,
+2008,&lt;a href="http://base.secureideas.net/about.php"&gt;http://base.secureideas.net/about.php&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[snort_rules]
+&lt;a href="http://rules.emergingthreats.net/open/snort-2.9.0/rules/"&gt;http://rules.emergingthreats.net/open/snort-2.9.0/rules/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[SNORT1] kat-amsterdam, SnortIDS, December 2010,
+&lt;a href="https://help.ubuntu.com/community/SnortIDS"&gt;https://help.ubuntu.com/community/SnortIDS&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[pytbull_doc] Sébastien Damaye, Official documentation for pytbull v1.3
+-, 2011, &lt;a href="http://pytbull.sourceforge.net/index.php?page=documentation"&gt;http://pytbull.sourceforge.net/index.php?page=documentation&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[1] IDS – Intrusion detection system&lt;/p&gt;
+&lt;/p&gt;</content><category term="pages"></category><category term="cyber security"></category><category term="DDoS"></category><category term="ids"></category><category term="internet"></category><category term="networking"></category><category term="online"></category><category term="Port scan"></category><category term="snort"></category><category term="snort rules"></category><category term="SYN flood"></category><category term="testing ids"></category><category term="vulnerability scanning"></category></entry></feed>

@@ -1,0 +1,65 @@
+Title: Macedonian wiretapping case 2015
+Date: 10.02.2015
+Author: Predrag TASEVSKI
+Tags: 
+Slug:
+
+Introduction
+============
+
+http://okno.mk/node/44467
+
+http://novatv.mk/index.php?navig=8&cat=2&vest=20182
+
+http://fokus.mk/zad-makedonskite-anonimusi-stoi-mvr/
+
+http://it.com.mk/makedonski-anonimusi-ne-ne-smejte-takvo-neshto-ne-postoi/
+
+2001 - Sedmica
+-http://www.sobranie.mk/WBStorage/Files/068%20sednica%2021.02.2001.pdf
+
+1991 - Sedmica -
+http://62.220.196.22/WBStorage/Files/024sednica23sep91god0.pdf
+
+Google: јна прислушкува систем опрема
+
+
+References
+==========
+http://en.wikipedia.org/wiki/Greek_wiretapping_case_2004%E2%80%9305
+http://news.bbc.co.uk/2/hi/europe/4838552.stm
+http://spectrum.ieee.org/telecom/security/the-athens-affair
+http://wikileaks-press.org/translation-usa-espionage-against-greece/
+http://wikileaks-press.org/translation-courtcase-evidence-usa-espionage-against-greece/
+http://www.quintessenz.at/doqs/000100003497/IMS_USER_MANUAL.pdf and
+http://cryptome.org/ericsson-ims.htm
+
+Metamorphozis: http://a1on.mk/wordpress/archives/449173
+
+
+
+USA, Reporter's Recording Guide http://www.rcfp.org/reporters-recording-guide
+
+
+
+
+
+
+2001 - Sedmica
+-http://www.sobranie.mk/WBStorage/Files/068%20sednica%2021.02.2001.pdf
+
+
+
+References
+==========
+
+
+Metamorphozis: http://a1on.mk/wordpress/archives/449173
+
+https://macedoniawatch.wordpress.com/
+Wiretapping scandal by numbers
+
+IMSI-Catcher mobile wiretapping https://www.sba-research.org/wp-content/uploads/publications/DabrowskiEtAl-IMSI-Catcher-Catcher-ACSAC2014.pdf
+http://www.emsec.rub.de/media/attachments/files/2011/11/imsi_catcher_update.pdf
+
+Tool for androis – detector https://github.com/SecUpwN/Android-IMSI-Catcher-Detector

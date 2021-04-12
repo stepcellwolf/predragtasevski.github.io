@@ -1,0 +1,115 @@
+Title: Regular Expression
+Date: 2012-01-16 00:00
+Author: Predrag TASEVSKI - Pece
+Tags: grep, log mining, regular expression, linux, unix
+Slug: regular-expression
+
+This post delivers solution of advance regular expression. In the
+following lines we describe the goal and the rules of the task, whereby
+follows with the working solution.
+
+</p>
+
+Task
+====
+
+</p>
+
+Write a regular expression for matching the names which follow the
+following rules:
+
+</p>
+
+1.  Each name consists of one or more parts. If there are two or more
+    parts, they are separated either with a single space (” “) or dash
+    (“-”) character.
+2.  Each name part must consist of letters only. The name part must
+    begin with an upper-case letter which are followed by one or more
+    lower-case letters. Each name part can  have an optional prefix
+    which begins with an upper-case letter, followed by one or more
+    lower-case letters.
+
+</p>
+
+Solution
+========
+
+</p>
+
+<div class="highlight">
+
+    ^([A-Z][a-z]+([A-Z][a-z]+)?(\s|-))*[A-Z][a-z]+([A-Z][a-z]+)?$
+
+</div>
+
+</p>
+
+For completing the task, we are dividing into several sub-tasks.
+
+</p>
+
+Firstly, we had to find expression, which satisfies the first
+requirement of the task: representing one or more parts, which can be
+separated either with space (“ “) or dash (“-”). Thereby, we can
+represent space and dash with the following expression (\\s|-).
+
+</p>
+
+If the entry is just one legitimate part (without space or dash after),
+(\\s|-) has 0 occurrences. Yet the entry may consist of many legitimate
+parts divided by spaces or dashes. The expression should be (\\s|-)\*.
+
+</p>
+
+As for the legitimate parts, we have to write expression considering
+second part of requirements.
+
+</p>
+
+Legitimate part should consist of letters only, begin with (only one)
+uppercase letter and followed by one or more lowercase letters.
+Legitimate part can have prefix beginning with (only one) uppercase
+letter, followed by one or more lowercase letters.
+
+</p>
+
+Therefore, `[A-Z][a-z]+` represents the entry which begins uppercase
+letter and is followed by one or more lower case letters. In addition,
+to represent prefix, which occurs either 0 or 1 time, we will have the
+following expression: `([A-Z][a-z]+)?`. Moreover, to represent the whole
+legitimate entry, we merge the two expressions (it does not matter
+whether prefix expression comes first) with:
+`[A-Z][a-z]+([A-Z][a-z]+)?`. Thus with this expression we go back to
+(\\s|-)\* where putting `[A-Z][a-z]+([A-Z][az]+)` into parentheses with
+(\\s|-) and take \* outside of parentheses (as this whole expression)
+legitimate part with either space or dash should be presented for 0
+or more consecutive times.
+
+</p>
+</p>
+
+`(([A-Z][a-z]+([A-Z][a-z]+)?(\s|-))*`
+
+</p>
+
+To be able to exclude entries, which end with “-”, we add expression of
+legitimate part. and add “\^” and “\$” respectively at the beginning and
+the end of expression, to mark the  beginning and an end of the string.
+
+</p>
+
+`^(([A-Z][a-z]+([A-Z][a-z]+)?(|s|-))*([A-Z][a-z]+([A-Z][a-z]+)?$`
+
+</p>
+
+Finally, we have the whole expression we have to test it (we have to put
+the expression in quotation marks).
+
+`egrep ‘^([A-Z][a-z]+([A-Z][a-z]+)?(\s|-))*[A-Z][a-z]+([A-Z][a-z]+)?$’   file_name`
+
+</p>
+
+The above solution is written by: Predrag Tasevski and Mikheil Basilaia
+
+</p>
+

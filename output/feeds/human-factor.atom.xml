@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Predrag TASEVSKI - Pece - human factor</title><link href="http://predragtasevski.com/" rel="alternate"></link><link href="http://predragtasevski.com/feeds/human-factor.atom.xml" rel="self"></link><id>http://predragtasevski.com/</id><updated>2015-10-28T18:00:00+01:00</updated><entry><title>National Cyber Security Awareness Month: Introduction to CyberSecurity</title><link href="http://predragtasevski.com/posts/2015/10/awareness-month-cs/" rel="alternate"></link><published>2015-10-28T18:00:00+01:00</published><updated>2015-10-28T18:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2015-10-28:/posts/2015/10/awareness-month-cs/</id><summary type="html">&lt;p&gt;&lt;a href="https://www.facebook.com/acskopje target=" title="_blank"&gt;American Corner Skopje&lt;/a&gt; hosted an event regarding the &lt;a href="https://www.facebook.com/events/406599262872627/ target=" title="_blank"&gt;National Cyber Security Awareness Month&lt;/a&gt;, 28 of October 2015, held my Mr. David Panuel an Information Management Officer from US Embassy in Skopje.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="ACS-October Cyber Security Awareness Month" src="https://fbcdn-photos-b-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-0/s600x600/12195800_10153144779040848_7524073074181699207_n.jpg?oh=e77747ee3b5483aa213030b345dd3f06&amp;amp;oe=5684B35E&amp;amp;__gda__=1455985831_8b3779ae01f26e908ab1f8ee39745edc"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(Source from American Corner Skopje facebook page)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Mr. Panuel delivered the presentation regarding the three main key awareness aspects …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://www.facebook.com/acskopje target=" title="_blank"&gt;American Corner Skopje&lt;/a&gt; hosted an event regarding the &lt;a href="https://www.facebook.com/events/406599262872627/ target=" title="_blank"&gt;National Cyber Security Awareness Month&lt;/a&gt;, 28 of October 2015, held my Mr. David Panuel an Information Management Officer from US Embassy in Skopje.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="ACS-October Cyber Security Awareness Month" src="https://fbcdn-photos-b-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-0/s600x600/12195800_10153144779040848_7524073074181699207_n.jpg?oh=e77747ee3b5483aa213030b345dd3f06&amp;amp;oe=5684B35E&amp;amp;__gda__=1455985831_8b3779ae01f26e908ab1f8ee39745edc"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(Source from American Corner Skopje facebook page)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Mr. Panuel delivered the presentation regarding the three main key awareness aspects about cyber security in general, such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Cyber Security definitions&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Internet of Things - IoT and&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Information Assurance&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Additionally he emphasized the three ways to attacks that are available today, for example:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Overloading attacks&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Data Manipulation attacks and&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Data Acquisition attacks&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Where in the end he presented  for each of the above attacks an example scenarios that have occurred recently in US and elsewhere. Moreover, he highlighted the attacks such as Firesale attack known from the movie &lt;a href="https://en.wikipedia.org/wiki/Live_Free_or_Die_Hard"&gt;Live Free or Die Hard&lt;/a&gt; from 2007, which is a three-stage systematic attack on a national computer and critical infrastructure, also known as "Everything must go".  In addition, he mentioned the &lt;a href="https://en.wikipedia.org/wiki/Wardriving"&gt;wardriving&lt;/a&gt; attacks which is constituted by act of searching free hotspots Wi-Fi wireless networks and trying to eavesdrop and collect personal information from the others connected to the network. And finally he noted the US attack in 2013 on OPM site and several other example that have occurred by today.&lt;/p&gt;
+&lt;p&gt;Participant on the event were more or less students from IT relevant study fields, NGO's and people interested in the cyber security topic.&lt;/p&gt;</content><category term="awareness"></category><category term="cybersecurity"></category><category term="month"></category><category term="introduction"></category><category term="human factor"></category><category term="national"></category><category term="IoT"></category><category term="firesale"></category><category term="wardriving"></category></entry><entry><title>ICSAP – Interactive Cyber Security Awareness Program</title><link href="http://predragtasevski.com/posts/2012/12/icsap-interactive-cyber-security-awareness-program/" rel="alternate"></link><published>2012-12-06T00:00:00+01:00</published><updated>2012-12-06T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-12-06:/posts/2012/12/icsap-interactive-cyber-security-awareness-program/</id><summary type="html">&lt;h1&gt;Abstract&lt;/h1&gt;
+&lt;p&gt;Currently, humans coupled with the socio-technical aspect can be either
+the strongest or the weakest link in any information security system,
+and the key in security lies in delivering awareness training through
+short and effective online videos, whereby the participator can gain
+knowledge on security. Our aim, therefore, is …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Abstract&lt;/h1&gt;
+&lt;p&gt;Currently, humans coupled with the socio-technical aspect can be either
+the strongest or the weakest link in any information security system,
+and the key in security lies in delivering awareness training through
+short and effective online videos, whereby the participator can gain
+knowledge on security. Our aim, therefore, is to develop innovative
+solutions to deliver an interactive cyber security awareness program,
+where the main goal is to enhance information on security awareness and
+knowledge in organizations, schools, nations, homes etc. The syllabus
+consists of a systematic approach divided into three sections. The
+introduction is a basic level course (BASIC), with the aim of delivering
+an elementary curriculum in physical security, computer and mobile;
+network and Internet security to everyone. It is made up of several
+units with interactive training videos that last less than 10 minutes
+each. The second course (ADVANCE) is the advanced program which
+demonstrates the attacking phases, different attacking methods and the
+countermeasures that highlight the anatomy of Advance Persistence
+Threats (APT). This curriculum is intended for administrators, help desk
+personnel, information technology professionals among others. The last
+course (MANAGEMENT) is intended for managers, where we annotate two
+decision-making processes with their cycle loop. Moreover, after each
+unit there is a questionnaire, which measures the knowledge of each
+participant, and compares it to the base-line survey carried out during
+the registration process. As a result, it represents the participant’s
+awareness level and knowledge, and will assist in further actions if
+necessary. By implementing this program in private and public
+organizations, governments, schools and universities will lead to the
+improvement of security in the everyday use of computers, mobile phones,
+online banking, social networking_ both at home and in the workplace.
+The present study addresses and implements the IT security issue. We
+will apply the results by carrying out the syllabus, with the latest
+improvements, in universities and private organizations. Consequently by
+applying these further improvements to the syllabus, it will meet the
+needs of the cyber security field.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; cyber security, human factor, socio-technical, awareness,
+program&lt;/p&gt;
+&lt;h1&gt;Presentation&lt;/h1&gt;
+&lt;iframe src="https://docs.google.com/file/d/0B1472nuKPMN5ZHlocUFFc2o2UWM/preview" width="640" height="480"&gt;&lt;/iframe&gt;</content><category term="awareness"></category><category term="cyber security"></category><category term="human factor"></category><category term="program"></category><category term="socio-technical"></category><category term="training"></category></entry></feed>

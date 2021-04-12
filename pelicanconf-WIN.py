@@ -1,0 +1,93 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*- #
+from __future__ import unicode_literals
+
+AUTHOR = u'Predrag TASEVSKI - Pece'
+SITENAME = u'Predrag TASEVSKI - Pece'
+SITEURL = 'http://predragtasevski.com'
+
+PATH = 'content'
+
+TIMEZONE = 'Europe/London'
+
+DEFAULT_LANG = u'en'
+
+# Feed generation is usually not desired when developing
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/category/%s.atom.xml'
+TAG_FEED_ATOM = 'feeds/tag/%s.atom.xml'
+
+# Blogroll
+LINKS = (('Pelican', 'http://getpelican.com/'),
+         ('Python.org', 'http://python.org/'),
+         ('Jinja2', 'http://jinja.pocoo.org/'),)
+
+# Social widget
+SOCIAL = (('Linkedin', 'https://www.linkedin.com/in/tpredrag'),
+        ('Twitter', 'https://twitter.com/stepcellwolf'),
+        ('Github', 'https://github.com/stepcellwolf/'),
+        ('Google+', 'https://plus.google.com/u/0/+PredragTasevski/posts/p/pub'),
+        ('Flickr', 'https://www.flickr.com/photos/29569957@N00'),
+        ('RSS', '/feeds/all.atom.xml'),)
+
+# Feeds 
+FEEDS =  (('All posts', 'feeds/all.atom.xml'),
+                  ('Category', 'feeds/category'),)
+
+DISPLAY_CATEGORIES_ON_MENU = None
+
+DEFAULT_PAGINATION = 15 
+
+# Uncomment following line if you want document-relative URLs when developing
+RELATIVE_URLS = True
+
+# Formatting for dates
+
+DEFAULT_DATE_FORMAT = ('%a, %d %b %Y')	
+
+# Formatting for urls
+
+ARTICLE_URL = "posts/{date:%Y}/{date:%m}/{slug}/"
+ARTICLE_SAVE_AS = "posts/{date:%Y}/{date:%m}/{slug}/index.html"
+
+CATEGORY_URL = "category/{slug}"
+CATEGORY_SAVE_AS = "category/{slug}/index.html"
+
+TAG_URL = "tag/{slug}/"
+TAG_SAVE_AS = "tag/{slug}/index.html"
+
+# Generate yearly archive
+
+YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
+
+# Show most recent posts first
+
+NEWEST_FIRST_ARCHIVES = True
+
+# Specify theme
+
+THEME = "c:/Users/Predrag Tasevski/Documents/pelican/pelican-themes"
+
+# Plugins
+
+PLUGIN_PATHS = 'c:/Users/Predrag Tasevski/Documents/pelican/pelican-|plugins'
+PLUGINS = ['latex', 'neighbors', 'summary', ]
+
+# Only use LaTeX for selected articles
+
+LATEX = 'article'
+
+STATIC_PATHS = ['pages', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+
+#FLICKR
+#FLICKR_API_KEY = '4578fbd42e4b8cf94b01fd02f3691105'
+#FLICKR_USER = '29569957@N00'
+#FLICKR_SETS_EXCLUDE = ['Compromising pictures', ]
+#FLICKR_OUTPUT_DIRNAME = 'img'
+#FLICKR_UPDATE = False 
+
+# Following items are often useful when publishing
+
+DISQUS_SITENAME = 'predragtasevskicom'
+GOOGLE_ANALYTICS = 'UA-600234-3'
