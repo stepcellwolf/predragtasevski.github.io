@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Predrag TASEVSKI - Pece - toolkits</title><link href="https://predragtasevski.com/" rel="alternate"></link><link href="https://predragtasevski.com/feeds/tag/toolkits.atom.xml" rel="self"></link><id>https://predragtasevski.com/</id><updated>2012-12-25T00:00:00+01:00</updated><entry><title>Network Security Toolkit</title><link href="https://predragtasevski.com/posts/2012/12/network-security-toolkit/" rel="alternate"></link><published>2012-12-25T00:00:00+01:00</published><updated>2012-12-25T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-12-25:/posts/2012/12/network-security-toolkit/</id><summary type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;A toolkit is a collection of tools, where for our motives is an assembly
 of tools to eavesdropper and scan network security for the possible
 exploitations. Moreover, these tools are designed from security
 researchers and experts, for the purpose of network administrator and
 security analysts to be able in …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;A toolkit is a collection of tools, where for our motives is an assembly
 of tools to eavesdropper and scan network security for the possible
 exploitations. Moreover, these tools are designed from security
@@ -28,10 +26,8 @@ network security toolkits. As well as, already possible network security
 tools to help them to conduct network security monitoring and analysing.
 Lastly, we will give the readers with recommendation and conclusion.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Network Security Toolkit&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;In this section we will take a look at a few essential components of the
 toolkits, and their main goals and purposes. When we assemble the
 toolkit, you might want to consider having at least one of the following
@@ -103,22 +99,18 @@ passwords.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Note that the above list is just an understandable part that you should
 have in mind to consider had them into your everyday network security
 toolkit box. In the next paragraph we will give the readers with the
 available tools that are essential for the network security toolkits.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Available Network Security Tool&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Most of the tools listed below are open source solutions and they cover
 one or more components from the above list. Additionally, for further
 detail information please refer to the following link
 &lt;a href="http://sectools.org/"&gt;http://sectools.org/&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;For instance for password cracking you might use the &lt;a href="http://www.openwall.com/john/"&gt;John the
 Ripper&lt;/a&gt; and
 &lt;a href="http://project-rainbowcrack.com/"&gt;RainbowCrack&lt;/a&gt; tools. Where for packet
@@ -138,10 +130,8 @@ to come in handy is &lt;a href="http://sourceforge.net/projects/swatch/"&gt;Swat
 as well as for Intrusion Detection System handy tool is
 &lt;a href="http://www.snort.org/"&gt;Snort&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Conclusion&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The above list of tools and the list of components will help and aim to
 the reader for what to have and to look at. Same as there are few of the
 many pieces of software put together from the dedicated security experts

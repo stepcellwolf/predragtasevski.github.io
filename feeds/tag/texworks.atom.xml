@@ -10,23 +10,17 @@ will provide the readers and solution of how to fix this issue. But
 before we continue I would like to mention that this issue has never
 been posted before, anywhere else.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Installation of &lt;a href="http://tug.org/texworks/" title="Texworks"&gt;Texworks&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;In the shell command we install the texworks with the following script:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;&lt;code&gt;sudo apt-get install texworks&lt;/code&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Issue / Error&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;After the installation is finished, then if we try to run the program
 from Unity or even from the terminal, it will give us an error:\&amp;lt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     texworks: error while loading shared libraries: libpoppler-qt4.so.3: cannot open shared object file: No such file or directory```So now we know that there is some issue with the ```libpoppler-qt4``` library. To determine if we miss any other dependency libraries we can double check with the following command:```ldd /usr/bin/texworks```And the following output should look like this:
@@ -34,7 +28,6 @@ from Unity or even from the terminal, it will give us an error:\&amp;lt;&lt;/p&g
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;linux-gate.so.1 = (0xb76f2000)&lt;/p&gt;
 &lt;p&gt;libhunspell-1.3.so.0 =&gt; /usr/lib/i386-linux-gnu/libhunspell-1.3.so.0
 (0xb7682000)&lt;/p&gt;
@@ -81,7 +74,6 @@ from Unity or even from the terminal, it will give us an error:\&amp;lt;&lt;/p&g
 &lt;p&gt;libxcb.so.1 =&gt; /usr/lib/i386-linux-gnu/libxcb.so.1 (0xb5ca6000)&lt;/p&gt;
 &lt;p&gt;libXdmcp.so.6 =&gt; /usr/lib/i386-linux-gnu/libXdmcp.so.6 (0xb5c9e000)&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     Where we can see from the above output that the ```libpoppler-qt4.so.3 = not found ``` is missing.The best way to solve this issue, first we have to locate where are the other libraries of QT4. This is very simple approach, because the other libraries links, location is provided from the above output. Therefore, we can see that in the path ```/usr/lib/i386-linux-gnu/``` there is an library called: ```libpoppler-qt4.so.4```.# ResolutionFrom the above output, and the path that we have found of the missing library, there is an simple and easy way of fixing this issue, shown below.Therefore, in the terminal we can make an soft link with the missing library from the already existing one, with the following:```sudo ln -s /usr/lib/i386-linux-gnu/libpoppler-qt4.so.4 /usr/lib/i386-linux-gnu/libpoppler-qt4.so.3```And now the texworks works perfectly!# Details
@@ -89,7 +81,6 @@ from Unity or even from the terminal, it will give us an error:\&amp;lt;&lt;/p&g
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;\$ texworks --version&lt;/p&gt;
 &lt;p&gt;TeXworks 0.5r952 (Debian)&lt;/p&gt;
 &lt;p&gt;Copyright (C) 2007-2011 Jonathan Kew, Stefan Löffler&lt;/p&gt;
@@ -99,7 +90,6 @@ http://gnu.org/licenses/gpl.html&lt;/p&gt;
 &lt;p&gt;There is NO WARRANTY, to the extent permitted by law.&lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Also this bug/issue has been reported in 
 &lt;a href="https://bugs.launchpad.net/ubuntu/+source/texworks/+bug/1015193" title="Launchpad Bug"&gt;Launchpad.net&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;</content><category term="pages"></category><category term="libpoppler"></category><category term="texworks"></category><category term="ubuntu"></category></entry></feed>

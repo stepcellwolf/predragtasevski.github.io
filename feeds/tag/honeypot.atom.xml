@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Predrag TASEVSKI - Pece - honeypot</title><link href="https://predragtasevski.com/" rel="alternate"></link><link href="https://predragtasevski.com/feeds/tag/honeypot.atom.xml" rel="self"></link><id>https://predragtasevski.com/</id><updated>2012-02-16T00:00:00+01:00</updated><entry><title>Honeypot document</title><link href="https://predragtasevski.com/posts/2012/02/honeypot-document/" rel="alternate"></link><published>2012-02-16T00:00:00+01:00</published><updated>2012-02-16T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-02-16:/posts/2012/02/honeypot-document/</id><summary type="html">&lt;h1&gt;INTRODUCTION&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The main goal of laboratory report is to identify possible leaked/stolen
 information, documents from our system without recognising that attacker
 had an access. Thus access of the document will inform us immediately
 with the information of the burglar. The report should highlight the
 following aspects:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Constructed an document …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;INTRODUCTION&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The main goal of laboratory report is to identify possible leaked/stolen
 information, documents from our system without recognising that attacker
 had an access. Thus access of the document will inform us immediately
 with the information of the burglar. The report should highlight the
 following aspects:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Constructed an document as non malicious code, for instance honey
     document that will help us to track from where, who, information
@@ -29,7 +25,6 @@ following aspects:&lt;/p&gt;
 &lt;li&gt;Description of needed infrastructure that is tracking the document.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The laboratory report is created by a team of 7 members. Where each
 member had own task to accomplish. Moreover, to be more contingent the
 unknown person has gain access to our computer/laptop. Thereby he is
@@ -50,14 +45,11 @@ section we provide the code of the honeypot document and additional what
 is the leaked/collected information of the intruder system, with other
 word, content illustration of mail and server logs.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Finally the conclusion made of the laboratory report will be concise in
 summary section.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;HONEYPOT IDEA&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;HTML file We can name the file online banking or etc. cause it is html
 and it is more convincing way that the attacker will assume that this is
 an not only a online banking link but yet an the stored cookies and
@@ -72,10 +64,8 @@ requests it from our server- these requests are logged and we see the IP
 address of the opener. This is as a backup in case the user doesn’t
 allow javascript to execute.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;How we lure an attacker into trap&lt;/strong&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;To discover the identity of attacker and get information, she/he has to
 open html file. Besides setting up honeypot from technical point of
 view, we have to make document attractive. On our system all the
@@ -95,10 +85,8 @@ Word documents, so it has different icon in GUI. If you put a lot of
 different files in a folder, html is much easier to find with a glance
 among PDFs and DOCs.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;What information we get&lt;/strong&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The honeypot is scripted to give us the following information about the
 attacker: first of all IP address. Time, hen the attacker accessed the
 honeypot file. Except that, we also get information about user agent,
@@ -112,10 +100,8 @@ stealthy as possible.&lt;/p&gt;
 &lt;p&gt;The information is sent to mail. For the example of sent e-mail, please
 refer to Appendix 2.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;HONEYPOT INFRASTRUCTURE&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;We need a Web server running PHP. The PHP script will collect the JSON
 data received  &lt;/p&gt;
 &lt;p&gt;from the attacker, format it nicely and send via email to people who

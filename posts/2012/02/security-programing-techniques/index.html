@@ -164,12 +164,10 @@ Predrag TASEVSKI - Pece            </a>
                 </div>
                 <h1>INTRODUCTION</h1>
 </p>
-
 <p>The main goal of this post is to introduce the reader with the security
 programing techniques into deferent program languages and operating
 system security models. The post is introducing four following topics:</p>
 </p>
-
 <ol>
 <li>Session storage’s in Ruby on Rail</li>
 <li>Parameterized statements into Java with JDBC, C# with ASP.NET,
@@ -178,17 +176,14 @@ system security models. The post is introducing four following topics:</p>
 <li>Finding all the security vulnerabilities in bash script</li>
 </ol>
 </p>
-
 <p>Each topic will be divided into own section, where at the end of each
 topic we stated the reference and additional reading material. The
 source code, scrips and the additional task were given by the lecture.
 However this will help the readers and people interesting into
 programing for further work and involvement with the above topics.</p>
 </p>
-
 <h1>1. Session storage’s in Ruby on Rail</h1>
 </p>
-
 <p>Session in Rails is a hash-like structure which allows you to store data
 across requests. Sessions can hold any kind of data object (with some
 limitations) because they store data using Data Marshalling.Session in
@@ -198,7 +193,6 @@ objects in a session and critical data should not be stored in
 session.Rails way of</p>
 <p>implementing session is:</p>
 </p>
-
 <ol>
 <li>session_id is a 32 hex character MD5 hash based upon time, random
     number and constant string. It is stored in cookie at client
@@ -206,10 +200,8 @@ session.Rails way of</p>
 <li>Session storage discussed below.</li>
 </ol>
 </p>
-
 <p>Ruby on Rails provides with many session storage option:</p>
 </p>
-
 <ol>
 <li>PStore – it implements a file based persistence mechanism based on a
     Hash. User code can store hierarchies of Ruby objects (values) into
@@ -246,36 +238,28 @@ session.Rails way of</p>
     hard to manage and scale if your application becomes popular.</li>
 </ol>
 </p>
-
 <p><strong>Note:</strong> Ruby on Rail CookieStore is available only in edge rails.
 PStore is the default option for stable release, whereas its CookieStore
 as default for edge rails.</p>
 </p>
-
 <h2>Reference</h2>
 </p>
-
 <p>Ruby On Rails Security Guide, From:
 <a href="http://guides.rubyonrails.org/security.html">http://guides.rubyonrails.org/security.html</a></p>
 </p>
-
 <p>Sessions and cookies in Ruby on Rails, From:
 <a href="http://www.quarkruby.com/2007/10/21/%20sessions-and-cookies-in-ruby-on-rails#sstorage">http://www.quarkruby.com/2007/10/21/sessions-and-cookies-in-ruby-on-rails#sstorage</a></p>
 </p>
-
 <p>What’s New in Edge Rails: Cookie Based Sessions are the New Default,
 From:
 <a href="http://ryandaigle.com/articles/2007/2/21/what-s-new-in-edge-rails-cookie-based-sessions">http://ryandaigle.com/articles/2007/2/21/what-s-new-in-edge-rails-cookie-based-sessions</a></p>
 </p>
-
 <h1>2. Parameterized statements into Java with JDBC, C# with ASP.NET, PHP5, php-mysqli, Perl, Python and Hibernate Query Language (HQL)</h1>
 </p>
-
 <p>For this task we will take a look at the parameterized statement API-s
 and we will find out and document how much does each of them protect
 against the following possible misuses of SQL statements:</p>
 </p>
-
 <ul>
 <li>String injection (quotes, double quotes)</li>
 <li>SQL statement injection (expression syntax etc)</li>
@@ -283,10 +267,8 @@ against the following possible misuses of SQL statements:</p>
 <li>Blind SQL injection</li>
 </ul>
 </p>
-
 <h2>Java with JDBC</h2>
 </p>
-
 <div class="highlight">
 
     PreparedStatement prep =conn.prepareStatement("SELECT * FROMUSERSWHERE USERNAME=? AND PASSWORD=?");prep.setString(1, username);prep.setString(2, password);prep.executeQuery();
@@ -294,7 +276,6 @@ against the following possible misuses of SQL statements:</p>
 </div>
 
 </p>
-
 <p>There are no possibilities of string injection because of the filtering
 the statements. It enables users’ input to be initially filtered
 instead  of directly embedding it in the SQL statements. In this example
@@ -305,10 +286,8 @@ injection is to convert numeric values to integers before parsing them
 into the SQL statement. Or using ISNUMERIC to verify that they are
 integers.</p>
 </p>
-
 <h2>C# with ASP.NET</h2>
 </p>
-
 <div class="highlight">
 
     using (SqlCommand myCommand =new SqlCommand("SELECT * FROM USERSWHEREUSERNAME=@user ANDPASSWORD=HASHBYTES(’SHA1’, @pwd)",myConnection)){myCommand.Parameters.AddWithValue("@user",user);myCommand.Parameters.AddWithValue("@pwd",pass);myConnection.Open();SqlDataReader myReader =myCommand.ExecuteReader();...}
@@ -316,7 +295,6 @@ integers.</p>
 </div>
 
 </p>
-
 <p>The placeholder – @user and the hashbyte value of password @pws – has
 become part  if the hardcoded SQL. At runtime, the value provided by the
 querystring is passed to the database along with the hardcoded SQL, and
@@ -330,10 +308,8 @@ parameter value will be “stringified” automatically, which includes
 escaping single quotes. It will not form part of the SQL statement to be
 executed.</p>
 </p>
-
 <h2>PHP5</h2>
 </p>
-
 <div class="highlight">
 
     $db = new PDO(’pgsql:dbname=database’);$stmt = $db-prepare("SELECT priv FROM testUsers WHERE username=:username AND password=:password");$stmt-bindParam(’:username’, $user);$stmt-bindParam(’:password’, $pass);$stmt-execute();
@@ -341,7 +317,6 @@ executed.</p>
 </div>
 
 </p>
-
 <p>In this example to protect against SQL injection, it is used an input
 not directly to be  embedded in SQL statements. Instead, it is used an
 parameterized statements (preferred), or user input must be carefully
@@ -349,10 +324,8 @@ escaped or filtered. This example shows and parameterized
 example/statement in php v. 5 and PDO database to protect from SQL
 injections and blind SQL injections.</p>
 </p>
-
 <h2>PHP-MySQLi</h2>
 </p>
-
 <div class="highlight">
 
     $db = new mysqli("host", "user", "pass","database");$stmt = $db - prepare("SELECT priv FROM testUsers WHERE username=? AND password=?");$stmt -  bind_param("ss", $user, $pass);$stmt - execute();
@@ -360,15 +333,12 @@ injections and blind SQL injections.</p>
 </div>
 
 </p>
-
 <p>Same as above but this time it is used the vendor-specific methods; for
 instance, using the mysqli extension for MySQL 4.1 and create
 parameterized statements to protect from the SQL injection.</p>
 </p>
-
 <h2>Perl</h2>
 </p>
-
 <div class="highlight">
 
     use DBI;my $db = DBI-connect(’DBI:mysql:mydatabase:host’, ’login’, ’password’);$statment = $db-&amp;amp;amp;amp;amp;gt;prepare("UPDATE players SET name = ?, score = ?, active = ? WHERE jerseyNum = ?");$rows_affected = $statment-&amp;amp;amp;amp;amp;gt;execute("Smith, Steve", 42, ’true’, 99);
@@ -376,14 +346,11 @@ parameterized statements to protect from the SQL injection.</p>
 </div>
 
 </p>
-
 <p>Automatically “sanitize” input to parameterized SQL statements to avoid
 the catastrophic  database attacks.</p>
 </p>
-
 <h2>Python</h2>
 </p>
-
 <div class="highlight">
 
     import sqlite3db = sqlite3.connect(’:memory:’)db.execute(’update players set name=:name, score=:score,active=:active where jerseyNum=:num’, {’num’: 100, ’name’: ’John Doe’, ’active’: False, ’score’: -1})
@@ -391,14 +358,11 @@ the catastrophic  database attacks.</p>
 </div>
 
 </p>
-
 <p>It is parameterized statement with an example of named placeholders.
 Which insure to avoid the SQL injections and database attacks.</p>
 </p>
-
 <h2>Hibernate Query Language (HQL)</h2>
 </p>
-
 <div class="highlight">
 
     Query safeHQLQuery = session.createQuery("from Inventory where productID=:productid");safeHQLQuery.setParameter("productid", userSuppliedParameter);
@@ -406,7 +370,6 @@ Which insure to avoid the SQL injections and database attacks.</p>
 </div>
 
 </p>
-
 <p>Unsafe example: Query unsafeHQLQuery = session.createQuery(“from
 Inventory where productID=’”+userSuppliedParameter+”‘”); The example
 from left it’s used prepared statement approach because all the SQL code
@@ -415,18 +378,14 @@ database independent. However, other options allow you to store all the
 SQL code in the database itself, which has both security and
 non-security advantages and the approach is called Stored Procedure</p>
 </p>
-
 <h1>3. Unix permission model, Unix ACL and Windows 7 security model</h1>
 </p>
-
 <p>In this topic we will describe two security set-ups that can not be
 expressed with traditional Unix permission model, UNIX ACL and Windows 7
 security model.</p>
 </p>
-
 <h2>Unix permission model</h2>
 </p>
-
 <ul>
 <li>Giving an different permission to different users in the same group</li>
 <li>Read and write permission/access to all groups, which gives and
@@ -435,10 +394,8 @@ security model.</p>
     of the system</li>
 </ul>
 </p>
-
 <h2>Unix ACL- enabled permission model</h2>
 </p>
-
 <ul>
 <li>If the user has permission over the file, he can read/write and
     delete it, which brings that it is not possible to give ‘some’
@@ -451,10 +408,8 @@ security model.</p>
     etc.</li>
 </ul>
 </p>
-
 <h2>Windows 7 security model</h2>
 </p>
-
 <ul>
 <li>As a standard user you can perform an action that requires
     administrator privileges by the UAC(User Access Control), which is
@@ -467,14 +422,11 @@ security model.</p>
     an opportunity to being turn off by the malware.</li>
 </ul>
 </p>
-
 <h1>4. Finding all the security vulnerabilities in bash script</h1>
 </p>
-
 <p>In this topic we will find all the possible vulnerabilities into the
 following bash script:</p>
 </p>
-
 <p>+--------------------------------------+--------------------------------------+
 | <div class="linenodiv">              | <div class="highlight">              |
 |                                      |                                      |
@@ -501,11 +453,9 @@ following bash script:</p>
 |                                      | <p>                                  |
 +--------------------------------------+--------------------------------------+</p>
 </p>
-
 <p>We should avoid temporary file, instead we should use pipes [2]. We
 should avoid eval [2].</p>
 </p>
-
 <p>Using the double brackets, instead of single one <code>[[... ]]</code> it is
 comment on the script above [1]. \$REPLY can be used to read the
 previous value of the dir and pattern variable [1]. We can use instead
@@ -518,15 +468,12 @@ command. As we can see above the script it looks like that it is
 security vulnerable. If we want to implement the security in the script
 we should implement the above changes into the script.</p>
 </p>
-
 <h2>Reference</h2>
 </p>
-
 <p>[1] Mendel Cooper, 30 April 2011. Advanced Bash-Scripting Guide; An
 in-depth exploration of the art of shell scripting. Retrieved from:
 <a href="http://tldp.org/LDP/abs/html/index.html">http://tldp.org/LDP/abs/html/index.html</a></p>
 </p>
-
 <p>[2] Lecture 8 slides Scripting, Meelis Roos. Retrieved from file:
 08-scripting.pdf</p>
 </p>
@@ -578,34 +525,22 @@ in-depth exploration of the art of shell scripting. Retrieved from:
   <a href="../../../../"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
   <ul class="list-group " id="tags">
     <li class="list-group-item tag-1">
-      <a href="../../../../tag/security/">security</a>
+      <a href="../../../../tag/online/">online</a>
     </li>
     <li class="list-group-item tag-1">
-      <a href="../../../../tag/cyber-security/">cyber security</a>
+      <a href="../../../../tag/security/">security</a>
     </li>
     <li class="list-group-item tag-1">
       <a href="../../../../tag/internet/">internet</a>
     </li>
     <li class="list-group-item tag-1">
-      <a href="../../../../tag/online/">online</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/network/">network</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/conference/">conference</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/ddos/">DDoS</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/malware/">malware</a>
+      <a href="../../../../tag/cyber-security/">cyber security</a>
     </li>
     <li class="list-group-item tag-2">
       <a href="../../../../tag/awareness/">awareness</a>
     </li>
     <li class="list-group-item tag-2">
-      <a href="../../../../tag/cyber/">cyber</a>
+      <a href="../../../../tag/attacks/">attacks</a>
     </li>
     <li class="list-group-item tag-2">
       <a href="../../../../tag/networking/">networking</a>
@@ -614,31 +549,103 @@ in-depth exploration of the art of shell scripting. Retrieved from:
       <a href="../../../../tag/balkan/">Balkan</a>
     </li>
     <li class="list-group-item tag-2">
+      <a href="../../../../tag/macedonia/">macedonia</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/ddos/">DDoS</a>
+    </li>
+    <li class="list-group-item tag-2">
       <a href="../../../../tag/privacy/">privacy</a>
     </li>
     <li class="list-group-item tag-2">
-      <a href="../../../../tag/interview/">interview</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/macedonia/">Macedonia</a>
+      <a href="../../../../tag/malware/">malware</a>
     </li>
     <li class="list-group-item tag-2">
       <a href="../../../../tag/freedom/">freedom</a>
     </li>
     <li class="list-group-item tag-2">
-      <a href="../../../../tag/attacks/">attacks</a>
+      <a href="../../../../tag/conference/">conference</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/network/">network</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/interview/">interview</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/cyber/">cyber</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/cybersecurity/">cybersecurity</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/testing-ids/">testing ids</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/mvr/">mvr</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wordpress/">wordpress</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/digital-divide/">digital divide</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/policy/">policy</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/mobile/">mobile</a>
+      <a href="../../../../tag/malicious-code/">malicious code</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/botnet/">botnet</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/infrastructure/">infrastructure</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/syn-flood/">SYN flood</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/presentation/">presentation</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/threats/">threats</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/italy/">Italy</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wpan/">wpan</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/human-factor/">human factor</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/malicious-code/">malicious code</a>
+      <a href="../../../../tag/encryption/">encryption</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wifi/">wifi</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/ubuntu/">ubuntu</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/prediction/">prediction</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/binary/">binary</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/course/">course</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/phone/">phone</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/risk-assessment/">risk assessment</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/mobile/">mobile</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/ids/">ids</a>
@@ -647,73 +654,55 @@ in-depth exploration of the art of shell scripting. Retrieved from:
       <a href="../../../../tag/forum/">forum</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/testing-ids/">testing ids</a>
+      <a href="../../../../tag/strategy/">strategy</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/cybersecurity/">cybersecurity</a>
+      <a href="../../../../tag/society/">society</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/vulnerability/">vulnerability</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/prediction/">prediction</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/presentation/">presentation</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/risk-assessment/">risk assessment</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/ubuntu/">ubuntu</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/nato/">nato</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/information-warfare/">information warfare</a>
+      <a href="../../../../tag/workshop/">workshop</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/ransomware/">ransomware</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/iot/">IoT</a>
+      <a href="../../../../tag/wireless/">wireless</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/italy/">Italy</a>
+      <a href="../../../../tag/nato/">nato</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/digital-divide/">digital divide</a>
+      <a href="../../../../tag/communication/">communication</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/gms/">gms</a>
+      <a href="../../../../tag/teaching/">teaching</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/wiretapping/">wiretapping</a>
+      <a href="../../../../tag/eavesdropping/">eavesdropping</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/hactivism/">hactivism</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/acceleration/">acceleration</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/syn-flood/">SYN flood</a>
+      <a href="../../../../tag/social/">social</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/vulnerability-scanning/">vulnerability scanning</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/wpan/">wpan</a>
+      <a href="../../../../tag/vulnerability/">vulnerability</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/strategy/">strategy</a>
+      <a href="../../../../tag/log-mining/">log mining</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/simmulation-of-attacks-and-defence/">simmulation of attacks and defence</a>
+      <a href="../../../../tag/snort/">snort</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/course/">course</a>
+      <a href="../../../../tag/information-warfare/">information warfare</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wlan/">wlan</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/gms/">gms</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/risk-management/">risk management</a>
@@ -722,70 +711,28 @@ in-depth exploration of the art of shell scripting. Retrieved from:
       <a href="../../../../tag/port-scan/">Port scan</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/social/">social</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/wordpress/">wordpress</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/eavesdropping/">eavesdropping</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/botnet/">botnet</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/encryption/">encryption</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/unix/">Unix</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/data-breaches/">data breaches</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/log-mining/">log mining</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/network-crime/">network crime</a>
+      <a href="../../../../tag/surveillance/">surveillance</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/it-security/">IT security</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/wireless/">wireless</a>
+      <a href="../../../../tag/iot/">IoT</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/surveillance/">surveillance</a>
+      <a href="../../../../tag/hactivism/">hactivism</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/mvr/">mvr</a>
+      <a href="../../../../tag/unix/">Unix</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/binary/">binary</a>
+      <a href="../../../../tag/wiretapping/">wiretapping</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/data-breaches/">data breaches</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/network-security/">network security</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/teaching/">teaching</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/phone/">phone</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/optamization/">optamization</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/wlan/">wlan</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/snort/">snort</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/threats/">threats</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/wifi/">wifi</a>
     </li>
   </ul>
 </li>
@@ -829,7 +776,7 @@ in-depth exploration of the art of shell scripting. Retrieved from:
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy; 2019 Predrag TASEVSKI - Pece
+         <div class="col-xs-10">&copy; 2021 Predrag TASEVSKI - Pece
             &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>                <p><small>  <a rel="license" href="https://creativecommons.org/licenses/by-nd/4.0/deed.en"><img alt="Creative Commons License" style="border-width:0" src="//i.creativecommons.org/l/by-nd/4.0/80x15.png" /></a>

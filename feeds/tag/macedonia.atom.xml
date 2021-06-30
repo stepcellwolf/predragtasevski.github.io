@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Predrag TASEVSKI - Pece - Macedonia</title><link href="https://predragtasevski.com/" rel="alternate"></link><link href="https://predragtasevski.com/feeds/tag/macedonia.atom.xml" rel="self"></link><id>https://predragtasevski.com/</id><updated>2017-01-02T00:00:00+01:00</updated><entry><title>Cyber Security overview of 2016 and 2017 predictions (Macedonian language)</title><link href="https://predragtasevski.com/posts/2017/01/IT-security-2017-predictions/" rel="alternate"></link><published>2017-01-02T00:00:00+01:00</published><updated>2017-01-02T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2017-01-02:/posts/2017/01/IT-security-2017-predictions/</id><content type="html">&lt;p&gt;Interview in Macedonian IT news portal only available in Macedonian language, link: &lt;a href="https://www.it.mk/it-bezbednost/" target="_blank" title="ИТ безбедност: 2016-та беше хорор година, очекувањата се дека 2017-та ќе биде полоша"&gt;https://www.it.mk/it-bezbednost/&lt;/a&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Predrag TASEVSKI - Pece - macedonia</title><link href="https://predragtasevski.com/" rel="alternate"></link><link href="https://predragtasevski.com/feeds/tag/macedonia.atom.xml" rel="self"></link><id>https://predragtasevski.com/</id><updated>2021-06-30T00:00:00+02:00</updated><entry><title>ISOC Fundamentals - ISOC Serbia Belgrade Chapter Webinar</title><link href="https://predragtasevski.com/posts/2021/06/isoc-fundamentals-21/" rel="alternate"></link><published>2021-06-30T00:00:00+02:00</published><updated>2021-06-30T00:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2021-06-30:/posts/2021/06/isoc-fundamentals-21/</id><summary type="html">&lt;p&gt;This year I took a participation on &lt;a href="https://www.internetsociety.org/chapters/fundamentals-program/2021/"&gt;Internet Society Fundamentals program 2021&lt;/a&gt;, where each participant could sing up in one or more topics. I sign up for several topics through ISOC Serbia Belgrade Chapter. Unfortunately there is no ISOC N. Macedonian chapter.
+Together with the ISOC Serbia Belgrade Chapter we …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This year I took a participation on &lt;a href="https://www.internetsociety.org/chapters/fundamentals-program/2021/"&gt;Internet Society Fundamentals program 2021&lt;/a&gt;, where each participant could sing up in one or more topics. I sign up for several topics through ISOC Serbia Belgrade Chapter. Unfortunately there is no ISOC N. Macedonian chapter.
+Together with the ISOC Serbia Belgrade Chapter we decided to go with a webinar and a workshop that will tackle several &lt;a href="https://www.internetsociety.org/chapters/fundamentals-program/2021/catalog/"&gt;Fundamentals program 2021 topics - catalog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The webinar and the workshop was held on 25. June 2021 remotely. For more info please visit the &lt;a href="https://www.isoc.rs/internet-drustvo-srbije-beogradski-ogranak-odrzao-vebinar-sa-isoc-fundamentals/"&gt;Internet društvo Srbije, Beogradski ogranak, održao vebinar sa ISOC Fundamentals&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;On the webinar I presented the following topics:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Basic encryption and why is it important&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Basic how to secure webserver using open standards&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;How to build security by default and privacy by default infrastructure&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Building a bridge between N.Macedonia and Serbia privacy and security community networks.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Workshop&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Please see the &lt;a href="https://www.isoc.rs/wp-content/uploads/2021/06/ISOC-Serbia-2021-Fundamentals-Program1.pdf"&gt;slides&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;One of the outcome is to set up an ISOC Macedonian chapter in near future - ISOC-MKD.&lt;/p&gt;</content><category term="pages"></category><category term="isoc"></category><category term="encryption"></category><category term="networking"></category><category term="communication"></category><category term="serbia"></category><category term="open standards"></category><category term="isoc-mkd"></category><category term="macedonia"></category><category term="infrastructure"></category><category term="internet"></category><category term="society"></category><category term="webinar"></category><category term="workshop"></category></entry><entry><title>Cyber Security overview of 2016 and 2017 predictions (Macedonian language)</title><link href="https://predragtasevski.com/posts/2017/01/IT-security-2017-predictions/" rel="alternate"></link><published>2017-01-02T00:00:00+01:00</published><updated>2017-01-02T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2017-01-02:/posts/2017/01/IT-security-2017-predictions/</id><content type="html">&lt;p&gt;Interview in Macedonian IT news portal only available in Macedonian language, link: &lt;a href="https://www.it.mk/it-bezbednost/" target="_blank" title="ИТ безбедност: 2016-та беше хорор година, очекувањата се дека 2017-та ќе биде полоша"&gt;https://www.it.mk/it-bezbednost/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Predrag Tasevski" src="https://www.it.mk/wp-content/themes/it2015/images/2017/it-bezbednost-predrag-tasevski-cybersecurity.png"&gt;&lt;/p&gt;</content><category term="pages"></category><category term="Macedonia"></category><category term="cyber security"></category><category term="IT security"></category><category term="prediction"></category><category term="interview"></category><category term="ransomware"></category><category term="data breaches"></category><category term="botnet"></category><category term="awareness"></category><category term="privacy"></category><category term="encryption"></category></entry><entry><title>Balkans capacity towards cyber defense</title><link href="https://predragtasevski.com/posts/2015/09/yata-comments-of-the-week/" rel="alternate"></link><published>2015-09-27T13:00:00+02:00</published><updated>2015-09-27T13:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2015-09-27:/posts/2015/09/yata-comments-of-the-week/</id><summary type="html">&lt;p&gt;Following texts is captured interview for YATA Comments of the week video:&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/LAfOPIBoj8Q" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
@@ -38,7 +61,6 @@ in the country.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Keywords&lt;/em&gt;: Macedonia, cyber, establishment, MKD-CIRT, strategy, security,
 national security&lt;/p&gt;</content><category term="pages"></category><category term="Macedonia"></category><category term="cyber"></category><category term="establishment"></category><category term="MKD-CIRT"></category><category term="strategy"></category><category term="security"></category><category term="national security"></category></entry><entry><title>Interview: Snowden helped the mass awakening of awareness by Nova Makedonija</title><link href="https://predragtasevski.com/posts/2014/04/interview-snowden-helped-the-mass-awakening-of-awareness-by-nova-makedonija/" rel="alternate"></link><published>2014-04-29T23:00:00+02:00</published><updated>2014-04-29T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2014-04-29:/posts/2014/04/interview-snowden-helped-the-mass-awakening-of-awareness-by-nova-makedonija/</id><summary type="html">&lt;p&gt;Source: Nova Makedonija, Interview by Predrag Tasevski&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;First Macedonian daily newspaper have asked me for interview before the
 holidays. The topic was concentrating on security, coupled the national
 security and IT security. However, the interview is posted in
@@ -48,7 +70,6 @@ but also you could use &lt;a href="http://translate.google.com/translate?sl=mk&a
 translation&lt;/a&gt;
 with Google translator …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Source: Nova Makedonija, Interview by Predrag Tasevski&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;First Macedonian daily newspaper have asked me for interview before the
 holidays. The topic was concentrating on security, coupled the national
 security and IT security. However, the interview is posted in
@@ -58,11 +79,9 @@ but also you could use &lt;a href="http://translate.google.com/translate?sl=mk&a
 translation&lt;/a&gt;
 with Google translator.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;If you have any comments and want to discuss something feel free to drop
 me a comments below.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Happy Holidays!&lt;/p&gt;
 &lt;/p&gt;</content><category term="pages"></category><category term="interview"></category><category term="nova makedonija"></category><category term="newspaper"></category><category term="snowden"></category><category term="awareness"></category><category term="macedonia"></category><category term="cyber security"></category></entry><entry><title>I can hack your FB, can you catch me...</title><link href="https://predragtasevski.com/posts/2013/05/i-can-hack-your-fb-can-you-catch-me/" rel="alternate"></link><published>2013-05-26T23:00:00+02:00</published><updated>2013-05-26T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2013-05-26:/posts/2013/05/i-can-hack-your-fb-can-you-catch-me/</id><summary type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;In the context of &lt;a href="http://surfajbezbedno.mk/" title="Surfaj Bezbedno"&gt;Surf
@@ -96,7 +115,6 @@ Katerina Jovanovska head of Department of Information and criminal
 investigations in the area of criminal technique in Ministry of
 Interiors in Macedonia.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Moreover, during the presentation I have introduce the participant how
 easy and simple is to pass the second verification of Trusted contacts
 in Facebook. For more information please refer to the next paragraph the
@@ -107,7 +125,6 @@ Also many thanks to the Deputy Minister of Information Society and
 Administration, Marta Arsovska Tomovska for wonderful introduction and
 being present to the training.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Also the purpose of this training was to boost the awareness and of
 course interest to the students for future training that will be
 provided by
@@ -116,12 +133,11 @@ provided by
 university to their students and also to the government and private
 agencies.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Presentation&lt;/h1&gt;
 &lt;iframe src="https://docs.google.com/file/d/0B1472nuKPMN5dTI2dlFSV0ZVWkk/preview" width="640" height="480"&gt;&lt;/iframe&gt;
 
 &lt;h1&gt;Pictures&lt;/h1&gt;
-&lt;p&gt;&lt;object width="500" height="375"&gt; &lt;param name="flashvars" value="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157648703591830%2Fshow%2F&amp;page_show_back_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157648703591830%2F&amp;set_id=72157648703591830&amp;jump_to="&gt;&lt;/param&gt; &lt;param name="movie" value="https://www.flickr.com/apps/slideshow/show.swf?v=1811922554"&gt;&lt;/param&gt; &lt;param name="allowFullScreen" value="true"&gt;&lt;/param&gt;&lt;embed type="application/x-shockwave-flash" src="https://www.flickr.com/apps/slideshow/show.swf?v=1811922554" allowFullScreen="true" flashvars="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157648703591830%2Fshow%2F&amp;page_show_back_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157648703591830%2F&amp;set_id=72157648703591830&amp;jump_to=" width="500" height="375"&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;</content><category term="pages"></category><category term="facebook"></category><category term="fb"></category><category term="hack"></category><category term="mvr"></category><category term="macedonia"></category><category term="course"></category><category term="teaching"></category><category term="cyber security"></category><category term="surfaj bezbedno"></category></entry><entry><title>Cyber Security Group in South Eastern Europe</title><link href="https://predragtasevski.com/posts/2013/01/cyber-security-group-in-south-eastern-europe/" rel="alternate"></link><published>2013-01-03T00:00:00+01:00</published><updated>2013-01-03T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2013-01-03:/posts/2013/01/cyber-security-group-in-south-eastern-europe/</id><summary type="html">&lt;p&gt;Recently we have heard and read about the importance of cybersecurity
+&lt;object width="500" height="375"&gt; &lt;param name="flashvars" value="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157648703591830%2Fshow%2F&amp;page_show_back_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157648703591830%2F&amp;set_id=72157648703591830&amp;jump_to="&gt;&lt;/param&gt; &lt;param name="movie" value="https://www.flickr.com/apps/slideshow/show.swf?v=1811922554"&gt;&lt;/param&gt; &lt;param name="allowFullScreen" value="true"&gt;&lt;/param&gt;&lt;embed type="application/x-shockwave-flash" src="https://www.flickr.com/apps/slideshow/show.swf?v=1811922554" allowFullScreen="true" flashvars="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157648703591830%2Fshow%2F&amp;page_show_back_url=%2Fphotos%2F29569957%40N00%2Fsets%2F72157648703591830%2F&amp;set_id=72157648703591830&amp;jump_to=" width="500" height="375"&gt;&lt;/embed&gt;&lt;/object&gt;</content><category term="pages"></category><category term="facebook"></category><category term="fb"></category><category term="hack"></category><category term="mvr"></category><category term="macedonia"></category><category term="course"></category><category term="teaching"></category><category term="cyber security"></category><category term="surfaj bezbedno"></category></entry><entry><title>Cyber Security Group in South Eastern Europe</title><link href="https://predragtasevski.com/posts/2013/01/cyber-security-group-in-south-eastern-europe/" rel="alternate"></link><published>2013-01-03T00:00:00+01:00</published><updated>2013-01-03T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2013-01-03:/posts/2013/01/cyber-security-group-in-south-eastern-europe/</id><summary type="html">&lt;p&gt;Recently we have heard and read about the importance of cybersecurity
 around the
 &lt;a href="http://www.csmonitor.com/USA/Politics/2013/0213/Why-Obama-s-executive-order-on-cybersecurity-doesn-t-satisfy-most-experts"&gt;US&lt;/a&gt;
 and
@@ -143,7 +159,6 @@ and Proposal for a Directive. Frankly, where are the countries of South
 Eastern Europe (SEE) in here, such as the ones that are not in EU, for
 instance: Macedonia, Serbia, Montenegro, Bosnia, Albania and Kosovo?&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Therefore, my plan, as a founder of
 &lt;a href="http://cybersecurity.mk"&gt;Cybersecurity.mk&lt;/a&gt; would like to make a
 proposal of creating and teaming a group which will meet once a month to
@@ -157,7 +172,6 @@ importance of cybersecurity in South Eastern Europe (Macedonia, Serbia,
 Montenegro, Bosnia, Albania, Kosovo, Croatia, Slovenia, Bulgaria,
 Romania and Greece).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;For this proposal to be success we would need a help from NGO’s, NPO’s
 and any other institutes from the region and elsewhere. In addition I
 would like to ask hackers, crackers, ethical and non-ethical, designers,
@@ -186,7 +200,6 @@ institutes.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;p&gt;If you have any further great ideas or proposals please do not hesitate
 to share them with us. We would be more than happy to take them in
 consideration. Nevertheless, I really hope that forming the group, such
@@ -194,7 +207,6 @@ as Google Developer Group etc. will help on one hand. And on the other
 hand, will aid to meet one another, to discuss and share our knowledge.
 To learn from the best people and scholars in cybersecurity.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Overall, more frequently in SEE region we have seen targets to attackers
 on the Internet. How do we handle this matter of facts and how we deal
 against? How we protect our online space? And indeed why we should take
@@ -204,65 +216,54 @@ in the above problem that we face and will HELP us in creating this
 group in SEE region.&lt;/p&gt;
 &lt;/p&gt;</content><category term="pages"></category><category term="cyber security"></category><category term="NGO"></category><category term="group"></category><category term="south eastern europe"></category><category term="macedonia"></category><category term="balkan"></category></entry><entry><title>Company Brochure and Founder Notes, Cybersecurity.mk</title><link href="https://predragtasevski.com/posts/2012/09/company-brochure-and-founder-notes-cybersecuritymk/" rel="alternate"></link><published>2012-09-20T23:00:00+02:00</published><updated>2012-09-20T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-09-20:/posts/2012/09/company-brochure-and-founder-notes-cybersecuritymk/</id><summary type="html">&lt;p&gt;COMPANY BROCHURE: Cybersecurity.mk&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Your IT infrastructure could be taken under the shoulder of
 professionals&lt;/p&gt;
 &lt;p&gt;September 2012&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Founder Notes:&lt;/p&gt;
 &lt;p&gt;Recently, Macedonian government has announced to open a CERT agency.
 This news was not only shock to us, but to everyone else, indeed.
 However, we are supporting this initiative and hope …&lt;/p&gt;</summary><content type="html">&lt;p&gt;COMPANY BROCHURE: Cybersecurity.mk&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Your IT infrastructure could be taken under the shoulder of
 professionals&lt;/p&gt;
 &lt;p&gt;September 2012&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Founder Notes:&lt;/p&gt;
 &lt;p&gt;Recently, Macedonian government has announced to open a CERT agency.
 This news was not only shock to us, but to everyone else, indeed.
 However, we are supporting this initiative and hope that will be able to
 elaborate and corporate within organization.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Macedonian situation in a field of information and cyber security is not
 on very surprising or signification level. Therefore our main goal is to
 increase and merge the collaboration with neighbour countries as well as
 with international organizations and agencies.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Moreover, our belief lies that we will be able to bring better
 understanding of very important issues that concern information and
 cyber security, and to lead to better national awareness.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;In this matter, our company will continue to expend the partnership as
 well as international collaboration. We will constantly checking for
 updates for existing solutions, also to search for new solutions to
 update our offerings and services. And further development of our
 projects.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;In this brochure we would like to introduce you with our company
 profile, such as, our services, partners, clients, projects and our blog
 posts.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Link to PDF version of the brochure is on the following link:
 &lt;a href="http://cybersecurity.mk/about.html"&gt;http://cybersecurity.mk/about.html&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;</content><category term="pages"></category><category term="cert"></category><category term="CIRT"></category><category term="cyber security"></category><category term="cybersecurity"></category><category term="cybersecurity.mk"></category><category term="internet"></category><category term="macedonia"></category><category term="mkd"></category><category term="online"></category><category term="security"></category></entry><entry><title>Ministry of Interior – Macedonia, website defacement: http://mvr.gov.mk</title><link href="https://predragtasevski.com/posts/2012/06/ministry-of-interior-macedonia-website-defacement-httpmvrgovmk/" rel="alternate"></link><published>2012-06-25T23:00:00+02:00</published><updated>2012-06-25T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-06-25:/posts/2012/06/ministry-of-interior-macedonia-website-defacement-httpmvrgovmk/</id><summary type="html">&lt;h1&gt;Purpose&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Yesterday, the 25 of June 2012, the Macedonian website of Ministry of
 Interior (MVR) was defaced by Kosovo Network Security (KNS) group, below
 figure. However, after we have noticed and some of the social networking
 sites have informed me, I was concern to find out what just have
 happened …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Purpose&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Yesterday, the 25 of June 2012, the Macedonian website of Ministry of
 Interior (MVR) was defaced by Kosovo Network Security (KNS) group, below
 figure. However, after we have noticed and some of the social networking
@@ -274,17 +275,14 @@ we continue with more details, let just talk about the situation of
 yesterday and what did the authorities take protective measures steps
 and actions.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;On Monday, 25 June 2012 at 19:38, one friend have updated his status in
 one of the social networking sites, as follows: “Хакован
 &lt;a href="http://mvr.gov.mk/"&gt;http://mvr.gov.mk/&lt;/a&gt;” (Hacked &lt;a href="http://mvr.gov.mk/"&gt;http://mvr.gov.mk/&lt;/a&gt;). And it made me
 extremely intrigue to see what actually have just happened. The below
 figure, displays the message spread from the KNS group.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Screenshot from the mvr.gov.mk defaced version&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Moreover, what makes the situation even more interesting is that after
 the report that the site was defaced the authorities have taken a
 measures steps to fix the issue, by either shutting down the server or
@@ -293,12 +291,10 @@ minutes the site was defaced again. I did not want to lose the time and
 the nervous to check every five or ten minutes to see when it will be
 back again.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Nevertheless, after 15 hours, or one stressful – hard core night for the
 administrators of the site, the usability and functionalities where back
 as normal, let just see how long will stay!&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Therefore, in the current post the idea is to give and overview, of what
 actually is going on when it comes to case of cyber space, cyber
 security issues in Macedonia. The structure of this post is introduces
@@ -313,10 +309,8 @@ sector, but even and the private sector too. Those agencies,
 organizations are too much careless and do not take any actions of
 securing their IT assets.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Introduction&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Ministry of Interior in Macedonia site offers different online services.
 The site primary idea is to inform the inhabitance about the news,
 actions, useful information, public relations, analysis and statistics;
@@ -324,7 +318,6 @@ international cooperation and legislation; and finally the services. And
 secondly is to give and opportunities to the population scheduling of
 service, if their document is issued, etc.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;In one short sentence, this site, for some people, it may be very useful
 or not. However, I need to empathize that the site is only available in
 Macedonian language, nor Albania, nor English version. So, in simple
@@ -332,14 +325,11 @@ conclusion this site is only useful for Macedonian speakers, and not for
 foreigners, yet still represents one of very important public service,
 government agency.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Nevertheless, in the next section we will discuses the previous
 defacement and hacking attacks of this site.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Background&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The service of this site, or the domain first was registered in 22
 October 2003, and unfortunate I do not remember when was first time
 available and published. However, in the pass years I have heard many
@@ -354,7 +344,6 @@ is just and simple site where collects the cybercrime activities
 notified anonymously. The bellow figure provides a details of previous
 reported/notified cybercrime activities of MVR site in Macedonia.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;In details, total notifications are 4 of which 2 are single IP and 2 are
 mass defacements. The first mass defacement was done in 29 July 2009,
 when the site use a OS: Windows 2000, then in 2011 it was the
@@ -364,27 +353,22 @@ year, few days before the current attack, 22 of June it was
 re-defacement. And the attack, defacement that we write for it was not
 notified or reported.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;From these data, and schedule, we can come to a conclusion that the site
 was defaced just 3 days before the mass defacement attack, so it might
 be a simple warning, to taken an action before something goes really
 wrong. But most probably, non of those administrators, or authorities
 did not taken any serious actions, until the case yesterday appears.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Details&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;To be able to do an analysis of what actually have happened, we need to
 take some actions.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;First, we have done a simple web sniffer, to find out what kind of
 system, and services the site, server is using. If we request the &lt;a href="http://en.wikipedia.org/wiki/List_of_HTTP_header_fields"&gt;HTTP
 Request Header&lt;/a&gt;
 we will receive an HTTP Response Header with a following data:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     Status: HTTP/1.1 200 OKCache-Control: privateContent-Type: text/html; charset=utf-8Server: Microsoft-IIS/7.0Set-Cookie: ASP.NET_SessionId=3lti3gep3usg4255ggf34tjn; path=/; HttpOnlyX-AspNet-Version: 2.0.50727X-Powered-By: ASP.NETDate: Tue, 26 Jun 2012 08:18:34 GMTConnection: closeContent-Length: 103773
@@ -392,19 +376,15 @@ we will receive an HTTP Response Header with a following data:&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;The above data, is useful in a sense that provides as an information
 about the Server and the ASP.Net Version. Then, if we want to find more
 details about the open and close ports and operating system we can use
 the &lt;a href="http://nmap.org/"&gt;nmap&lt;/a&gt; tool with the following command line:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;&lt;code&gt;nmap -O -v IP-Address&lt;/code&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;And the results will be as follows:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     PORT STATE SERVICE21/tcp open ftp80/tcp open httpRunning (JUST GUESSING) : Microsoft Windows Vista|2008|7 (89%)
@@ -412,7 +392,6 @@ the &lt;a href="http://nmap.org/"&gt;nmap&lt;/a&gt; tool with the following comm
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;From the web sniffing and from the OS version scanning we can assume
 that the server is running Microsoft Windows 2008. The current
 vulnerabilities and possible exploitations are visible on the &lt;a href="http://technet.microsoft.com/en-us/security/bulletin/"&gt;Microsoft
@@ -422,7 +401,6 @@ website. By knowing the vulnerabilities it is very easy task to find out
 a way either to commit DoS attack or remote server access. However, in
 this post we will not go into details and exploitation descriptions.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Moreover, the KNS, we assume the domain is followed:
 &lt;a href="http://kns-team.com/"&gt;http://kns-team.com&lt;/a&gt;. However, the site is down,
 therefore, we will have to understand who is behind this domain
@@ -431,7 +409,6 @@ more, or even we can use another site that have been defaced by this
 group to find out more. So there is the list presented the members in
 the groups and their archive of notified defaced sites:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.zone-h.org/archive/notifier=cracker-besi"&gt;rAcKeR-BeSi&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;GP&lt;/li&gt;
@@ -441,23 +418,19 @@ the groups and their archive of notified defaced sites:&lt;/p&gt;
 &lt;li&gt;SpyHackz&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The Facebook fan page is:
 &lt;a href="https://www.facebook.com/pages/Kosova-Network-Security/176195849098989"&gt;https://www.facebook.com/pages/Kosova-Network-Security/176195849098989&lt;/a&gt;.
 For more info I was short of time to do more digging, but I hope that
 someone will.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Action&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;After understanding the details about the MVR site, operating system and
 their server services, and information about the KNS, it is time to take
 an action of trying to see how vulnerable is MVR site, and to see if
 these lads had very difficult time of defacing the content of the site,
 or even gaining access to the server-side.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;But before, we carry on, I want to stress out that this section is not
 to give you an idea how, or knowledge to exploit or use any
 vulnerabilities to deface or gain access to the site. We will just
@@ -465,10 +438,8 @@ demonstrate you a very simple
 &lt;a href="http://en.wikipedia.org/wiki/Cross-site_scripting"&gt;XSS&lt;/a&gt; exploit of MVR
 site that we have found a vulnerability, figure below.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Example of exploitation by XSS vulnerability, mvr.gov.mk&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;It is therefore, from this very simple and easy exploitation of XSS
 vulnerability of the MVS site we will be able to run more advance and
 complicated shell scripts to gain access and maintain access of the
@@ -477,10 +448,8 @@ to the audience that actually hence actions is need it. And we hope that
 the administrators, developers and the authorities will take an action
 of mitigating the risk, and further vulnerabilities of the site.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Conclusion&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;In Macedonia, cyber space, cyber crime, cyber security, cyber warefare,
 cyber terrorism are actually unknown words, terminology. They are not
 even specified or added into the Macedonian dictionary, nor in IT
@@ -490,7 +459,6 @@ implemented by neighbor countries, or someone else. I just don’t
 understand why people in this country are so careless about how to
 protect their IT assets, and everything else, as well.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Furthermore, it is not an issue that we do not have specialists to
 conduct a pen-testing to the sites and services that not only the
 government agencies are offering but even the banks and private sectors
@@ -501,7 +469,6 @@ Lab&lt;/a&gt;. Also, the &lt;a href="http://cybersecurity.mk/icsap/"&gt;ICSAP �
 Cyber Security Awareness Program&lt;/a&gt;,
 Macedonia project, developed by myself.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Nevertheless, in final conclusion, I would like to recommend the
 authorities to take actions about the above described activities done by
 KNS and hope that the security awareness will boost up, and the further
@@ -526,14 +493,12 @@ Unfortunately, the presentation slides are only in Macedonian language.
 If anyone needs the content on the slides in English please fell free to
 contact me.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Moreover, I would like to thank the organizers for the invitation, as
 well as, for a great organized event and kindly words from the trainees.
 The group to the panel discussion was very enthusiasts, knowledgeable
 and experience to share and to give an interesting ideas for the hence
 actions.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The conclusion from the discussion was made. As well as, that this is
 just a step to bring the topic into Macedonia, and for the organizations
 and groups to become more familiar and aware about the Hate Speech on
@@ -541,6 +506,5 @@ Internet as extremely important topic to be taken into consideration. In
 additions, to emphases that in Macedonia is widespread in different
 categories.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Slides:&lt;/h1&gt;
 &lt;iframe src="https://docs.google.com/file/d/0B1472nuKPMN5WmtHNW56OEU2V1k/preview" width="640" height="480"&gt;&lt;/iframe&gt;</content><category term="pages"></category><category term="hate speech"></category><category term="internet"></category><category term="macedonia"></category><category term="sapka"></category><category term="cid"></category></entry></feed>

@@ -143,7 +143,6 @@ Predrag TASEVSKI - Pece            </a>
                 </div>
                 <h1>PURPOSE and SCENARIO</h1>
 </p>
-
 <p>The goal of this laboratory test is to make effort to attack server and
 to deface website. Here is the scenario: your client is worried about
 some stuff posted on a blog. They ask You to take care of it. They have
@@ -151,7 +150,6 @@ a throwaway “script kiddie”[Script kiddie] in a third world country, who
 will mount the attack so You don’t need to worry about hiding the
 attackers identity.</p>
 </p>
-
 <p>Therefore, we need to devise a way to attack wordpress (default
 installation) based site to render it unusable (page view times over 60
 seconds). Attack resources: one PC with Microsoft Windows XP, a script
@@ -159,33 +157,27 @@ kiddie, internet connection of 2Mbit/s. In addition, server has to stay
 down for two days and script kiddie has up to 1 day to set up the
 attack.</p>
 </p>
-
 <p>For scenario above their three different proposals from the fallow
 students. Each proposal is described in section Proposals and their
 effectiveness, installation process and the evaluation of the efficient
 use of available resources.</p>
 </p>
-
 <p>Firstly, easy solution for limiting the internet connection of 2Mbit/s
 by Oracle VirtualBox configuration manager. Secondly, the bandwidth
 capacity of the connection and their performance is measured by vnstat1
 for graphs to display our utilization. The steps are vivid on section
 Methods.</p>
 </p>
-
 <p>Finally, providing measurement results with different proposals will
 help us to identify the most beneficial proposal for above scenario,
 declared in Conclusion section.</p>
 </p>
-
 <p>Moreover, after each attack, test the virtual server environment is
 restarted, because of the affective situation that server after attack
 needs time to recover.</p>
 </p>
-
 <h1>METHODS</h1>
 </p>
-
 <p>Because of requirements of our scenario we need to limit the internet
 connection of 2 Mbit/s and to provide graphs that can help as with the
 measurement results to conclude which proposals is more competent.
@@ -193,18 +185,14 @@ Therefore, Method 1 is describing the step how we limited the connection
 bandwidth and Method 2 providing as solution how to setup that can help
 you in measuring the speed and the bandwidth.</p>
 </p>
-
 <h2>METHOD 1</h2>
 </p>
-
 <p>For limiting the internet traffic of the server we have to do the
 following steps in command prompt. The following solution is gathered
 from Manual of Oracle Virtualbox, Chapter 8 [User Manual].</p>
 </p>
-
 <p>Limiting VirtualBox – virtual environment speed of network interface:</p>
 </p>
-
 <div class="highlight">
 
     VBoxManage modifyvm "[name of virtualbox]" --nicspeed2 2048
@@ -212,17 +200,14 @@ from Manual of Oracle Virtualbox, Chapter 8 [User Manual].</p>
 </div>
 
 </p>
-
 <p>Where you need to replace name of virtual box with real one, and specie
 which network interface adapter you wont to limited. In the above
 illustration is only second network adapter affected and then you set
 the limitation, in our case is 2 Mbit/s.</p>
 </p>
-
 <p>Furthermore, to make sure that the result have been effective please use
 the following command:</p>
 </p>
-
 <div class="highlight">
 
     VBoxManage showvminfo "[name of virtualbox]"
@@ -230,22 +215,17 @@ the following command:</p>
 </div>
 
 </p>
-
 <p>Results and information important to be aware refer to Appendix 1.</p>
 </p>
-
 <h2>METHOD 2</h2>
 </p>
-
 <p>We are going to install an application that will help us to gather a
 visual graphs of traffic manipulation of script kiddie. The application
 is vnstat.</p>
 </p>
-
 <p>In the server virtual environment in command prompt please type the
 following command:</p>
 </p>
-
 <div class="highlight">
 
     sudo apt-get install vnstat<br>
@@ -253,48 +233,38 @@ following command:</p>
 </div>
 
 </p>
-
 <p>Next step is to select which interface should be monitored and create
 graphs. In our case is eth1, which is second network interface. For
 furthermore detailed installation process please refer to the following
 link:</p>
 <p><a href="http://www.4geeksfromnet.com/2009/04/graphical-bandwidth-monitor-for-ubuntu.html">http://www.4geeksfromnet.com/2009/04/graphical-bandwidth-monitor-for-ubuntu.html</a></p>
 </p>
-
 <p>To check if the installation process is finished please use your
 browser, as shown in illustration 1 and on the address bar type:
 http://192.168.56.102/vnstat</p>
 </p>
-
 <p>Illustration 1: Vnstat PHP interface</p>
 </p>
-
 <h1>PROPOSALS</h1>
 </p>
-
 <p>The three proposals are following and described in each different
 section and their results. The main measure goal which is going to grate
 for kiddie script is: easy to use instructions, the most efficient use
 of available resources and can the script be up to 1 day attacking.</p>
 </p>
-
 <p>Moreover, the results will be provided with two different graphs in
 period of 5 minutes attack and 10 minutes attack. Which would guide us
 to compare which kiddie script has performed the attack more in force.</p>
 </p>
-
 <h2>PROPOSAL 1</h2>
 </p>
-
 <p>This is the first proposal and the installation process instruction:
 Script kiddie uses a little program to connection flood the WordPress
 installation! The program uses Apache autobench to take the site down in
 seconds.</p>
 </p>
-
 <p>Guide for the scipt Kiddie:</p>
 </p>
-
 <ol>
 <li>Download the program from
     <a href="http://enos.itcollege.ee/~avein/anti2.rar">http://enos.itcollege.ee/~avein/anti2.rar</a></li>
@@ -302,7 +272,6 @@ seconds.</p>
 <li>Enter the address for wordpress site and press the button</li>
 </ol>
 </p>
-
 <p>Above script did no run/work on the VirtualMachine Windows XP.
 Therefore, from the same author we have other solution:</p>
 <p>​1. Download
@@ -314,11 +283,9 @@ enter</p>
 and type the address of your server ( eg. www.delfi.ee ) after the
 anti.exe</p>
 </p>
-
 <p>For example, if the address for your webserver is 192.168.56.101 type
 the following:</p>
 </p>
-
 <div class="highlight">
 
     anti.exe 192.168.56.101<br>
@@ -326,102 +293,81 @@ the following:</p>
 </div>
 
 </p>
-
 <ol>
 <li>Press enter and the site will go down very soon :=) P.S. This is
     lightweight version tat doesnot use much bandwith and is targeted
     against a bug in apache server :)</li>
 </ol>
 </p>
-
 <h3>RESULT 1</h3>
 </p>
-
 <p>After running the first proposal we can see that the script kiddie does
 attack the server, but the server was reachable after a bit long delay,
 but still we could access to the wordpress.</p>
 </p>
-
 <p>Here are some results graphs.</p>
 </p>
-
 <ol>
 <li>5 minutes attack</li>
 </ol>
 </p>
-
 <p>Illustration 2: Proposal 1, 5 min, traffic graph</p>
 </p>
-
 <ol>
 <li>10 minutes attack</li>
 </ol>
 </p>
-
 <p>Illustration 3: Proposal 1, 10 min, traffic graph</p>
 </p>
-
 <p>On the one hand the script kiddie did attack the server, but on the
 other hand the server was still accessible. I’d like to conclude by
 stating that the above script did not meet our needs, and it did not
 stop, bring down the response time of the server.</p>
 </p>
-
 <h2>PROPOSAL 2</h2>
 </p>
-
 <p>Second proposal and the installation process:</p>
 </p>
-
 <ol>
 <li>You (Script kiddie) download the file from <a href="http://share.ee/x49176f">http://share.ee/x49176f</a></li>
 <li>You will get an warning message, but you continue to download anyway</li>
 <li>In chrome it looks like this</li>
 </ol>
 </p>
-
 <ol>
 <li>Execute the file</li>
 <li>Will get a warning but continue</li>
 <li>Will look something like this</li>
 </ol>
 </p>
-
 <ol>
 <li>Insert the URL to attack and define how long you want to attack</li>
 <li>Will look like</li>
 </ol>
 </p>
-
 <ol>
 <li>Enjoy</li>
 </ol>
 </p>
-
 <p>The script is basic vbscript that will overwhelm the server by as many
 connections that are required to keep the server down for as long as you
 define.</p>
 </p>
-
 <p>The above script did not work on the laboratory performance, because it
 had an code error. Therefore, for this proposal we are not able to
 provide you with the result graphs</p>
 </p>
-
 <h2>PROPOSAL 3</h2>
 </p>
-
 <p>Third proposal and the installation process is listed below: There is a
 free and very easy Denial of service script written in PHP, called
 Keep-Dead (Version 1.14). You can download it from the following link:
 <a href="http://www.esrun.co.uk/blog/imp/2011/03/Keep-Dead.zip">http://www.esrun.co.uk/blog/imp/2011/03/Keep-Dead.zip</a></p>
 </p>
-
 <p>It is developed for a research purpose, but still we can use it for our
 scenario. The good think is primarily meant for use via the terminal;
 although it will also work if launched via the browser.</p>
 </p>
-
 <ol>
 <li>Unpack the Keep-Dead.zip</li>
 <li>Open in notepad or any other text/script editor</li>
@@ -441,15 +387,12 @@ although it will also work if launched via the browser.</p>
     or stop/close the browser.</li>
 </ol>
 </p>
-
 <p>For more information or video tutorials please refer to the following
 link: <a href="http://www.esrun.co.uk/blog/keep-alive-dos-script/">http://www.esrun.co.uk/blog/keep-alive-dos-script/</a></p>
 </p>
-
 <p>If we follow the above steps we can perform our scenario 3 to make the
 server to stay down for two days or even more.</p>
 </p>
-
 <p>There many ways to keep the server down for two days, this script for me
 is kind of easy usable. In addition, the author had provide and more
 details with following content: In addition of my proposal pls install
@@ -460,55 +403,42 @@ to setup please chose Do not setup a web server -> Next click on the
 PHP small narrow down icon and select Entire future will be installed on
 local hard drive (second option) -> Next ->Install</p>
 </p>
-
 <p>The results and graphs of the above proposal are demonstrated in the
 next section.</p>
 </p>
-
 <p>This is the script that actually does the job and it keeps the server
 down until the script is down.</p>
 </p>
-
 <h3>RESULT 3</h3>
 </p>
-
 <p>Test results are following:</p>
 <p>​1. 5 minutes attack</p>
 </p>
-
 <p>Illustration 4: Proposal 3, 5 min, traffic graph</p>
 </p>
-
 <ol>
 <li>10 minutes attack</li>
 </ol>
 </p>
-
 <p>Illustration 5: Proposal 3, 10 min, traffic graph</p>
 </p>
-
 <p>A case in point is that from the above graphs we can see that the server
 does get more traffic and it does get attacked by the script kiddie.
 Illustration 6, bellow demonstrated that actually the server is down, is
 not responding any more to requests.</p>
 </p>
-
 <p>Illustration 6: Proposal 3, server down after trying to reach the blog</p>
 </p>
-
 <h1>CONCLUSION</h1>
 </p>
-
 <p>There are three points that we should consider and to see which proposal
 was more accurate and it did the job that was required in the scenario.</p>
 </p>
-
 <p>First I would like to start with rating from 1 to 5 each proposal.
 Higher score present better results. Which is proving our destination to
 hold down the server for longer then one day. The bellow table
 demonstrates which proposal has succeed.</p>
 </p>
-
 <table>
 </p>
 <p>
@@ -643,9 +573,7 @@ TOTAL
 </p>
 <p>
 </table>
-
 </p>
-
 <p>On the scoring rate 3 of server down is means that the server was down,
 but after few seconds was retrievable. Where the highest score 5 means
 that the server was not retrievable during this proposal test until we
@@ -654,32 +582,26 @@ Proposal 3 due to a code error was not able to perform attack, that is
 why it is graded with server down score of 1. Therefore, our winner for
 this laboratory test is Proposal 3 with script kiddie Keep-dead.</p>
 </p>
-
 <p>The next issue that I would like to focus is to the network speed,
 tested with other tool bmon2 which manifests that the speed limit of the
 bandwidth did not go over the 2 Mbit/s.</p>
 </p>
-
 <p>In conclusion, the above proposals are nice and good example to have an
 view of how and with what tools we should perform script kiddie
 techniques. How to shutdown access to a server. On the whole, it show as
 how to use tools and methods of measuring the bandwidth of network and
 how to limit the transfer in comfortable way.</p>
 </p>
-
 <h1>APPENDIXES</h1>
 </p>
-
 <p>Appendix 1 is connected with the Method 1, which highlighted points are
 illustration on what information we should check, to clarify that the
 virtual environment has limitation of the network interface. Where
 Appendix 2 is for installation process of Ubuntu Server 10.04 LTS and
 wordpress, mysql installation.</p>
 </p>
-
 <h1>APPENDIX 1</h1>
 </p>
-
 <div class="highlight">
 
     Name: ubuntu-serverGuest OS: UbuntuUUID: fe16451a-f8b1-4ceb-bb90-8650d08c3c0eConfig file: C:\Users\predrag\Documents\Master_CyberSecurity\VirtualBox VMs\ubuntu-server\ubuntu-server.vboxSnapshot folder: C:\Users\predrag\Documents\Master_CyberSecurity\VirtualBox VMs\ubuntu-server\SnapshotsLog folder: C:\Users\predrag\Documents\Master_CyberSecurity\VirtualBox VMs\ubuntu-server\LogsHardware UUID: fe16451a-f8b1-4ceb-bb90-8650d08c3c0eMemory size: 512MBPage Fusion: offVRAM size: 12MBCPU exec cap: 100%HPET: offChipset: piix3Firmware: BIOSNumber of CPUs: 1Synthetic Cpu: offCPUID overrides: NoneBoot menu mode: message and menuBoot Device (1): FloppyBoot Device (2): DVDBoot Device (3): HardDiskBoot Device (4): Not AssignedACPI: onIOAPIC: offPAE: offTime offset: 0 msRTC: UTCHardw. virt.ext: onHardw. virt.ext exclusive: offNested Paging: onLarge Pages: onVT-x VPID: onState: running (since 2011-10-11T11:26:30.089000000)Monitor count: 13D Acceleration: off2D Video Acceleration: offTeleporter Enabled: offTeleporter Port: 0Teleporter Address:Teleporter Password:Storage Controller Name (0): IDE ControllerStorage Controller Type (0): PIIX4Storage Controller Instance Number (0): 0Storage Controller Max Port Count (0): 2Storage Controller Port Count (0): 2Storage Controller Bootable (0): onStorage Controller Name (1): SATA ControllerStorage Controller Type (1): IntelAhciStorage Controller Instance Number (1): 0Storage Controller Max Port Count (1): 30Storage Controller Port Count (1): 1Storage Controller Bootable (1): onSATA Controller (0, 0): C:\Users\predrag\Documents\Master_CyberSecurity\VirtualBox VMs\ubuntu-server\ubuntu-server.vdi (UUID: bf4c167a-ec0a-42fa-915f-2ffbe2fd66fb) NIC 1: MAC: 0800274572ED, Attachment: NAT, Cable connected: on, Trace:off (file: none), Type: 82540EM, <span style="color: #ff0000;">Reported speed: 2 Mbps</span>, Boot priority: 0, Promisc Policy: denyNIC 1 Settings: MTU: 0, Socket (send: 64, receive: 64), TCP Window (send:64, receive: 64) NIC 2: MAC: 0800270858EA, Attachment: Host-only Interface 'VirtualBoxHost-Only Ethernet Adapter', Cable connected: on, Trace: off (file: none), Type:82540EM, Reported speed: 2 Mbps , Boot priority: 0, Promisc Policy: denyNIC 3: disabledNIC 4: disabledNIC 5: disabledNIC 6: disabledNIC 7: disabledNIC 8: disabledPointing Device: USB TabletKeyboard Device: PS/2 KeyboardUART 1: disabledUART 2: disabledAudio: enabled (Driver: DSOUND, Controller: AC97)Clipboard Mode: BidirectionalVideo mode: 640x480x0VRDE: disabledUSB: enabledUSB Device Filters: &lt;none&gt;Available remote USB devices: &lt;none&gt;Currently Attached USB Devices: &lt;none&gt;Shared folders: &lt;none&gt;VRDE Connection: not activeClients so far: 0Guest: Configured memory balloon size: 0 MBOS type: UbuntuAdditions run level: 0Guest Facilities: No active facilities.
@@ -687,10 +609,8 @@ wordpress, mysql installation.</p>
 </div>
 
 </p>
-
 <h2>APPENDIX 2</h2>
 </p>
-
 <ul>
 <li>Installation media: Ubuntu 10.04 LTS 32bit iso image;</li>
 <li>HW: Virtualbox, 1CPU 32bit, 512MB RAM, 8GB HD (dynamic allocation);</li>
@@ -711,24 +631,18 @@ wordpress, mysql installation.</p>
     your needs</li>
 </ul>
 </p>
-
 <h1>Bibliography</h1>
 </p>
-
 <p>Script kiddie: Wikipedia, Script Kiddie, October 2011,
 <a href="http://en.wikipedia.org/wiki/Script_kiddie">http://en.wikipedia.org/wiki/Script_kiddie</a></p>
 </p>
-
 <p>User Manual: Oracle Corporation, User Manual, 2004-2011,
 <a href="http://www.virtualbox.org/manual/ch08.html">http://www.virtualbox.org/manual/ch08.html</a></p>
 </p>
-
 <h1>Footnotes:</h1>
 </p>
-
 <p>[1] vnstat – <a href="http://humdi.net/vnstat/">http://humdi.net/vnstat/</a></p>
 </p>
-
 <p>[2] Bmon – <a href="http://www.infradead.org/~tgr/bmon/">http://www.infradead.org/~tgr/bmon/</a></p>
 </p>
             </div>
@@ -779,34 +693,22 @@ wordpress, mysql installation.</p>
   <a href="../../../../"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
   <ul class="list-group " id="tags">
     <li class="list-group-item tag-1">
-      <a href="../../../../tag/security/">security</a>
+      <a href="../../../../tag/online/">online</a>
     </li>
     <li class="list-group-item tag-1">
-      <a href="../../../../tag/cyber-security/">cyber security</a>
+      <a href="../../../../tag/security/">security</a>
     </li>
     <li class="list-group-item tag-1">
       <a href="../../../../tag/internet/">internet</a>
     </li>
     <li class="list-group-item tag-1">
-      <a href="../../../../tag/online/">online</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/network/">network</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/conference/">conference</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/ddos/">DDoS</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/malware/">malware</a>
+      <a href="../../../../tag/cyber-security/">cyber security</a>
     </li>
     <li class="list-group-item tag-2">
       <a href="../../../../tag/awareness/">awareness</a>
     </li>
     <li class="list-group-item tag-2">
-      <a href="../../../../tag/cyber/">cyber</a>
+      <a href="../../../../tag/attacks/">attacks</a>
     </li>
     <li class="list-group-item tag-2">
       <a href="../../../../tag/networking/">networking</a>
@@ -815,31 +717,103 @@ wordpress, mysql installation.</p>
       <a href="../../../../tag/balkan/">Balkan</a>
     </li>
     <li class="list-group-item tag-2">
+      <a href="../../../../tag/macedonia/">macedonia</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/ddos/">DDoS</a>
+    </li>
+    <li class="list-group-item tag-2">
       <a href="../../../../tag/privacy/">privacy</a>
     </li>
     <li class="list-group-item tag-2">
-      <a href="../../../../tag/interview/">interview</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/macedonia/">Macedonia</a>
+      <a href="../../../../tag/malware/">malware</a>
     </li>
     <li class="list-group-item tag-2">
       <a href="../../../../tag/freedom/">freedom</a>
     </li>
     <li class="list-group-item tag-2">
-      <a href="../../../../tag/attacks/">attacks</a>
+      <a href="../../../../tag/conference/">conference</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/network/">network</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/interview/">interview</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/cyber/">cyber</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/cybersecurity/">cybersecurity</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/testing-ids/">testing ids</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/mvr/">mvr</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wordpress/">wordpress</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/digital-divide/">digital divide</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/policy/">policy</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/mobile/">mobile</a>
+      <a href="../../../../tag/malicious-code/">malicious code</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/botnet/">botnet</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/infrastructure/">infrastructure</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/syn-flood/">SYN flood</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/presentation/">presentation</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/threats/">threats</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/italy/">Italy</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wpan/">wpan</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/human-factor/">human factor</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/malicious-code/">malicious code</a>
+      <a href="../../../../tag/encryption/">encryption</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wifi/">wifi</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/ubuntu/">ubuntu</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/prediction/">prediction</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/binary/">binary</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/course/">course</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/phone/">phone</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/risk-assessment/">risk assessment</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/mobile/">mobile</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/ids/">ids</a>
@@ -848,73 +822,55 @@ wordpress, mysql installation.</p>
       <a href="../../../../tag/forum/">forum</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/testing-ids/">testing ids</a>
+      <a href="../../../../tag/strategy/">strategy</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/cybersecurity/">cybersecurity</a>
+      <a href="../../../../tag/society/">society</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/vulnerability/">vulnerability</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/prediction/">prediction</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/presentation/">presentation</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/risk-assessment/">risk assessment</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/ubuntu/">ubuntu</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/nato/">nato</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/information-warfare/">information warfare</a>
+      <a href="../../../../tag/workshop/">workshop</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/ransomware/">ransomware</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/iot/">IoT</a>
+      <a href="../../../../tag/wireless/">wireless</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/italy/">Italy</a>
+      <a href="../../../../tag/nato/">nato</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/digital-divide/">digital divide</a>
+      <a href="../../../../tag/communication/">communication</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/gms/">gms</a>
+      <a href="../../../../tag/teaching/">teaching</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/wiretapping/">wiretapping</a>
+      <a href="../../../../tag/eavesdropping/">eavesdropping</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/hactivism/">hactivism</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/acceleration/">acceleration</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/syn-flood/">SYN flood</a>
+      <a href="../../../../tag/social/">social</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/vulnerability-scanning/">vulnerability scanning</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/wpan/">wpan</a>
+      <a href="../../../../tag/vulnerability/">vulnerability</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/strategy/">strategy</a>
+      <a href="../../../../tag/log-mining/">log mining</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/simmulation-of-attacks-and-defence/">simmulation of attacks and defence</a>
+      <a href="../../../../tag/snort/">snort</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/course/">course</a>
+      <a href="../../../../tag/information-warfare/">information warfare</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wlan/">wlan</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/gms/">gms</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/risk-management/">risk management</a>
@@ -923,70 +879,28 @@ wordpress, mysql installation.</p>
       <a href="../../../../tag/port-scan/">Port scan</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/social/">social</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/wordpress/">wordpress</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/eavesdropping/">eavesdropping</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/botnet/">botnet</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/encryption/">encryption</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/unix/">Unix</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/data-breaches/">data breaches</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/log-mining/">log mining</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/network-crime/">network crime</a>
+      <a href="../../../../tag/surveillance/">surveillance</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/it-security/">IT security</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/wireless/">wireless</a>
+      <a href="../../../../tag/iot/">IoT</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/surveillance/">surveillance</a>
+      <a href="../../../../tag/hactivism/">hactivism</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/mvr/">mvr</a>
+      <a href="../../../../tag/unix/">Unix</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/binary/">binary</a>
+      <a href="../../../../tag/wiretapping/">wiretapping</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/data-breaches/">data breaches</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/network-security/">network security</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/teaching/">teaching</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/phone/">phone</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/optamization/">optamization</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/wlan/">wlan</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/snort/">snort</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/threats/">threats</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/wifi/">wifi</a>
     </li>
   </ul>
 </li>
@@ -1030,7 +944,7 @@ wordpress, mysql installation.</p>
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy; 2019 Predrag TASEVSKI - Pece
+         <div class="col-xs-10">&copy; 2021 Predrag TASEVSKI - Pece
             &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>                <p><small>  <a rel="license" href="https://creativecommons.org/licenses/by-nd/4.0/deed.en"><img alt="Creative Commons License" style="border-width:0" src="//i.creativecommons.org/l/by-nd/4.0/80x15.png" /></a>

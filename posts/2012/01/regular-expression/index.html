@@ -136,14 +136,11 @@ Predrag TASEVSKI - Pece            </a>
 following lines we describe the goal and the rules of the task, whereby
 follows with the working solution.</p>
 </p>
-
 <h1>Task</h1>
 </p>
-
 <p>Write a regular expression for matching the names which follow the
 following rules:</p>
 </p>
-
 <ol>
 <li>Each name consists of one or more parts. If there are two or more
     parts, they are separated either with a single space (” “) or dash
@@ -155,10 +152,8 @@ following rules:</p>
     lower-case letters.</li>
 </ol>
 </p>
-
 <h1>Solution</h1>
 </p>
-
 <div class="highlight">
 
     ^([A-Z][a-z]+([A-Z][a-z]+)?(\s|-))*[A-Z][a-z]+([A-Z][a-z]+)?$
@@ -166,31 +161,25 @@ following rules:</p>
 </div>
 
 </p>
-
 <p>For completing the task, we are dividing into several sub-tasks.</p>
 </p>
-
 <p>Firstly, we had to find expression, which satisfies the first
 requirement of the task: representing one or more parts, which can be
 separated either with space (“ “) or dash (“-”). Thereby, we can
 represent space and dash with the following expression (\s|-).</p>
 </p>
-
 <p>If the entry is just one legitimate part (without space or dash after),
 (\s|-) has 0 occurrences. Yet the entry may consist of many legitimate
 parts divided by spaces or dashes. The expression should be (\s|-)*.</p>
 </p>
-
 <p>As for the legitimate parts, we have to write expression considering
 second part of requirements.</p>
 </p>
-
 <p>Legitimate part should consist of letters only, begin with (only one)
 uppercase letter and followed by one or more lowercase letters.
 Legitimate part can have prefix beginning with (only one) uppercase
 letter, followed by one or more lowercase letters.</p>
 </p>
-
 <p>Therefore, <code>[A-Z][a-z]+</code> represents the entry which begins uppercase
 letter and is followed by one or more lower case letters. In addition,
 to represent prefix, which occurs either 0 or 1 time, we will have the
@@ -206,20 +195,16 @@ or more consecutive times.</p>
 </p></p>
 <p><code>(([A-Z][a-z]+([A-Z][a-z]+)?(\s|-))*</code></p>
 </p>
-
 <p>To be able to exclude entries, which end with “-”, we add expression of
 legitimate part. and add “\^” and “\$” respectively at the beginning and
 the end of expression, to mark the  beginning and an end of the string.</p>
 </p>
-
 <p><code>^(([A-Z][a-z]+([A-Z][a-z]+)?(|s|-))*([A-Z][a-z]+([A-Z][a-z]+)?$</code></p>
 </p>
-
 <p>Finally, we have the whole expression we have to test it (we have to put
 the expression in quotation marks).</p>
 <p><code>egrep ‘^([A-Z][a-z]+([A-Z][a-z]+)?(\s|-))*[A-Z][a-z]+([A-Z][a-z]+)?$’   file_name</code></p>
 </p>
-
 <p>The above solution is written by: Predrag Tasevski and Mikheil Basilaia</p>
 </p>
             </div>
@@ -262,34 +247,22 @@ the expression in quotation marks).</p>
   <a href="../../../../"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
   <ul class="list-group " id="tags">
     <li class="list-group-item tag-1">
-      <a href="../../../../tag/security/">security</a>
+      <a href="../../../../tag/online/">online</a>
     </li>
     <li class="list-group-item tag-1">
-      <a href="../../../../tag/cyber-security/">cyber security</a>
+      <a href="../../../../tag/security/">security</a>
     </li>
     <li class="list-group-item tag-1">
       <a href="../../../../tag/internet/">internet</a>
     </li>
     <li class="list-group-item tag-1">
-      <a href="../../../../tag/online/">online</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/network/">network</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/conference/">conference</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/ddos/">DDoS</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/malware/">malware</a>
+      <a href="../../../../tag/cyber-security/">cyber security</a>
     </li>
     <li class="list-group-item tag-2">
       <a href="../../../../tag/awareness/">awareness</a>
     </li>
     <li class="list-group-item tag-2">
-      <a href="../../../../tag/cyber/">cyber</a>
+      <a href="../../../../tag/attacks/">attacks</a>
     </li>
     <li class="list-group-item tag-2">
       <a href="../../../../tag/networking/">networking</a>
@@ -298,31 +271,103 @@ the expression in quotation marks).</p>
       <a href="../../../../tag/balkan/">Balkan</a>
     </li>
     <li class="list-group-item tag-2">
+      <a href="../../../../tag/macedonia/">macedonia</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/ddos/">DDoS</a>
+    </li>
+    <li class="list-group-item tag-2">
       <a href="../../../../tag/privacy/">privacy</a>
     </li>
     <li class="list-group-item tag-2">
-      <a href="../../../../tag/interview/">interview</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/macedonia/">Macedonia</a>
+      <a href="../../../../tag/malware/">malware</a>
     </li>
     <li class="list-group-item tag-2">
       <a href="../../../../tag/freedom/">freedom</a>
     </li>
     <li class="list-group-item tag-2">
-      <a href="../../../../tag/attacks/">attacks</a>
+      <a href="../../../../tag/conference/">conference</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/network/">network</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/interview/">interview</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/cyber/">cyber</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/cybersecurity/">cybersecurity</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/testing-ids/">testing ids</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/mvr/">mvr</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wordpress/">wordpress</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/digital-divide/">digital divide</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/policy/">policy</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/mobile/">mobile</a>
+      <a href="../../../../tag/malicious-code/">malicious code</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/botnet/">botnet</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/infrastructure/">infrastructure</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/syn-flood/">SYN flood</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/presentation/">presentation</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/threats/">threats</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/italy/">Italy</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wpan/">wpan</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/human-factor/">human factor</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/malicious-code/">malicious code</a>
+      <a href="../../../../tag/encryption/">encryption</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wifi/">wifi</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/ubuntu/">ubuntu</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/prediction/">prediction</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/binary/">binary</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/course/">course</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/phone/">phone</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/risk-assessment/">risk assessment</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/mobile/">mobile</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/ids/">ids</a>
@@ -331,73 +376,55 @@ the expression in quotation marks).</p>
       <a href="../../../../tag/forum/">forum</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/testing-ids/">testing ids</a>
+      <a href="../../../../tag/strategy/">strategy</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/cybersecurity/">cybersecurity</a>
+      <a href="../../../../tag/society/">society</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/vulnerability/">vulnerability</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/prediction/">prediction</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/presentation/">presentation</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/risk-assessment/">risk assessment</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/ubuntu/">ubuntu</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/nato/">nato</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/information-warfare/">information warfare</a>
+      <a href="../../../../tag/workshop/">workshop</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/ransomware/">ransomware</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/iot/">IoT</a>
+      <a href="../../../../tag/wireless/">wireless</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/italy/">Italy</a>
+      <a href="../../../../tag/nato/">nato</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/digital-divide/">digital divide</a>
+      <a href="../../../../tag/communication/">communication</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/gms/">gms</a>
+      <a href="../../../../tag/teaching/">teaching</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/wiretapping/">wiretapping</a>
+      <a href="../../../../tag/eavesdropping/">eavesdropping</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/hactivism/">hactivism</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/acceleration/">acceleration</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/syn-flood/">SYN flood</a>
+      <a href="../../../../tag/social/">social</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/vulnerability-scanning/">vulnerability scanning</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/wpan/">wpan</a>
+      <a href="../../../../tag/vulnerability/">vulnerability</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/strategy/">strategy</a>
+      <a href="../../../../tag/log-mining/">log mining</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/simmulation-of-attacks-and-defence/">simmulation of attacks and defence</a>
+      <a href="../../../../tag/snort/">snort</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/course/">course</a>
+      <a href="../../../../tag/information-warfare/">information warfare</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wlan/">wlan</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/gms/">gms</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/risk-management/">risk management</a>
@@ -406,70 +433,28 @@ the expression in quotation marks).</p>
       <a href="../../../../tag/port-scan/">Port scan</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/social/">social</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/wordpress/">wordpress</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/eavesdropping/">eavesdropping</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/botnet/">botnet</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/encryption/">encryption</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/unix/">Unix</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/data-breaches/">data breaches</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/log-mining/">log mining</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/network-crime/">network crime</a>
+      <a href="../../../../tag/surveillance/">surveillance</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/it-security/">IT security</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/wireless/">wireless</a>
+      <a href="../../../../tag/iot/">IoT</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/surveillance/">surveillance</a>
+      <a href="../../../../tag/hactivism/">hactivism</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/mvr/">mvr</a>
+      <a href="../../../../tag/unix/">Unix</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/binary/">binary</a>
+      <a href="../../../../tag/wiretapping/">wiretapping</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/data-breaches/">data breaches</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/network-security/">network security</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/teaching/">teaching</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/phone/">phone</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/optamization/">optamization</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/wlan/">wlan</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/snort/">snort</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/threats/">threats</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/wifi/">wifi</a>
     </li>
   </ul>
 </li>
@@ -513,7 +498,7 @@ the expression in quotation marks).</p>
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy; 2019 Predrag TASEVSKI - Pece
+         <div class="col-xs-10">&copy; 2021 Predrag TASEVSKI - Pece
             &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>                <p><small>  <a rel="license" href="https://creativecommons.org/licenses/by-nd/4.0/deed.en"><img alt="Creative Commons License" style="border-width:0" src="//i.creativecommons.org/l/by-nd/4.0/80x15.png" /></a>

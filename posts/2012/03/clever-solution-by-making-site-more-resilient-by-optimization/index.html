@@ -146,19 +146,16 @@ Predrag TASEVSKI - Pece            </a>
                 </div>
                 <h1>PURPOSE &amp; SCENARIO</h1>
 </p>
-
 <p>The objective of this laboratory test, scenario is to make explore
 alternative “clever” solutions (as opposed to making the site more
 resilient by optimizing it) to protect your site against attacks.
 Moreover, DDoS [1] attacks, malicious code, etc.</p>
 </p>
-
 <p>Therefore, we need to develop countermeasures for the <strong>working</strong>
 attacks simulated with a standard DoS attack from a single IP address
 (performed with AB [2] or Jmeter). Limitations for this scenarios is
 highlighted:</p>
 </p>
-
 <ul>
 <li>No additional hardware can be used</li>
 <li>The wordpress installation can not be optimized: no caching plugins,
@@ -180,7 +177,6 @@ attack originated from after a 20 second delay maximum.</p>
 </li>
 </ul>
 </p>
-
 <p>In addition, we have to make much of the rules for the scenario. Rules
 as follow: Fresh installation of the latest version of Ubuntu Server and
 the most recent WordPress as of 20.10.2011. First priority: No normal
@@ -189,31 +185,25 @@ of normal connections. Defined by number of connections / second (easy
 to measure). Third priority: How fast after the attack is stopped, the
 site can be accessed from the attacking IP again.</p>
 </p>
-
 <p>Each test and measured results will be exposed in to Test section.
 Whereas, the process of installation of clever solution and attacking
 scripts will be provided in to Appendixes section.</p>
 </p>
-
 <p>Finally, the measurement results will be compared with the first state
 without attack and any security solutions applied. Alternatively,
 providing measurement results with one solution and attack will help us
 to identify the most beneficial security solution. Therefore, in
 Conclusion section comparison results will be highlighted.</p>
 </p>
-
 <h1>TESTS</h1>
 </p>
-
 <p>Because of requirements of our scenario we need to display the results
 before security solution is applied and attacker performance. For this
 purpose we are going to use an AB script to display the response time of
 the server:</p>
 </p>
-
 <p><code>ab -t 10 -n 10 -c 10 http://192.168.56.102/wordpress/</code></p>
 </p>
-
 <p>The above script provides detail information, yet only important is
 Request per second. Thus, with an fresh installation and without any
 security solution, it provided with result of 3.95 [#/sec]. With other
@@ -221,18 +211,14 @@ word, 3.95 number of request per second. After applying different
 security solution and performing an attack to the server, results will
 be divers.</p>
 </p>
-
 <p>In addition, test were done by two different virtual environment
 machines. One is for testing results and the other one is to perform
 attack with the following script:</p>
 </p>
-
 <p><code>ab -n 100 -c 10 http://192.168.56.102/wordpress/</code></p>
 </p>
-
 <h2>TEST 1</h2>
 </p>
-
 <p>First test is to install libapache2-mod-evasive
 [libapache2-mod-evasive]. Where, mod_evasive is an evasive maneuvers
 module for Apache is to provide some protection in the event of an HTTP
@@ -240,10 +226,8 @@ DoS or DDoS attack or brute force attack. It is also designed to be a
 detection tool, and can be easily configured to talk to ipchains,
 firewalls, routers, and etcetera.</p>
 </p>
-
 <p>The process of installation and configuration refer to the Appendix 1.</p>
 </p>
-
 <p>After completed the installation and configuration process it is time to
 test the security solution and to highlight the results. Before
 performing the attack the results were somehow, lower then, before
@@ -251,10 +235,8 @@ installing the mod-evasive, 2.06 number request per second. When we
 start the attack and in same time analysis the server responded with
 timeout. The conclusion is that mod-evasive it is not enough solution.</p>
 </p>
-
 <h2>TEST 2</h2>
 </p>
-
 <p>From previous test we can see that the solution was not enough clever
 for our needs. The server somehow was dead. However, we are going to
 install now <code>mod_security</code> module for apache, with side of previous
@@ -262,40 +244,32 @@ test. For more detail information of installation process and
 configuration refer to Appendix 2 or to the following source
 [mod_security].</p>
 </p>
-
 <h1>CONCLUSION</h1>
 </p>
-
 <p>There are three points that we should consider and to see which proposal
 was more accurate and it did the job that was required in the scenario.</p>
 </p>
-
 <p>In conclusion, the above proposals are nice and good example to have an
 view of how and with what tools we should perform script kiddie
 techniques. How to shutdown access to a server. On the whole, it show as
 how to use tools and methods of measuring the bandwidth of network and
 how to limit the transfer in comfortable way.</p>
 </p>
-
 <h1>APPENDIXES</h1>
 </p>
-
 <p>Appendix 1 is connected with the Method 1, which highlighted points are
 illustration on what information we should check, to clarify that the
 virtual environment has limitation of the network interface. Where
 Appendix 2 is for installation process of Ubuntu Server 10.04 LTS and
 wordpress, mysql installation.</p>
 </p>
-
 <h2>APPENDIX 1</h2>
 </p>
-
 <p>Installation process:</p>
 <p><code>sudo apt-get install libapache2-mod-evasive</code></p>
 <p>Configuration process is followed and gather from the following source
 [Evasive Module], for addition proposal please refer to[Blacklist]:</p>
 </p>
-
 <div class="highlight">
 
     sudo mkdir /var/log/apache2/mod_evasivesudo chown www-data /var/log/apache2/mod_evasive
@@ -303,11 +277,9 @@ wordpress, mysql installation.</p>
 </div>
 
 </p>
-
 <p>Afterwards, create its configuration file with a default content, with
 the following command:</p>
 </p>
-
 <div class="highlight">
 
     sudo nano /etc/apache2/apache2.conf IfModule mod_evasive20.c;DOSHashTableSize 3097DOSPageCount 2DOSSiteCount 50DOSPageInterval 1DOSSiteInterval 1DOSBlockingPeriod 10DOSLogDir /var/log/apache2/mod_evasiveDOSEmailNotify root@localhostDOSWhitelist 127.0.0.1DOSSystemCommand &amp;quot;/sbin/iptables -I INPUT -p tcp --dport 80 -s %s -j DROP/IfModule;
@@ -315,29 +287,21 @@ the following command:</p>
 </div>
 
 </p>
-
 <p>The above changes to take effect please restart the apache service by:</p>
 </p>
-
 <p><code>sudo service apache2 restart</code></p>
 </p>
-
 <p>You can test whether it works using a script included in the deb
 package:</p>
 </p>
-
 <p><code>perl /usr/share/doc/libapache2-mod-evasive/examples/test.pl</code></p>
 </p>
-
 <h2>APPENDIX 2</h2>
 </p>
-
 <p>Installation and configuration of mod_security:</p>
 </p>
-
 <p><code>apt-get install libapache2-modsecurity /etc/init.d/apache2 force-reload</code></p>
 </p>
-
 <ul>
 <li>Installation media: Ubuntu 11.10 32bit iso image;</li>
 <li>HW: Virtualbox, 1CPU 32bit, 512MB RAM, 8GB HD (dynamic allocation);</li>
@@ -355,35 +319,27 @@ package:</p>
 <li>Change the settings to your needs</li>
 </ul>
 </p>
-
 <h1>Bibliography</h1>
 </p>
-
 <p>[libapache2-mod-evasive] Canonical Ltd., Package: libapache2-mod-evasive
 (1.10.1-1), 2011,
 <a href="http://packages.ubuntu.com/hardy/libapache2-mod-evasive">http://packages.ubuntu.com/hardy/libapache2-mod-evasive</a></p>
 </p>
-
 <p>[modsecurity] How to Forge, Secure Your Apache With mod_security, 2006,
 <a href="http://www.howtoforge.com/apache_mod_security">http://www.howtoforge.com/apache_mod_security</a></p>
 </p>
-
 <p>[Evasive Module] Deep Logic, Inc., Apache Evasive Maneuvers Module,
 2005,
 <a href="http://fossies.org/unix/www/apache_httpd_modules/mod_evasive_1.10.1.tar.gz:t/mod_evasive/README">http://fossies.org/unix/www/apache_httpd_modules/mod_evasive_1.10.1.tar.gz:t/mod_evasive/README</a></p>
 </p>
-
 <p>[Blacklist] Jeff Starr, Eight Ways to Blacklist with Apache’s
 mod_rewrite, Feb 2009,
 <a href="http://perishablepress.com/press/2009/02/03/eight-ways-to-blacklist-with-apaches-mod_rewrite/">http://perishablepress.com/press/2009/02/03/eight-ways-to-blacklist-with-apaches-mod_rewrite/</a></p>
 </p>
-
 <h1>Footnotes</h1>
 </p>
-
 <p>[1] DDoS – Denial-of-service attack</p>
 </p>
-
 <p>[2] AB - <a href="http://httpd.apache.org/docs/2.0/programs/ab.html">http://httpd.apache.org/docs/2.0/programs/ab.html</a></p>
 </p>
             </div>
@@ -434,34 +390,22 @@ mod_rewrite, Feb 2009,
   <a href="../../../../"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
   <ul class="list-group " id="tags">
     <li class="list-group-item tag-1">
-      <a href="../../../../tag/security/">security</a>
+      <a href="../../../../tag/online/">online</a>
     </li>
     <li class="list-group-item tag-1">
-      <a href="../../../../tag/cyber-security/">cyber security</a>
+      <a href="../../../../tag/security/">security</a>
     </li>
     <li class="list-group-item tag-1">
       <a href="../../../../tag/internet/">internet</a>
     </li>
     <li class="list-group-item tag-1">
-      <a href="../../../../tag/online/">online</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/network/">network</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/conference/">conference</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/ddos/">DDoS</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/malware/">malware</a>
+      <a href="../../../../tag/cyber-security/">cyber security</a>
     </li>
     <li class="list-group-item tag-2">
       <a href="../../../../tag/awareness/">awareness</a>
     </li>
     <li class="list-group-item tag-2">
-      <a href="../../../../tag/cyber/">cyber</a>
+      <a href="../../../../tag/attacks/">attacks</a>
     </li>
     <li class="list-group-item tag-2">
       <a href="../../../../tag/networking/">networking</a>
@@ -470,31 +414,103 @@ mod_rewrite, Feb 2009,
       <a href="../../../../tag/balkan/">Balkan</a>
     </li>
     <li class="list-group-item tag-2">
+      <a href="../../../../tag/macedonia/">macedonia</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/ddos/">DDoS</a>
+    </li>
+    <li class="list-group-item tag-2">
       <a href="../../../../tag/privacy/">privacy</a>
     </li>
     <li class="list-group-item tag-2">
-      <a href="../../../../tag/interview/">interview</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/macedonia/">Macedonia</a>
+      <a href="../../../../tag/malware/">malware</a>
     </li>
     <li class="list-group-item tag-2">
       <a href="../../../../tag/freedom/">freedom</a>
     </li>
     <li class="list-group-item tag-2">
-      <a href="../../../../tag/attacks/">attacks</a>
+      <a href="../../../../tag/conference/">conference</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/network/">network</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/interview/">interview</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/cyber/">cyber</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/cybersecurity/">cybersecurity</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/testing-ids/">testing ids</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/mvr/">mvr</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wordpress/">wordpress</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/digital-divide/">digital divide</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/policy/">policy</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/mobile/">mobile</a>
+      <a href="../../../../tag/malicious-code/">malicious code</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/botnet/">botnet</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/infrastructure/">infrastructure</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/syn-flood/">SYN flood</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/presentation/">presentation</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/threats/">threats</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/italy/">Italy</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wpan/">wpan</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/human-factor/">human factor</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/malicious-code/">malicious code</a>
+      <a href="../../../../tag/encryption/">encryption</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wifi/">wifi</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/ubuntu/">ubuntu</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/prediction/">prediction</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/binary/">binary</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/course/">course</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/phone/">phone</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/risk-assessment/">risk assessment</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/mobile/">mobile</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/ids/">ids</a>
@@ -503,73 +519,55 @@ mod_rewrite, Feb 2009,
       <a href="../../../../tag/forum/">forum</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/testing-ids/">testing ids</a>
+      <a href="../../../../tag/strategy/">strategy</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/cybersecurity/">cybersecurity</a>
+      <a href="../../../../tag/society/">society</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/vulnerability/">vulnerability</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/prediction/">prediction</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/presentation/">presentation</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/risk-assessment/">risk assessment</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/ubuntu/">ubuntu</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/nato/">nato</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/information-warfare/">information warfare</a>
+      <a href="../../../../tag/workshop/">workshop</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/ransomware/">ransomware</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/iot/">IoT</a>
+      <a href="../../../../tag/wireless/">wireless</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/italy/">Italy</a>
+      <a href="../../../../tag/nato/">nato</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/digital-divide/">digital divide</a>
+      <a href="../../../../tag/communication/">communication</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/gms/">gms</a>
+      <a href="../../../../tag/teaching/">teaching</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/wiretapping/">wiretapping</a>
+      <a href="../../../../tag/eavesdropping/">eavesdropping</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/hactivism/">hactivism</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/acceleration/">acceleration</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/syn-flood/">SYN flood</a>
+      <a href="../../../../tag/social/">social</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/vulnerability-scanning/">vulnerability scanning</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/wpan/">wpan</a>
+      <a href="../../../../tag/vulnerability/">vulnerability</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/strategy/">strategy</a>
+      <a href="../../../../tag/log-mining/">log mining</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/simmulation-of-attacks-and-defence/">simmulation of attacks and defence</a>
+      <a href="../../../../tag/snort/">snort</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/course/">course</a>
+      <a href="../../../../tag/information-warfare/">information warfare</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wlan/">wlan</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/gms/">gms</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/risk-management/">risk management</a>
@@ -578,70 +576,28 @@ mod_rewrite, Feb 2009,
       <a href="../../../../tag/port-scan/">Port scan</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/social/">social</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/wordpress/">wordpress</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/eavesdropping/">eavesdropping</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/botnet/">botnet</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/encryption/">encryption</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/unix/">Unix</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/data-breaches/">data breaches</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/log-mining/">log mining</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/network-crime/">network crime</a>
+      <a href="../../../../tag/surveillance/">surveillance</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/it-security/">IT security</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/wireless/">wireless</a>
+      <a href="../../../../tag/iot/">IoT</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/surveillance/">surveillance</a>
+      <a href="../../../../tag/hactivism/">hactivism</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/mvr/">mvr</a>
+      <a href="../../../../tag/unix/">Unix</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/binary/">binary</a>
+      <a href="../../../../tag/wiretapping/">wiretapping</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/data-breaches/">data breaches</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/network-security/">network security</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/teaching/">teaching</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/phone/">phone</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/optamization/">optamization</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/wlan/">wlan</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/snort/">snort</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/threats/">threats</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/wifi/">wifi</a>
     </li>
   </ul>
 </li>
@@ -685,7 +641,7 @@ mod_rewrite, Feb 2009,
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy; 2019 Predrag TASEVSKI - Pece
+         <div class="col-xs-10">&copy; 2021 Predrag TASEVSKI - Pece
             &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>                <p><small>  <a rel="license" href="https://creativecommons.org/licenses/by-nd/4.0/deed.en"><img alt="Creative Commons License" style="border-width:0" src="//i.creativecommons.org/l/by-nd/4.0/80x15.png" /></a>

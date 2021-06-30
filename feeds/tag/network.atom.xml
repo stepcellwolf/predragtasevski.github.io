@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Predrag TASEVSKI - Pece - network</title><link href="https://predragtasevski.com/" rel="alternate"></link><link href="https://predragtasevski.com/feeds/tag/network.atom.xml" rel="self"></link><id>https://predragtasevski.com/</id><updated>2011-10-12T23:00:00+02:00</updated><entry><title>Cost of DDoS, leak of credit card numbers, infected machine and spam</title><link href="https://predragtasevski.com/posts/2011/10/cost-of-ddos-leak-of-credit-card-numbers-infected-machine-and-spam/" rel="alternate"></link><published>2011-10-12T23:00:00+02:00</published><updated>2011-10-12T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2011-10-12:/posts/2011/10/cost-of-ddos-leak-of-credit-card-numbers-infected-machine-and-spam/</id><summary type="html">&lt;h1&gt;PURPOSE&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The main goal of laboratory report is to identify the costs of nowadays
 most known attack  DDOS, leak of credit card numbers, infected machine
 and never the less sending spam for 1 000 000 (one million) people.
 There are few points that should be presented:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Where did we discovered …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;PURPOSE&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The main goal of laboratory report is to identify the costs of nowadays
 most known attack  DDOS, leak of credit card numbers, infected machine
 and never the less sending spam for 1 000 000 (one million) people.
 There are few points that should be presented:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Where did we discovered the information (links or sources)&lt;/li&gt;
 &lt;li&gt;What kind of source of communication we used, for instance: instant
@@ -25,7 +21,6 @@ There are few points that should be presented:&lt;/p&gt;
 &lt;li&gt;What are the prices for the above attacks.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;p&gt;First of all, we must bear in mind that collecting the above information
 it is presented to a numerous affected sources ( i.e. Website, news,
 forums, IRC chat,etc.). By visiting the source can lead you to a virus,
@@ -34,23 +29,18 @@ Therefore, we are going to use virtual environment to find our demands.
 In addition, we will use different languages and different search
 engines.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Construction of report is separated by tasks section. Where each section
 is presented with the source, communication type and the costs of the
 service. In addition, in Appendix 1 we give the configuration of virtual
 environment.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Finally the conclusion made of all collected data will be concise in
 conclusion section.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;TASKS&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Following list is the numeration of the tasks:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;DDoS&lt;/li&gt;
 &lt;li&gt;Credit Card Numbers&lt;/li&gt;
@@ -58,20 +48,16 @@ conclusion section.&lt;/p&gt;
 &lt;li&gt;Spam for 1 000 000 people&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/p&gt;
-
 &lt;h2&gt;TASK 1&lt;/h2&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Source where we can find information about the cost of DDoS attacks are
 provided in Russian most known [Hackzone] forum. This is the source will
 give as more of the answers. But again be careful when you accessing
 this site. It is on your own risk.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;From the following link we received an information about DDoS
 attacks: [HackzoneDDoS]. With the following translated statement:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     The average price of service from $ 50 per day. Depends on the complexity of the &lt;em&gt;attacked site. Methods of payment accepted via WebMoney. The network is practically around the clock!Commands:http / https / icmp / post / syn / udp /Price:Day from $ 50Week from $ 350From $ 1200 per month(Prices may change depending of type and timing of orders on the complexity of the attacked site)Demo test for 5-10 minutes.Contact:Icq :20-**-29Inspections completed:hack-world.orgwww.xaker.nameforum.xaknet.ruMost of the DDoS attack service are around per day $ 50, here is an other source and contact details:Contact details Icq:22-**-327Icq:875-**3E-mail:anti**os@jab**r.ru
@@ -79,33 +65,27 @@ attacks: [HackzoneDDoS]. With the following translated statement:&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;The above information is from the following link:
 &lt;a href="http://www.hackzone.ru/forum/open/id/15608/"&gt;http://www.hackzone.ru/forum/open/id/15608/&lt;/a&gt;. Other sources that can be
 found are with&lt;/p&gt;
 &lt;p&gt;the following links: &lt;a href="http://www.hackzone.ru/forum/open/id/16067/"&gt;http://www.hackzone.ru/forum/open/id/16067/&lt;/a&gt; and
 &lt;a href="http://www.hackzone.ru/forum/open/id/17187/"&gt;http://www.hackzone.ru/forum/open/id/17187/&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;As we stated above that the price is from \$50 per day and it goes until
 \$350 per month and so on.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h2&gt;TASK 2&lt;/h2&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The number of credit cards leaked in the web are numerous amount. The
 prices are not that high as people expected. For card that comes from
 European country is the highest price and for the other are much
 cheaper.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Here some information from the following link, leak from &lt;a href="http://www.hackzone.ru/memb/view/name/Support_BM/"&gt;Support_BM
 Originar&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;source is in Russian language, so for this report is translated to
 English. From the source [CartNumber].&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     At the moment there is only us, ca, cvv.Databases are updated every 2-3 days, Walid varies from 75 to 90%.Price:us visa, mc cvv = $ 1.5us amex, diss = $ 1.5us without vbv \ mksk = $ 2us not tied and PayPal = $ 2EU = $ 6-9World = $ 3-6CIS is not and never will.Sorted by: bean = $ 1Sample on any other criterion = +0.5 $Sampling only on the following criteria: bin, judge, state, city, type, zip.WARNING! I do not select “No vbv”, “No attachment to the paypal”, “Give me a map that would be held there now and then.”Terms and conditions of service provision:1. Replacement non valid within 48 hours of purchase.2. I only 04/05/51 Declined, Hold-Call, check only CCN + EXP + CVV3. On messages such as “Here?” “Hi, how are” probably will not answer.4. Money Beg do not.5. Do not change the board, check it before selling.6. I believe only their own way, proven in battle, checker, so your results, another checker,&amp;nbsp;and so do not pay attention.7. Using my service, you automatically agree with everything stated in this post.8. Reserve the right to refuse service to anyone, without explanation.9. I am not responsible for the account balances card-holders.10. I do not give advice on the use of the material.11. Do not keep a bazaar talks about the reductions.12. I do not care where you do not go away if you gave Checker Walid Walid means.Card format:Credit Card Number | CVV2 | ??Exp.date | Name | Address Line | City | State | Zip Code |Country | Phone (Not Always) | Email Address (not always)Attention! Before you knock a replacement non valid, make sure that all the provided maps not valid if none of these cards will be found a valid card and a replacement will be denied.Learn to appreciate their own and other people’s time, get a checker, and live happily ever after.Contact the seller checker can provide for everyone.I accept payment only WMZ and LibertyReserveMy WMID has 70BL, as well as on-demand in icq give links to many reviews.Contact:ICQ: 604000**0JID: ***nager@thes**ure.bizPosted 13.10.2010 13:45:51 (8 days 18 hours 31 minutes 59 seconds)Other source that cross is from Russian banks Alfa debit or others the price from$175. Source is published by contact details: Jabber: v**yt@exp**it.im, ICQ: 25**165,Skype: V**yt_. On the following link:&lt;a href="http://lab-one.net/showthread.php?t=664" target="_blank"&gt; http://lab-one.net/showthread.php?t=664&lt;/a&gt;
@@ -113,10 +93,8 @@ English. From the source [CartNumber].&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;h2&gt;TASK 3&lt;/h2&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Nowadays it is not hard to find an infected machine/computer. Because
 most of the user PC’s are based with operating system Windows and are
 most of them infected. I have try so hard to find infected machine
@@ -124,15 +102,12 @@ price, but until today, I did not come up with any good source.
 Therefore, I would like if it is possible to add this source and discuss
 this source and information with the fellow students.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h2&gt;TASK 4&lt;/h2&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Spamming for one million people it sounds impossible, but still out
 there someone is offering this service. Here is from Kazakhstan source
 with the following information, translated in English:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     E-mail newsletter:1 post = 1 m., minimum order 10 000 posts.For large orders – big discounts!At present there is action: 10 000 tenge, we send 20 000 messages. + Action: 50 000 tenge, we send your letter to 360 000 email ardesov in Almaty, send 3 times in one month!The action is over, send a time.E-mail database:In Almaty:60 000 LEGAL Address – Almaty Yuredicheskie email addresses, the entire directory guide “our town” and directory site “Samruk Kazyna”430 000 – private address Almaty residents collected via mail search agent criteria:country, city, gender, age.Throughout Kazakhstan:240 000 – LEGAL person Kazakhstan LLP, Ltd., Inc., Ltd., etc. collected from various references such as “yellow pages” “compass” etc.3.4 million – individuals, all of Kazakhstan. – Collected through the mail search agent criteria: country, city, gender, age.P.S. you can build a base of email addresses to any city in Kazakhstan, or any other city in any other country, can you give us the criteria and we will collect your base, an example of criteria:I try, the city, Age, sex, online, not online.P.S. Legal mailings are engaged for 3 years, dispatching more than 5 years.To Order: +7-701-1**5575, +7 (727) -329-61-**.E-mail: d**z@i**ox.ru
@@ -140,54 +115,42 @@ with the following information, translated in English:&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;Indeed, for 10 000 KZT = 67.45 USD and the amount of message send are 20
 000 spam. Then the price for one million spam is 3.372.5 USD without
 discount. The above links is from the following source [Rassilka.kz].&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;CONCLUSION&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;I would like to generalize that from the above information we see that
 for any service that we looked for, it has a price. Value that are
 different in other countries and currencies. Yet, before you start this
 research make sure that you are not using your local machine.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Likewise, I have used an virtual environment to be able to collect all
 the above data. Because the sites, forums, links, etc. are infected with
 malicious code, or can be easily traceable.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;In summary, we utter gather as much as possible different sources and
 different prices. Most expensive is the spam for one million people,
 second is DDoS attacks and never the last is to gain an credit card
 numbers from different countries and different price.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;For more info please refer to following source [QuinStreet Inc] why I
 have chose Russia as the main source.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;APPENDIX&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Appendix 1 is configuration of the virtual environment.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h2&gt;APPENDIX 1&lt;/h2&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Virtual environment: Oracle VirtualBox Version 4.1.2 r73507.
 Downloadable from the following link:
 https://www.virtualbox.org/wiki/Downloads&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Security Fedora 14 32 bit – Client:
 http://spins.fedoraproject.org/security/&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Base Memory: 512 MB&lt;/li&gt;
 &lt;li&gt;Acceleration: VT-x/AMD-V, Nested Paging&lt;/li&gt;
@@ -199,35 +162,27 @@ http://spins.fedoraproject.org/security/&lt;/p&gt;
     adapter, „VirtualBox Host- Only Enternet Adapter“)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Bibliography&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Hackzone: HackZone.ru, Forum, 2011, &lt;a href="http://www.hackzone.ru/"&gt;http://www.hackzone.ru/&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;HackzoneDDoS: Master_DDoS, Качественный DDoS Сервис,
 &lt;a href="http://www.hackzone.ru/forum/open/id/17387/"&gt;http://www.hackzone.ru/forum/open/id/17387/&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;CartNumber: Support_BM, Качественный US\EU\WORLD картон, 2011,
 &lt;a href="http://www.hackzone.ru/forum/open/id/14936/"&gt;http://www.hackzone.ru/forum/open/id/14936/&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Rassilka.kz: kamondimon, E-mail рассылки!, 2011,
 &lt;a href="http://rassilka.kz/rassilki-rassilka-kz/47-e-mailrassylki.html"&gt;http://rassilka.kz/rassilki-rassilka-kz/47-e-mailrassylki.html&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;QuinStreet Inc: Paul Rubens, Understanding the Russian Hacker
 Underground, Aug 13, 2010,
 &lt;a href="http://www.enterprisenetworkingplanet.com/netsecur/article.php/3898601/Understanding-the-Russian-Hacker-Underground.htm"&gt;http://www.enterprisenetworkingplanet.com/netsecur/article.php/3898601/Understanding-the-Russian-Hacker-Underground.htm&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;</content><category term="pages"></category><category term="acceleration"></category><category term="optamization"></category><category term="simmulation of attacks and defence"></category><category term="wordpress attacks"></category><category term="credit card numbers"></category><category term="cyber security"></category><category term="DDoS"></category><category term="defence"></category><category term="infected machine"></category><category term="internet"></category><category term="malware"></category><category term="network"></category><category term="online"></category><category term="security"></category><category term="spam"></category></entry><entry><title>Future of human communication</title><link href="https://predragtasevski.com/posts/2011/06/future-of-human-communication/" rel="alternate"></link><published>2011-06-26T23:00:00+02:00</published><updated>2011-06-26T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2011-06-26:/posts/2011/06/future-of-human-communication/</id><summary type="html">&lt;h1&gt;On the basis of how the communication possibilities have changed (for) most people during last decades, what’s my idea of the normal human interaction in 10..20…50 years?&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;To understand the present we must first understand the past. The
 Internet has revolutionized the computer and communications world like …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;On the basis of how the communication possibilities have changed (for) most people during last decades, what’s my idea of the normal human interaction in 10..20…50 years?&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;To understand the present we must first understand the past. The
 Internet has revolutionized the computer and communications world like
 nothing before. The invention of the telegraph, telephone, radio, and
@@ -243,7 +198,6 @@ research in packet switching, the government, industry and academia have
 been partners in evolving and deploying this exciting new technology
 (Barry M. , et al., 2011).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The Internet today is a widespread information infrastructure, the
 initial prototype of what is often called the National (or Global or
 Galactic) Information Infrastructure. Its history is complex and
@@ -253,7 +207,6 @@ communications but throughout society as we move toward increasing use
 of online tools to accomplish electronic commerce, information
 acquisition, and community operations(Barry M. , et al., 2011).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Likelihood, computers have changed the face of communication to an
 extent that we can’t consider our routine life without presence of these
 machines. With the availability of technologies like internet, instant
@@ -261,7 +214,6 @@ messaging, emailing and others, the computers has fast replaced
 conventional means of communicating with each other(Communication Type,
 2008).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;No one writes letter anymore. It’s been said that longhand or cursive is
 no longer taught in grade school. No need for it. People don’t write
 anymore. As technology defined the late Twentieth Century, we became
@@ -272,7 +224,6 @@ to people all over the world that we might not otherwise get to enjoy.
 Today, computer technology constantly changes the way we communicate
 (Friends of Time, 2011).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;When we look through the history of computer communication from 1968 to
 nowadays there are three unique market sectors: Data Communication,
 Networking and Internet (Internetworking). Data communication is an
@@ -283,10 +234,8 @@ In computer network two or more computers are linked together with a
 medium and data communication devices for the purpose of communicating
 data and sharing resources.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;When the Internet is a network of networks?&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Millions of computers all over the world are connected through the
 Internet. Computer users on the Internet can contact one another
 anywhere in the world. If your computer is connected to the Internet,
@@ -294,7 +243,6 @@ you can connect to millions of computers. You can gather information and
 distribute your data. It is very much similar to the telephone
 connection where you can talk with any person anywhere in the world.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;As digital media takes flight, the grand slam of computer communication
 has arrived. Skype . It’s free, it’s live, and it’s real face time. Not
 only can people talk, but they can see each other as they talk. There
@@ -308,7 +256,6 @@ to each other, but they know the other person is there (Friends of Time,
 network (WLAN 1) we can chat and talk with anyone from anywhere, without
 the consideration of graphical location.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The internet and computers are offering a wide range of communication
 influence. We can communicate to text messages to your friends through
 computers and communication tools provided by it. From emails and
@@ -329,7 +276,6 @@ concepts in nowadays communication is online social networking, instance
 of communication, joining different online clubs and communicates with
 individuals from various parts of the world.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;On the other hand, imagine a day without computer in your room or on the
 office desk. For instance no emails, no chatting, no instant messaging
 and no web camera interactions, how we are going to feel? Therefore, we
@@ -338,7 +284,6 @@ Life can come to a standstill without computers and similar devices
 around us. Consequently, communication through computers is an important
 aspect of every individual today.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The best part of communicating through computer and Internet is that you
 can practice it from any part of the world. All computer technology is
 wonderful and the more access to communication the better. But it will
@@ -349,50 +294,40 @@ everyday norm.  &lt;/p&gt;
 communicate. This is because computers have become great contributors
 towards the world of communication.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Reference&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Barry M. , L., Vinton G. , C., David D. , C., Robert E. , K., Leonard ,
 K., Daniel C. , L., et al. (2011). A Brief History of the Internet.
 Retrieved from Internet Society (ISOC):
 &lt;a href="http://www.isoc.org/internet/history/brief.shtml"&gt;http://www.isoc.org/internet/history/brief.shtml&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Communication Type. (2008, October 29). Computers and Communication –
 Technology Giving Way to Technology. Retrieved from Communication Type:
 &lt;a href="http://www.communication-type.com/computers-and-communication-%E2%80%93-technology-giving-way-to-technology/"&gt;http://www.communication-type.com/computers-and-communication-%E2%80%93-technology-giving-way-to-technology/&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Friends of Time. (2011). Computer Technology Constantly Changes the Way
 We Communicate. Retrieved from Friends of Time:
 &lt;a href="http://friendsoftime.org/computer-technology-constantly-changes-the-way-we-communicate.html"&gt;http://friendsoftime.org/computer-technology-constantly-changes-the-way-we-communicate.html&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Footnote:&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[1] WLAN: a local area network that uses high frequency radio signals to
 transmit and receive data over distances of a few hundred feet; uses
 Ethernet protocol&lt;/p&gt;
 &lt;/p&gt;</content><category term="pages"></category><category term="communication"></category><category term="future of human communication"></category><category term="internet"></category><category term="network"></category><category term="networking"></category><category term="online"></category></entry><entry><title>Digital divide or not?</title><link href="https://predragtasevski.com/posts/2011/06/digital-divide-or-not/" rel="alternate"></link><published>2011-06-19T23:00:00+02:00</published><updated>2011-06-19T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2011-06-19:/posts/2011/06/digital-divide-or-not/</id><summary type="html">&lt;h1&gt;Digital divide or not?&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Is there a psychological “digital divide”? Are people who often use the
 Internet psychologically different from those who do not and in what
 ways?&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The Internet is changing the average citizens as much as did other
 technologies, for instance: telephone, TV, computers, mobile phones etc.
 The …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Digital divide or not?&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Is there a psychological “digital divide”? Are people who often use the
 Internet psychologically different from those who do not and in what
 ways?&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The Internet is changing the average citizens as much as did other
 technologies, for instance: telephone, TV, computers, mobile phones etc.
 The mainly province was to help the science, engineering, and business.
@@ -406,7 +341,6 @@ gap that exists between those who have access to electronic and
 Information Technology – Internet and those who do not (University of
 Minnesota Duluth, 2011).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;People use home computers and the Internet in many different ways and
 for many purposes, including entertainment, education, information
 retrieval, and communication. If people use the Internet mainly for
@@ -423,7 +357,6 @@ particularly the World Wide Web, provide asocial entertainment that
 could compete with social contact as a way for people to spend their
 time (Robert et al., 1998).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;On the one hand, since the primary use of the Internet is communication,
 some people might speculate that the Internet will have positive social
 consequences in people’s everyday lives because it increases the
@@ -433,7 +366,6 @@ strongly supported by others, leading to happiness and engagement in
 families, organizations, communities, and society more generally
 (Nikolovska, 2007).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;But, on the other hand, the ease of electronic communication may lead to
 weaker social ties, because people have less reason to leave their homes
 and actually interact face to face with other people. The Internet
@@ -442,7 +374,6 @@ friendships and even romantic attachments from their home, to bank from
 their home, to vote and engage in political and social issue based
 discussions with others (from home) (Nikolovska, 2007).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Even with watching television and using a home computer and the Internet
 generally imply physical inactivity and limited face-to-face social
 interaction. Some studies, including our own, have indicated that using
@@ -457,7 +388,6 @@ watching itself (Danko, W. D. &amp;amp; MacLachlan, J. M, 1983), (Kohut, 1994)
 as well as reducing leisure time with the family (Vitalari et al.,
 1985).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;In this variety of ways, Internet communications can potentially
 displace face-to-face communications. This point is important because
 psychologists in many researches have described and proved such face to
@@ -479,7 +409,6 @@ families, experiencing more daily stress, and feeling more lonely and
 depressed. These results occurred even though interpersonal
 communication was their most important reason for using the Internet.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Katz and Aspden’s national survey (1997) is one of the few empirical
 studies that have compared the social participation of Internet users
 with nonusers. Controlling statistically for education, race, and other
@@ -491,16 +420,13 @@ data, Katz and Aspden concluded that “[f]ar from creating a nation of
 strangers, the Internet is creating a nation richer in friendships and
 social relationships” (p. 86)(Robert et al., 1998).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Furthermore, the percentage of usage of the technology nowadays
 drastically enhanced. Such as the state/country statistics of
 information society reports during pass few years.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Parallel between two countries with a similarity of population number:
 Estonia and Macedonia&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Estonia since 2000 had 366,600 connected citizens though Internet.
 However, in 2010 the statistic report’s the rapidly changes with the
 number of 969,700 connections (Miniwatts Marketing Group., 2010). Yet
@@ -511,7 +437,6 @@ statistic shows that 75,1% of citizens in Estonia has access to
 Internet, analogous to Macedonia 51% of population of the country in
 final report of 2010 (Miniwatts Marketing Group, 2010).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;As a result, from the statistic we can see that, most of the population
 nowadays has a computer, laptop, or device in their pocket that can
 connect on Internet. Despite the alarm, research indicates most children
@@ -521,7 +446,6 @@ communicative capacities. But overall, technology can be considered a
 positive enhancement to growth(Affonso, 1999). This feature is
 eloquently affirmed by author Don Tapscott (Tapscott, 1999):&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;“… when kids are online, they’re reading, thinking, analyzing,
 criticizing and authenticating – composing their thoughts. Kids use
 computers for activities that go hand-in-hand with our understanding of
@@ -529,7 +453,6 @@ what constitutes a traditional childhood. They use the technology to
 play, learn, communicate and form relationships as children always have.
 Development is enhanced in an interactive world.”&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;From the above the influence of the Internet has caused a change in the
 way we communicate, study, shop, etc. The most famous for the ability to
 spread information, to communicate from a distance with a web camera,
@@ -546,83 +469,65 @@ goals. And rather than technology’s changing people’s social and
 psychological reality, in other words, people change their use of
 technology to facilitate their creation of a desired social reality.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Reference&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Affonso, B. (1999, December). Is the Internet Affecting the Social
 Skills of Our Children? Retrieved from Sierra Source Web Design:
 &lt;a href="http://www.sierrasource.com/cep612/internet.html"&gt;http://www.sierrasource.com/cep612/internet.html&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Association, American Psychological. (1998). Internet paradox — a social
 technology that reduces social involvement and psychological well-being?
 American Psychologist,53, 1017-1031.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Danko, W. D., &amp;amp; MacLachlan, J. M. (1983). Research to accelerate the
 diffusion of a new invention. Journal of Advertising Research,
 23(3),39-43.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Kohut, A. (1994). The role of technology in American life. Los Angeles:
 Times Mirror Center for the People and the Press.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Lundmark, V., Kiesler, S., Kraut, R., Scherlis, W., &amp;amp; Mukhopadhyay, T.
 (1998). How the strong survive: Patterns and significance of competence.
 Unpublished manuscript.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Miniwatts Marketing Group. (2010). Macedonia Internet Usage and
 Telecommunications.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Retrieved from Internet Usage and Telecommunications:
 &lt;a href="http://www.internetworldstats.com/eu/mk.htm"&gt;http://www.internetworldstats.com/eu/mk.htm&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Miniwatts Marketing Group. (2010). Internet Usage Stats and Market
 Report – Estonia.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Retrieved from Internet World Statistic:
 &lt;a href="http://www.internetworldstats.com/eu/ee.htm"&gt;http://www.internetworldstats.com/eu/ee.htm&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Nikolovska, M. (2007, April). The Influence Of The Internet On People’s
 Social And Psychological Realities. Retrieved from EzineArticles.com:
 &lt;a href="http://ezinearticles.com/?The-Influence-Of-The-Internet-On-Peoples-Social-And-Psychological-Realities&amp;amp;id=524319"&gt;http://ezinearticles.com/?The-Influence-Of-The-Internet-On-Peoples-Social-And-Psychological-Realities&amp;amp;id=524319&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Robert , K., Micheal, P., Vicki, L., Sara, K., Tridas , M., &amp;amp; William ,
 S. (1998). Internet&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Paradox. Washington, DC: American Psychological Association.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Tapscott, D. (1999). The kids are alright: technology doesn’t make them
 ‘little criminals’. Retrieved from Victoria Point Multimedia:
 &lt;a href="http://www.victoriapoint.com/child_technology.htm"&gt;http://www.victoriapoint.com/child_technology.htm&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;University of Minnesota Duluth. (2011, 04 04). Web Design References:
 Glossary. Retrieved from Information Technology Systems &amp;amp; Services:
 &lt;a href="http://www.d.umn.edu/itss/support/Training/Online/webdesign/glossary/d.html"&gt;http://www.d.umn.edu/itss/support/Training/Online/webdesign/glossary/d.html&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Vitalari, N., Venkatesh, A., &amp;amp; Gronhaug, K. (1985). Computing in the
 home: Shifts in the time allocation patterns of households.
 Communications of the ACM, 28(5), 512-522.&lt;/p&gt;
 &lt;/p&gt;</content><category term="pages"></category><category term="digital divide"></category><category term="internet"></category><category term="net generation"></category><category term="network"></category><category term="network generation"></category><category term="online"></category><category term="online generations"></category><category term="psychological"></category></entry><entry><title>Internet and collectivistic cultures</title><link href="https://predragtasevski.com/posts/2011/06/internet-and-collectivistic-cultures/" rel="alternate"></link><published>2011-06-06T23:00:00+02:00</published><updated>2011-06-06T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2011-06-06:/posts/2011/06/internet-and-collectivistic-cultures/</id><summary type="html">&lt;h1&gt;Internet and collectivistic cultures. How the Internet affects the psyche of the people from collectivistic cultures?&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Nowadays everyone has a computer at home, work and even a carrying
 device, example: laptop, notebook, mobile phones, IPod etc. All the
 devices that are making our life easy in everyday tasks are able …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Internet and collectivistic cultures. How the Internet affects the psyche of the people from collectivistic cultures?&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Nowadays everyone has a computer at home, work and even a carrying
 device, example: laptop, notebook, mobile phones, IPod etc. All the
 devices that are making our life easy in everyday tasks are able to
@@ -631,7 +536,6 @@ It not only influences the thoughts, behavior and personality of
 individual but it has lobby to the group of people that we socialize.
 Thus, in other words the collectivistic culture beside.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Cultures by the membership are typically divided into two categories:
 collectivist and individualist. Individualistic cultures, people are
 expected to develop and display their individual personalities and to
@@ -640,7 +544,6 @@ are defined and act mostly as members of a long-term group, such as the
 family, a religious group, an age cohort, a town, or a profession, among
 others (Deb, 2011).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Moreover, individualism pertains to societies in which ties are loose:
 people are expected to look after themselves and their immediate family.
 In addition, collectivism pertains to societies in which people are
@@ -654,7 +557,6 @@ failings. People in individualist cultures are susceptible to
 loneliness, and people in collectivist cultures can have a strong fear
 of rejection (Psychology Wiki, 2011).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Specifically the emphasize of groups in family and work goals in
 collectivist cultures, such as those of East Asia, parts of Latin
 America and some countries from Europe, like: Greece and Portugal
@@ -673,7 +575,6 @@ collectivist cultures is trustworthy, honest, generous, and sensitive,
 all characteristics that are helpful to people working in groups
 (Psychology Wiki, 2011).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;At the present day, users of the online social networks are more
 collectivistic, because of the apparent benefits to networked
 interaction. Given this rise in popularity, a significant amount of
@@ -686,7 +587,6 @@ Wikipedia, social networking such as Facebook, Myspace, Hi5, etc. and
 micro blogging tools such as Twitter, in particular, have attracted
 attention ( Dayne, Sigi, &amp;amp; Hart, 2009).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;For instance, I do not know all of my friends in my social networks
 Facebook, last.fm, twitter, myspace, etc. Yet I do like to build a
 community where I can share my other activities, such as sharing my new
@@ -701,7 +601,6 @@ my own society group network though Internet my own virtual world
 family, where relationship permits classification in the in-group, which
 relied on collectivistic culture.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;On the other hand, when collectivists meet another person, the first
 thought they are likely to have is, “What is my relationship with that
 person?” If the relationship permits classification in the in-group,
@@ -717,7 +616,6 @@ emphasize the importance of the nurturance of the leader. And for
 further more information see (Individualism and Collectivism, 2001, p.
 35).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Therefore, the Internet drastically changes the psyche in-group and
 out-group communication, relationship, supporting, cooperation, etc. in
 human culture. Nevertheless, Internet has influence on psyche in
@@ -726,36 +624,29 @@ people are communicating through the many sources available on Internet
 and develop new relationships, groups and community where they can share
 and feel positive, classified, into larger groups.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Reference&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Dayne, F., Sigi, G., &amp;amp; Hart, D. (2009, November 9). Individualist and
 collectivist factors affecting online repurchase intentions. Retrieved
 from School of Accounting and Business Information Systems, The
 Australian: www.emeraldinsight.com/1066-2243.htm&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Deb. (2011, March 27). Geert Hofstede. Retrieved from wikimedia.org:
 https://secure.wikimedia.org/wikipedia/en/wiki/Geert_Hofstede&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Hall, M., Menno, d., &amp;amp; Steehouder, M. (2004, November 1). Cultural
 differences and usability evaluation: individualistic and collectivistic
 participants compared. Retrieved fromHighBeam Research:
 http://www.highbeam.com/doc/1G1-126157549.html&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Psychology Wiki. (2011). Collectivist and individualist cultures.
 Retrieved from Collectivist and individualist cultures – Psychology
 Wiki:
 http://psychology.wikia.com/wiki/Collectivist_and_individualist_cultures#Traits_of_Collectivism&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Ting-Toomey, S., &amp;amp; Gao, G. (1998). Communicating Effectively with the
 Chinese. Thousand Oaks, CA: Sage Publications.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;TRIANDIS, H. C. (2001). Individualism and Collectivism. In D. Matsumoto,
 The Handbook of CULTURE &amp;amp; PSYCHOLOGY (p. 35). Oxford: Oxfrod University
 Press.&lt;/p&gt;
@@ -780,7 +671,6 @@ that has to be concern in an aspect of HCI, I have chosen to write about
 the part 4 where they give a good outline of the recommendations that
 has to be encounter for the new actions in the future of HCI.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The research report came with very good seventh future directions. Each
 direction will be described in an educationally signification for me,
 what I have learned and what should be the next future actions in
@@ -790,7 +680,6 @@ report gives vaulting and most important future recommendations that
 need to be considered, and there will be more and more recommendations
 and future directions as the technology and the HCI changes.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Before we start to talk about the recommendations in a field of HCI,
 let’s see what HCI is. It is a term used to refer to the understanding
 and designing of different relationships between people and computers.
@@ -799,12 +688,10 @@ established and designed, developed and apply all manners to ensure that
 the technologies are easy to learn and easy to use. (Harper, Tom,
 Yvonne, &amp;amp; Abigail, 2008, p. 84)&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;After getting familiar with the terms and the practice of HCI let as
 look though the main seventh future recommendations that were considered
 by the scholars and people involved in this forum.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;Recommendation 1: Revisit research and design methods in HCI: it is
     a distinct research area, methods and techniques have been used have
@@ -872,7 +759,6 @@ by the scholars and people involved in this forum.&lt;/p&gt;
     78-83)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/p&gt;
-
 &lt;p&gt;I found this article very interesting, not only in an aspect of human
 interaction with computers but with the actions that were taken and the
 propositions that were sum. I love to make a summer of the entire
@@ -883,10 +769,8 @@ implementation of projects, aspects and techniques that can be used.
 Hope that this few years since the 2007, the implementation and
 recommendation directories have been successfully.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Reference&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Harper, R., Tom, R., Yvonne, R., &amp;amp; Abigail, S. (2008). Being Human,
 Human-Computer Interaction in the year 2020. Cambridge, CB3 0FB,
 England: Microsoft Research Ltd.&lt;/p&gt;

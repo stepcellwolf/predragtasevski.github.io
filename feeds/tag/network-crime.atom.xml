@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Predrag TASEVSKI - Pece - network crime</title><link href="https://predragtasevski.com/" rel="alternate"></link><link href="https://predragtasevski.com/feeds/tag/network-crime.atom.xml" rel="self"></link><id>https://predragtasevski.com/</id><updated>2012-01-17T00:00:00+01:00</updated><entry><title>Mobile Malware Analysis</title><link href="https://predragtasevski.com/posts/2012/01/mobile-malware-analysis/" rel="alternate"></link><published>2012-01-17T00:00:00+01:00</published><updated>2012-01-17T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-01-17:/posts/2012/01/mobile-malware-analysis/</id><summary type="html">&lt;h1&gt;PURPOSE&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The goal of this post is to identify and analyze mobile malware file:
 &lt;a href="https://sim.cert.ee/hw/mmc.jar"&gt;mmc.jar&lt;/a&gt;. Thereby please follow the
 following steps for completing the task:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Unpack the file (hint – using zip on .jar)&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Examine .class files using tool available
@@ -16,12 +14,10 @@ following steps for completing the task:&lt;/p&gt;
     &lt;a href="https://sim.cert.ee/hw/jd-gui-0.3.3.windows.zip"&gt;Win&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Find …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;PURPOSE&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The goal of this post is to identify and analyze mobile malware file:
 &lt;a href="https://sim.cert.ee/hw/mmc.jar"&gt;mmc.jar&lt;/a&gt;. Thereby please follow the
 following steps for completing the task:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Unpack the file (hint – using zip on .jar)&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Examine .class files using tool available
@@ -35,7 +31,6 @@ following steps for completing the task:&lt;/p&gt;
     IDE&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Firstly, we are going to analysis the Java source code after
 decompilation. The accent is to find the code that is sending an SMSes
 using the ‘sms://’ URL. After identifying the linking associated classes
@@ -43,20 +38,16 @@ we have to compile the code to move toward to final results of URLs. For
 this purpose we are using the developing tool &lt;a href="http://www.eclipse.org/downloads/"&gt;Eclipse
 IDE&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Therefore, the results and the sent SMSes URLs are going to be presented
 into conclusion section. Which will complete the task and will yield the
 basic analysis of mobile malware file.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;ANALYSIS&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;After running the decompiler tool we are examining and analyzing the
 Java source code. Whereby on the source code on the class M.class line
 343 we have found the following source code:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     if ((i &amp;gt;= 35)  (SM.isSending != true)  (i % 6 == 0) (f &amp; count_query)) {  if (SM.GS()) f += 1;   if (f == 1) {            RS.L(rs);            RS.L("Slide");            rs = RS.j("Slide");            game = RS.L(rs, Integer.toString((int)(System.currentTimeMillis() / 1000L)));            RS.L(rs);   }if (f &amp;lt; count_query) {  game = SM.send("sms://" + ms[1][b], ms[2][b]); // sms://  if (b == count_query) b = 1; else b += 1;}
@@ -64,11 +55,9 @@ Java source code. Whereby on the source code on the class M.class line
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;The above code is associated with the class SM.class. With the following
 source code:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     public static int send(String s, String s1){   if (isSending) return 0;      new SM(s, s1);   return -1;}public SM(String s, String s1) { success = false; isSending = true; this.destination = s; this.message = s1; try {      Thread thread = new Thread(this);      thread.start(); } catch (Exception exception) { isSending = false;}
@@ -76,22 +65,18 @@ source code:&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;The above code is checking if the message and the destination is
 correct  &lt;/p&gt;
 &lt;p&gt;and if the message is sent. Coloration is more like the first public
 static method named &lt;em&gt;send&lt;/em&gt; with the two string values of &lt;em&gt;s&lt;/em&gt; and &lt;em&gt;s1&lt;/em&gt;.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;All the above extraction was finished by JD-Gui version 0.3.3 and
 JD-Core version 0.6.0 and using the menu bar for search, with the
 criteria that will meet our needs.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The bellow are executable results presented, done by eclipse after
 compiling the code:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     /0SIF|6XI8ULE|YNLD5QDA6WM|YJ90RL/+WPJDAFY2 DC3QJ/+3RKA/5YPA0MD-5QFDwhile 7375/88600168904|7202/65510006691|1899/FTEME 1283|8385/88600168904|1 162 333 494 667375 88600168904 //sms://73757202 65510006691 //sms://72021899 fteme 1283 //sms://18998385 88600168904 //sms://8385decoded367375 88600168904427202 65510006691481899 fteme 128354
@@ -99,14 +84,11 @@ compiling the code:&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;From the above presented results after compiling the code we have
 identify the number of SMSes URLs and in addition the exact URLs.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;CONCLUSION&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;We live in a world where nowadays for everyday work, communication, etc.
 the most essentially tool is our mobile phones, smart phones, etc. We
 used them for communication, sending SMS, playing games, checking
@@ -119,12 +101,10 @@ for mobile phones. However, this is only a basic, and a good guide to
 give you an idea of what kind of tools, applications you should have.
 This task is done only for a Java source code mobile malware game.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Furthermore, from the above section we have identify the number of SMSes
 that are sent and to what numbers. The total number of SMSes is 4 and
 sent to the following URLs:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     sms://7375sms://7202sms://1899sms://8385
@@ -132,27 +112,22 @@ sent to the following URLs:&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;Finally, mobile malware is rising and it is about to explode, therefore
 users need education[1]. By delivering basic and advance mobile malware
 security awareness program we will have less malware attacks and better
 security policy into everyday mobile, smart phones usage.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Bibliography&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[1] Chris Martin, Mobile malware is about to explode, users need
 education, 20 Jan. 2012,
 &lt;a href="http://www.theinquirer.net/inquirer/opinion/2140338/mobile-malware-explode-users-education"&gt;http://www.theinquirer.net/inquirer/opinion/2140338/mobile-malware-explode-users-education&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;</content><category term="pages"></category><category term="cell phone"></category><category term="malware"></category><category term="mobile"></category><category term="mobile malware analysis"></category><category term="network crime"></category><category term="phone"></category><category term="phone games"></category><category term="phone malware"></category><category term="security"></category><category term="sms"></category><category term="binary"></category></entry><entry><title>Information society and information warfare</title><link href="https://predragtasevski.com/posts/2011/01/information-society-and-information-warfare/" rel="alternate"></link><published>2011-01-06T00:00:00+01:00</published><updated>2011-01-06T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2011-01-06:/posts/2011/01/information-society-and-information-warfare/</id><summary type="html">&lt;h1&gt;Meaning of victory in conflict in the information age. What has changed? What has remained unchanged? How information society and information warfare influences achieving the victory?&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The rapid development of information technology (IT) over the past three
 decades has led to many changes for example in military and defense
 circles …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Meaning of victory in conflict in the information age. What has changed? What has remained unchanged? How information society and information warfare influences achieving the victory?&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The rapid development of information technology (IT) over the past three
 decades has led to many changes for example in military and defense
 circles, social society, and economy in the information age. Nowadays
@@ -164,7 +139,6 @@ information warfare; different views and approaches to information
 warfare/operation in a couple of countries, which will end with
 conclusion.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Today, much of the enthusiasm for the information-led revolution in
 military affairs (RMA) or military transformation (as the newly
 preferred term of art), specifically in Gulf War model of decisive
@@ -179,7 +153,6 @@ usually defined as a transition to network-based/network-centric warfare
 of implementing RMA are Afghanistan (2001) and Iraq (2003) war, where
 they started as traditional conflicts and transformed into insurgencies.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;According to Carl von Clausewitz’s book On War, “War is an act of
 violence whose object is to compel the enemy to do our will”. Yet, 2000
 years earlier Sun Tzu, established a benchmark for a mastery of war “To
@@ -192,7 +165,6 @@ enemy to do our will without fighting. (Bowdish, December1998 – February
 no substitute for victory.” General Douglas MacArthur, 1951 (Gray, April
 2002).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Nevertheless, the history of 20th century sufficesto remind us that
 there are many ways to win a war, but still various ways are not
 equivalent, and final victory does not necessarily belong to the side
@@ -213,7 +185,6 @@ systems. Such as, globalization is a strong impediment waging a total
 war. Therefore, today in the era of democracy, wars are hard to start,
 but even harder to bring to an end.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Nowadays, the modern wars/information warfare consists on different
 vector of victory. Today is unacceptable to have extreme violence, such
 as losing small wars. Thus, victory today has changed drastically and
@@ -231,13 +202,11 @@ tangible support for the war outcome from the victory domestic public,
 foreign allies, international organizations and other observers)
 (Ahvenainen, January 2000).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;As a consequence these changes mean decreased importance of nation
 states, increased importance of virtual reality, network organizations
 and dominance of economy, information, technical intelligence and other
 information and network based organizations (Ahvenainen, January 2000).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Another change in information age is terrorism. Information age
 terrorism may take on three distinct forms: conventional terrorism,
 technoterrorism, and cyberterrorism. The purpose weapons of the
@@ -248,7 +217,6 @@ cyberspace. While it is possible to attack this data without any human
 interfaces, the human is usually the weakest link in a computer system
 (Littleton, December 1996).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;To illustrate historically, there have been observed four waves of
 modern terrorism:1880-1920: anarchist terrorism (began in Russia),
 1920-1960: terrorism in support of national liberation (IRA, Irgun,
@@ -256,7 +224,6 @@ PLO), 1960-1980: neo-leftist terrorism (Action Directe, BrigateRosso,
 Rote ArmeeFraktion) and 1980-present: religious terrorism (Hamas,
 al-Qaeda, Islamic Jihad) (Cronin &amp;amp; James , 2004).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;On the other hand of information terrorism there is modern insurgency,
 likelihood counterinsurgency. Modern insurgency is supported by a wide
 variety of non-state actors from abroad and it consists of many
@@ -269,7 +236,6 @@ about its activities all over the world, which does not rely only on
 official mass-media, it also uses of effectively Internet (Hammes &amp;amp; T.,
 July-August 2006).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Analogous to, strategic asymmetry in modern counterinsurgency (CI) and
 modern insurgency (I) are respectful goals. Like, (CI) victory means
 building up a stable state less than (I) getting rid of victorious
@@ -303,7 +269,6 @@ doctrine in military adaptation and Information Operations (IO)
 (Ahvenainen, January 2000), which is going to be discussed in the
 following lines, comparing with view aspects of IW in China.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Different countries, different approaches in process of implementation
 of IW, US, China and Russia, are intense examples. First US views in IO
 are to complementing traditional military means and allowing influencing
@@ -316,7 +281,6 @@ enemy can attack directly the will of state national leadership.
 Opposite, Chinese military in IW are focused on the person of enemy
 commander and strives to alter his decisions and perceptions.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Consequently, US strength in the IO fields is in its technical
 capabilities and weakness in seeking excessive control and understanding
 various cultures and capabilities to include EW , CNO and tradition
@@ -332,7 +296,6 @@ step further, where we had dealing with enemy with technology in US and
 thinking in China, Russia is trying to manipulate the biological parts
 of the enemy dealing with information (Liaropoulos, 2007).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;As a result, the information age is creating or will create new means of
 influence and new ends to influence. This process will create new means
 of victory, new troops and added complexity. It is important, that these
@@ -340,46 +303,36 @@ new things will add new possibilities between war and peace and it will
 increase possibilities to act before war and to avoid conventional
 warfare (Ahvenainen, January 2000).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Finally, to achieve victory in information warfare, the central issue is
 the control of information. Such as, Chinese approaches to use old
 tactics and strategies to win victory in information warfare and Russia
 is educating talented people and facilities to produce high quality
 cyber warriors for state, private business and crime.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Reference&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Ahvenainen, S. (January 2000). ABOUT INFORMATION WARFARE. Finland:
 Finnish Defence Forces, Lt.Col (Ret.).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Anderson, R. (The first edition 2001). Chapter16: Electronic and
 Information Warfare. In R. Anderson, Security Engineering (p.
 Chapter16). Cambridge: University of Camrbidge.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;(Apr-Jun 1999). Journal of the Signapore armed forces.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Bowdish, R. G. (December1998 – February 1999). Information-Age
 Psychological Operations. USA: US Navy.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Cronin, A., &amp;amp; James , M. (2004). Four Waves of Modern Terrorism.
 Washington DC: Georgetown University Press: Rapoport.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;DJIM. (Volume 4 – Spring 2009). Information Warfare — Doing Battle in
 the 21st Century.
 &lt;a href="http://djim.management.dal.ca/"&gt;djim.management.dal.ca&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Gray, C. S. (April 2002). DEFINING AND ACHIEVING DECISIVE VICTORY. USA:
 Strategic Studies Institute.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Hammes, C., &amp;amp; T., X. (July-August 2006). Countering Evolved Insurgent
 Networks. Military Review.&lt;/p&gt;
 &lt;/p&gt;</content><category term="pages"></category><category term="art of war"></category><category term="cyber crime"></category><category term="cyber war"></category><category term="history"></category><category term="Information"></category><category term="information warfare"></category><category term="network crime"></category><category term="society"></category><category term="warfare"></category></entry></feed>

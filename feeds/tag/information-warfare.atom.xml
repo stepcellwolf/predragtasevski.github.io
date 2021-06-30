@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Predrag TASEVSKI - Pece - information warfare</title><link href="https://predragtasevski.com/" rel="alternate"></link><link href="https://predragtasevski.com/feeds/tag/information-warfare.atom.xml" rel="self"></link><id>https://predragtasevski.com/</id><updated>2012-06-25T23:00:00+02:00</updated><entry><title>Ministry of Interior – Macedonia, website defacement: http://mvr.gov.mk</title><link href="https://predragtasevski.com/posts/2012/06/ministry-of-interior-macedonia-website-defacement-httpmvrgovmk/" rel="alternate"></link><published>2012-06-25T23:00:00+02:00</published><updated>2012-06-25T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-06-25:/posts/2012/06/ministry-of-interior-macedonia-website-defacement-httpmvrgovmk/</id><summary type="html">&lt;h1&gt;Purpose&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Yesterday, the 25 of June 2012, the Macedonian website of Ministry of
 Interior (MVR) was defaced by Kosovo Network Security (KNS) group, below
 figure. However, after we have noticed and some of the social networking
 sites have informed me, I was concern to find out what just have
 happened …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Purpose&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Yesterday, the 25 of June 2012, the Macedonian website of Ministry of
 Interior (MVR) was defaced by Kosovo Network Security (KNS) group, below
 figure. However, after we have noticed and some of the social networking
@@ -20,17 +18,14 @@ we continue with more details, let just talk about the situation of
 yesterday and what did the authorities take protective measures steps
 and actions.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;On Monday, 25 June 2012 at 19:38, one friend have updated his status in
 one of the social networking sites, as follows: “Хакован
 &lt;a href="http://mvr.gov.mk/"&gt;http://mvr.gov.mk/&lt;/a&gt;” (Hacked &lt;a href="http://mvr.gov.mk/"&gt;http://mvr.gov.mk/&lt;/a&gt;). And it made me
 extremely intrigue to see what actually have just happened. The below
 figure, displays the message spread from the KNS group.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Screenshot from the mvr.gov.mk defaced version&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Moreover, what makes the situation even more interesting is that after
 the report that the site was defaced the authorities have taken a
 measures steps to fix the issue, by either shutting down the server or
@@ -39,12 +34,10 @@ minutes the site was defaced again. I did not want to lose the time and
 the nervous to check every five or ten minutes to see when it will be
 back again.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Nevertheless, after 15 hours, or one stressful – hard core night for the
 administrators of the site, the usability and functionalities where back
 as normal, let just see how long will stay!&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Therefore, in the current post the idea is to give and overview, of what
 actually is going on when it comes to case of cyber space, cyber
 security issues in Macedonia. The structure of this post is introduces
@@ -59,10 +52,8 @@ sector, but even and the private sector too. Those agencies,
 organizations are too much careless and do not take any actions of
 securing their IT assets.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Introduction&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Ministry of Interior in Macedonia site offers different online services.
 The site primary idea is to inform the inhabitance about the news,
 actions, useful information, public relations, analysis and statistics;
@@ -70,7 +61,6 @@ international cooperation and legislation; and finally the services. And
 secondly is to give and opportunities to the population scheduling of
 service, if their document is issued, etc.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;In one short sentence, this site, for some people, it may be very useful
 or not. However, I need to empathize that the site is only available in
 Macedonian language, nor Albania, nor English version. So, in simple
@@ -78,14 +68,11 @@ conclusion this site is only useful for Macedonian speakers, and not for
 foreigners, yet still represents one of very important public service,
 government agency.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Nevertheless, in the next section we will discuses the previous
 defacement and hacking attacks of this site.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Background&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The service of this site, or the domain first was registered in 22
 October 2003, and unfortunate I do not remember when was first time
 available and published. However, in the pass years I have heard many
@@ -100,7 +87,6 @@ is just and simple site where collects the cybercrime activities
 notified anonymously. The bellow figure provides a details of previous
 reported/notified cybercrime activities of MVR site in Macedonia.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;In details, total notifications are 4 of which 2 are single IP and 2 are
 mass defacements. The first mass defacement was done in 29 July 2009,
 when the site use a OS: Windows 2000, then in 2011 it was the
@@ -110,27 +96,22 @@ year, few days before the current attack, 22 of June it was
 re-defacement. And the attack, defacement that we write for it was not
 notified or reported.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;From these data, and schedule, we can come to a conclusion that the site
 was defaced just 3 days before the mass defacement attack, so it might
 be a simple warning, to taken an action before something goes really
 wrong. But most probably, non of those administrators, or authorities
 did not taken any serious actions, until the case yesterday appears.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Details&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;To be able to do an analysis of what actually have happened, we need to
 take some actions.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;First, we have done a simple web sniffer, to find out what kind of
 system, and services the site, server is using. If we request the &lt;a href="http://en.wikipedia.org/wiki/List_of_HTTP_header_fields"&gt;HTTP
 Request Header&lt;/a&gt;
 we will receive an HTTP Response Header with a following data:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     Status: HTTP/1.1 200 OKCache-Control: privateContent-Type: text/html; charset=utf-8Server: Microsoft-IIS/7.0Set-Cookie: ASP.NET_SessionId=3lti3gep3usg4255ggf34tjn; path=/; HttpOnlyX-AspNet-Version: 2.0.50727X-Powered-By: ASP.NETDate: Tue, 26 Jun 2012 08:18:34 GMTConnection: closeContent-Length: 103773
@@ -138,19 +119,15 @@ we will receive an HTTP Response Header with a following data:&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;The above data, is useful in a sense that provides as an information
 about the Server and the ASP.Net Version. Then, if we want to find more
 details about the open and close ports and operating system we can use
 the &lt;a href="http://nmap.org/"&gt;nmap&lt;/a&gt; tool with the following command line:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;&lt;code&gt;nmap -O -v IP-Address&lt;/code&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;And the results will be as follows:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     PORT STATE SERVICE21/tcp open ftp80/tcp open httpRunning (JUST GUESSING) : Microsoft Windows Vista|2008|7 (89%)
@@ -158,7 +135,6 @@ the &lt;a href="http://nmap.org/"&gt;nmap&lt;/a&gt; tool with the following comm
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;From the web sniffing and from the OS version scanning we can assume
 that the server is running Microsoft Windows 2008. The current
 vulnerabilities and possible exploitations are visible on the &lt;a href="http://technet.microsoft.com/en-us/security/bulletin/"&gt;Microsoft
@@ -168,7 +144,6 @@ website. By knowing the vulnerabilities it is very easy task to find out
 a way either to commit DoS attack or remote server access. However, in
 this post we will not go into details and exploitation descriptions.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Moreover, the KNS, we assume the domain is followed:
 &lt;a href="http://kns-team.com/"&gt;http://kns-team.com&lt;/a&gt;. However, the site is down,
 therefore, we will have to understand who is behind this domain
@@ -177,7 +152,6 @@ more, or even we can use another site that have been defaced by this
 group to find out more. So there is the list presented the members in
 the groups and their archive of notified defaced sites:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.zone-h.org/archive/notifier=cracker-besi"&gt;rAcKeR-BeSi&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;GP&lt;/li&gt;
@@ -187,23 +161,19 @@ the groups and their archive of notified defaced sites:&lt;/p&gt;
 &lt;li&gt;SpyHackz&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The Facebook fan page is:
 &lt;a href="https://www.facebook.com/pages/Kosova-Network-Security/176195849098989"&gt;https://www.facebook.com/pages/Kosova-Network-Security/176195849098989&lt;/a&gt;.
 For more info I was short of time to do more digging, but I hope that
 someone will.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Action&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;After understanding the details about the MVR site, operating system and
 their server services, and information about the KNS, it is time to take
 an action of trying to see how vulnerable is MVR site, and to see if
 these lads had very difficult time of defacing the content of the site,
 or even gaining access to the server-side.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;But before, we carry on, I want to stress out that this section is not
 to give you an idea how, or knowledge to exploit or use any
 vulnerabilities to deface or gain access to the site. We will just
@@ -211,10 +181,8 @@ demonstrate you a very simple
 &lt;a href="http://en.wikipedia.org/wiki/Cross-site_scripting"&gt;XSS&lt;/a&gt; exploit of MVR
 site that we have found a vulnerability, figure below.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Example of exploitation by XSS vulnerability, mvr.gov.mk&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;It is therefore, from this very simple and easy exploitation of XSS
 vulnerability of the MVS site we will be able to run more advance and
 complicated shell scripts to gain access and maintain access of the
@@ -223,10 +191,8 @@ to the audience that actually hence actions is need it. And we hope that
 the administrators, developers and the authorities will take an action
 of mitigating the risk, and further vulnerabilities of the site.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Conclusion&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;In Macedonia, cyber space, cyber crime, cyber security, cyber warefare,
 cyber terrorism are actually unknown words, terminology. They are not
 even specified or added into the Macedonian dictionary, nor in IT
@@ -236,7 +202,6 @@ implemented by neighbor countries, or someone else. I just don’t
 understand why people in this country are so careless about how to
 protect their IT assets, and everything else, as well.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Furthermore, it is not an issue that we do not have specialists to
 conduct a pen-testing to the sites and services that not only the
 government agencies are offering but even the banks and private sectors
@@ -247,19 +212,16 @@ Lab&lt;/a&gt;. Also, the &lt;a href="http://cybersecurity.mk/icsap/"&gt;ICSAP �
 Cyber Security Awareness Program&lt;/a&gt;,
 Macedonia project, developed by myself.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Nevertheless, in final conclusion, I would like to recommend the
 authorities to take actions about the above described activities done by
 KNS and hope that the security awareness will boost up, and the further
 actions will be considered of securing cyber space.&lt;/p&gt;
 &lt;/p&gt;</content><category term="pages"></category><category term="Attacks"></category><category term="cyber security"></category><category term="information warfare"></category><category term="legal aspects of cyber security"></category><category term="log mining"></category><category term="DDoS"></category><category term="exploitation"></category><category term="kns"></category><category term="macedonia"></category><category term="mvr"></category><category term="online"></category><category term="security"></category><category term="vulnerability"></category><category term="expolit"></category></entry><entry><title>Information society and information warfare</title><link href="https://predragtasevski.com/posts/2011/01/information-society-and-information-warfare/" rel="alternate"></link><published>2011-01-06T00:00:00+01:00</published><updated>2011-01-06T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2011-01-06:/posts/2011/01/information-society-and-information-warfare/</id><summary type="html">&lt;h1&gt;Meaning of victory in conflict in the information age. What has changed? What has remained unchanged? How information society and information warfare influences achieving the victory?&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The rapid development of information technology (IT) over the past three
 decades has led to many changes for example in military and defense
 circles …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Meaning of victory in conflict in the information age. What has changed? What has remained unchanged? How information society and information warfare influences achieving the victory?&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The rapid development of information technology (IT) over the past three
 decades has led to many changes for example in military and defense
 circles, social society, and economy in the information age. Nowadays
@@ -271,7 +233,6 @@ information warfare; different views and approaches to information
 warfare/operation in a couple of countries, which will end with
 conclusion.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Today, much of the enthusiasm for the information-led revolution in
 military affairs (RMA) or military transformation (as the newly
 preferred term of art), specifically in Gulf War model of decisive
@@ -286,7 +247,6 @@ usually defined as a transition to network-based/network-centric warfare
 of implementing RMA are Afghanistan (2001) and Iraq (2003) war, where
 they started as traditional conflicts and transformed into insurgencies.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;According to Carl von Clausewitz’s book On War, “War is an act of
 violence whose object is to compel the enemy to do our will”. Yet, 2000
 years earlier Sun Tzu, established a benchmark for a mastery of war “To
@@ -299,7 +259,6 @@ enemy to do our will without fighting. (Bowdish, December1998 – February
 no substitute for victory.” General Douglas MacArthur, 1951 (Gray, April
 2002).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Nevertheless, the history of 20th century sufficesto remind us that
 there are many ways to win a war, but still various ways are not
 equivalent, and final victory does not necessarily belong to the side
@@ -320,7 +279,6 @@ systems. Such as, globalization is a strong impediment waging a total
 war. Therefore, today in the era of democracy, wars are hard to start,
 but even harder to bring to an end.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Nowadays, the modern wars/information warfare consists on different
 vector of victory. Today is unacceptable to have extreme violence, such
 as losing small wars. Thus, victory today has changed drastically and
@@ -338,13 +296,11 @@ tangible support for the war outcome from the victory domestic public,
 foreign allies, international organizations and other observers)
 (Ahvenainen, January 2000).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;As a consequence these changes mean decreased importance of nation
 states, increased importance of virtual reality, network organizations
 and dominance of economy, information, technical intelligence and other
 information and network based organizations (Ahvenainen, January 2000).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Another change in information age is terrorism. Information age
 terrorism may take on three distinct forms: conventional terrorism,
 technoterrorism, and cyberterrorism. The purpose weapons of the
@@ -355,7 +311,6 @@ cyberspace. While it is possible to attack this data without any human
 interfaces, the human is usually the weakest link in a computer system
 (Littleton, December 1996).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;To illustrate historically, there have been observed four waves of
 modern terrorism:1880-1920: anarchist terrorism (began in Russia),
 1920-1960: terrorism in support of national liberation (IRA, Irgun,
@@ -363,7 +318,6 @@ PLO), 1960-1980: neo-leftist terrorism (Action Directe, BrigateRosso,
 Rote ArmeeFraktion) and 1980-present: religious terrorism (Hamas,
 al-Qaeda, Islamic Jihad) (Cronin &amp;amp; James , 2004).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;On the other hand of information terrorism there is modern insurgency,
 likelihood counterinsurgency. Modern insurgency is supported by a wide
 variety of non-state actors from abroad and it consists of many
@@ -376,7 +330,6 @@ about its activities all over the world, which does not rely only on
 official mass-media, it also uses of effectively Internet (Hammes &amp;amp; T.,
 July-August 2006).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Analogous to, strategic asymmetry in modern counterinsurgency (CI) and
 modern insurgency (I) are respectful goals. Like, (CI) victory means
 building up a stable state less than (I) getting rid of victorious
@@ -410,7 +363,6 @@ doctrine in military adaptation and Information Operations (IO)
 (Ahvenainen, January 2000), which is going to be discussed in the
 following lines, comparing with view aspects of IW in China.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Different countries, different approaches in process of implementation
 of IW, US, China and Russia, are intense examples. First US views in IO
 are to complementing traditional military means and allowing influencing
@@ -423,7 +375,6 @@ enemy can attack directly the will of state national leadership.
 Opposite, Chinese military in IW are focused on the person of enemy
 commander and strives to alter his decisions and perceptions.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Consequently, US strength in the IO fields is in its technical
 capabilities and weakness in seeking excessive control and understanding
 various cultures and capabilities to include EW , CNO and tradition
@@ -439,7 +390,6 @@ step further, where we had dealing with enemy with technology in US and
 thinking in China, Russia is trying to manipulate the biological parts
 of the enemy dealing with information (Liaropoulos, 2007).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;As a result, the information age is creating or will create new means of
 influence and new ends to influence. This process will create new means
 of victory, new troops and added complexity. It is important, that these
@@ -447,46 +397,36 @@ new things will add new possibilities between war and peace and it will
 increase possibilities to act before war and to avoid conventional
 warfare (Ahvenainen, January 2000).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Finally, to achieve victory in information warfare, the central issue is
 the control of information. Such as, Chinese approaches to use old
 tactics and strategies to win victory in information warfare and Russia
 is educating talented people and facilities to produce high quality
 cyber warriors for state, private business and crime.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Reference&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Ahvenainen, S. (January 2000). ABOUT INFORMATION WARFARE. Finland:
 Finnish Defence Forces, Lt.Col (Ret.).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Anderson, R. (The first edition 2001). Chapter16: Electronic and
 Information Warfare. In R. Anderson, Security Engineering (p.
 Chapter16). Cambridge: University of Camrbidge.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;(Apr-Jun 1999). Journal of the Signapore armed forces.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Bowdish, R. G. (December1998 – February 1999). Information-Age
 Psychological Operations. USA: US Navy.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Cronin, A., &amp;amp; James , M. (2004). Four Waves of Modern Terrorism.
 Washington DC: Georgetown University Press: Rapoport.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;DJIM. (Volume 4 – Spring 2009). Information Warfare — Doing Battle in
 the 21st Century.
 &lt;a href="http://djim.management.dal.ca/"&gt;djim.management.dal.ca&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Gray, C. S. (April 2002). DEFINING AND ACHIEVING DECISIVE VICTORY. USA:
 Strategic Studies Institute.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Hammes, C., &amp;amp; T., X. (July-August 2006). Countering Evolved Insurgent
 Networks. Military Review.&lt;/p&gt;
 &lt;/p&gt;</content><category term="pages"></category><category term="art of war"></category><category term="cyber crime"></category><category term="cyber war"></category><category term="history"></category><category term="Information"></category><category term="information warfare"></category><category term="network crime"></category><category term="society"></category><category term="warfare"></category></entry></feed>

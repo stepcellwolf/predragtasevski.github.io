@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Predrag TASEVSKI - Pece - binary</title><link href="https://predragtasevski.com/" rel="alternate"></link><link href="https://predragtasevski.com/feeds/tag/binary.atom.xml" rel="self"></link><id>https://predragtasevski.com/</id><updated>2012-09-30T23:00:00+02:00</updated><entry><title>Analyses of Malware Files</title><link href="https://predragtasevski.com/posts/2012/09/analyses-of-malware-files/" rel="alternate"></link><published>2012-09-30T23:00:00+02:00</published><updated>2012-09-30T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-09-30:/posts/2012/09/analyses-of-malware-files/</id><summary type="html">&lt;h1&gt;PURPOSE&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The main goal of laboratory report is to identify three analyses of
 malware files from the archive file send by the lecture. The archive
 contains 89 malware files. The way how we choice 3 files is by following
 algorithm:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;Soft them by name&lt;/li&gt;
 &lt;li&gt;First use last number of your …&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;h1&gt;PURPOSE&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The main goal of laboratory report is to identify three analyses of
 malware files from the archive file send by the lecture. The archive
 contains 89 malware files. The way how we choice 3 files is by following
 algorithm:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;Soft them by name&lt;/li&gt;
 &lt;li&gt;First use last number of your student code + your birthday day&lt;/li&gt;
@@ -28,14 +24,11 @@ algorithm:&lt;/p&gt;
     first or second number use it.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Malware archive can be download from the following link: [unfortunatly
 not available anymore]&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;&lt;em&gt;WARNING FILE CONTAINS LIVE VIRUSES&lt;/em&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Task that need to be complete for this laboratory assignment:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -89,7 +82,6 @@ is not&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Firstly, we are going to analyse the chosen files in section Chosen
 files and each file with the above required information and detail
 analysis results, links to disinfecting instructions, analysis tools
@@ -100,29 +92,23 @@ has been used for this laboratory report. Because we know that if we
 open this file in our real machine we will get infected. That is why we
 are using an Linux virtual environment.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Furthermore, each file will be analysed with two different tools, in
 case to gather more information and solution for disinfecting process.
 Finally the conclusion made of all collected data will be concise in
 conclusion section.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;CHOSEN FILES&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Number of files are listed bellow and the name of the file that is going
 to be analysed:&lt;/p&gt;
 &lt;p&gt;​1. Number: 71; File name: &lt;code&gt;sales.exe; Size: 454.7 KB&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;​2. Number: 57; File name: &lt;code&gt;mgre.exe; Size: 61.4 KB&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;​3. Number: 60; File name: &lt;code&gt;moos3.ee; Size: 91.6 KB&lt;/code&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h2&gt;FILE 1&lt;/h2&gt;
 &lt;/p&gt;
-
 &lt;p&gt;File name: &lt;code&gt;sales.exe; Size: 454.7 KB;&lt;/code&gt; Number: 71.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     MD5: 093e72cbc78b46e977561c5874cfab4cSHA1 Hash: e79a730b01b6689c336138f39c79fbd2ea45b6c1SSDeep Hash: 12288:2Pqr7eKhHvZ3NSYqHMsD+vgp0pQe1lhJ:283vhN1qHMsD+Ip8QEz
@@ -130,39 +116,31 @@ to be analysed:&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;Links to analyse report:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="http://www.netscty.com/report/690/e12093ea-3ae7-4fac-a%20218-5721b1aabded-347"&gt;http://www.netscty.com/report/690/e12093ea-3ae7-4fac-a
     218-5721b1aabded-347&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://www.virustotal.com/file-scan/report.html?%20id=6f47a1f72fa005900f40803ede1a2a55167e641011271b49543eef748ffcb5a1-%201318408947#"&gt;http://www.virustotal.com/file-scan/report.html?id=6f47a1f72fa005900f40803ede1a2a55167e641011271b49543eef748ffcb5a1-1318408947#&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The above malware file has been reported that is capable to send out
 e-mail message with the built in SMTP client engine. Second, it contains
 characteristics of Waledac, a worm that spreads by sending an e-mail
 containing links to copies of itself. And finally, creates a startup
 registry entry.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Links provided, are demonstrating which anti virus software/application
 can disinfected the malware infection.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Tools for analysing the malware are:&lt;/p&gt;
 &lt;p&gt;​1. Netscty – Online Sandbox: &lt;a href="http://netscty.com/malware-tool"&gt;http://netscty.com/malware-tool&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;​2. Virustotal.com – &lt;a href="http://www.virustotal.com/index.html"&gt;http://www.virustotal.com/index.html&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h2&gt;FILE 2&lt;/h2&gt;
 &lt;/p&gt;
-
 &lt;p&gt;File name: &lt;code&gt;mgre.exe; Size: 61.4 KB;&lt;/code&gt; Number: 57.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     MD5: 1375a8e437db6acafe2b0419cfbff7ecSHA1:b48f702a5a0fa8558c278dd97ecfbd0d637fefd3SHA256: 89294d70e80547aac5b506915d2e8fc0309c0e578ab16fc9875c9a4668e63709
@@ -170,19 +148,16 @@ can disinfected the malware infection.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;Links to analyse report:&lt;/p&gt;
 &lt;p&gt;​1.
 &lt;a href="http://camas.comodo.com/cgi-bin/submit?%20file=89294d70e80547aac5b506915d2e8fc0309c0e578ab16fc9875c9a4668e63709"&gt;http://camas.comodo.com/cgi-bin/submit?file=89294d70e80547aac5b506915d2e8fc0309c0e578ab16fc9875c9a4668e63709&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;​2.
 &lt;a href="http://wepawet.iseclab.org/view.php?%20hash=1375a8e437db6acafe2b0419cfbff7ec&amp;amp;type=js"&gt;http://wepawet.iseclab.org/view.php?hash=1375a8e437db6acafe2b0419cfbff7ec&amp;amp;type=js&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;From above analysed links we can conclude that the file creates keys, it
 changes values in registry, it change only one file, creates process
 called sample.exe and adds value to the modules.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The links do not show any way of disinfecting the following malware
 file. My personal opinion of the above links is good that they can show
 you that this file is malware, but still they do not show you enough
@@ -190,22 +165,17 @@ information. Which can help you for further instructions and actions
 that should be consider. Not even providing you an information or links
 which anti virus software can help you.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Tools for analysing the malware are:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;Comodo Instant Malware Analysis – &lt;a href="http://camas.comodo.com/"&gt;http://camas.comodo.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Wepawe – &lt;a href="http://wepawet.iseclab.org/"&gt;http://wepawet.iseclab.org/&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/p&gt;
-
 &lt;h2&gt;FILE 3&lt;/h2&gt;
 &lt;/p&gt;
-
 &lt;p&gt;File name: &lt;code&gt;moos3.exe; Size: 91.6 KB;&lt;/code&gt; Number: 60.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     MD5: 4ddade6548142d5fd5b742f34b71e1daSHA-1: 5345bdd52591b0fcd8e9a81fed7a7b588e24a15d
@@ -213,42 +183,34 @@ which anti virus software can help you.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;Links to analyse report:&lt;/p&gt;
 &lt;p&gt;​1.
 &lt;a href="http://anubis.iseclab.org/?%20action=result&amp;amp;task_id=13e22805d763a08d4d158904eae5e709d&amp;amp;format=html"&gt;http://anubis.iseclab.org/?action=result&amp;amp;task_id=13e22805d763a08d4d158904eae5e709d&amp;amp;format=html&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;​2.
 &lt;a href="http://www.threatexpert.com/report.aspx?%20md5=4ddade6548142d5fd5b742f34b71e1da"&gt;http://www.threatexpert.com/report.aspx?md5=4ddade6548142d5fd5b742f34b71e1da&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The malware file, contains characteristics of an identified security
 risk. Possible security risk is Backdoor.Agent.AJU [Backdoor.Agent.AJU].
 The threat category is network-aware worm and malicious trojan horse.
 Its modifying file system, memory and registry. The origin of this
 malware indicates possible country, Russian Federation.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;From the reports we can conclude that most of the known anti virus
 software has hit of this malware infection and it can disinfected.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Tools for analysing the malware are:&lt;/p&gt;
 &lt;p&gt;​1. Anubis: Analyzing Unknown Binaries – &lt;a href="http://anubis.iseclab.org/"&gt;http://anubis.iseclab.org/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;​2. ThreatExpert – &lt;a href="http://www.threatexpert.com/"&gt;http://www.threatexpert.com/&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;ANALYSIS&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The web tool that we have used to analysis three of random chosen files
 are listed bellow.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Moreover, we will compare each one of those service, what kind of
 information they show, provide and do they supply with disinfected
 solution, if so how, and why not.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;Netscty – Online Sandbox: &lt;a href="http://netscty.com/malware-tool"&gt;http://netscty.com/malware-tool&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Virustotal.com – &lt;a href="http://www.virustotal.com/index.html"&gt;http://www.virustotal.com/index.html&lt;/a&gt;&lt;/li&gt;
@@ -258,12 +220,10 @@ solution, if so how, and why not.&lt;/p&gt;
 &lt;li&gt;ThreatExpert – &lt;a href="http://www.threatexpert.com/"&gt;http://www.threatexpert.com/&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/p&gt;
-
 &lt;p&gt;To compare our results from the above list of online analysing tools I
 have setup an score from 1 to 5 of each section. Where the highest score
 is better solution. With the following attributes:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;table&gt;
 &lt;/p&gt;
 &lt;p&gt;
@@ -490,17 +450,13 @@ ThreatExpert
 &lt;/p&gt;
 &lt;p&gt;
 &lt;/table&gt;
-
 &lt;/p&gt;
-
 &lt;p&gt;The above table give as an perfect over view, which tool is easy to use,
 provides enough information, disinfected information and gain the
 highest mark.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;CONCLUSION&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;I would like to generalize that from the above information we see that
 each online analysing tool has own means, criteria and different
 information to distribute. On the whole, some of them were not that easy
@@ -512,7 +468,6 @@ in the previous section. For furthermore, please refer to the following
 article that was publish in 2010 by Lenny Zeltser
 [MalwareAnalysisToolkit].&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;In summary, we found out that the chosen files are malware. Likewise,
 can harm our computer in different methods. Yet we got an information
 for some, for instance how to disinfected the computer. Therefore, we
@@ -521,16 +476,12 @@ malware. Where total number is 6 tools, and different score rank. The
 first one is TheratExpert, secondly is Virustotal.com and the third is
 Netscty. Still all of mentioned tools score difference with one point.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;APPENDIXES&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Appendix 1 is configuration of the virtual environment.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h2&gt;APPENDIX 1&lt;/h2&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     Virtual environment: Oracle VirtualBox Version 4.1.2 r73507. Downloadable from the following link: https://www.virtualbox.org/wiki/DownloadsSecurity Fedora 14 32 bit – Client: http://spins.fedoraproject.org/security/• Base Memory: 512 MB• Acceleration: VT-x/AMD-V, Nested Paging• Display – Video memory: 12 MB• Storage: SATA Controller, Port 0: 8 GB• Network:◦ Adapter 1: Adapter 1: Parvirtualized Network (NAT)◦ Adapter 2: Adapter 2: Inter PRO/1000 MT Desktop (Host-only adapter, VirtualBox Host- Only Enternet Adapter)
@@ -538,26 +489,21 @@ Netscty. Still all of mentioned tools score difference with one point.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;h1&gt;Bibliography&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Backdoor.Agent.AJU: ThreatExpert, ThreatExpert’s Statistics for
 Backdoor.Agent.AJU [PC Tools], 2011,
 &lt;a href="http://www.threatexpert.com/threats/backdoor-agent-aju.html"&gt;http://www.threatexpert.com/threats/backdoor-agent-aju.html&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;MalwareAnalysisToolkit: Lenny Zeltser, 5 Steps to Building a Malware
 Analysis Toolkit Using Free Tools, January 2010,
 &lt;a href="http://zeltser.com/malware-analysis-toolkit/"&gt;http://zeltser.com/malware-analysis-toolkit/&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;</content><category term="pages"></category><category term="malware"></category><category term="online"></category><category term="security"></category><category term="binary"></category><category term="malicious code"></category></entry><entry><title>Mobile Malware Analysis</title><link href="https://predragtasevski.com/posts/2012/01/mobile-malware-analysis/" rel="alternate"></link><published>2012-01-17T00:00:00+01:00</published><updated>2012-01-17T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-01-17:/posts/2012/01/mobile-malware-analysis/</id><summary type="html">&lt;h1&gt;PURPOSE&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The goal of this post is to identify and analyze mobile malware file:
 &lt;a href="https://sim.cert.ee/hw/mmc.jar"&gt;mmc.jar&lt;/a&gt;. Thereby please follow the
 following steps for completing the task:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Unpack the file (hint – using zip on .jar)&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Examine .class files using tool available
@@ -567,12 +513,10 @@ following steps for completing the task:&lt;/p&gt;
     &lt;a href="https://sim.cert.ee/hw/jd-gui-0.3.3.windows.zip"&gt;Win&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Find …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;PURPOSE&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The goal of this post is to identify and analyze mobile malware file:
 &lt;a href="https://sim.cert.ee/hw/mmc.jar"&gt;mmc.jar&lt;/a&gt;. Thereby please follow the
 following steps for completing the task:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Unpack the file (hint – using zip on .jar)&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Examine .class files using tool available
@@ -586,7 +530,6 @@ following steps for completing the task:&lt;/p&gt;
     IDE&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Firstly, we are going to analysis the Java source code after
 decompilation. The accent is to find the code that is sending an SMSes
 using the ‘sms://’ URL. After identifying the linking associated classes
@@ -594,20 +537,16 @@ we have to compile the code to move toward to final results of URLs. For
 this purpose we are using the developing tool &lt;a href="http://www.eclipse.org/downloads/"&gt;Eclipse
 IDE&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Therefore, the results and the sent SMSes URLs are going to be presented
 into conclusion section. Which will complete the task and will yield the
 basic analysis of mobile malware file.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;ANALYSIS&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;After running the decompiler tool we are examining and analyzing the
 Java source code. Whereby on the source code on the class M.class line
 343 we have found the following source code:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     if ((i &amp;gt;= 35)  (SM.isSending != true)  (i % 6 == 0) (f &amp; count_query)) {  if (SM.GS()) f += 1;   if (f == 1) {            RS.L(rs);            RS.L("Slide");            rs = RS.j("Slide");            game = RS.L(rs, Integer.toString((int)(System.currentTimeMillis() / 1000L)));            RS.L(rs);   }if (f &amp;lt; count_query) {  game = SM.send("sms://" + ms[1][b], ms[2][b]); // sms://  if (b == count_query) b = 1; else b += 1;}
@@ -615,11 +554,9 @@ Java source code. Whereby on the source code on the class M.class line
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;The above code is associated with the class SM.class. With the following
 source code:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     public static int send(String s, String s1){   if (isSending) return 0;      new SM(s, s1);   return -1;}public SM(String s, String s1) { success = false; isSending = true; this.destination = s; this.message = s1; try {      Thread thread = new Thread(this);      thread.start(); } catch (Exception exception) { isSending = false;}
@@ -627,22 +564,18 @@ source code:&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;The above code is checking if the message and the destination is
 correct  &lt;/p&gt;
 &lt;p&gt;and if the message is sent. Coloration is more like the first public
 static method named &lt;em&gt;send&lt;/em&gt; with the two string values of &lt;em&gt;s&lt;/em&gt; and &lt;em&gt;s1&lt;/em&gt;.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;All the above extraction was finished by JD-Gui version 0.3.3 and
 JD-Core version 0.6.0 and using the menu bar for search, with the
 criteria that will meet our needs.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The bellow are executable results presented, done by eclipse after
 compiling the code:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     /0SIF|6XI8ULE|YNLD5QDA6WM|YJ90RL/+WPJDAFY2 DC3QJ/+3RKA/5YPA0MD-5QFDwhile 7375/88600168904|7202/65510006691|1899/FTEME 1283|8385/88600168904|1 162 333 494 667375 88600168904 //sms://73757202 65510006691 //sms://72021899 fteme 1283 //sms://18998385 88600168904 //sms://8385decoded367375 88600168904427202 65510006691481899 fteme 128354
@@ -650,14 +583,11 @@ compiling the code:&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;From the above presented results after compiling the code we have
 identify the number of SMSes URLs and in addition the exact URLs.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;CONCLUSION&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;We live in a world where nowadays for everyday work, communication, etc.
 the most essentially tool is our mobile phones, smart phones, etc. We
 used them for communication, sending SMS, playing games, checking
@@ -670,12 +600,10 @@ for mobile phones. However, this is only a basic, and a good guide to
 give you an idea of what kind of tools, applications you should have.
 This task is done only for a Java source code mobile malware game.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Furthermore, from the above section we have identify the number of SMSes
 that are sent and to what numbers. The total number of SMSes is 4 and
 sent to the following URLs:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     sms://7375sms://7202sms://1899sms://8385
@@ -683,16 +611,13 @@ sent to the following URLs:&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;Finally, mobile malware is rising and it is about to explode, therefore
 users need education[1]. By delivering basic and advance mobile malware
 security awareness program we will have less malware attacks and better
 security policy into everyday mobile, smart phones usage.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Bibliography&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[1] Chris Martin, Mobile malware is about to explode, users need
 education, 20 Jan. 2012,
 &lt;a href="http://www.theinquirer.net/inquirer/opinion/2140338/mobile-malware-explode-users-education"&gt;http://www.theinquirer.net/inquirer/opinion/2140338/mobile-malware-explode-users-education&lt;/a&gt;&lt;/p&gt;

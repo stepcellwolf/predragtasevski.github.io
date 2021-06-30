@@ -1,40 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Predrag TASEVSKI - Pece - malicious analysis</title><link href="https://predragtasevski.com/" rel="alternate"></link><link href="https://predragtasevski.com/feeds/tag/malicious-analysis.atom.xml" rel="self"></link><id>https://predragtasevski.com/</id><updated>2012-03-02T00:00:00+01:00</updated><entry><title>Virtual Machine Malware / Malicious Analysis</title><link href="https://predragtasevski.com/posts/2012/03/virtual-machine-malware-malicious-analysis/" rel="alternate"></link><published>2012-03-02T00:00:00+01:00</published><updated>2012-03-02T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-03-02:/posts/2012/03/virtual-machine-malware-malicious-analysis/</id><summary type="html">&lt;h1&gt;INTRODUCTION&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The main goal of laboratory report is to identify possible infection of
 two Windows 7 virtual machine. Virtual machines presented by the
 lecture:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Win 1&lt;/li&gt;
 &lt;li&gt;Win 2&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The assignment is following:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Find out what is infecting the machine win1&lt;/li&gt;
 &lt;li&gt;Understand which way is the current malware dangerous to “your …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;INTRODUCTION&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The main goal of laboratory report is to identify possible infection of
 two Windows 7 virtual machine. Virtual machines presented by the
 lecture:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Win 1&lt;/li&gt;
 &lt;li&gt;Win 2&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The assignment is following:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Find out what is infecting the machine win1&lt;/li&gt;
 &lt;li&gt;Understand which way is the current malware dangerous to “your
@@ -44,10 +36,8 @@ lecture:&lt;/p&gt;
 &lt;li&gt;If needed, do clean win2&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Additionally, deliverable questions should be visible:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Summary – Your thoughts about the exercise. Please provide a short&lt;/li&gt;
 &lt;li&gt;Malware that infects machines&lt;/li&gt;
@@ -63,11 +53,9 @@ lecture:&lt;/p&gt;
 &lt;li&gt;How would you evaluate your partner.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Moreover, we have to consider the malware analysis report reminders,
 please refer to [1] or [2].&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Furthermore, each virtual machine will be analysed with different tools,
 in case to gather more information and solution for disinfecting
 process. Structure of the laboratory report is first to present each
@@ -76,27 +64,21 @@ Each visualization is examined. Malware and disinfection process are
 described. Meanwhile in appendices, we explain what virtual  environment
 and tools we have used for this written report.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Finally the conclusion made of all analysis will be concise in summary
 section.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;VIRTUAL MACHINE’s&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;In this section each virtual machines are going to be examine in
 sub-sections, analysis  and additionally the disinfection solutions,
 etc. will be presented. The tools that are used for conducting the
 analysis are presented in the Tools section.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h2&gt;Win1&lt;/h2&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Intense detail information are highlighted bellow and MD5 sum for Win1
 virtual box machine:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     OS: Ms Windows 7 ProfessionalVersion: 6.1.7601 Service Pack 1 Build 7601System type: 32 bitComputer name: DoeMUsers Names:- Jane Doe- Jhon DoeMD5 Sum: 6313cf7303de37ba62aadf5208b6ea78
@@ -104,10 +86,8 @@ virtual box machine:&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;h3&gt;Analysis&lt;/h3&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The analysis starts firstly from the observations, then with an
 supporting figures, sample of identification, are there any dependencies
 and in closer with summary of the analysis. From analysis with a
@@ -118,7 +98,6 @@ this analysis it is not enough so therefore we will do more inside
 investigation to come-out with the hosts or network that the malicious
 code is trying to access, or an information that is shared.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;To be able to identify the behaviour of a network we have used the
 Wireshark tool. Bellow are highlighted the steps: Network adapter type:
 NAT, logged in as: John Doe, additionally Wireshark run as
@@ -127,7 +106,6 @@ is Notepad. No additional network activities from log-in user, also no
 network activities from user on Host System. Wireshark, it detected
 suspicious traffic:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;Classification: BAD TCP (according to Wireshark coloring rules),
     Destination: 192.168.0.254 / 8.8.4.4 (Googne Public DNS) with
@@ -150,23 +128,18 @@ suspicious traffic:&lt;/p&gt;
     ACK. Session was finished.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The session was repeated once in 3 minutes and received line-based text
 data, for all sessions was the same. For illustration please refer to
 the following link for more details of pcap life of wireshark:
 &lt;a href="http://bit.ly/mDdqAQ"&gt;http://bit.ly/mDdqAQ&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Additional log files and screen shots are presented bellow during the
 analysis with other tools that are listed in the sections of tools.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Illustration 1: TCPView tool, YGLA.ru access to domain&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Furthermore, log illustration of hijackThis tool:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     Logfile of Trend Micro HijackThis v2.0.4Scan saved at 20:35:44, on 27.11.2011Platform: Windows 7 SP1 (WinNT 6.00.3505)MSIE: Internet Explorer v8.00 (8.00.7601.17514)Boot mode: NormalRunning processes:C:\Windows\system32\taskhost.exeC:\Windows\system32\Dwm.exeC:\Windows\Explorer.EXEC:\Windows\System32\VBoxTray.exeC:\Windows\system32\SearchProtocolHost.exeC:\Windows\system32\taskmgr.exeC:\Users\Jhon Doe\Desktop\HijackThis.exeR1 - HKCU\Software\Microsoft\Internet Explorer\Main,Search Page = http://go.microsoft.com/fwlink/?LinkId=54896R0 - HKCU\Software\Microsoft\Internet Explorer\Main,Start Page = about:blankR1 - HKLM\Software\Microsoft\Internet Explorer\Main,Default_Page_URL = http://go.microsoft.com/fwlink/?LinkId=69157R1 - HKLM\Software\Microsoft\Internet Explorer\Main,Default_Search_URL = http://go.microsoft.com/fwlink/?LinkId=54896R1 - HKLM\Software\Microsoft\Internet Explorer\Main,Search Page = http://go.microsoft.com/fwlink/?LinkId=54896R0 - HKLM\Software\Microsoft\Internet Explorer\Main,Start Page = http://go.microsoft.com/fwlink/?LinkId=69157R0 - HKLM\Software\Microsoft\Internet Explorer\Search,SearchAssistant =R0 - HKLM\Software\Microsoft\Internet Explorer\Search,CustomizeSearch =R0 - HKCU\Software\Microsoft\Internet Explorer\Toolbar,LinksFolderName =F3 - REG:win.ini: load=C:\Users\JHONDO~1\LOCALS~1\Temp\5b17fff70008a4e8.exeO4 - HKLM\..\Run: [VBoxTray] C:\Windows\system32\VBoxTray.exeO23 - Service: FJOSKX - Sysinternals - www.sysinternals.com -C:\Users\JHONDO~1\AppData\Local\Temp\FJOSKX.exeO23 - Service: Remote Packet Capture Protocol v.0 (experimental) (rpcapd) - CACETechnologies, Inc. - C:\Program Files\WinPcap\rpcapd.exeO23 - Service: SUUKATRPY - Sysinternals - www.sysinternals.com -C:\Users\JHONDO~1\AppData\Local\Temp\SUUKATRPY.exeO23 - Service: VirtualBox Guest Additions Service (VBoxService) - Oracle Corporation -C:\Windows\system32\VBoxService.exe
@@ -174,7 +147,6 @@ analysis with other tools that are listed in the sections of tools.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;Alternatively, we turn to Process Explorer and Process Monitor from
 Sysinternals. In spite of comprehensive information and some suspicious
 activities, these tools were unable to show direct link to malware. We
@@ -187,30 +159,25 @@ reason to think it’s malware. Additional information provided by
 Security Task Manager: Company: Not provided; Type: Program. Hidden;
 Starts: when Windows starts and Registry: win.ini.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Meanwhile, for advance analysis we have conduct with clean boot which is
 explained into the KB article in the following
 link:&lt;a href="http://support.microsoft.com/kb/929135"&gt;http://support.microsoft.com/kb/929135&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Now we run the wireshark analysis network tool, where no more suspicious
 network traffic is identified. This means that the malicious code is
 running from 3rd party applications and not from Microsoft services or
 process.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Likelihood, to be able to identify the malicious code, threads in
 virtual machine, we recommend to run an online free virus scanning. Thus
 process is done by ESET free online tool scanning, refer to the
 following link:
 &lt;a href="/http://www.eset.com/us/online-scanner/"&gt;http://www.eset.com/us/online-scanner/&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The aim of this step is to help to identify if the threads have been
 registered in to the virus signature database. If so, this will be a
 useful information and will assist to continue with analysis.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     Eset Online scanner, found 20 threads:C:\$Recycle.Bin\S-1-5-21-1301155936-2652204530-896827088-1000\$RIZWMML\spyeye-1.2.60\c39bb188f2ac6534e75c6d961b9a78a2 Win32/Spy.SpyEye.BY trojan cleaned by deleting - quarantinedC:\$Recycle.Bin\S-1-5-21-1301155936-2652204530-896827088-1000\$RIZWMML\spyeye-1.2.99\92bf8b3eb04be42f6aba05d6b97e8f25 Win32/Spy.SpyEye.BY trojan cleaned by deleting - quarantinedC:\$Recycle.Bin\S-1-5-21-1301155936-2652204530-896827088-1000\$RIZWMML\spyeye-1.3.10\21da6142e3cd3979b7ef122ee638c78f a variant of Win32/Kryptik.MKM trojan cleaned by deleting - quarantinedC:\$Recycle.Bin\S-1-5-21-1301155936-2652204530-896827088-1000\$RIZWMML\spyeye-1.3.25\7822bbf0c8ea3e9a75a19e954a39d6c9 Win32/Spy.SpyEye.CA trojan cleaned by deleting - quarantinedC:\$Recycle.Bin\S-1-5-21-1301155936-2652204530-896827088-1000\$RIZWMML\spyeye-1.3.31\2bed4bbed303c91e2169b2f32db46acb.exe Win32/Spy.SpyEye.CA trojan cleaned by deleting - quarantinedC:\$Recycle.Bin\S-1-5-21-1301155936-2652204530-896827088-1000\$RIZWMML\spyeye-1.3.32\1686b7e48871dd715336c732cfc32c1d Win32/Spy.SpyEye.CA trojan cleaned by deleting - quarantinedC:\$Recycle.Bin\S-1-5-21-1301155936-2652204530-896827088-1000\$RIZWMML\spyeye-1.3.34\b2c3acf99f68c42626cf345b74095d51 a variant of Win32/Spy.SpyEye.CA trojan cleaned by deleting - quarantinedC:\$Recycle.Bin\S-1-5-21-1301155936-2652204530-896827088-1000\$R387J1S IRC/SdBot trojan cleaned by deleting - quarantined C:\$Recycle.Bin\S-1-5-21-1301155936-2652204530-896827088-1000\$R6TYLIY a variant of Win32/Kryptik.KUQ trojan cleaned by deleting - quarantinedC:\$Recycle.Bin\S-1-5-21-1301155936-2652204530-896827088-1000\$R8Y8LWG Win32/Pepex.E worm cleaned by deleting - quarantinedC:\$Recycle.Bin\S-1-5-21-1301155936-2652204530-896827088-1000\$RD4Q6CZ Win32/AutoRun.IRCBot.FC worm cleaned by deleting - quarantinedC:\$Recycle.Bin\S-1-5-21-1301155936-2652204530-896827088-1000\$RI87EEE Win32/AutoRun.KS worm cleaned by deleting - quarantinedC:\$Recycle.Bin\S-1-5-21-1301155936-2652204530-896827088-1000\$RIJ4S9U a variant of Win32/Kryptik.KUQ trojan cleaned by deleting - quarantinedC:\$Recycle.Bin\S-1-5-21-1301155936-2652204530-896827088-1000\$ROFILPO probably a variant of Win32/Autorun.MHBFUDT worm cleaned by deleting - quarantinedC:\$Recycle.Bin\S-1-5-21-1301155936-2652204530-896827088-1000\$RQNEZXA Win32/Pepex.F worm cleaned by deleting - quarantinedC:\$Recycle.Bin\S-1-5-21-1301155936-2652204530-896827088-1000\$RU9MNXT IRC/SdBot trojan cleaned by deleting - quarantinedC:\$Recycle.Bin\S-1-5-21-1301155936-2652204530-896827088-1000\$RY4NX2I IRC/SdBot trojan cleaned by deleting - quarantinedC:\$Recycle.Bin\S-1-5-21-1301155936-2652204530-896827088-1000\$RY6CB6A Win32/AutoRun.KS worm cleaned by deleting - quarantinedC:\Bios.Bin\Bios.Bin.exe a variant of Win32/Injector.FPL trojan cleaned by deleting - quarantinedC:\Users\Public\Videos\Sample Videos\moos.exeIRC/SdBot trojan cleaned by deleting - quarantined
@@ -218,11 +185,9 @@ useful information and will assist to continue with analysis.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;Each virus definition is presented bellow in the following table with
 the description link:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;table&gt;
 &lt;/p&gt;
 &lt;p&gt;
@@ -435,9 +400,7 @@ Win32/Injector.FPL
 &lt;/p&gt;
 &lt;p&gt;
 &lt;/table&gt;
-
 &lt;/p&gt;
-
 &lt;p&gt;From the above table we can come to the conclusive proof that total sum
 number of malicious code running in the virtual machine are 20, with an
 9 different definitions of trojan, warms, etc. However, most of them
@@ -446,10 +409,8 @@ packets with Wireshark showed that Win1 has some malware, which sent and
 received some information over network without knowledge of the
 user. Destination IP addresses, names and port numbers were suspicious.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h3&gt;Disinfection&lt;/h3&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Indeed, this virtual machine it is infected. Therefore we have to
 perform an disinfection process. However, from the above table of the
 links it provides an solution and steps that should be followed for
@@ -462,7 +423,6 @@ use the Eset scanner tool that we have performed previously.
 Nevertheless, to be sure and more save way is to do the removing process
 manually.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Therefore, recommendation for deleting the malicious code of all time
 from virtual machine is eraser tool. You need to configure task and
 which folders or files you specify to be removed. After the task was
@@ -470,14 +430,11 @@ completed, restart the machine and now the system should be disinfected
 and additional we recommend to run the Eset online scanner free tool
 one more time, just in case in a meaner of your organization.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h2&gt;Win2&lt;/h2&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Intense detail information are highlighted bellow and MD5 sum for Win2
 virtual box machine:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     OS: Ms Windows 7 ProfessionalVersion: 6.1.7601 Service Pack 1 Build 7601System type: 32 bitComputer name: DoeMUsers Names:- Jane Doe- Jhon DoeMD5 Sum: 155a5b9e8b842dff4aa5a7b4361113d3
@@ -485,10 +442,8 @@ virtual box machine:&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;h3&gt;Analysis&lt;/h3&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Despite the fact that Process Monitor, TCPView and other Sysinternals
 Suite analysis tools did not help us at all (also Wireshark did not
 detect any suspicious network activities), at this point, additionally
@@ -497,10 +452,8 @@ will be presented in figure 2. However by running the ESET online free
 scanner tool, it did detect in total three threads to our virtual
 machine, logs are presented bellow.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Eset Online Scanner, found 3 threads:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     C:\$Recycle.Bin\S-1-5-21-1301155936-2652204530-896827088-1001\$RKV8ZW1.exe Win32/Duqu.A trojanC:\Users\Jane\AppData\Local\Temp\0004fbd1.tmpa variant of Win32/Kryptik.VFI trojanC:\Users\Jane\AppData\Local\Temp\b01dffe3001c4fe2.exe Win32/TrojanDownloader.Agent.QXN trojan
@@ -508,7 +461,6 @@ machine, logs are presented bellow.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;Threads are located in to the system directory of Jane user name.
 Additionally, there is an other malicious code located into the Recycle
 bin as we were able to detect into the previous analysis for Win1
@@ -518,7 +470,6 @@ have as an local files. Therefore to be able to identify the above file
 and there integrity we have to sum the MD5 and SHA256 algorithms. For
 this action we are using an online tool winMd5Sum.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;table&gt;
 &lt;/p&gt;
 &lt;p&gt;
@@ -607,9 +558,7 @@ d9a874bf8d9f2f2ca803d38abd677ab51e77008b6cfbab37525dd28df71be107
 &lt;/p&gt;
 &lt;p&gt;
 &lt;/table&gt;
-
 &lt;/p&gt;
-
 &lt;p&gt;For advance analysis, we will run the MD5Sum into the
 &lt;a href="http://virustotal.com/"&gt;virustotal.com&lt;/a&gt; search to identify the threads.
 Indeed, all of the above have been reported previously as a malware.
@@ -617,7 +566,6 @@ Meanwhile, to gather better description of the above malicious codes we
 will search the definitions in the Eset database and descriptions
 provided in the following table.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;table&gt;
 &lt;/p&gt;
 &lt;p&gt;
@@ -706,12 +654,9 @@ Win32/TrojanDownloader.Agent.QXN
 &lt;/p&gt;
 &lt;p&gt;
 &lt;/table&gt;
-
 &lt;/p&gt;
-
 &lt;p&gt;Illustration 2: CaptureBAT, win2, registry changes&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Figure 2 is just a part of the log files that were able to be capture of
 the CaptureBAT tool, as we can see form the above that many changes were
 effected over the registries. Therefore, we need to run either an
@@ -720,18 +665,14 @@ with OllyDbg we can run the files and inspect there behaviour and if
 they have any additionally affect over the memory dump, etc. presented
 in figure 3.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Illustration 3: OllyDbg analysis, memory dump, system dll access, etc.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Nevertheless, because now we have the locations and the threads
 description it is next step to disinfected the system, yet it is still a
 big thread for the organization, etc.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h3&gt;Disinfection&lt;/h3&gt;
 &lt;/p&gt;
-
 &lt;p&gt;As on the previously scenario, we recommend either to use the Eset
 online free scanner or to use in more convinced way the Eraser tool, for
 removing the malicious code from the machine forever. Furthermore, to
@@ -739,28 +680,22 @@ just make sure that the above malicious code is removed, disinfected
 from our system still recommendations is to run the Eset tool for a
 second time, for double check the system.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;All the above files and threads could be a very harmful for the
 organization and for everyday production work. Therefore, advance
 analysis of the system it is always in hands to help us to protect our
 data, internet access, etc. of being leaked.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h2&gt;Tools&lt;/h2&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Tools that help for conducting the results are highlighted in this
 section. Those are just few of them that are available for this purpose.
 Nevertheless, we have use only the listed ones.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Tools and downloadable links:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;
 &lt;/p&gt;
-
 &lt;p&gt;CaptureBAT: &lt;a href="http://www.honeynet.org/node/315"&gt;http://www.honeynet.org/node/315&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;
@@ -781,28 +716,23 @@ Sysinternals Suite:
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;p&gt;However, there are many other tools that can be used. Recent papers,
 tutorials can help us for further action, please refer to [3] [4] [5]
 [6].&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;SUMMARY&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Nowadays malicious codes, infection of the system is one of the highest
 vector of production work everyday of the organizations. Therefore,
 different approaches, advance analysis, troubleshooting, etc. has to be
 applicable and stated in every organization.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Leaking of data, information, access of network (internal and external)
 can be very harmful for organization and even the home usage of
 computers. Therefore, this laboratory report main aim is to provide the
 reader to be able to conduct advance analysis of system and their
 disinfection.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;From the two scenarios, virtual machine environments we came to final
 consistent conclusion that both of them are infected. Yet different
 threads were able to be found in the systems. However analysis is done
@@ -811,7 +741,6 @@ solutions how and what kind of actions should be considered for
 future disinfection of the system. Moreover, in next lines we are
 stating the summary of each infected machine.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Firstly, Win1 was infected with identified 20 threads, with other words
 in total of 9 different definitions of trojan, malware, warms code. The
 definition of the threads were advance, where from the links provided in
@@ -827,7 +756,6 @@ malicious code, user name: John Doe. Nevertheless, disinfecting process
 helped us to remove the code from the system and just in case we have
 run in second time the Eset online scanner tool.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Secondly, Win2 was indeed infected too. In spite of the scenario one,
 this was less infected. The total sum of the threads were 3. Each of
 them were supply by the administrator user account: Jane Doe. The
@@ -841,7 +769,6 @@ location of the files were accessible therefore we provide an addition
 MD5sum and SHA256 for each file, were it help us to identify them in
 &lt;a href="http://virustotal.com/"&gt;virustotal.com&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Finally, the both virtual box were infected with different malicious
 code. Advance disinfection procedures were necessary to troubleshoot and
 find the solution to make the hence system for being able to use it in
@@ -854,36 +781,28 @@ the threads in a system and to perform an disinfection. Additional the
 tutorials, stepwise solutions were provided as a reference where can
 guide for more advance troubleshooting.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Closing, as there are many different ways, tools, process for analysing
 the malicious code behaviours in system this laboratory report is
 supplying the reader with advance and stepwise solution for identifying
 the infection of the system. The above procedure can be applied into
 real time, everyday working machine.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;WORKLOAD&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;We analysed both Win1 and Win2 on our computers. Virtualization
 environment for both host systems were the same. Each of us analyzed
 Win1 and Win2. First we analyzed Win1 and then Win2. So the group
 analyzed each of Virtual Machines (Win1 and Win2) two times.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;In such way we cross-referenced the analysis results and got more
 reliable information about the system and its infection.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;APPENDIXES&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Appendix 1 is configuration of the virtual environment.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h2&gt;APPENDIX 1&lt;/h2&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Virtual environment: Oracle VirtualBox Version 4.1.2 r73507.
 Downloadable from the following link:
 &lt;a href="https://www.virtualbox.org/wiki/Downloads"&gt;https://www.virtualbox.org/wiki/Downloads&lt;/a&gt;&lt;/p&gt;
@@ -891,31 +810,24 @@ Downloadable from the following link:
 &lt;/p&gt;&lt;/p&gt;
 &lt;h1&gt;Bibliography&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[1] Lenny Zeltser, Reverse-Engineering: Malware Analysis Tools and
 Techniques Training, 2011, &lt;a href="http://zeltser.com/reverse-malware/"&gt;http://zeltser.com/reverse-malware/&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[2] Lenny Zeltser, Malware analysis report reminders, 2011,
 &lt;a href="http://zeltser.com/reversemalware/malware-analysis-report-template.mm"&gt;http://zeltser.com/reversemalware/malware-analysis-report-template.mm&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[3] Lenny Zeltser, Introduction to malware Analysis, 2010,
 &lt;a href="http://zeltser.com/reverse-malware/introto-malware-analysis.pdf"&gt;http://zeltser.com/reverse-malware/introto-malware-analysis.pdf&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[4] Michael Kassner, 10 ways to detect computer malware, 2009,
 &lt;a href="http://www.techrepublic.com/blog/10things/10-ways-to-detect-computer-malware/970"&gt;http://www.techrepublic.com/blog/10things/10-ways-to-detect-computer-malware/970&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[5] Michael Kassner, 10 more ways to detect computer malware, 2009,
 &lt;a href="http://www.techrepublic.com/blog/10things/10-more-ways-to-detect-computer-malware/1069"&gt;http://www.techrepublic.com/blog/10things/10-more-ways-to-detect-computer-malware/1069&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[6] Andrew Brandt, Security Tips: Identify Malware Hiding in Windows’
 System Folders, 2005,
 &lt;a href="http://www.pcworld.com/article/120795-3/security_tips_identify_malware_hiding_in_windows_system_folders.html"&gt;http://www.pcworld.com/article/120795-3/security_tips_identify_malware_hiding_in_windows_system_folders.html&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The above post is written by Predrag Tasevski and Mikheil Basilaia.&lt;/p&gt;
 &lt;/p&gt;</content><category term="pages"></category><category term="malicious analysis"></category><category term="malware"></category><category term="malware analysis"></category><category term="virtual machine"></category><category term="virtual machine analysis"></category></entry></feed>

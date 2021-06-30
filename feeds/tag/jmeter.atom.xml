@@ -1,29 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Predrag TASEVSKI - Pece - jmeter</title><link href="https://predragtasevski.com/" rel="alternate"></link><link href="https://predragtasevski.com/feeds/tag/jmeter.atom.xml" rel="self"></link><id>https://predragtasevski.com/</id><updated>2012-03-23T00:00:00+01:00</updated><entry><title>Clever solution by making site more resilient by optimization</title><link href="https://predragtasevski.com/posts/2012/03/clever-solution-by-making-site-more-resilient-by-optimization/" rel="alternate"></link><published>2012-03-23T00:00:00+01:00</published><updated>2012-03-23T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-03-23:/posts/2012/03/clever-solution-by-making-site-more-resilient-by-optimization/</id><summary type="html">&lt;h1&gt;PURPOSE &amp;amp; SCENARIO&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The objective of this laboratory test, scenario is to make explore
 alternative “clever” solutions (as opposed to making the site more
 resilient by optimizing it) to protect your site against attacks.
 Moreover, DDoS [1] attacks, malicious code, etc.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Therefore, we need to develop countermeasures for the &lt;strong&gt;working&lt;/strong&gt;
 attacks …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;PURPOSE &amp;amp; SCENARIO&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The objective of this laboratory test, scenario is to make explore
 alternative “clever” solutions (as opposed to making the site more
 resilient by optimizing it) to protect your site against attacks.
 Moreover, DDoS [1] attacks, malicious code, etc.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Therefore, we need to develop countermeasures for the &lt;strong&gt;working&lt;/strong&gt;
 attacks simulated with a standard DoS attack from a single IP address
 (performed with AB [2] or Jmeter). Limitations for this scenarios is
 highlighted:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;No additional hardware can be used&lt;/li&gt;
 &lt;li&gt;The wordpress installation can not be optimized: no caching plugins,
@@ -45,7 +40,6 @@ attack originated from after a 20 second delay maximum.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;p&gt;In addition, we have to make much of the rules for the scenario. Rules
 as follow: Fresh installation of the latest version of Ubuntu Server and
 the most recent WordPress as of 20.10.2011. First priority: No normal
@@ -54,31 +48,25 @@ of normal connections. Defined by number of connections / second (easy
 to measure). Third priority: How fast after the attack is stopped, the
 site can be accessed from the attacking IP again.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Each test and measured results will be exposed in to Test section.
 Whereas, the process of installation of clever solution and attacking
 scripts will be provided in to Appendixes section.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Finally, the measurement results will be compared with the first state
 without attack and any security solutions applied. Alternatively,
 providing measurement results with one solution and attack will help us
 to identify the most beneficial security solution. Therefore, in
 Conclusion section comparison results will be highlighted.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;TESTS&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Because of requirements of our scenario we need to display the results
 before security solution is applied and attacker performance. For this
 purpose we are going to use an AB script to display the response time of
 the server:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;&lt;code&gt;ab -t 10 -n 10 -c 10 http://192.168.56.102/wordpress/&lt;/code&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The above script provides detail information, yet only important is
 Request per second. Thus, with an fresh installation and without any
 security solution, it provided with result of 3.95 [#/sec]. With other
@@ -86,18 +74,14 @@ word, 3.95 number of request per second. After applying different
 security solution and performing an attack to the server, results will
 be divers.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;In addition, test were done by two different virtual environment
 machines. One is for testing results and the other one is to perform
 attack with the following script:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;&lt;code&gt;ab -n 100 -c 10 http://192.168.56.102/wordpress/&lt;/code&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h2&gt;TEST 1&lt;/h2&gt;
 &lt;/p&gt;
-
 &lt;p&gt;First test is to install libapache2-mod-evasive
 [libapache2-mod-evasive]. Where, mod_evasive is an evasive maneuvers
 module for Apache is to provide some protection in the event of an HTTP
@@ -105,10 +89,8 @@ DoS or DDoS attack or brute force attack. It is also designed to be a
 detection tool, and can be easily configured to talk to ipchains,
 firewalls, routers, and etcetera.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The process of installation and configuration refer to the Appendix 1.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;After completed the installation and configuration process it is time to
 test the security solution and to highlight the results. Before
 performing the attack the results were somehow, lower then, before
@@ -116,10 +98,8 @@ installing the mod-evasive, 2.06 number request per second. When we
 start the attack and in same time analysis the server responded with
 timeout. The conclusion is that mod-evasive it is not enough solution.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h2&gt;TEST 2&lt;/h2&gt;
 &lt;/p&gt;
-
 &lt;p&gt;From previous test we can see that the solution was not enough clever
 for our needs. The server somehow was dead. However, we are going to
 install now &lt;code&gt;mod_security&lt;/code&gt; module for apache, with side of previous
@@ -127,40 +107,32 @@ test. For more detail information of installation process and
 configuration refer to Appendix 2 or to the following source
 [mod_security].&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;CONCLUSION&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;There are three points that we should consider and to see which proposal
 was more accurate and it did the job that was required in the scenario.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;In conclusion, the above proposals are nice and good example to have an
 view of how and with what tools we should perform script kiddie
 techniques. How to shutdown access to a server. On the whole, it show as
 how to use tools and methods of measuring the bandwidth of network and
 how to limit the transfer in comfortable way.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;APPENDIXES&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Appendix 1 is connected with the Method 1, which highlighted points are
 illustration on what information we should check, to clarify that the
 virtual environment has limitation of the network interface. Where
 Appendix 2 is for installation process of Ubuntu Server 10.04 LTS and
 wordpress, mysql installation.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h2&gt;APPENDIX 1&lt;/h2&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Installation process:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;sudo apt-get install libapache2-mod-evasive&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Configuration process is followed and gather from the following source
 [Evasive Module], for addition proposal please refer to[Blacklist]:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     sudo mkdir /var/log/apache2/mod_evasivesudo chown www-data /var/log/apache2/mod_evasive
@@ -168,11 +140,9 @@ wordpress, mysql installation.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;Afterwards, create its configuration file with a default content, with
 the following command:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     sudo nano /etc/apache2/apache2.conf IfModule mod_evasive20.c;DOSHashTableSize 3097DOSPageCount 2DOSSiteCount 50DOSPageInterval 1DOSSiteInterval 1DOSBlockingPeriod 10DOSLogDir /var/log/apache2/mod_evasiveDOSEmailNotify root@localhostDOSWhitelist 127.0.0.1DOSSystemCommand &amp;amp;quot;/sbin/iptables -I INPUT -p tcp --dport 80 -s %s -j DROP/IfModule;
@@ -180,29 +150,21 @@ the following command:&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;The above changes to take effect please restart the apache service by:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;&lt;code&gt;sudo service apache2 restart&lt;/code&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;You can test whether it works using a script included in the deb
 package:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;&lt;code&gt;perl /usr/share/doc/libapache2-mod-evasive/examples/test.pl&lt;/code&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h2&gt;APPENDIX 2&lt;/h2&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Installation and configuration of mod_security:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;&lt;code&gt;apt-get install libapache2-modsecurity /etc/init.d/apache2 force-reload&lt;/code&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Installation media: Ubuntu 11.10 32bit iso image;&lt;/li&gt;
 &lt;li&gt;HW: Virtualbox, 1CPU 32bit, 512MB RAM, 8GB HD (dynamic allocation);&lt;/li&gt;
@@ -220,34 +182,26 @@ package:&lt;/p&gt;
 &lt;li&gt;Change the settings to your needs&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Bibliography&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[libapache2-mod-evasive] Canonical Ltd., Package: libapache2-mod-evasive
 (1.10.1-1), 2011,
 &lt;a href="http://packages.ubuntu.com/hardy/libapache2-mod-evasive"&gt;http://packages.ubuntu.com/hardy/libapache2-mod-evasive&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[modsecurity] How to Forge, Secure Your Apache With mod_security, 2006,
 &lt;a href="http://www.howtoforge.com/apache_mod_security"&gt;http://www.howtoforge.com/apache_mod_security&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[Evasive Module] Deep Logic, Inc., Apache Evasive Maneuvers Module,
 2005,
 &lt;a href="http://fossies.org/unix/www/apache_httpd_modules/mod_evasive_1.10.1.tar.gz:t/mod_evasive/README"&gt;http://fossies.org/unix/www/apache_httpd_modules/mod_evasive_1.10.1.tar.gz:t/mod_evasive/README&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[Blacklist] Jeff Starr, Eight Ways to Blacklist with Apache’s
 mod_rewrite, Feb 2009,
 &lt;a href="http://perishablepress.com/press/2009/02/03/eight-ways-to-blacklist-with-apaches-mod_rewrite/"&gt;http://perishablepress.com/press/2009/02/03/eight-ways-to-blacklist-with-apaches-mod_rewrite/&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Footnotes&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[1] DDoS – Denial-of-service attack&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[2] AB - &lt;a href="http://httpd.apache.org/docs/2.0/programs/ab.html"&gt;http://httpd.apache.org/docs/2.0/programs/ab.html&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;</content><category term="pages"></category><category term="ab"></category><category term="attacks"></category><category term="clever solution"></category><category term="cyber security"></category><category term="DDoS"></category><category term="internet"></category><category term="jmeter"></category><category term="malicious code"></category><category term="wordpress"></category></entry></feed>

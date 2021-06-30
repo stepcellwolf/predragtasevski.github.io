@@ -131,7 +131,6 @@ Predrag TASEVSKI - Pece            </a>
                 </div>
                 <h1>PURPOSE</h1>
 </p>
-
 <p>The goal of this laboratory test is to evaluate speed-up solution for
 already mounted clean, by default wordpress CMS platform. The measures
 were made by custom script for Linux operating system, in our case the
@@ -139,12 +138,10 @@ server side is Ubuntu server 10.04 LTS running on 32 bit system with
 512MB Ram and testing platform Fedora 14 for more details see section
 appendixes.</p>
 </p>
-
 <p>The laboratory task is to assist anyone else to be able to perform
 optimization in easy meaner to their blog, homepage, magazine, etc.
 without any advantage of technical knowledge.</p>
 </p>
-
 <p>Presenting stepwise solution with installing firstly wordpress
 optimization cache plugin, secondary installing PHP solution for
 increasing the acceleration performance of the server and changing the
@@ -152,14 +149,11 @@ permalinks settings to the CMS platform for higher optimization. All of
 the above solutions are free open source, and are taking care of the low
 budget.</p>
 </p>
-
 <p>In addition providing measurement results with different scenarios will
 help us to get wide picture of how affective was optimization.</p>
 </p>
-
 <h1>METHODS</h1>
 </p>
-
 <p>Optimization of the access to wordpress CMS platform is done in behalf
 of three different scenarios have been proved while performance is
 getting slightly higher. Test script is measuring the response time of
@@ -167,17 +161,13 @@ the link provided and it is recording the results in a text file. Which
 contains the three attends respondent time of the server. For each
 method we will provide the results in analyses section.</p>
 </p>
-
 <p>The following steps should be done on the server side.</p>
 </p>
-
 <h2>METHOD 1</h2>
 </p>
-
 <p>Installing procedure [WP-Super-Cache Installation], first method of
 wordpress plugin: WP Super Cache Version 0.9.9.9</p>
 </p>
-
 <div class="highlight">
 
     In a terminal please type the following lines:wget -c http://downloads.wordpress.org/plugin/wp-super-cache.0.9.9.9.zipsudo apt-get install unzipunzip wp-super-cache.0.9.9.9.zipmv /home/[user]/wp-super-cache /var/www/wordpress/plugins
@@ -185,11 +175,9 @@ wordpress plugin: WP Super Cache Version 0.9.9.9</p>
 </div>
 
 </p>
-
 <p>In wordpress administration link:
 <a href="http://192.168.56.102/wordpress/wp-admin">http://192.168.56.102/wordpress/</a></p>
 </p>
-
 <p><a href="http://192.168.56.102/wordpress/wp-admin">wp-admin</a>, log in with the
 credentials, from the panel select <em>Plugins</em> -> <em>WP-Super-Cache</em> ->
 <em>Activate</em>. After the activation is done, go to <em>Settings</em> ->
@@ -201,7 +189,6 @@ files that is located on the server. Connect to your server by FTP
 client and locate the <em>.htaccess</em> file on the wordpress directory and
 open it and paste the following lines and save the file:</p>
 </p>
-
 <div class="highlight">
 
     # BEGIN WPSuperCache &lt;IfModule mod_rewrite.c&gt;RewriteEngine On RewriteBase /wordpress/AddDefaultCharset UTF-8RewriteCond %{REQUEST_URI} !^.*[^/]$RewriteCond %{REQUEST_URI} !^.*//.*$ RewriteCond %{REQUEST_METHOD} !POST RewriteCond %{QUERY_STRING} !.*=.*RewriteCond %{HTTP:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$RewriteCond %{HTTP:X-Wap-Profile} !^[a-z0-9\"]+ [NC]RewriteCond %{HTTP:Profile} !^[a-z0-9\"]+ [NC]RewriteCond %{HTTP_USER_AGENT} !^.*(2.0\ MMP|240x320|400X240|AvantGo|BlackBerry|Blazer| Cellphone|Danger|DoCoMo|Elaine/3.0|Eu$ RewriteCond %{HTTP_user_agent} !^(w3c\ |w3c-|acs-|alav|alca|amoi|audi|avan|benq|bird| blac|blaz|brew|cell|cldc|cmd-|dang|doco$ RewriteCond %{HTTP:Accept-Encoding} gzip RewriteCond %{DOCUMENT_ROOT}/wordpress/wp-content/cache/supercache/% {HTTP_HOST}/wordpress/$1/index.html.gz -f RewriteRule ^(.*)"/wordpress/wp-content/cache/supercache/%{HTTP_HOST}/wordpress/ $1/index.html.gz" [L] RewriteCond %{REQUEST_URI} !^.*[^/]$RewriteCond %{REQUEST_URI} !^.*//.*$ RewriteCond %{REQUEST_METHOD} !POST RewriteCond %{QUERY_STRING} !.*=.*RewriteCond %{HTTP:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$RewriteCond %{HTTP:X-Wap-Profile} !^[a-z0-9\"]+ [NC]RewriteCond %{HTTP:Profile} !^[a-z0-9\"]+ [NC]RewriteCond %{HTTP_USER_AGENT} !^.*(2.0\ MMP|240x320|400X240|AvantGo|BlackBerry|Blazer| Cellphone|Danger|DoCoMo|Elaine/3.0|Eu$ RewriteCond %{HTTP_user_agent} !^(w3c\ |w3c-|acs-|alav|alca|amoi|audi|avan|benq|bird| blac|blaz|brew|cell|cldc|cmd-|dang|doco$ RewriteCond %{DOCUMENT_ROOT}/wordpress/wp-content/cache/supercache/% {HTTP_HOST}/wordpress/$1/index.html -f RewriteRule ^(.*) "/wordpress/wp-content/cache/supercache/%{HTTP_HOST}/wordpress/ $1/index.html" [L] &lt;/IfModule&gt;# END WPSuperCache
@@ -209,20 +196,16 @@ open it and paste the following lines and save the file:</p>
 </div>
 
 </p>
-
 <h2>METHOD 2</h2>
 </p>
-
 <p>The second approach is to install an PHP accelerator and optimizer
 [EAccelerator Installing from source]. The main goal is to increases the
 performance of PHP scripts by caching them in their compiled state.
 Which will augment the acceleration applied with method 1.</p>
 </p>
-
 <p>Therefore, please follow the steps to install from source code
 eAccelerator [2].</p>
 </p>
-
 <div class="highlight">
 
     sudo apt-get install php-devwget -c http://ignum.dl.sourceforge.net/project/eaccelerator/eaccelerator/eAccelerator%200.9.6.1/eaccelerator-0.9.6.1.tar.bz2tar xvfj eaccelerator-0.9.6.1.tar.bz2cd eaccelerator-0.9.6.1phpize./configuremakesudo make installsudo cp /eaccelerator-0.9.6.1 /etc/apache2/php.inisudo mkdir /tmp/eacceleratorsudo chmod 0777 /tmp/eacceleratorsudo /etc/init.d/apache2 restart
@@ -230,13 +213,11 @@ eAccelerator [2].</p>
 </div>
 
 </p>
-
 <p>After you have completed the above steps it is good way to test the php
 if the eaccelerator is working and correctly installed. In any case,
 please create a file called <em>info.php</em> on your wordpress directory with
 the following code inside:</p>
 </p>
-
 <div class="highlight">
 
     <?php phpinfo(); >
@@ -244,17 +225,14 @@ the following code inside:</p>
 </div>
 
 </p>
-
 <p>Access the link to your server vie the link
 http://192.168.56.102/wordpress/info.php. If you see the configuration
 information and details of PHP, the quickest way is to search for
 eaccelerator, and if the result is positive, most lightly you have
 installed eaccelerator correctly.</p>
 </p>
-
 <h2>METHOD 3</h2>
 </p>
-
 <p>After we have completed the first and second methods it is time to grow
 the interactiveness of our wordpress project. Therefore, we will change
 setting to wordpress configuration where will speed-up the performance
@@ -262,13 +240,11 @@ setting to wordpress configuration where will speed-up the performance
 applications, yet this laboratory report is performed only with three
 easy and maintained steps.</p>
 </p>
-
 <p>Please log in to the wordpress administration panel, and on <em>Settings</em>
 -> <em>Permalinks</em> select <em>Default</em>. After the step is done, then we need
 to edit the <em>.htaccess</em> file and add the following lines at the end of
 the file and please save it:</p>
 </p>
-
 <div class="highlight">
 
     # BEGIN WordPressIfModule mod_rewrite.c&gt;RewriteRule ^index\.php$ - [L]RewriteCond %{REQUEST_FILENAME} !-fRewriteCond %{REQUEST_FILENAME} !-dRewriteRule . /wordpress/index.php [L]&lt;/IfModule&gt;# END WordPress</pre>
@@ -276,21 +252,17 @@ the file and please save it:</p>
 </div>
 
 </p>
-
 <h1>ANALYSIS</h1>
 </p>
-
 <p>After completing each one of the method we should perform analysis of
 the system, were it will provide results of performance speed and can
 compare it if it is utter to improve the effectiveness of wordpress.
 Please refer to the appendix 3 to get the code of the script.</p>
 </p>
-
 <p>Meanwhile the below show the results served pages per/second with three
 sets from the automatically created file from the custom script, named
 <em>results_lab2.txt</em>.</p>
 </p>
-
 <table>
 </p>
 <p>
@@ -485,16 +457,12 @@ WP WP-super-cache + eaccelerator
 </p>
 <p>
 </table>
-
 </p>
-
 <h1>CONCLUSION</h1>
 </p>
-
 <p>From the analysis above we can see that performance has increased and
 wordpress project is more affectively respondent to our needs.</p>
 </p>
-
 <p>Illustrations shows that wordpress as a default setting, clean installed
 and configure response with 3.15, 3.70 and 3.84 pages/per-second, which
 is not good enough to satisfaction. Similar to, after installation and
@@ -506,30 +474,24 @@ illustration we can see that the different methods produce different set
 results. Thus increasing changes performing different methods vs sets of
 pages/per-second are specified in the illustration 1.</p>
 </p>
-
 <p>Finally the results were expected and demonstrating example how we can
 increase the addictiveness of wordpress performance and increase the
 respondent time pages view per/second.</p>
 </p>
-
 <p>However, if we need to get higher effectiveness and response time for
 wordpress than should consider apply nginx[3] server and third party
 projects, applications to increase the optimization of wordpress. For
 instance good tutorial is on following blog [Howto hginx+php].</p>
 </p>
-
 <h1>APPENDIXES</h1>
 </p>
-
 <p>Appendix 1 is for installation process of Ubuntu Server 10.04 LTS and
 wordpress, mysql installation, other appendix 2 is for virtual machines
 configuration. The last appendix 4 is the custom script that will help
 us to perform the analysis of the system.</p>
 </p>
-
 <h2>APPENDIX 1</h2>
 </p>
-
 <ul>
 <li>Installation media: Ubuntu 10.04 LTS 32bit iso image;</li>
 <li>HW: Virtualbox, 1CPU 32bit, 512MB RAM, 8GB HD (dynamic allocation);</li>
@@ -550,13 +512,10 @@ us to perform the analysis of the system.</p>
 <li>Change the settings to your needs</li>
 </ul>
 </p>
-
 <h2>APPENDIX 2</h2>
 </p>
-
 <p>Ubuntu Server 10.04 LTS 32bit – Server</p>
 </p>
-
 <ul>
 <li>Base Memory: 512 MB</li>
 <li>Acceleration: VT-x/AMD-V, Nested Paging</li>
@@ -574,7 +533,6 @@ us to perform the analysis of the system.</p>
 </li>
 </ul>
 </p>
-
 <p>Security Fedora 14 32 bit – Client</p>
 <ul>
 <li>
@@ -604,10 +562,8 @@ adapter,„VirtualBox Host- Only Enternet Adapter“)</p>
 </p></p>
 <h2>APPENDIX 3</h2>
 </p>
-
 <p>File called lab2_test.sh. Content of the file:</p>
 </p>
-
 <p>+--------------------------------------+--------------------------------------+
 | <div class="linenodiv">              | <div class="highlight">              |
 |                                      |                                      |
@@ -637,37 +593,28 @@ adapter,„VirtualBox Host- Only Enternet Adapter“)</p>
 |                                      | <p>                                  |
 +--------------------------------------+--------------------------------------+</p>
 </p>
-
 <h1>Bibliography</h1>
 </p>
-
 <p>WP-Super-Cache Installation: WP, Installation, 2011,
 <a href="http://wordpress.org/extend/plugins/wp-super-%20cache/installation/" title="http://wordpress.org/extend/plugins/wp-super- cache/installation/">http://wordpress.org/extend/plugins/wp-super-cache/installation/</a></p>
 </p>
-
 <p>EAccelerator Installing from source: eAccelerator project, Installation
 from source code, 2011, <a href="http://eaccelerator.net/wiki/InstallFromSource">http://eaccelerator.net/wiki/InstallFromSource</a></p>
 </p>
-
 <p>Using Permalinks: WordPress, Using Permalinks, 2011,
 <a href="http://codex.wordpress.org/Using_Permalinks">http://codex.wordpress.org/Using_Permalinks</a></p>
 </p>
-
 <p>Howto hginx+php: joneslee85, Howto nginx + php5 + mysql + phpmyadmin +
 ubuntu shortest setup, 2010,
 <a href="http://joneslee85.wordpress.com/2010/02/28/howto-nginx-php5-mysql-phpmyadmin-%20ubuntu-shortest-setup/" title="http://joneslee85.wordpress.com/2010/02/28/howto-nginx-php5-mysql-phpmyadmin-ubuntu-shortest-setup/">http://joneslee85.wordpress.com/2010/02/28/howto-nginx-php5-mysql-phpmyadmin-ubuntu-shortest-setup/</a></p>
 </p>
-
 <h1>Footnotes</h1>
 </p>
-
 <p>[1] WP Super Cache –
 <a href="http://wordpress.org/extend/plugins/wp-super-cache/&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;&lt;p&gt;&lt;p&gt;[2]%20eAccelerator%20-%20&lt;a%20href="></a></p>
 </p>
-
 <p>[2] eAccelerator - <a href="http://eaccelerator.net/">http://eaccelerator.net/</a></p>
 </p>
-
 <p>[3] Nginx Inc – http://nginx.net/</p>
 </p>
             </div>
@@ -710,34 +657,22 @@ ubuntu shortest setup, 2010,
   <a href="../../../../"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
   <ul class="list-group " id="tags">
     <li class="list-group-item tag-1">
-      <a href="../../../../tag/security/">security</a>
+      <a href="../../../../tag/online/">online</a>
     </li>
     <li class="list-group-item tag-1">
-      <a href="../../../../tag/cyber-security/">cyber security</a>
+      <a href="../../../../tag/security/">security</a>
     </li>
     <li class="list-group-item tag-1">
       <a href="../../../../tag/internet/">internet</a>
     </li>
     <li class="list-group-item tag-1">
-      <a href="../../../../tag/online/">online</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/network/">network</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/conference/">conference</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/ddos/">DDoS</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/malware/">malware</a>
+      <a href="../../../../tag/cyber-security/">cyber security</a>
     </li>
     <li class="list-group-item tag-2">
       <a href="../../../../tag/awareness/">awareness</a>
     </li>
     <li class="list-group-item tag-2">
-      <a href="../../../../tag/cyber/">cyber</a>
+      <a href="../../../../tag/attacks/">attacks</a>
     </li>
     <li class="list-group-item tag-2">
       <a href="../../../../tag/networking/">networking</a>
@@ -746,31 +681,103 @@ ubuntu shortest setup, 2010,
       <a href="../../../../tag/balkan/">Balkan</a>
     </li>
     <li class="list-group-item tag-2">
+      <a href="../../../../tag/macedonia/">macedonia</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/ddos/">DDoS</a>
+    </li>
+    <li class="list-group-item tag-2">
       <a href="../../../../tag/privacy/">privacy</a>
     </li>
     <li class="list-group-item tag-2">
-      <a href="../../../../tag/interview/">interview</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/macedonia/">Macedonia</a>
+      <a href="../../../../tag/malware/">malware</a>
     </li>
     <li class="list-group-item tag-2">
       <a href="../../../../tag/freedom/">freedom</a>
     </li>
     <li class="list-group-item tag-2">
-      <a href="../../../../tag/attacks/">attacks</a>
+      <a href="../../../../tag/conference/">conference</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/network/">network</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/interview/">interview</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/cyber/">cyber</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/cybersecurity/">cybersecurity</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/testing-ids/">testing ids</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/mvr/">mvr</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wordpress/">wordpress</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/digital-divide/">digital divide</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/policy/">policy</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/mobile/">mobile</a>
+      <a href="../../../../tag/malicious-code/">malicious code</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/botnet/">botnet</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/infrastructure/">infrastructure</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/syn-flood/">SYN flood</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/presentation/">presentation</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/threats/">threats</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/italy/">Italy</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wpan/">wpan</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/human-factor/">human factor</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/malicious-code/">malicious code</a>
+      <a href="../../../../tag/encryption/">encryption</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wifi/">wifi</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/ubuntu/">ubuntu</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/prediction/">prediction</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/binary/">binary</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/course/">course</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/phone/">phone</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/risk-assessment/">risk assessment</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/mobile/">mobile</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/ids/">ids</a>
@@ -779,73 +786,55 @@ ubuntu shortest setup, 2010,
       <a href="../../../../tag/forum/">forum</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/testing-ids/">testing ids</a>
+      <a href="../../../../tag/strategy/">strategy</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/cybersecurity/">cybersecurity</a>
+      <a href="../../../../tag/society/">society</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/vulnerability/">vulnerability</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/prediction/">prediction</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/presentation/">presentation</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/risk-assessment/">risk assessment</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/ubuntu/">ubuntu</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/nato/">nato</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/information-warfare/">information warfare</a>
+      <a href="../../../../tag/workshop/">workshop</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/ransomware/">ransomware</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/iot/">IoT</a>
+      <a href="../../../../tag/wireless/">wireless</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/italy/">Italy</a>
+      <a href="../../../../tag/nato/">nato</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/digital-divide/">digital divide</a>
+      <a href="../../../../tag/communication/">communication</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/gms/">gms</a>
+      <a href="../../../../tag/teaching/">teaching</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/wiretapping/">wiretapping</a>
+      <a href="../../../../tag/eavesdropping/">eavesdropping</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/hactivism/">hactivism</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/acceleration/">acceleration</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/syn-flood/">SYN flood</a>
+      <a href="../../../../tag/social/">social</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/vulnerability-scanning/">vulnerability scanning</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/wpan/">wpan</a>
+      <a href="../../../../tag/vulnerability/">vulnerability</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/strategy/">strategy</a>
+      <a href="../../../../tag/log-mining/">log mining</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/simmulation-of-attacks-and-defence/">simmulation of attacks and defence</a>
+      <a href="../../../../tag/snort/">snort</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/course/">course</a>
+      <a href="../../../../tag/information-warfare/">information warfare</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wlan/">wlan</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/gms/">gms</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/risk-management/">risk management</a>
@@ -854,70 +843,28 @@ ubuntu shortest setup, 2010,
       <a href="../../../../tag/port-scan/">Port scan</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/social/">social</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/wordpress/">wordpress</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/eavesdropping/">eavesdropping</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/botnet/">botnet</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/encryption/">encryption</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/unix/">Unix</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/data-breaches/">data breaches</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/log-mining/">log mining</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/network-crime/">network crime</a>
+      <a href="../../../../tag/surveillance/">surveillance</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/it-security/">IT security</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/wireless/">wireless</a>
+      <a href="../../../../tag/iot/">IoT</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/surveillance/">surveillance</a>
+      <a href="../../../../tag/hactivism/">hactivism</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/mvr/">mvr</a>
+      <a href="../../../../tag/unix/">Unix</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/binary/">binary</a>
+      <a href="../../../../tag/wiretapping/">wiretapping</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/data-breaches/">data breaches</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/network-security/">network security</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/teaching/">teaching</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/phone/">phone</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/optamization/">optamization</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/wlan/">wlan</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/snort/">snort</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/threats/">threats</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/wifi/">wifi</a>
     </li>
   </ul>
 </li>
@@ -961,7 +908,7 @@ ubuntu shortest setup, 2010,
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy; 2019 Predrag TASEVSKI - Pece
+         <div class="col-xs-10">&copy; 2021 Predrag TASEVSKI - Pece
             &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>                <p><small>  <a rel="license" href="https://creativecommons.org/licenses/by-nd/4.0/deed.en"><img alt="Creative Commons License" style="border-width:0" src="//i.creativecommons.org/l/by-nd/4.0/80x15.png" /></a>

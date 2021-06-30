@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Predrag TASEVSKI - Pece - networking</title><link href="https://predragtasevski.com/" rel="alternate"></link><link href="https://predragtasevski.com/feeds/tag/networking.atom.xml" rel="self"></link><id>https://predragtasevski.com/</id><updated>2012-09-01T23:00:00+02:00</updated><entry><title>Identify Possible Infection of Malware Into the Wireshark Capture File</title><link href="https://predragtasevski.com/posts/2012/09/identify-possible-infection-of-malware-into-the-wireshark-capture-file/" rel="alternate"></link><published>2012-09-01T23:00:00+02:00</published><updated>2012-09-01T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-09-01:/posts/2012/09/identify-possible-infection-of-malware-into-the-wireshark-capture-file/</id><summary type="html">&lt;h1&gt;INTRODUCTION&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Predrag TASEVSKI - Pece - networking</title><link href="https://predragtasevski.com/" rel="alternate"></link><link href="https://predragtasevski.com/feeds/tag/networking.atom.xml" rel="self"></link><id>https://predragtasevski.com/</id><updated>2021-06-30T00:00:00+02:00</updated><entry><title>ISOC Fundamentals - ISOC Serbia Belgrade Chapter Webinar</title><link href="https://predragtasevski.com/posts/2021/06/isoc-fundamentals-21/" rel="alternate"></link><published>2021-06-30T00:00:00+02:00</published><updated>2021-06-30T00:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2021-06-30:/posts/2021/06/isoc-fundamentals-21/</id><summary type="html">&lt;p&gt;This year I took a participation on &lt;a href="https://www.internetsociety.org/chapters/fundamentals-program/2021/"&gt;Internet Society Fundamentals program 2021&lt;/a&gt;, where each participant could sing up in one or more topics. I sign up for several topics through ISOC Serbia Belgrade Chapter. Unfortunately there is no ISOC N. Macedonian chapter.
+Together with the ISOC Serbia Belgrade Chapter we …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This year I took a participation on &lt;a href="https://www.internetsociety.org/chapters/fundamentals-program/2021/"&gt;Internet Society Fundamentals program 2021&lt;/a&gt;, where each participant could sing up in one or more topics. I sign up for several topics through ISOC Serbia Belgrade Chapter. Unfortunately there is no ISOC N. Macedonian chapter.
+Together with the ISOC Serbia Belgrade Chapter we decided to go with a webinar and a workshop that will tackle several &lt;a href="https://www.internetsociety.org/chapters/fundamentals-program/2021/catalog/"&gt;Fundamentals program 2021 topics - catalog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The webinar and the workshop was held on 25. June 2021 remotely. For more info please visit the &lt;a href="https://www.isoc.rs/internet-drustvo-srbije-beogradski-ogranak-odrzao-vebinar-sa-isoc-fundamentals/"&gt;Internet društvo Srbije, Beogradski ogranak, održao vebinar sa ISOC Fundamentals&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;On the webinar I presented the following topics:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Basic encryption and why is it important&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Basic how to secure webserver using open standards&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;How to build security by default and privacy by default infrastructure&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Building a bridge between N.Macedonia and Serbia privacy and security community networks.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Workshop&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Please see the &lt;a href="https://www.isoc.rs/wp-content/uploads/2021/06/ISOC-Serbia-2021-Fundamentals-Program1.pdf"&gt;slides&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;One of the outcome is to set up an ISOC Macedonian chapter in near future - ISOC-MKD.&lt;/p&gt;</content><category term="pages"></category><category term="isoc"></category><category term="encryption"></category><category term="networking"></category><category term="communication"></category><category term="serbia"></category><category term="open standards"></category><category term="isoc-mkd"></category><category term="macedonia"></category><category term="infrastructure"></category><category term="internet"></category><category term="society"></category><category term="webinar"></category><category term="workshop"></category></entry><entry><title>Identify Possible Infection of Malware Into the Wireshark Capture File</title><link href="https://predragtasevski.com/posts/2012/09/identify-possible-infection-of-malware-into-the-wireshark-capture-file/" rel="alternate"></link><published>2012-09-01T23:00:00+02:00</published><updated>2012-09-01T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-09-01:/posts/2012/09/identify-possible-infection-of-malware-into-the-wireshark-capture-file/</id><summary type="html">&lt;h1&gt;INTRODUCTION&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The main goal of laboratory report is to identify possible infection of
 malware into the wireshark capture file. The report should highlight the
 following aspects:&lt;/p&gt;
@@ -16,7 +38,6 @@ find out where malware was downloaded from.&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;What malware …&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;INTRODUCTION&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The main goal of laboratory report is to identify possible infection of
 malware into the wireshark capture file. The report should highlight the
 following aspects:&lt;/p&gt;
@@ -44,7 +65,6 @@ write a summary of it.)&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Moreover, we have to consider the malware analysis report reminders,
 please refer to [1] or [2]. Additional, analysis it is stated into the
 Analysis section, where we explain the techniques, filter tools, gather
@@ -53,25 +73,20 @@ present analysis with details information. Malware and infections
 description are described. Finally the conclusion made of all analysis
 will be concise in summary section.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;ANALYSIS&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;To be able to open and use the above file, firstly we have to download
 the wireshark tool. Where the main goal and purpose for wireshark
 application is to analysis a network protocols from captured file.
 Therefore please refer to the following link:
 &lt;a href="http://www.wireshark.org/"&gt;http://www.wireshark.org/&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Useful links for future use, please refer to [3, 4, 5 and 6]. On figure
 1 it shows the Graphic Interface of Wireshark application with running
 filter: http protocol.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Illustration 1: Wireshark application, filter: http protocol&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;However, from the figure 1 we can see that there is a lot of traffic
 generated by the user. Therefore we have to apply and additional filter
 rules, which will help and guide for better and easy analysis. As we go
@@ -80,7 +95,6 @@ user generated and has been visiting different source, where can be
 potential threat for the organization and personal use with a different
 malicious code.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;To be able to filter only the http protocols on port 80 with a header
 GET, we should use the following filter: http.request.method == “GET”.
 Where this filter will narrow down the results that are presented into
@@ -88,7 +102,6 @@ the captured file. In spite of the filter above it helps a lot, yet
 there is still a lot of traffic generated, consequently we have to
 utilize an additional filter.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Another extremely useful wireshark option we used, was Analyze → Follow
 TCP Stream which shows communication between IP addresses in more
 readable and useful way: shows DNS name for the IP and if file was
@@ -96,7 +109,6 @@ downloaded gives filetype and name. We discovered that IP address
 79.137.237.34 belongs to accord-component.ru. When we accessed the site
 with various web browsers, all of them showed that it contained malware.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     GET /serial/index.php HTTP/1.1Accept: */*Accept-Encoding: gzip, deflateUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NETCLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)Connection: Keep-AliveHost: accord-component.ruHTTP/1.1 200 OKServer: nginxDate: Wed, 30 Nov 2011 23:07:18GMTContent-Type: text/htmlTransfer-Encoding: chunkedConnection: keep-aliveX-Powered-By: PHP/5.3.2Content-Encoding: gzip&lt;/pre&gt;&lt;p&gt;Another suspicious IP was 86.63.168.101, where from this IP address brought us to&lt;br&gt;domain name zumlelao.com, but it was un-accessible from browsers. Wireshark showed the User downloaded file 4.exe from zumlelao.com.&lt;/p&gt;&lt;pre class="brush: php"&gt;GET /load.php?file=0HTTP/1.1Accept: image/jpeg, application/x-ms-application, image/gif,application/xaml+xml, image/pjpeg, application/x-ms-xbap, */*Accept-Language: etUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NETCLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)Accept-Encoding: gzip, deflateHost: zumlelao.comConnection: Keep-AliveHTTP/1.1 200 OKDate: Wed, 30 Nov 2011 21:55:02GMTServer: Apache/2X-Powered-By: PHP/5.2.17Cache-Control: publicContent-Disposition: attachment; filename=4.exeContent-Transfer-Encoding: binaryVary: Accept-EncodingContent-Encoding: gzipContent-Length: 10666Keep-Alive: timeout=1, max=100Connection: Keep-AliveContent-Type: application/octet-stream
@@ -104,31 +116,25 @@ with various web browsers, all of them showed that it contained malware.&lt;/p&g
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;Additionally, we can always use an Find function, which will help as to
 identify certain traffic or site. Figure 2 demonstrated the usage of the
 Find function, accessible from menu Edit -&gt; Find.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Illustration 2: Wireshark, Find function&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Other IP addresses that were generated/extracted first the ones with
 malware detected:
 &lt;code&gt;79.137.237.34 -accord-component.ru; 86.63.168.101 zumlelao.com&lt;/code&gt;. Other
 IP’s are:
 &lt;code&gt;173.194.32.32 (33,34,41,50,51,52,58,59,60,63), 192.168.123.1, 193.184.164.159 (174,176,185), 193.40.252.83, 193.88.71.156, 194.126.108.69 (70), 194.126.124.136, 194.204.14.49, 195.222.15.74, 199.7.48.190, 209.85.173.95, 123.168.24.204 (209,221,225,229,235), 79.137.237.34, 80.252.91.41 (61), 69.171.228.11, 23.32.89.55, 23.32.99.172, 216.34.181.45 (48), 213.168.24.26, 90.190.148.34 (40), 86.63.168.101, 82.98.58.48, 81.19.238.61.&lt;/code&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;If we run or analysis the above domain names into the google we will
 automatic indicated that the zumlelao.com it is an before reported as a
 malware site and the second too. Therefore the analysis and the
 infection of details of malware are highlighted into the next section.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;INFECTION&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Indeed, the above captured file presents traffic generated by the user,
 that can be threat for the organization, home user, etc. As from the
 previous section demonstrates how to identify if the generated traffic
@@ -139,7 +145,6 @@ code site. For this purpose we gather the help from the following link:
 &lt;a href="http://sopport.clean-mx.de/"&gt;http://sopport.clean-mx.de/&lt;/a&gt;. Here is the reported malicious,
 suspicious code from the above host in the table bellow.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;table&gt;
 &lt;/p&gt;
 &lt;p&gt;
@@ -276,19 +281,15 @@ http://zumlelao.com/load.php?file=0
 &lt;/p&gt;
 &lt;p&gt;
 &lt;/table&gt;
-
 &lt;/p&gt;
-
 &lt;p&gt;Furthermore, figure 3 is proving the analysis made through the
 wireshark, were one of the above links has been access, for more details
 clink on the above link and points in a figure 3:A and B.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Illustration 3: Prove of generating traffic of following malware link:
 http://zumlelao.com/load.php?file=0 were B and A are proving the links
 and the IP initiation.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Moreover, to get the file itself for analysis, we used Netresec’s
 Network Miner 2.1 http://www.netresec.com/?page=NetworkMiner. In Files
 menu, it shows all packets as files.We uploaded 4.exe.octet-stream to
@@ -296,7 +297,6 @@ virustotal.com – 30 Antivirus software identified as malware Virustotal
 link:
 &lt;a href="http://www.virustotal.com/file-scan/report.html?id=d6ee8736cd2eae8571b193b28b59dff33e9607237f78b0888d69c70f241bb04b-%201323098398"&gt;http://www.virustotal.com/file-scan/report.html?id=d6ee8736cd2eae8571b193b28b59dff33e9607237f78b0888d69c70f241bb04b-1323098398&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     MD5 : 94a7f6430510fe7314c1e746bad79bf4SHA1 : 69ab04c9c586a8cf07a00665e160a48260a2465eSHA256: d6ee8736cd2eae8571b193b28b59dff33e9607237f78b0888d69c70f241bb04bF-Secure identified malware as Trojan.Generic.KD.438472
@@ -304,7 +304,6 @@ link:
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;Trojan.Generic.KD malwares usually are classified as Backdoors. It
 infects executable files in the system and its main goal is to make
 backdoor into the system. It changes registry. In some cases it can put
@@ -319,20 +318,16 @@ provided by F-Secure, Comodo, Microsoft, Sophos, Symantec, DrWeb, etc.
 Here is an example from Dr.Web how to delete Trojan.Generic.KD malware
 &lt;a href="http://www.drwebhk.com/en/virus_removal/694829/Trojan.Generic.KD.53986.html"&gt;http://www.drwebhk.com/en/virus_removal/694829/Trojan.Generic.KD.53986.html&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;For our case we downloaded Dr.Web CureIt (free edition for home PCs,
 which discovered the malware and removed it) –
 &lt;a href="http://www.freedrweb.com/download+cureit/?nc=t&amp;amp;lng=en"&gt;http://www.freedrweb.com/download+cureit/?nc=t&amp;amp;lng=en&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Before continuing to disinfect the system, please read and understand
 the massage delivered through this forum:
 &lt;a href="http://forums.majorgeeks.com/showthread.php?t=35407"&gt;http://forums.majorgeeks.com/showthread.php?t=35407&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;SUMMARY&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Nowadays malicious codes, infection of the system is one of the highest
 vector of production work everyday of the organizations. Therefore,
 different approaches, advance analysis, troubleshooting, etc. has to be
@@ -343,7 +338,6 @@ Therefore, this laboratory report main aim is to provide the reader to
 be able to conduct advance analysis of system and their identification
 of infection within the wireshark network analysis tool.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;From the above sections in Analysis and in the Infection we have to
 follow the steps and links that will help us for a further work.
 Meanwhile, the captured generated traffic from the distributed file has
@@ -358,56 +352,43 @@ the reader with advance and stepwise solution for identifying the
 infection of the system within advance network analysis wireshark
 application.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;WORKLOAD&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;We made analysis on the virtual Windows 7 machine. For virtualization we
 used VirtualBox. During analysis each of group member did the same
 analysis to cross - reference the results.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;We basically used the following tools: Wireshark, Network Miner and
 &lt;a href="http://virustotal.com/"&gt;virustotal.com&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Bibliography&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[1] Lenny Zeltser, Reverse-Engineering: Malware Analysis Tools and
 Techniques Training, 2011, &lt;a href="http://zeltser.com/reverse-malware/"&gt;http://zeltser.com/reverse-malware/&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[2] Lenny Zeltser, Malware analysis report reminders, 2011,
 &lt;a href="http://zeltser.com/reverse-%20malware/malware-analysis-report-template.mm"&gt;http://zeltser.com/reverse-malware/malware-analysis-report-template.mm&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[3] Kevin, Malware Analysis &amp;amp; Malware Reverse Engineering, NA,
 &lt;a href="http://technology-flow.com/articles/windows-malware-analysis/"&gt;http://technology-flow.com/articles/windows-malware-analysis/&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[4] Chris Greer, Top 10 Wireshark Filters, April 2010,
 &lt;a href="http://www.lovemytool.com/blog/2010/04/top-10-wireshark-filters-by-chris-greer.html"&gt;http://www.lovemytool.com/blog/2010/04/top-10-wireshark-filters-by-chris-greer.html&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[5] Russ McRe, Security Analysis with Wireshar, November 2006&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[6] Chief Banana, Using Wireshark filters for capturing malware, Marh
 2011, &lt;a href="http://securitybananas.com/?p=529"&gt;http://securitybananas.com/?p=529&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The above post is written by Predrag Tasevski and Mikheil Basilaia&lt;/p&gt;
 &lt;/p&gt;</content><category term="pages"></category><category term="capture file"></category><category term="cyber security"></category><category term="infection"></category><category term="malware"></category><category term="networking"></category><category term="online"></category><category term="wireshark"></category></entry><entry><title>Testing SNORT – IDS rulesets</title><link href="https://predragtasevski.com/posts/2012/03/testing-snort-ids-rulesets/" rel="alternate"></link><published>2012-03-13T00:00:00+01:00</published><updated>2012-03-13T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-03-13:/posts/2012/03/testing-snort-ids-rulesets/</id><summary type="html">&lt;h1&gt;SCENARIO&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The objective of this laboratory test, scenario is to create a solution
 and instructions for testing an IDS^1^ systems usefulness for detecting
 attacks against a wordpress site. In addition, we have to
 develop/download/find/whatever a SNORT configuration (rulesets,
 preprocessors, whatever) that performs better than the default …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;SCENARIO&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The objective of this laboratory test, scenario is to create a solution
 and instructions for testing an IDS^1^ systems usefulness for detecting
 attacks against a wordpress site. In addition, we have to
@@ -415,7 +396,6 @@ develop/download/find/whatever a SNORT configuration (rulesets,
 preprocessors, whatever) that performs better than the default
 configuration in previous post. By better we mean:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Less false positives&lt;/li&gt;
 &lt;li&gt;Less false negatives&lt;/li&gt;
@@ -429,17 +409,14 @@ configuration in previous post. By better we mean:&lt;/p&gt;
     a row.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Meanwhile, the new rules have to be able to detect not only the default
 attacks that are set to a default snort configuration, yet they have to
 be able to detect SQL injection, brute force password, apache killer
 script, pytbull, etc. Furthermore, in figure 1 we are illustrating the
 scenario.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Illustration 1: Illustration of Scenario&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Therefore, in the proposal section we will present two proposals that
 have been submitted due to this laboratory test and additionally in
 result section we will highlighted the identification numbers made by
@@ -447,32 +424,24 @@ snort set new rules. In section appendixes we will provide you with more
 details configuration procedures, configuration of VM’s – Virtual
 Machines, attacks, etc.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Finally, closing with an conclusion and the results of best set of rules
 made of the proposals.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;SETUP of SNORT&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;To setup snort in a right way, that will work for the second Host only
 network please following the instruction link provided with a full
 description and configuration of snort [SNORT2].&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;PROPOSALS&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;In total two proposals are presented in next sub-sections.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h2&gt;PROPOSAL 1&lt;/h2&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Add &lt;a href="http://www.tud.ttu.ee/~t061780/attacks/robert.rules"&gt;http://www.tud.ttu.ee/~t061780/attacks/robert.rules&lt;/a&gt; to your Snort.
 On your Snort machine:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     cd /etc/snort/ruleswget http://www.tud.ttu.ee/~t061780/attacks/robert.rules
@@ -480,18 +449,14 @@ On your Snort machine:&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;Now you have the rules, add them to your snort conf file (default
 /etc/snort/snort.conf). To do that inser:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;&lt;code&gt;include $RULE_PATH/robert.rules&lt;/code&gt; somewhere with rest of the rules after
 line 800. Run Snort and test.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h2&gt;PROPOSAL 2&lt;/h2&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Add the following rules: &lt;a href="http://predragtasevski.com/src/predrag.rules"&gt;http://predragtasevski.com/src/predrag.rules&lt;/a&gt;.
 To be able to insert the snort rules in to the snort file please double
 check where it is located. You can find the location with the following
@@ -500,16 +465,12 @@ IP address to your server address on line number #6, example alert tcp
 any any -&gt; 192.168.56.X where x is your octet. Then to add the
 following rules at the conf file do the following command:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;&lt;code&gt;cat predrag.rules &amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;gt; snort.conf&lt;/code&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Now it is time to start or restart snort. It should work.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;RESULTS&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;After executing the above proposal we will highlight the results into
 the table bellow. Result are presented from the total amount of reports,
 registered alerts in the snort. This is done by help of web interface of
@@ -517,7 +478,6 @@ Basic Analysis and Security Engine in addition Analysis Console for
 Intrusion Databases (ACID) project tool [ACID]. Therefore, the result
 from the proposals are highlighted below:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;table&gt;
 &lt;/p&gt;
 &lt;p&gt;
@@ -750,31 +710,23 @@ N/A
 &lt;/p&gt;
 &lt;p&gt;
 &lt;/table&gt;
-
 &lt;/p&gt;
-
 &lt;p&gt;Table 1: Details of total report numbers of alerts made by SNORT and the
 different proposal rule sets. Details of the attacks conducted in the
 table are presented in appendixes section.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Additionally, figure 2 is presenting the pine chart of the total number
 alerts recognized by Snort.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Illustration 2: Total number of Alerts.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Secondly, figure 3 is representing the pine chart of total number of
 unique alerts recognized by Snort.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Illustration 3: Total number of Unique Alerts&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;CONCLUSION&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;From the above results we came to conclusion that the new applied rules
 were successful and were able to recognize alerts more then the default
 rule set of Snort. Meanwhile, only proposal 2 was able to recognized an
@@ -784,7 +736,6 @@ both rule sets proposals. Then the Snort is able to recognized an
 significant number of total alerts and additionally for our laboratory
 report more interesting is unique total number alerts.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Closing, even the default Snort rules configuration is good, yet when
 you tweak it by&lt;/p&gt;
 &lt;p&gt;your own needs, you will have much better IDS system for your network.
@@ -793,10 +744,8 @@ gather more available advance Snort rules, made by experts. Where will
 help you to configure and setup Snort IDS system to detecting attacks
 against a wordpress site, etc.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;APPENDIXES&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Appendix 1 is the configuration of the attacker virtual machine, in more
 detail Blacktrack 5 distribution. Secondly, Appendix 2 is the ubuntu
 wordpress configuration server and additional is the configuration and
@@ -804,10 +753,8 @@ setup process and refer links of IDS Snort virtual machine. Appendix 4,
 5 and 6 are providing brief details about the attacks that were
 conducted during this laboratory test.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;APPENDIX 1&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Installation media: Black Track 5 GNOME 32bit iso image;&lt;/li&gt;
 &lt;li&gt;HW: Virtualbox, 1CPU 32bit, 512MB RAM, 8GB HD (dynamic allocation);&lt;/li&gt;
@@ -816,15 +763,12 @@ conducted during this laboratory test.&lt;/p&gt;
 &lt;li&gt;Downloadable link: &lt;a href="http://www.backtrack-linux.org/downloads/"&gt;http://www.backtrack-linux.org/downloads/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;
 APPENDIX 2
 
 &lt;/h2&gt;
 &lt;/h1&gt;
-
 &lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Installation media: Ubuntu 10.04 32bit iso image;&lt;/li&gt;
 &lt;li&gt;HW: Virtualbox, 1CPU 32bit, 512MB RAM, 8GB HD (dynamic allocation);&lt;/li&gt;
@@ -839,7 +783,6 @@ APPENDIX 2
 &lt;li&gt;Default applications&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     sudo apt-get install lamp phpmyadminwget -c http://wordpress.org/latest.tar.gztar xvjf latest.tar.gzsudo cp wordpress /var/www/wordpresssudo nano /var/www/wordpress/wp-config.php Change the settings to your needs
@@ -847,10 +790,8 @@ APPENDIX 2
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;h1&gt;APPENDIX 3&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Installation media: Ubuntu 10.04 32bit iso image;&lt;/li&gt;
 &lt;li&gt;HW: Virtualbox, 1CPU 32bit, 512MB RAM, 8GB HD (dynamic allocation);&lt;/li&gt;
@@ -867,14 +808,11 @@ APPENDIX 2
     please refer to [SNORT2].&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;APPENDIX 4&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Here we test typical SQL- injection in URLs&lt;/p&gt;
 &lt;p&gt;Commands used:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     wget "http://192.168.56.101/?p=1'%20OR%20'1'='1"wget "http://192.168.56.101/?p=1'%20AND%201=(SELECT%20COUNT(*)%20FROM%20tabname);%20—"
@@ -882,70 +820,54 @@ APPENDIX 2
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;Snort by default does not detect this, where in applying the proposal 2
 rules, it did detect.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;APPENDIX 5&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;To test Snort and acidbase, perform a portscan of the Snort host.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;&lt;code&gt;sudo nmap -p1-65535 -sV -sS -O 192.168.56.102&lt;/code&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;APPENDIX 6&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;To setup pytbull it is a bit of pain, yet if you follow the rules and
 the documentation it will work like shark. For documentation please
 refer to [pytbull_doc].&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Bibliography&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[SNORT2] Nick Moore, Snort 2.8.4.1 Ubuntu 9 Installation Guide, June
 2009, &lt;a href="http://www.snort.org/assets/113/Snort_2.8.4.1_Ubuntu.pdf"&gt;http://www.snort.org/assets/113/Snort_2.8.4.1_Ubuntu.pdf&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[ACID] Basic Analysis and Security Engine, Welcome to the Basic Analysis
 and Security Engine (BASE) project ,
 2008,&lt;a href="http://base.secureideas.net/about.php"&gt;http://base.secureideas.net/about.php&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[snort_rules]
 &lt;a href="http://rules.emergingthreats.net/open/snort-2.9.0/rules/"&gt;http://rules.emergingthreats.net/open/snort-2.9.0/rules/&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[SNORT1] kat-amsterdam, SnortIDS, December 2010,
 &lt;a href="https://help.ubuntu.com/community/SnortIDS"&gt;https://help.ubuntu.com/community/SnortIDS&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[pytbull_doc] Sébastien Damaye, Official documentation for pytbull v1.3
 -, 2011, &lt;a href="http://pytbull.sourceforge.net/index.php?page=documentation"&gt;http://pytbull.sourceforge.net/index.php?page=documentation&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[1] IDS – Intrusion detection system&lt;/p&gt;
 &lt;/p&gt;</content><category term="pages"></category><category term="cyber security"></category><category term="DDoS"></category><category term="ids"></category><category term="internet"></category><category term="networking"></category><category term="online"></category><category term="Port scan"></category><category term="snort"></category><category term="snort rules"></category><category term="SYN flood"></category><category term="testing ids"></category><category term="vulnerability scanning"></category></entry><entry><title>Testing IDS</title><link href="https://predragtasevski.com/posts/2012/01/testing-ids/" rel="alternate"></link><published>2012-01-03T00:00:00+01:00</published><updated>2012-01-03T00:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2012-01-03:/posts/2012/01/testing-ids/</id><summary type="html">&lt;h1&gt;SCENARIO&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The objective of this laboratory test, scenario is to create a solution
 and instructions for testing an IDS\^1 systems usefulness for detecting
 attacks against a wordpress site. In addition, a repeatable process to
 evaluate vendor claims. Whatever passive IDS system sample delivered as
 a VM or a dedicated …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;SCENARIO&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The objective of this laboratory test, scenario is to create a solution
 and instructions for testing an IDS\^1 systems usefulness for detecting
 attacks against a wordpress site. In addition, a repeatable process to
 evaluate vendor claims. Whatever passive IDS system sample delivered as
 a VM or a dedicated box. Creating the IDS system itself is out of scope.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The process must be detailed enough so that somebody else can get the
 same results when applying that. The “other person” is expected to have
 IT knowledge sufficient to install and run a Linux desktop. Budget
@@ -964,7 +886,6 @@ must test at least the following attacks:&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Optionally the process may test:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -981,7 +902,6 @@ known vulnerability that could in theory apply to the target system
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;p&gt;However the competition rules are: The highest number of attacks
 evaluated. Limits:&lt;/p&gt;
 &lt;ul&gt;
@@ -998,10 +918,8 @@ equal.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Lab instaractions:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Install 3 VM-s: Attacker IDS and Target&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 ​1. Make sure all VM-s have two network adapters: NAT and Host-Only.&lt;/p&gt;
@@ -1013,42 +931,32 @@ Only network.&lt;/p&gt;
 &lt;p&gt;​5. Take notice of the results displayed on Acid console.&lt;/p&gt;
 &lt;p&gt;​6. Reset counters, move on to next attack.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Additionally, illustration 1 describes the overview of above scenario&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Illustration 1: Lab 5 Illustration of Scenario&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Firstly, setup procedure of snort, secondly available proposals and
 thirdly illustrating the results and the functionality of proposals.
 Finally, closing this laboratory report with conclusion. In addition,
 appendixes is configuration of VM’s – Virtual Machines.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;SETUP of SNORT&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;To setup snort in a right way, that will work for the second Host only
 network please following the instruction link provided with a full
 description and configuration of snort [SNORT2].&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;After completing the setup and configuration to run snort on the second
 interface use the following command:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;snort -c /etc/snort/snort/conf -i eth1&lt;/code&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;PROPOSALS&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;In total three proposals and each one is highlighted in the next
 sub-sections.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h2&gt;PROPOSAL 1&lt;/h2&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Full instructions&lt;/p&gt;
 &lt;p&gt;​1. Set up IDS (Snort) and WordPress on the first PC&lt;/p&gt;
 &lt;p&gt;​2. Install Ubuntu server on the second PC . Then install all attacking
@@ -1056,7 +964,6 @@ tools there:&lt;/p&gt;
 &lt;p&gt;```wget enos.itcollege.ee/\~avein/lab4i.sh&lt;/p&gt;
 &lt;p&gt;sudo sh lab4i.sh&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     After that you should have:- ```ab.sh``` – DoS attack script – uses ab to generate traffic flood- ```apachekiller.pl``` – Apachekiller attack script More info: http://www.hackersgarage.com/apache-killer-denial-of-service-flaw-in-apache-webserver.html- ```README.txt``` – extra instructions- ```scan.sh``` - Port scanning script - uses nmap- ```sloworis.pl``` - Sloworis attack script More info: http://ha.ckers.org/slowloris/- ```synf.sh``` - syn flood attack script - uses hping33. Start your IDS/wordpress server and the server with attack tools. 4. Run each attack tool ONE AT A TIME (targeting the wordpress/IDS server of course) . Monitor the logs/notifications on yours IDS system (SNORT) and check whether wordpress site is still accessible. Let each attack tool run 2 minutes, then stop the attack by pressing CTRL+C on the terminal window where the attack tool is running. The only exeption is port scan- its better to wait until it finishes. After each attack save the IDS log and wait atlest 5 minutes before trying next tool (to give server time to recover). Best practice is to manually check if the server load is at normal (one can use htop for that).a) To run DoS attack:```sh ab.sh {target} eg sh ab.sh 192.168.56.101```b) For port scan:```sh scan.sh {target IP} eg sh scan.sh 192.168.56.101```c) For Syn flood (with hping3)```sh synf.sh {target} eg synf.sh 192.168.56.101/wordpress```d) For Sloworis attack:```perl slowloris.pl -dns {target} eg perl sloworis.pl -dns 192.168.56.101/wordpress```e) For Apachekiller attack:```perl apachekiller.pl {target IP} eg perl apachekiller.pl 192.168.56.101```## PROPOSAL 2### IntroFor this scenario we need to run several different attacks and scans to be able to compare the results with different IDS setups and rulesets. We might also want to test it with legitimate traffic to see that we dont get false positives in our alarms. We dont have that much legitimate traffic possibilities with 1 blog on our servers right now, but if we start tweaking the IDS false positives becomes an important metric and we might want to test normal usage and create traffic to run with tcpreplay for example. My proposal is to test the IDS with pytbull running on BackTrack. Pytbull is IDS testing framework and BackTrack a Linux ditribution. I will assume that we have WordPress server with running default Snort set up on it and working. No extensive testing has been done with different snort setups so we might have to tune the methods, but basic things should be covered.### DL and install BackTrack- &lt;a href="http://www.backtrack-linux.org/downloads/" target="_blank"&gt;backtrack-linux.org/downloads/&lt;/a&gt;Install it rather than running a live version for this scenario. Boot it up in default mode, start GUI and launch installation from desktop. Default login root / toor. Standard setup comes with pytbull and several pieces of software the IDS test-system depends on like nmap, hping3, nikto and others.### Setup connectionsConnect the machines and install ftp and ssh on server. We need ftp to get snort alert files and ssh to run attacks against.```apt-get install vsftpd openssh-server```### Setup pytbullYou will find pytbull from ```/pentest/enumeration/ids/pytbull/``` or Applications -&gt; BackTrack -&gt; Information Gathering -&gt; Network Analysis -&gt; IDS IPS Identification -&gt; pytbull when using the GUI. Change the configuration file values to have correct connection information, user credentials and locations of dependencies. Here you also select which test modules out of the 9 available you want to run. ClientSideAttacks needs extra configuration.
@@ -1064,7 +971,6 @@ tools there:&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;cd /pentest/enumeration/ids/pytbull/&lt;/p&gt;
 &lt;p&gt;gedit config.cfg&lt;/p&gt;
 &lt;p&gt;Example conf file: http://www.tud.ttu.ee/\~t061780/attacks/config.cfg&lt;/p&gt;
@@ -1075,7 +981,6 @@ tests covered.&lt;/p&gt;
 &lt;p&gt;wget http://www.tud.ttu.ee/\~t061780/attacks/denialOfService.py&lt;/p&gt;
 &lt;p&gt;You may want to refer to Pytbull documentation&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     ### Run```/pentest/enumeration/ids/pytbull/pytbull -t WP/Snort server IP;```If everything works you will find html report file under /reports. If you have problems add -d on run for debugging.###(optional) SlowlorisTo have slowloris attack test for pytbull we need to get custom slowloris that allows to set how many packets to send because we dont want the tests to run forever. I added argument s that tells the script to stop after we have sent s packets.
@@ -1083,14 +988,12 @@ tests covered.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;cd /pentest/stressing&lt;/p&gt;
 &lt;p&gt;wget www.tud.ttu.ee/\~t061780/attacks/slowloris.pl&lt;/p&gt;
 &lt;p&gt;Slowloris attack has been written into DoS module, you have to uncomment
 it. Lines 47-52.&lt;/p&gt;
 &lt;p&gt;gedit /pentest/enumeration/ids/pytbull/modules/denialOfService.py&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     ## PROPOSAL 3For this proposal I will suggest to use open source tool OpenVas for vulnerability scanning, to test our IDS system. It contains many security tools integrated. The security and analysis tools are: Nikto, nmap, ike-scan, snmpwalk, amap, ldapsearch, SLAD (John-the-Ripper, Chkrootkit, LSOF, ClamAV, Tripwire, TIGER, logwatch, trapwatch, lm-sensors, snort and ovaldi), pnscan, portbunny, strobe, w3af, etc.Instructions of installation process, for further more information please refer to &lt;a href="http://www.openvas.org/setup-and-start.html" target="_blank"&gt;http://www.openvas.org/setup-and-start.html&lt;/a&gt;### Step 1: Configure OBS Repository```sudo apt-get -y install python-software-propertiessudo add-apt-repository "deb http://download.opensuse.org/repositories/security:/OpenVAS:STABLE:/v4/xUbuntu_10.04/./"sudo apt-key adv --keyserver hkp://keys.gnupg.net --recv-keys BED1E87979EAFD54 sudo apt-get update
@@ -1098,10 +1001,8 @@ it. Lines 47-52.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;h3&gt;Step 2: Quick-Install OpenVAS&lt;/h3&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     sudo apt-get -y install greenbone-security-assistant gsd openvas-cli openvas-manager openvas-scanner openvas-administrator sqlite3 xsltproc
@@ -1109,14 +1010,11 @@ it. Lines 47-52.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;h3&gt;Step 3: Quick-Start OpenVAS&lt;/h3&gt;
 &lt;/p&gt;
-
 &lt;p&gt;(copy and paste whole block, during first time you will be asked to set
 a password for user “admin”)&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     test -e /var/lib/openvas/CA/cacert.pem || sudo openvas-mkcert -qsudo openvas-nvt-sync test -e /var/lib/openvas/users/om || sudo openvas-mkcert-client -n om -i sudo /etc/init.d/openvas-manager stopsudo /etc/init.d/openvas-scanner stopsudo openvassdsudo openvasmd --migratesudo openvasmd --rebuildsudo killall openvassdsleep 15sudo /etc/init.d/openvas-scanner startsudo /etc/init.d/openvas-manager startsudo /etc/init.d/openvas-administrator restartsudo /etc/init.d/greenbone-security-assistant restarttest -e /var/lib/openvas/users/admin || sudo openvasad -c add_user -n admin -r Admin
@@ -1124,29 +1022,23 @@ a password for user “admin”)&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;h3&gt;Step 4: Log into OpenVAS as “admin”&lt;/h3&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Open &lt;code&gt;https://localhost:9392/&lt;/code&gt; or start &lt;code&gt;“gsd”&lt;/code&gt; on a command line as a
 regular user (not as root!). Optional we can use and the Slowloris and
 Pyloris DoS attacks.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Download link for Slowloris is:
 &lt;a href="http://ha.ckers.org/slowloris/slowloris.pl"&gt;http://ha.ckers.org/slowloris/slowloris.pl&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The above solution and tool will help us to check and test our IDS
 system usefulness. It tests the following attacks: Port scan, SYN flood,
 DoS, etc. The results are presented with nice GUI interface. For more
 info about the project please refer to
 &lt;a href="http://www.openvas.org/"&gt;www.openvas.org&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;RESULTS&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;After executing the above proposal we will highlight the results.
 Nevertheless, only the Proposal 1 was able to run the test. Others two,
 Proposal 2 and Proposal 3 were unsuccessful of installation process and
@@ -1157,7 +1049,6 @@ in addition Analysis Console for Intrusion Databases (ACID) project tool
 [ACID]. Therefore, the result from the Proposal 1 and from the rest are
 highlighted below:&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Proposal 1&lt;/li&gt;
 &lt;li&gt;DoS – registered alerts: 2;&lt;/li&gt;
@@ -1166,7 +1057,6 @@ highlighted below:&lt;/p&gt;
 &lt;li&gt;slowloris.pl: 1782;&lt;/li&gt;
 &lt;li&gt;
 &lt;/p&gt;
-
 &lt;p&gt;apachekiller.pl: not working;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;
@@ -1191,10 +1081,8 @@ tutorials how to configure OpenVAS please refer [OpenVas1] and
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;CONCLUSION&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Primarily, setting-up IDS, the Snort, it is not an easy task to
 complete. On the other hand, configuring, installing, etc. the testing
 tools for IDS system is even more complicated. Therefore, the Proposal 1
@@ -1205,19 +1093,15 @@ the usefulness of IDS has to be more simple and stepwise solution.
 However, the above scenario and proposals are great tools and solutions
 for a future reader.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;APPENDIXES&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Appendix 1 is the configuration of the attacker virtual machine, in more
 detail Blacktrack distribution. Secondly, Appendix 2 is the ubuntu
 wordpress configuration server and additional is the configuration and
 setup process and refer links of IDS Snort virtual machine.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h2&gt;APPENDIX 1&lt;/h2&gt;
 &lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Installation media: Black Track 5 GNOME 32bit iso image;&lt;/li&gt;
 &lt;li&gt;HW: Virtualbox, 1CPU 32bit, 512MB RAM, 8GB HD (dynamic allocation);&lt;/li&gt;
@@ -1226,10 +1110,8 @@ setup process and refer links of IDS Snort virtual machine.&lt;/p&gt;
 &lt;li&gt;Downloadable link: &lt;a href="http://www.backtrack-linux.org/downloads/"&gt;http://www.backtrack-linux.org/downloads/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;h2&gt;APPENDIX 2&lt;/h2&gt;
 &lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Installation media: Ubuntu 10.04 32bit iso image;&lt;/li&gt;
 &lt;li&gt;HW: Virtualbox, 1CPU 32bit, 512MB RAM, 8GB HD (dynamic allocation);&lt;/li&gt;
@@ -1244,7 +1126,6 @@ setup process and refer links of IDS Snort virtual machine.&lt;/p&gt;
 &lt;li&gt;Default applications&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;div class="highlight"&gt;
 
     sudo apt-get install lamp phpmyadminwget -c http://wordpress.org/latest.tar.gztar xvjf latest.tar.gzsudo cp wordpress /var/www/wordpresssudo nano /var/www/wordpress/wp-config.php&lt;/pre&gt;
@@ -1252,10 +1133,8 @@ setup process and refer links of IDS Snort virtual machine.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-
 &lt;p&gt;Change the settings to your needs.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h2&gt;APPENDIX 3&lt;/h2&gt;
 &lt;p&gt;&lt;/h2&gt;
 &lt;/p&gt;&lt;/p&gt;
@@ -1275,39 +1154,30 @@ setup process and refer links of IDS Snort virtual machine.&lt;/p&gt;
     please refer to [SNORT2].&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Bibliography&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;SNORT2: Nick Moore, Snort 2.8.4.1 Ubuntu 9 Installation Guide, June
 2009, &lt;a href="http://www.snort.org/assets/113/Snort_2.8.4.1_Ubuntu.pdf"&gt;http://www.snort.org/assets/113/Snort_2.8.4.1_Ubuntu.pdf&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;ACID: Basic Analysis and Security Engine, Welcome to the Basic Analysis
 and Security Engine (BASE) project, 2008,
 &lt;a href="http://base.secureideas.net/about.php"&gt;http://base.secureideas.net/about.php&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;OpenVas1: NA, Backtrack 5- OpenVas Tutorial, NA,
 &lt;a href="http://www.ehacking.net/2011/06/backtrack-5-openvas-tutorial.html"&gt;http://www.ehacking.net/2011/06/backtrack-5-openvas-tutorial.html&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;OpenVas2: BackTrack Linux, Getting started with OpenVas, June 2011,
 &lt;a href="http://www.backtrack-linux.org/wiki/index.php/OpenVas"&gt;http://www.backtrack-linux.org/wiki/index.php/OpenVas&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;SNORT1: kat-amsterdam, SnortIDS, December 2010,
 &lt;a href="https://help.ubuntu.com/community/SnortIDS"&gt;https://help.ubuntu.com/community/SnortIDS&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[1] IDS – Intrusion detection system&lt;/p&gt;
 &lt;/p&gt;</content><category term="pages"></category><category term="cyber security"></category><category term="DDoS"></category><category term="ids"></category><category term="internet"></category><category term="networking"></category><category term="online"></category><category term="openvas"></category><category term="port scan"></category><category term="snort"></category><category term="SYN flood"></category><category term="testing ids"></category><category term="vulnerability scanning"></category></entry><entry><title>Future of human communication</title><link href="https://predragtasevski.com/posts/2011/06/future-of-human-communication/" rel="alternate"></link><published>2011-06-26T23:00:00+02:00</published><updated>2011-06-26T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2011-06-26:/posts/2011/06/future-of-human-communication/</id><summary type="html">&lt;h1&gt;On the basis of how the communication possibilities have changed (for) most people during last decades, what’s my idea of the normal human interaction in 10..20…50 years?&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;To understand the present we must first understand the past. The
 Internet has revolutionized the computer and communications world like …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;On the basis of how the communication possibilities have changed (for) most people during last decades, what’s my idea of the normal human interaction in 10..20…50 years?&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;To understand the present we must first understand the past. The
 Internet has revolutionized the computer and communications world like
 nothing before. The invention of the telegraph, telephone, radio, and
@@ -1323,7 +1193,6 @@ research in packet switching, the government, industry and academia have
 been partners in evolving and deploying this exciting new technology
 (Barry M. , et al., 2011).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The Internet today is a widespread information infrastructure, the
 initial prototype of what is often called the National (or Global or
 Galactic) Information Infrastructure. Its history is complex and
@@ -1333,7 +1202,6 @@ communications but throughout society as we move toward increasing use
 of online tools to accomplish electronic commerce, information
 acquisition, and community operations(Barry M. , et al., 2011).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Likelihood, computers have changed the face of communication to an
 extent that we can’t consider our routine life without presence of these
 machines. With the availability of technologies like internet, instant
@@ -1341,7 +1209,6 @@ messaging, emailing and others, the computers has fast replaced
 conventional means of communicating with each other(Communication Type,
 2008).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;No one writes letter anymore. It’s been said that longhand or cursive is
 no longer taught in grade school. No need for it. People don’t write
 anymore. As technology defined the late Twentieth Century, we became
@@ -1352,7 +1219,6 @@ to people all over the world that we might not otherwise get to enjoy.
 Today, computer technology constantly changes the way we communicate
 (Friends of Time, 2011).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;When we look through the history of computer communication from 1968 to
 nowadays there are three unique market sectors: Data Communication,
 Networking and Internet (Internetworking). Data communication is an
@@ -1363,10 +1229,8 @@ In computer network two or more computers are linked together with a
 medium and data communication devices for the purpose of communicating
 data and sharing resources.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;When the Internet is a network of networks?&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Millions of computers all over the world are connected through the
 Internet. Computer users on the Internet can contact one another
 anywhere in the world. If your computer is connected to the Internet,
@@ -1374,7 +1238,6 @@ you can connect to millions of computers. You can gather information and
 distribute your data. It is very much similar to the telephone
 connection where you can talk with any person anywhere in the world.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;As digital media takes flight, the grand slam of computer communication
 has arrived. Skype . It’s free, it’s live, and it’s real face time. Not
 only can people talk, but they can see each other as they talk. There
@@ -1388,7 +1251,6 @@ to each other, but they know the other person is there (Friends of Time,
 network (WLAN 1) we can chat and talk with anyone from anywhere, without
 the consideration of graphical location.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The internet and computers are offering a wide range of communication
 influence. We can communicate to text messages to your friends through
 computers and communication tools provided by it. From emails and
@@ -1409,7 +1271,6 @@ concepts in nowadays communication is online social networking, instance
 of communication, joining different online clubs and communicates with
 individuals from various parts of the world.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;On the other hand, imagine a day without computer in your room or on the
 office desk. For instance no emails, no chatting, no instant messaging
 and no web camera interactions, how we are going to feel? Therefore, we
@@ -1418,7 +1279,6 @@ Life can come to a standstill without computers and similar devices
 around us. Consequently, communication through computers is an important
 aspect of every individual today.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The best part of communicating through computer and Internet is that you
 can practice it from any part of the world. All computer technology is
 wonderful and the more access to communication the better. But it will
@@ -1429,45 +1289,36 @@ everyday norm.  &lt;/p&gt;
 communicate. This is because computers have become great contributors
 towards the world of communication.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Reference&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Barry M. , L., Vinton G. , C., David D. , C., Robert E. , K., Leonard ,
 K., Daniel C. , L., et al. (2011). A Brief History of the Internet.
 Retrieved from Internet Society (ISOC):
 &lt;a href="http://www.isoc.org/internet/history/brief.shtml"&gt;http://www.isoc.org/internet/history/brief.shtml&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Communication Type. (2008, October 29). Computers and Communication –
 Technology Giving Way to Technology. Retrieved from Communication Type:
 &lt;a href="http://www.communication-type.com/computers-and-communication-%E2%80%93-technology-giving-way-to-technology/"&gt;http://www.communication-type.com/computers-and-communication-%E2%80%93-technology-giving-way-to-technology/&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Friends of Time. (2011). Computer Technology Constantly Changes the Way
 We Communicate. Retrieved from Friends of Time:
 &lt;a href="http://friendsoftime.org/computer-technology-constantly-changes-the-way-we-communicate.html"&gt;http://friendsoftime.org/computer-technology-constantly-changes-the-way-we-communicate.html&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Footnote:&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[1] WLAN: a local area network that uses high frequency radio signals to
 transmit and receive data over distances of a few hundred feet; uses
 Ethernet protocol&lt;/p&gt;
 &lt;/p&gt;</content><category term="pages"></category><category term="communication"></category><category term="future of human communication"></category><category term="internet"></category><category term="network"></category><category term="networking"></category><category term="online"></category></entry><entry><title>Major changes in warfare from antiquity to modern</title><link href="https://predragtasevski.com/posts/2011/04/major-changes-in-warfare-from-antiquity-to-modern/" rel="alternate"></link><published>2011-04-20T23:00:00+02:00</published><updated>2011-04-20T23:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2011-04-20:/posts/2011/04/major-changes-in-warfare-from-antiquity-to-modern/</id><summary type="html">&lt;h1&gt;Analyse the major changes in warfare from antiquity to modern days. What are the most significant changes? What has remained unchanged?&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Before we start the discussion about the major changes in warfare from
 antiquity to present day we will precede with definition of War and its
 significant and remained unchanged …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Analyse the major changes in warfare from antiquity to modern days. What are the most significant changes? What has remained unchanged?&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Before we start the discussion about the major changes in warfare from
 antiquity to present day we will precede with definition of War and its
 significant and remained unchanged changes.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;WAR in its literal meaning is fighting, for fighting alone is the
 efficient principle in the manifold activity which, in a wide sense, is
 called war. But fighting is a trial of strength of the moral and
@@ -1475,7 +1326,6 @@ physical forces by means of the latter. That the moral cannot be omitted
 is evident of itself, for the condition of the mind has always the most
 decisive influence on the forces employed in war (Graham, 2002).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Humanity has wedged war since antiquity through nowadays for million
 causes, national and religious freedom, hatred, grudge, human rights,
 liberating the enslaved etc. But one principle in war has always been
@@ -1487,7 +1337,6 @@ century, when under the pretext of human rights countries are being
 robed from their natural resources and air-raids are killing those whom
 should protect.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;After we met with the theory of war and moral principles, it is time to
 consider changes that have occurred between the ancient and modern
 times. The military of ancient Egypt had introduced the new technologies
@@ -1504,7 +1353,6 @@ with wooden handles and stone – later metal – heads, battle axes,
 hatchets, clubs, swords, sickleswords and daggers (Dollinger, Weapons,
 2010).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Persian Army had only three wars, started from 490 BC until 478BC, the
 army was very multicultural, were organizes in a decimal basis,
 regiments, units and corps were grouped in tens, hundreds and thousands
@@ -1513,7 +1361,6 @@ one hundred, one thousand and ten thousand. Heavily equipped with
 weapons, which are: Thrusting Spear, palta, Akinakes , Xiphos, kopis,
 bow etc (Wildfiregames, 2004).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Greece war, first nine years of the war consisted of both war in Troy
 and war against the neighbouring regions, where destroyed Trojan
 economy, allowed Greeks to getter a large amount of resources. The
@@ -1524,7 +1371,6 @@ perfect idea to build a big wooden horse where inside will be field with
 the soldiers, which bring and invasion of Troy from the Greeks (Rita,
 2010).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Army of Macedonia was the army of ancient Kingdom of Macedonia. It
 considers a grate military force where there were reforms constructed
 from the suggestion of King Philip II of Macedon and then his son
@@ -1538,7 +1384,6 @@ the phalangite were not the focal point for the battle, they have used
 other forces like: skirmishers, range troops, reserves of allied
 hoplites, and artillery (Hellenica, 2005).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Rome in the wars had adapted weapons, armour and tactics of many enemies
 they fought. Main weapons of Rome soldiers were Spanish sword – gladius,
 it had two throwing spears, a large shield, body armour and a helmet.
@@ -1549,7 +1394,6 @@ to 30 km a day. They were very evil, trained to stab a 5 cm deep wound,
 after breaking the enemy, Romans tended to kill as many enemies as
 possible and their cavalry pursued fleeing enemy.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;After the Rome the medieval Europe warfare followed, which was the war
 of legal and acceptable justification, nobility (knights) and the main
 force on the battlefield was a heavy cavalry, where the law of the armed
@@ -1558,7 +1402,6 @@ Mongol empire. Mongols army had the capacity to move up to 150 km a day.
 The weapons of the army consisted of massive fire (bow) speed and
 manoeuvres.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Wars of the XVI Century were mostly protracted and indecisive. There was
 insistency on building a fortress that was very difficult to conquer.
 The most important improvement is the side of the weapons with adoption
@@ -1566,7 +1409,6 @@ of light guns and gunpowder. Gustavus Adolphus had guns in his army, he
 had 1 gun per 83, but his enemies had 1 gun per 2000 men. The main thing
 was to build and modify the fortresses for safety and hard to conquer.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;World War I, sometimes described as ‘the war to end all wars’ (Creveld,
 2000, p. 162), the strategies were based on first manoeuvre, and then
 attrition. Forces and armaments were infantry, cavalry artillery, and
@@ -1581,7 +1423,6 @@ des Luftkriegs”, Militarverlag der DDR, Berlin, 1975, though the 1912
 United Kingdom had 23 air planes, Russian – 99, German – 46, Italian –
 22, Japan – 10 and USA – 3 air planes.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Second World War, where the technology and the concept of the war were
 getting bigger, developed into a prolonged and extremely deadly struggle
 of attrition. The Germans invented the rockets (vau1 and vau2).
@@ -1604,7 +1445,6 @@ Western Europe and Turkey, i.e. have planted bombs in the Ottoman Bank
 in Thessaloniki, the main post office, and planted a bomb in a ship
 (Sotros, 2004 December).&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;As can read above the changes are very drastic. Humanity is fighting for
 the different purpose; starting from the antiquity to nowadays, not only
 in weapons that were used and presented, but in the strategies in a
@@ -1617,7 +1457,6 @@ networks, VOIP, IM etc.), net generations1, thus today it is the main
 source of grouping the population for massive protests or any other
 actions, which can end-up to a war or scandal.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Consequently the technology and science are rising, the possibilities
 and the changes in an aspect of wars will change. For instant is Russian
 – Georgian conflict in 2008 as a result of territorial attack and in
@@ -1627,61 +1466,47 @@ Iran and many others3. Therefore, nowadays this actions and concept of
 warfare is different, no more uniforms, battles etc. Warfare’s are
 getting new aspect and new ways to approach through the technology.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Reference&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Creveld, M. V. (2000). THE INTERWAR PERIOD. In M. v. Creveld, The Art of
 War – War and Military Thought. London: Cassell.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Dollinger, A. (2004, November). Dynasties XVIII to XX. Retrieved from
 Ancient Egyptian history:
 &lt;a href="http://www.reshafim.org.il/ad/egypt/history18-20.htm#merneptah"&gt;http://www.reshafim.org.il/ad/egypt/history18-20.htm#merneptah&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Dollinger, A. (2010, March). Weapons. Retrieved from Pharaonic Egypt:
 &lt;a href="http://www.reshafim.org.il/ad/egypt/weapons/index.html#rem4"&gt;http://www.reshafim.org.il/ad/egypt/weapons/index.html#rem4&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Drury, M. (2006, February). Battles of the Achaemenid Empire . Retrieved
 from A History Resource by Mark Drury:
 &lt;a href="http://members.ozemail.com.au/~ancientpersia/batt_frm.html"&gt;http://members.ozemail.com.au/~ancientpersia/batt_frm.html&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Ellis, J. R. (1979). Philip II and Macedonian Imperialism.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Graham, C. J. (2002). On The Theory Of War, Section: Branches of the Art
 of War. Retrieved 2011, from Clausewitz, ON WAR:
 &lt;a href="http://www.clausewitz.com/readings/OnWar1873/BK2ch01.html"&gt;http://www.clausewitz.com/readings/OnWar1873/BK2ch01.html&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Hellenica. (2005, 04). Macedonian phalanx. Retrieved from Hellenica:
 &lt;a href="http://www.mlahanas.de/Greeks/LX/MacedonianPhalanx.html"&gt;http://www.mlahanas.de/Greeks/LX/MacedonianPhalanx.html&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Rita. (2010). The Trojan War. Retrieved from Stanford University:
 &lt;a href="/http://www.stanford.edu/~plomio/history.html#anchor202941"&gt;http://www.stanford.edu/\~plomio/history.html#anchor202941&lt;/a&gt;&lt;a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Sotros, J. (2004 December). The Greek Speaking Anarchist and
 Revolutionary Movement (1830–1940) Writings for a History. No God-No
 Masters.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Wildfiregames. (2004, September). Persia: Arms of the Shah-an-Shah –
 Persian Arms an. Retrieved from 0 A.D. :: Wildfire Games:
 &lt;a href="http://wildfiregames.com/0ad/page.php?p=1581"&gt;http://wildfiregames.com/0ad/page.php?p=1581&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[1] The Net Generation Brain by Don Tapscott (2009)&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[2] &lt;a href="http://zdnet.com/blog"&gt;ZDnet.com/blog&lt;/a&gt; – Coordinated Russia vs
 Georgia cyber attack in progress  &lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;[3] &lt;a href="http://bbc.co.uk/technology"&gt;BBC.co.uk/technology&lt;/a&gt; – Stuxnet virus
 targets and spread revealed&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
@@ -1706,7 +1531,6 @@ that has to be concern in an aspect of HCI, I have chosen to write about
 the part 4 where they give a good outline of the recommendations that
 has to be encounter for the new actions in the future of HCI.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;The research report came with very good seventh future directions. Each
 direction will be described in an educationally signification for me,
 what I have learned and what should be the next future actions in
@@ -1716,7 +1540,6 @@ report gives vaulting and most important future recommendations that
 need to be considered, and there will be more and more recommendations
 and future directions as the technology and the HCI changes.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Before we start to talk about the recommendations in a field of HCI,
 let’s see what HCI is. It is a term used to refer to the understanding
 and designing of different relationships between people and computers.
@@ -1725,12 +1548,10 @@ established and designed, developed and apply all manners to ensure that
 the technologies are easy to learn and easy to use. (Harper, Tom,
 Yvonne, &amp;amp; Abigail, 2008, p. 84)&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;p&gt;After getting familiar with the terms and the practice of HCI let as
 look though the main seventh future recommendations that were considered
 by the scholars and people involved in this forum.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;Recommendation 1: Revisit research and design methods in HCI: it is
     a distinct research area, methods and techniques have been used have
@@ -1798,7 +1619,6 @@ by the scholars and people involved in this forum.&lt;/p&gt;
     78-83)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/p&gt;
-
 &lt;p&gt;I found this article very interesting, not only in an aspect of human
 interaction with computers but with the actions that were taken and the
 propositions that were sum. I love to make a summer of the entire
@@ -1809,10 +1629,8 @@ implementation of projects, aspects and techniques that can be used.
 Hope that this few years since the 2007, the implementation and
 recommendation directories have been successfully.&lt;/p&gt;
 &lt;/p&gt;
-
 &lt;h1&gt;Reference&lt;/h1&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Harper, R., Tom, R., Yvonne, R., &amp;amp; Abigail, S. (2008). Being Human,
 Human-Computer Interaction in the year 2020. Cambridge, CB3 0FB,
 England: Microsoft Research Ltd.&lt;/p&gt;

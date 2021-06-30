@@ -155,7 +155,6 @@ Predrag TASEVSKI - Pece            </a>
                 </div>
                 <h1>SCENARIO</h1>
 </p>
-
 <p>The objective of this laboratory test, scenario is to create a solution
 and instructions for testing an IDS^1^ systems usefulness for detecting
 attacks against a wordpress site. In addition, we have to
@@ -163,7 +162,6 @@ develop/download/find/whatever a SNORT configuration (rulesets,
 preprocessors, whatever) that performs better than the default
 configuration in previous post. By better we mean:</p>
 </p>
-
 <ul>
 <li>Less false positives</li>
 <li>Less false negatives</li>
@@ -177,17 +175,14 @@ configuration in previous post. By better we mean:</p>
     a row.</li>
 </ul>
 </p>
-
 <p>Meanwhile, the new rules have to be able to detect not only the default
 attacks that are set to a default snort configuration, yet they have to
 be able to detect SQL injection, brute force password, apache killer
 script, pytbull, etc. Furthermore, in figure 1 we are illustrating the
 scenario.</p>
 </p>
-
 <p>Illustration 1: Illustration of Scenario</p>
 </p>
-
 <p>Therefore, in the proposal section we will present two proposals that
 have been submitted due to this laboratory test and additionally in
 result section we will highlighted the identification numbers made by
@@ -195,32 +190,24 @@ snort set new rules. In section appendixes we will provide you with more
 details configuration procedures, configuration of VM’s – Virtual
 Machines, attacks, etc.</p>
 </p>
-
 <p>Finally, closing with an conclusion and the results of best set of rules
 made of the proposals.</p>
 </p>
-
 <h1>SETUP of SNORT</h1>
 </p>
-
 <p>To setup snort in a right way, that will work for the second Host only
 network please following the instruction link provided with a full
 description and configuration of snort [SNORT2].</p>
 </p>
-
 <h1>PROPOSALS</h1>
 </p>
-
 <p>In total two proposals are presented in next sub-sections.</p>
 </p>
-
 <h2>PROPOSAL 1</h2>
 </p>
-
 <p>Add <a href="http://www.tud.ttu.ee/~t061780/attacks/robert.rules">http://www.tud.ttu.ee/~t061780/attacks/robert.rules</a> to your Snort.
 On your Snort machine:</p>
 </p>
-
 <div class="highlight">
 
     cd /etc/snort/ruleswget http://www.tud.ttu.ee/~t061780/attacks/robert.rules
@@ -228,18 +215,14 @@ On your Snort machine:</p>
 </div>
 
 </p>
-
 <p>Now you have the rules, add them to your snort conf file (default
 /etc/snort/snort.conf). To do that inser:</p>
 </p>
-
 <p><code>include $RULE_PATH/robert.rules</code> somewhere with rest of the rules after
 line 800. Run Snort and test.</p>
 </p>
-
 <h2>PROPOSAL 2</h2>
 </p>
-
 <p>Add the following rules: <a href="http://predragtasevski.com/src/predrag.rules">http://predragtasevski.com/src/predrag.rules</a>.
 To be able to insert the snort rules in to the snort file please double
 check where it is located. You can find the location with the following
@@ -248,16 +231,12 @@ IP address to your server address on line number #6, example alert tcp
 any any -> 192.168.56.X where x is your octet. Then to add the
 following rules at the conf file do the following command:</p>
 </p>
-
 <p><code>cat predrag.rules &amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;gt; snort.conf</code></p>
 </p>
-
 <p>Now it is time to start or restart snort. It should work.</p>
 </p>
-
 <h1>RESULTS</h1>
 </p>
-
 <p>After executing the above proposal we will highlight the results into
 the table bellow. Result are presented from the total amount of reports,
 registered alerts in the snort. This is done by help of web interface of
@@ -265,7 +244,6 @@ Basic Analysis and Security Engine in addition Analysis Console for
 Intrusion Databases (ACID) project tool [ACID]. Therefore, the result
 from the proposals are highlighted below:</p>
 </p>
-
 <table>
 </p>
 <p>
@@ -498,31 +476,23 @@ N/A
 </p>
 <p>
 </table>
-
 </p>
-
 <p>Table 1: Details of total report numbers of alerts made by SNORT and the
 different proposal rule sets. Details of the attacks conducted in the
 table are presented in appendixes section.</p>
 </p>
-
 <p>Additionally, figure 2 is presenting the pine chart of the total number
 alerts recognized by Snort.</p>
 </p>
-
 <p>Illustration 2: Total number of Alerts.</p>
 </p>
-
 <p>Secondly, figure 3 is representing the pine chart of total number of
 unique alerts recognized by Snort.</p>
 </p>
-
 <p>Illustration 3: Total number of Unique Alerts</p>
 </p>
-
 <h1>CONCLUSION</h1>
 </p>
-
 <p>From the above results we came to conclusion that the new applied rules
 were successful and were able to recognize alerts more then the default
 rule set of Snort. Meanwhile, only proposal 2 was able to recognized an
@@ -532,7 +502,6 @@ both rule sets proposals. Then the Snort is able to recognized an
 significant number of total alerts and additionally for our laboratory
 report more interesting is unique total number alerts.</p>
 </p>
-
 <p>Closing, even the default Snort rules configuration is good, yet when
 you tweak it by</p>
 <p>your own needs, you will have much better IDS system for your network.
@@ -541,10 +510,8 @@ gather more available advance Snort rules, made by experts. Where will
 help you to configure and setup Snort IDS system to detecting attacks
 against a wordpress site, etc.</p>
 </p>
-
 <h1>APPENDIXES</h1>
 </p>
-
 <p>Appendix 1 is the configuration of the attacker virtual machine, in more
 detail Blacktrack 5 distribution. Secondly, Appendix 2 is the ubuntu
 wordpress configuration server and additional is the configuration and
@@ -552,10 +519,8 @@ setup process and refer links of IDS Snort virtual machine. Appendix 4,
 5 and 6 are providing brief details about the attacks that were
 conducted during this laboratory test.</p>
 </p>
-
 <h1>APPENDIX 1</h1>
 </p>
-
 <ul>
 <li>Installation media: Black Track 5 GNOME 32bit iso image;</li>
 <li>HW: Virtualbox, 1CPU 32bit, 512MB RAM, 8GB HD (dynamic allocation);</li>
@@ -564,15 +529,12 @@ conducted during this laboratory test.</p>
 <li>Downloadable link: <a href="http://www.backtrack-linux.org/downloads/">http://www.backtrack-linux.org/downloads/</a></li>
 </ul>
 </p>
-
 <h1>
 APPENDIX 2
 
 </h2>
 </h1>
-
 </p>
-
 <ul>
 <li>Installation media: Ubuntu 10.04 32bit iso image;</li>
 <li>HW: Virtualbox, 1CPU 32bit, 512MB RAM, 8GB HD (dynamic allocation);</li>
@@ -587,7 +549,6 @@ APPENDIX 2
 <li>Default applications</li>
 </ul>
 </p>
-
 <div class="highlight">
 
     sudo apt-get install lamp phpmyadminwget -c http://wordpress.org/latest.tar.gztar xvjf latest.tar.gzsudo cp wordpress /var/www/wordpresssudo nano /var/www/wordpress/wp-config.php Change the settings to your needs
@@ -595,10 +556,8 @@ APPENDIX 2
 </div>
 
 </p>
-
 <h1>APPENDIX 3</h1>
 </p>
-
 <ul>
 <li>Installation media: Ubuntu 10.04 32bit iso image;</li>
 <li>HW: Virtualbox, 1CPU 32bit, 512MB RAM, 8GB HD (dynamic allocation);</li>
@@ -615,14 +574,11 @@ APPENDIX 2
     please refer to [SNORT2].</li>
 </ul>
 </p>
-
 <h1>APPENDIX 4</h1>
 </p>
-
 <p>Here we test typical SQL- injection in URLs</p>
 <p>Commands used:</p>
 </p>
-
 <div class="highlight">
 
     wget "http://192.168.56.101/?p=1'%20OR%20'1'='1"wget "http://192.168.56.101/?p=1'%20AND%201=(SELECT%20COUNT(*)%20FROM%20tabname);%20—"
@@ -630,52 +586,39 @@ APPENDIX 2
 </div>
 
 </p>
-
 <p>Snort by default does not detect this, where in applying the proposal 2
 rules, it did detect.</p>
 </p>
-
 <h1>APPENDIX 5</h1>
 </p>
-
 <p>To test Snort and acidbase, perform a portscan of the Snort host.</p>
 </p>
-
 <p><code>sudo nmap -p1-65535 -sV -sS -O 192.168.56.102</code></p>
 </p>
-
 <h1>APPENDIX 6</h1>
 </p>
-
 <p>To setup pytbull it is a bit of pain, yet if you follow the rules and
 the documentation it will work like shark. For documentation please
 refer to [pytbull_doc].</p>
 </p>
-
 <h1>Bibliography</h1>
 </p>
-
 <p>[SNORT2] Nick Moore, Snort 2.8.4.1 Ubuntu 9 Installation Guide, June
 2009, <a href="http://www.snort.org/assets/113/Snort_2.8.4.1_Ubuntu.pdf">http://www.snort.org/assets/113/Snort_2.8.4.1_Ubuntu.pdf</a></p>
 </p>
-
 <p>[ACID] Basic Analysis and Security Engine, Welcome to the Basic Analysis
 and Security Engine (BASE) project ,
 2008,<a href="http://base.secureideas.net/about.php">http://base.secureideas.net/about.php</a></p>
 </p>
-
 <p>[snort_rules]
 <a href="http://rules.emergingthreats.net/open/snort-2.9.0/rules/">http://rules.emergingthreats.net/open/snort-2.9.0/rules/</a></p>
 </p>
-
 <p>[SNORT1] kat-amsterdam, SnortIDS, December 2010,
 <a href="https://help.ubuntu.com/community/SnortIDS">https://help.ubuntu.com/community/SnortIDS</a></p>
 </p>
-
 <p>[pytbull_doc] Sébastien Damaye, Official documentation for pytbull v1.3
 -, 2011, <a href="http://pytbull.sourceforge.net/index.php?page=documentation">http://pytbull.sourceforge.net/index.php?page=documentation</a></p>
 </p>
-
 <p>[1] IDS – Intrusion detection system</p>
 </p>
             </div>
@@ -726,34 +669,22 @@ and Security Engine (BASE) project ,
   <a href="../../../../"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
   <ul class="list-group " id="tags">
     <li class="list-group-item tag-1">
-      <a href="../../../../tag/security/">security</a>
+      <a href="../../../../tag/online/">online</a>
     </li>
     <li class="list-group-item tag-1">
-      <a href="../../../../tag/cyber-security/">cyber security</a>
+      <a href="../../../../tag/security/">security</a>
     </li>
     <li class="list-group-item tag-1">
       <a href="../../../../tag/internet/">internet</a>
     </li>
     <li class="list-group-item tag-1">
-      <a href="../../../../tag/online/">online</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/network/">network</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/conference/">conference</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/ddos/">DDoS</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/malware/">malware</a>
+      <a href="../../../../tag/cyber-security/">cyber security</a>
     </li>
     <li class="list-group-item tag-2">
       <a href="../../../../tag/awareness/">awareness</a>
     </li>
     <li class="list-group-item tag-2">
-      <a href="../../../../tag/cyber/">cyber</a>
+      <a href="../../../../tag/attacks/">attacks</a>
     </li>
     <li class="list-group-item tag-2">
       <a href="../../../../tag/networking/">networking</a>
@@ -762,31 +693,103 @@ and Security Engine (BASE) project ,
       <a href="../../../../tag/balkan/">Balkan</a>
     </li>
     <li class="list-group-item tag-2">
+      <a href="../../../../tag/macedonia/">macedonia</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/ddos/">DDoS</a>
+    </li>
+    <li class="list-group-item tag-2">
       <a href="../../../../tag/privacy/">privacy</a>
     </li>
     <li class="list-group-item tag-2">
-      <a href="../../../../tag/interview/">interview</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../../../../tag/macedonia/">Macedonia</a>
+      <a href="../../../../tag/malware/">malware</a>
     </li>
     <li class="list-group-item tag-2">
       <a href="../../../../tag/freedom/">freedom</a>
     </li>
     <li class="list-group-item tag-2">
-      <a href="../../../../tag/attacks/">attacks</a>
+      <a href="../../../../tag/conference/">conference</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/network/">network</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/interview/">interview</a>
+    </li>
+    <li class="list-group-item tag-2">
+      <a href="../../../../tag/cyber/">cyber</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/cybersecurity/">cybersecurity</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/testing-ids/">testing ids</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/mvr/">mvr</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wordpress/">wordpress</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/digital-divide/">digital divide</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/policy/">policy</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/mobile/">mobile</a>
+      <a href="../../../../tag/malicious-code/">malicious code</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/botnet/">botnet</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/infrastructure/">infrastructure</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/syn-flood/">SYN flood</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/presentation/">presentation</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/threats/">threats</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/italy/">Italy</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wpan/">wpan</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/human-factor/">human factor</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/malicious-code/">malicious code</a>
+      <a href="../../../../tag/encryption/">encryption</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wifi/">wifi</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/ubuntu/">ubuntu</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/prediction/">prediction</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/binary/">binary</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/course/">course</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/phone/">phone</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/risk-assessment/">risk assessment</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/mobile/">mobile</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/ids/">ids</a>
@@ -795,73 +798,55 @@ and Security Engine (BASE) project ,
       <a href="../../../../tag/forum/">forum</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/testing-ids/">testing ids</a>
+      <a href="../../../../tag/strategy/">strategy</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/cybersecurity/">cybersecurity</a>
+      <a href="../../../../tag/society/">society</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/vulnerability/">vulnerability</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/prediction/">prediction</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/presentation/">presentation</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/risk-assessment/">risk assessment</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/ubuntu/">ubuntu</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/nato/">nato</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/information-warfare/">information warfare</a>
+      <a href="../../../../tag/workshop/">workshop</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/ransomware/">ransomware</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/iot/">IoT</a>
+      <a href="../../../../tag/wireless/">wireless</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/italy/">Italy</a>
+      <a href="../../../../tag/nato/">nato</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/digital-divide/">digital divide</a>
+      <a href="../../../../tag/communication/">communication</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/gms/">gms</a>
+      <a href="../../../../tag/teaching/">teaching</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/wiretapping/">wiretapping</a>
+      <a href="../../../../tag/eavesdropping/">eavesdropping</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/hactivism/">hactivism</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/acceleration/">acceleration</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/syn-flood/">SYN flood</a>
+      <a href="../../../../tag/social/">social</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/vulnerability-scanning/">vulnerability scanning</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/wpan/">wpan</a>
+      <a href="../../../../tag/vulnerability/">vulnerability</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/strategy/">strategy</a>
+      <a href="../../../../tag/log-mining/">log mining</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/simmulation-of-attacks-and-defence/">simmulation of attacks and defence</a>
+      <a href="../../../../tag/snort/">snort</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/course/">course</a>
+      <a href="../../../../tag/information-warfare/">information warfare</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/wlan/">wlan</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/gms/">gms</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/risk-management/">risk management</a>
@@ -870,70 +855,28 @@ and Security Engine (BASE) project ,
       <a href="../../../../tag/port-scan/">Port scan</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/social/">social</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/wordpress/">wordpress</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/eavesdropping/">eavesdropping</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/botnet/">botnet</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/encryption/">encryption</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/unix/">Unix</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/data-breaches/">data breaches</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/log-mining/">log mining</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/network-crime/">network crime</a>
+      <a href="../../../../tag/surveillance/">surveillance</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/it-security/">IT security</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/wireless/">wireless</a>
+      <a href="../../../../tag/iot/">IoT</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/surveillance/">surveillance</a>
+      <a href="../../../../tag/hactivism/">hactivism</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/mvr/">mvr</a>
+      <a href="../../../../tag/unix/">Unix</a>
     </li>
     <li class="list-group-item tag-3">
-      <a href="../../../../tag/binary/">binary</a>
+      <a href="../../../../tag/wiretapping/">wiretapping</a>
+    </li>
+    <li class="list-group-item tag-3">
+      <a href="../../../../tag/data-breaches/">data breaches</a>
     </li>
     <li class="list-group-item tag-3">
       <a href="../../../../tag/network-security/">network security</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/teaching/">teaching</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/phone/">phone</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/optamization/">optamization</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/wlan/">wlan</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/snort/">snort</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/threats/">threats</a>
-    </li>
-    <li class="list-group-item tag-3">
-      <a href="../../../../tag/wifi/">wifi</a>
     </li>
   </ul>
 </li>
@@ -977,7 +920,7 @@ and Security Engine (BASE) project ,
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy; 2019 Predrag TASEVSKI - Pece
+         <div class="col-xs-10">&copy; 2021 Predrag TASEVSKI - Pece
             &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>                <p><small>  <a rel="license" href="https://creativecommons.org/licenses/by-nd/4.0/deed.en"><img alt="Creative Commons License" style="border-width:0" src="//i.creativecommons.org/l/by-nd/4.0/80x15.png" /></a>
