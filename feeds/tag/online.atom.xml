@@ -636,7 +636,7 @@ with various web browsers, all of them showed that it contained malware.&lt;/p&g
 &lt;/p&gt;
 &lt;p&gt;Additionally, we can always use an Find function, which will help as to
 identify certain traffic or site. Figure 2 demonstrated the usage of the
-Find function, accessible from menu Edit -&gt; Find.&lt;/p&gt;
+Find function, accessible from menu Edit -&amp;gt; Find.&lt;/p&gt;
 &lt;/p&gt;
 &lt;p&gt;Illustration 2: Wireshark, Find function&lt;/p&gt;
 &lt;/p&gt;
@@ -1197,7 +1197,7 @@ To be able to insert the snort rules in to the snort file please double
 check where it is located. You can find the location with the following
 command: find / -name snort.conf Before you continue please change the
 IP address to your server address on line number #6, example alert tcp
-any any -&gt; 192.168.56.X where x is your octet. Then to add the
+any any -&amp;gt; 192.168.56.X where x is your octet. Then to add the
 following rules at the conf file do the following command:&lt;/p&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;code&gt;cat predrag.rules &amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;gt; snort.conf&lt;/code&gt;&lt;/p&gt;
@@ -2917,7 +2917,7 @@ REGISTRATION SERVICES , &lt;a href="http://lacnic.net/cgi-bin/lacnic/whois?lg=EN
 &lt;/p&gt;
 &lt;p&gt;AfriNIC: AfriNIC LTD, Query the AfriNIC Whois Database, 2011,
 href="http://www.afrinic.net/cgi-bin/whois"
-target="_blank"&gt;http://www.afrinic.net/cgi-bin/whois&lt;/a&gt;&lt;/p&gt;
+target="_blank"&amp;gt;http://www.afrinic.net/cgi-bin/whois&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
 &lt;p&gt;APNIC: APNIC, APNIC – Query the APNIC Whois Database, 2011,
 &lt;a href="http://wq.apnic.net/apnic-bin/whois.pl"&gt;http://wq.apnic.net/apnic-bin/whois.pl&lt;/a&gt;&lt;/p&gt;

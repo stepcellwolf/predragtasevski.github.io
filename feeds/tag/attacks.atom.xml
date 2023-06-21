@@ -913,9 +913,9 @@ details with following content: In addition of my proposal pls install
 the following script:
 &lt;a href="http://windows.php.net/downloads/releases/php-5.3.8-nts-Win32-VC9-x86.msi"&gt;http://windows.php.net/downloads/releases/php-5.3.8-nts-Win32-VC9-x86.msi&lt;/a&gt;
 in the installation process in the section of Select Web Server you wish
-to setup please chose Do not setup a web server -&gt; Next click on the
+to setup please chose Do not setup a web server -&amp;gt; Next click on the
 PHP small narrow down icon and select Entire future will be installed on
-local hard drive (second option) -&gt; Next -&gt;Install&lt;/p&gt;
+local hard drive (second option) -&amp;gt; Next -&amp;gt;Install&lt;/p&gt;
 &lt;/p&gt;
 &lt;p&gt;The results and graphs of the above proposal are demonstrated in the
 next section.&lt;/p&gt;
@@ -1344,7 +1344,7 @@ REGISTRATION SERVICES , &lt;a href="http://lacnic.net/cgi-bin/lacnic/whois?lg=EN
 &lt;/p&gt;
 &lt;p&gt;AfriNIC: AfriNIC LTD, Query the AfriNIC Whois Database, 2011,
 href="http://www.afrinic.net/cgi-bin/whois"
-target="_blank"&gt;http://www.afrinic.net/cgi-bin/whois&lt;/a&gt;&lt;/p&gt;
+target="_blank"&amp;gt;http://www.afrinic.net/cgi-bin/whois&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
 &lt;p&gt;APNIC: APNIC, APNIC – Query the APNIC Whois Database, 2011,
 &lt;a href="http://wq.apnic.net/apnic-bin/whois.pl"&gt;http://wq.apnic.net/apnic-bin/whois.pl&lt;/a&gt;&lt;/p&gt;

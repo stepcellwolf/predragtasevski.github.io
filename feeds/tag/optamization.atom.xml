@@ -233,8 +233,8 @@ wordpress plugin: WP Super Cache Version 0.9.9.9&lt;/p&gt;
 &lt;a href="http://192.168.56.102/wordpress/wp-admin"&gt;http://192.168.56.102/wordpress/&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;a href="http://192.168.56.102/wordpress/wp-admin"&gt;wp-admin&lt;/a&gt;, log in with the
-credentials, from the panel select &lt;em&gt;Plugins&lt;/em&gt; -&gt; &lt;em&gt;WP-Super-Cache&lt;/em&gt; -&gt;
-&lt;em&gt;Activate&lt;/em&gt;. After the activation is done, go to &lt;em&gt;Settings&lt;/em&gt; -&gt;
+credentials, from the panel select &lt;em&gt;Plugins&lt;/em&gt; -&amp;gt; &lt;em&gt;WP-Super-Cache&lt;/em&gt; -&amp;gt;
+&lt;em&gt;Activate&lt;/em&gt;. After the activation is done, go to &lt;em&gt;Settings&lt;/em&gt; -&amp;gt;
 &lt;em&gt;WP-Super-Cache&lt;/em&gt;, on the first tab activate the cache by selecting the
 On cache and on the Advance tab select only the “(Recommended)”
 settings. After your done, select &lt;em&gt;Update Settings&lt;/em&gt; and on the bottom of
@@ -295,7 +295,7 @@ applications, yet this laboratory report is performed only with three
 easy and maintained steps.&lt;/p&gt;
 &lt;/p&gt;
 &lt;p&gt;Please log in to the wordpress administration panel, and on &lt;em&gt;Settings&lt;/em&gt;
--&gt; &lt;em&gt;Permalinks&lt;/em&gt; select &lt;em&gt;Default&lt;/em&gt;. After the step is done, then we need
+-&amp;gt; &lt;em&gt;Permalinks&lt;/em&gt; select &lt;em&gt;Default&lt;/em&gt;. After the step is done, then we need
 to edit the &lt;em&gt;.htaccess&lt;/em&gt; file and add the following lines at the end of
 the file and please save it:&lt;/p&gt;
 &lt;/p&gt;

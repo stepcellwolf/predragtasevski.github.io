@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Predrag TASEVSKI - Pece</title><link href="https://predragtasevski.com/" rel="alternate"></link><link href="https://predragtasevski.com/feeds/all.atom.xml" rel="self"></link><id>https://predragtasevski.com/</id><updated>2023-01-25T21:00:00+01:00</updated><entry><title>Podcasts for: Security, Startup, learning German and whatever</title><link href="https://predragtasevski.com/posts/2023/01/podcasts-i-like/" rel="alternate"></link><published>2023-01-25T21:00:00+01:00</published><updated>2023-01-25T21:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2023-01-25:/posts/2023/01/podcasts-i-like/</id><summary type="html">&lt;p&gt;Since I started jogging, I've noticed one change in myself: I've been more active when it comes to podcast listening. While I have done it previously, I have never had the time to listen to one for more than 15 minutes. Before going to sleep, I used to listen to …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Since I started jogging, I've noticed one change in myself: I've been more active when it comes to podcast listening. While I have done it previously, I have never had the time to listen to one for more than 15 minutes. Before going to sleep, I used to listen to them, and frankly, sometimes it worked and sometimes it didn't. But now that I run on a regular schedule, I typically listen to podcasts, especially on Sundays when I have a long run planned. 
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Predrag TASEVSKI - Pece</title><link href="https://predragtasevski.com/" rel="alternate"></link><link href="https://predragtasevski.com/feeds/all.atom.xml" rel="self"></link><id>https://predragtasevski.com/</id><updated>2023-06-21T00:00:00+02:00</updated><entry><title>Interview - Indeed Career Guide Tips</title><link href="https://predragtasevski.com/posts/2023/06/interview-indeed-career-tips/" rel="alternate"></link><published>2023-06-21T00:00:00+02:00</published><updated>2023-06-21T00:00:00+02:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2023-06-21:/posts/2023/06/interview-indeed-career-tips/</id><summary type="html">&lt;p&gt;Being a part of Springboard for Cybersecurity Studies allows me to mentor and support aspiring cybersecurity professionals as they look for their ideal position. For the &lt;a href="https://www.indeed.com/career-advice"&gt;Indeed Career Guide&lt;/a&gt; portal, I have offered interview questions and advice for cloud and software engineers.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.indeed.com/career-advice/interviewing/interview-questions-for-cloud-engineer"&gt;30+ Interview Questions for Cloud Engineers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.indeed.com/career-advice/interviewing/entry-level-software-engineer-interview-questions"&gt;36 Interview …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Being a part of Springboard for Cybersecurity Studies allows me to mentor and support aspiring cybersecurity professionals as they look for their ideal position. For the &lt;a href="https://www.indeed.com/career-advice"&gt;Indeed Career Guide&lt;/a&gt; portal, I have offered interview questions and advice for cloud and software engineers.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.indeed.com/career-advice/interviewing/interview-questions-for-cloud-engineer"&gt;30+ Interview Questions for Cloud Engineers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.indeed.com/career-advice/interviewing/entry-level-software-engineer-interview-questions"&gt;36 Interview Questions for Entry-Level Software Engineers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.indeed.com/career-advice/resumes-cover-letters/software-testing-resume"&gt;Software Tester Resume: 2023 Guide With Interview Tips&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="pages"></category><category term="interview"></category><category term="career"></category><category term="guide"></category><category term="tips"></category><category term="cloud"></category><category term="software"></category><category term="engineer"></category><category term="cybersecurity"></category><category term="tester"></category></entry><entry><title>Podcasts for: Security, Startup, learning German and whatever</title><link href="https://predragtasevski.com/posts/2023/01/podcasts-i-like/" rel="alternate"></link><published>2023-01-25T21:00:00+01:00</published><updated>2023-01-25T21:00:00+01:00</updated><author><name>Predrag TASEVSKI - Pece</name></author><id>tag:predragtasevski.com,2023-01-25:/posts/2023/01/podcasts-i-like/</id><summary type="html">&lt;p&gt;Since I started jogging, I've noticed one change in myself: I've been more active when it comes to podcast listening. While I have done it previously, I have never had the time to listen to one for more than 15 minutes. Before going to sleep, I used to listen to …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Since I started jogging, I've noticed one change in myself: I've been more active when it comes to podcast listening. While I have done it previously, I have never had the time to listen to one for more than 15 minutes. Before going to sleep, I used to listen to them, and frankly, sometimes it worked and sometimes it didn't. But now that I run on a regular schedule, I typically listen to podcasts, especially on Sundays when I have a long run planned. 
 Here are a few podcasts I listen to when running on Sundays, organized by category.&lt;/p&gt;
 &lt;p&gt;Naturally, the list below does not include all of the podcasts I have subscribed to, but it does include some of the ones that have kept me coming back to them and giving them repeated listens. &lt;/p&gt;
 &lt;p&gt;Here is a list organized by subject.&lt;/p&gt;
@@ -65,7 +73,7 @@ Additionally, I began using the proverb more frequently, "Running is my drag, co
 &lt;tr&gt;
 &lt;th&gt;Date&lt;/th&gt;
 &lt;th&gt;Location&lt;/th&gt;
-&lt;th align="right"&gt;Distance&lt;/th&gt;
+&lt;th style="text-align: right;"&gt;Distance&lt;/th&gt;
 &lt;th&gt;Title&lt;/th&gt;
 &lt;th&gt;Time&lt;/th&gt;
 &lt;th&gt;Pace&lt;/th&gt;
@@ -75,7 +83,7 @@ Additionally, I began using the proverb more frequently, "Running is my drag, co
 &lt;tr&gt;
 &lt;td&gt;27.09.2020&lt;/td&gt;
 &lt;td&gt;Berlin (virtual)&lt;/td&gt;
-&lt;td align="right"&gt;5k&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;5k&lt;/td&gt;
 &lt;td&gt;Berlin Break-the-Wall Run&lt;/td&gt;
 &lt;td&gt;24m 55s&lt;/td&gt;
 &lt;td&gt;4:58 / km&lt;/td&gt;
@@ -88,7 +96,7 @@ Additionally, I began using the proverb more frequently, "Running is my drag, co
 &lt;tr&gt;
 &lt;th&gt;Date&lt;/th&gt;
 &lt;th&gt;Location&lt;/th&gt;
-&lt;th align="right"&gt;Distance&lt;/th&gt;
+&lt;th style="text-align: right;"&gt;Distance&lt;/th&gt;
 &lt;th&gt;Title&lt;/th&gt;
 &lt;th&gt;Time&lt;/th&gt;
 &lt;th&gt;Pace&lt;/th&gt;
@@ -98,7 +106,7 @@ Additionally, I began using the proverb more frequently, "Running is my drag, co
 &lt;tr&gt;
 &lt;td&gt;23.05.2021&lt;/td&gt;
 &lt;td&gt;Athens, Greece (virtual)&lt;/td&gt;
-&lt;td align="right"&gt;10k&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;10k&lt;/td&gt;
 &lt;td&gt;Grace of Nice marathon 2021&lt;/td&gt;
 &lt;td&gt;48m 17s&lt;/td&gt;
 &lt;td&gt;4:49 / km&lt;/td&gt;
@@ -106,7 +114,7 @@ Additionally, I began using the proverb more frequently, "Running is my drag, co
 &lt;tr&gt;
 &lt;td&gt;05.06.2021&lt;/td&gt;
 &lt;td&gt;Polygyros, Greece (virtua)&lt;/td&gt;
-&lt;td align="right"&gt;10k&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;10k&lt;/td&gt;
 &lt;td&gt;Pride Day Run&lt;/td&gt;
 &lt;td&gt;47m 04s&lt;/td&gt;
 &lt;td&gt;4:42 / km&lt;/td&gt;
@@ -119,7 +127,7 @@ Additionally, I began using the proverb more frequently, "Running is my drag, co
 &lt;tr&gt;
 &lt;th&gt;Date&lt;/th&gt;
 &lt;th&gt;Location&lt;/th&gt;
-&lt;th align="right"&gt;Distance&lt;/th&gt;
+&lt;th style="text-align: right;"&gt;Distance&lt;/th&gt;
 &lt;th&gt;Title&lt;/th&gt;
 &lt;th&gt;Time&lt;/th&gt;
 &lt;th&gt;Pace&lt;/th&gt;
@@ -129,7 +137,7 @@ Additionally, I began using the proverb more frequently, "Running is my drag, co
 &lt;tr&gt;
 &lt;td&gt;03.04.2022&lt;/td&gt;
 &lt;td&gt;Berlin, Germany&lt;/td&gt;
-&lt;td align="right"&gt;21k&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;21k&lt;/td&gt;
 &lt;td&gt;Generali Berlin Half Marathon 2022&lt;/td&gt;
 &lt;td&gt;1h 43m 23s&lt;/td&gt;
 &lt;td&gt;4:50 / km&lt;/td&gt;
@@ -137,7 +145,7 @@ Additionally, I began using the proverb more frequently, "Running is my drag, co
 &lt;tr&gt;
 &lt;td&gt;18.09.2022&lt;/td&gt;
 &lt;td&gt;Copenhagen, Denmark&lt;/td&gt;
-&lt;td align="right"&gt;21k&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;21k&lt;/td&gt;
 &lt;td&gt;Copenhagen Half Marathon 2022&lt;/td&gt;
 &lt;td&gt;1h 40m 44s&lt;/td&gt;
 &lt;td&gt;4:46 / km&lt;/td&gt;
@@ -154,29 +162,29 @@ Additionally, I began using the proverb more frequently, "Running is my drag, co
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;Year&lt;/th&gt;
-&lt;th align="right"&gt;Hours&lt;/th&gt;
-&lt;th align="right"&gt;Km&lt;/th&gt;
-&lt;th align="right"&gt;Runs&lt;/th&gt;
+&lt;th style="text-align: right;"&gt;Hours&lt;/th&gt;
+&lt;th style="text-align: right;"&gt;Km&lt;/th&gt;
+&lt;th style="text-align: right;"&gt;Runs&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;2020&lt;/td&gt;
-&lt;td align="right"&gt;34&lt;/td&gt;
-&lt;td align="right"&gt;334.9&lt;/td&gt;
-&lt;td align="right"&gt;60&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;34&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;334.9&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;60&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;2021&lt;/td&gt;
-&lt;td align="right"&gt;170&lt;/td&gt;
-&lt;td align="right"&gt;1,934.6&lt;/td&gt;
-&lt;td align="right"&gt;199&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;170&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;1,934.6&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;199&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;2022&lt;/td&gt;
-&lt;td align="right"&gt;188&lt;/td&gt;
-&lt;td align="right"&gt;2,116.8&lt;/td&gt;
-&lt;td align="right"&gt;216&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;188&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;2,116.8&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;216&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -3129,7 +3137,7 @@ with various web browsers, all of them showed that it contained malware.&lt;/p&g
 &lt;/p&gt;
 &lt;p&gt;Additionally, we can always use an Find function, which will help as to
 identify certain traffic or site. Figure 2 demonstrated the usage of the
-Find function, accessible from menu Edit -&gt; Find.&lt;/p&gt;
+Find function, accessible from menu Edit -&amp;gt; Find.&lt;/p&gt;
 &lt;/p&gt;
 &lt;p&gt;Illustration 2: Wireshark, Find function&lt;/p&gt;
 &lt;/p&gt;
@@ -3808,50 +3816,50 @@ from Unity or even from the terminal, it will give us an error:\&amp;lt;&lt;/p&g
 
 &lt;/p&gt;
 &lt;p&gt;linux-gate.so.1 = (0xb76f2000)&lt;/p&gt;
-&lt;p&gt;libhunspell-1.3.so.0 =&gt; /usr/lib/i386-linux-gnu/libhunspell-1.3.so.0
+&lt;p&gt;libhunspell-1.3.so.0 =&amp;gt; /usr/lib/i386-linux-gnu/libhunspell-1.3.so.0
 (0xb7682000)&lt;/p&gt;
-&lt;p&gt;libpoppler-qt4.so.3 =&gt; not found&lt;/p&gt;
-&lt;p&gt;libz.so.1 =&gt; /lib/i386-linux-gnu/libz.so.1 (0xb766b000)&lt;/p&gt;
-&lt;p&gt;libQtDBus.so.4 =&gt; /usr/lib/i386-linux-gnu/libQtDBus.so.4 (0xb75eb000)&lt;/p&gt;
-&lt;p&gt;libQtScript.so.4 =&gt; /usr/lib/i386-linux-gnu/libQtScript.so.4
+&lt;p&gt;libpoppler-qt4.so.3 =&amp;gt; not found&lt;/p&gt;
+&lt;p&gt;libz.so.1 =&amp;gt; /lib/i386-linux-gnu/libz.so.1 (0xb766b000)&lt;/p&gt;
+&lt;p&gt;libQtDBus.so.4 =&amp;gt; /usr/lib/i386-linux-gnu/libQtDBus.so.4 (0xb75eb000)&lt;/p&gt;
+&lt;p&gt;libQtScript.so.4 =&amp;gt; /usr/lib/i386-linux-gnu/libQtScript.so.4
 (0xb7367000)&lt;/p&gt;
-&lt;p&gt;libQtScriptTools.so.4 =&gt; /usr/lib/i386-linux-gnu/libQtScriptTools.so.4
+&lt;p&gt;libQtScriptTools.so.4 =&amp;gt; /usr/lib/i386-linux-gnu/libQtScriptTools.so.4
 (0xb72b2000)&lt;/p&gt;
-&lt;p&gt;libQtXml.so.4 =&gt; /usr/lib/i386-linux-gnu/libQtXml.so.4 (0xb7272000)&lt;/p&gt;
-&lt;p&gt;libQtGui.so.4 =&gt; /usr/lib/i386-linux-gnu/libQtGui.so.4 (0xb679e000)&lt;/p&gt;
-&lt;p&gt;libQtCore.so.4 =&gt; /usr/lib/i386-linux-gnu/libQtCore.so.4 (0xb64c1000)&lt;/p&gt;
-&lt;p&gt;libpthread.so.0 =&gt; /lib/i386-linux-gnu/libpthread.so.0 (0xb64a6000)&lt;/p&gt;
-&lt;p&gt;libstdc++.so.6 =&gt; /usr/lib/i386-linux-gnu/libstdc++.so.6 (0xb63c1000)&lt;/p&gt;
-&lt;p&gt;libgcc_s.so.1 =&gt; /lib/i386-linux-gnu/libgcc_s.so.1 (0xb63a3000)&lt;/p&gt;
-&lt;p&gt;libc.so.6 =&gt; /lib/i386-linux-gnu/libc.so.6 (0xb61fd000)&lt;/p&gt;
-&lt;p&gt;libdbus-1.so.3 =&gt; /lib/i386-linux-gnu/libdbus-1.so.3 (0xb61b4000)&lt;/p&gt;
-&lt;p&gt;libm.so.6 =&gt; /lib/i386-linux-gnu/libm.so.6 (0xb6188000)&lt;/p&gt;
-&lt;p&gt;libfontconfig.so.1 =&gt; /usr/lib/i386-linux-gnu/libfontconfig.so.1
+&lt;p&gt;libQtXml.so.4 =&amp;gt; /usr/lib/i386-linux-gnu/libQtXml.so.4 (0xb7272000)&lt;/p&gt;
+&lt;p&gt;libQtGui.so.4 =&amp;gt; /usr/lib/i386-linux-gnu/libQtGui.so.4 (0xb679e000)&lt;/p&gt;
+&lt;p&gt;libQtCore.so.4 =&amp;gt; /usr/lib/i386-linux-gnu/libQtCore.so.4 (0xb64c1000)&lt;/p&gt;
+&lt;p&gt;libpthread.so.0 =&amp;gt; /lib/i386-linux-gnu/libpthread.so.0 (0xb64a6000)&lt;/p&gt;
+&lt;p&gt;libstdc++.so.6 =&amp;gt; /usr/lib/i386-linux-gnu/libstdc++.so.6 (0xb63c1000)&lt;/p&gt;
+&lt;p&gt;libgcc_s.so.1 =&amp;gt; /lib/i386-linux-gnu/libgcc_s.so.1 (0xb63a3000)&lt;/p&gt;
+&lt;p&gt;libc.so.6 =&amp;gt; /lib/i386-linux-gnu/libc.so.6 (0xb61fd000)&lt;/p&gt;
+&lt;p&gt;libdbus-1.so.3 =&amp;gt; /lib/i386-linux-gnu/libdbus-1.so.3 (0xb61b4000)&lt;/p&gt;
+&lt;p&gt;libm.so.6 =&amp;gt; /lib/i386-linux-gnu/libm.so.6 (0xb6188000)&lt;/p&gt;
+&lt;p&gt;libfontconfig.so.1 =&amp;gt; /usr/lib/i386-linux-gnu/libfontconfig.so.1
 (0xb6154000)&lt;/p&gt;
-&lt;p&gt;libaudio.so.2 =&gt; /usr/lib/i386-linux-gnu/libaudio.so.2 (0xb613b000)&lt;/p&gt;
-&lt;p&gt;libglib-2.0.so.0 =&gt; /lib/i386-linux-gnu/libglib-2.0.so.0 (0xb6041000)&lt;/p&gt;
-&lt;p&gt;libpng12.so.0 =&gt; /lib/i386-linux-gnu/libpng12.so.0 (0xb6017000)&lt;/p&gt;
-&lt;p&gt;libfreetype.so.6 =&gt; /usr/lib/i386-linux-gnu/libfreetype.so.6
+&lt;p&gt;libaudio.so.2 =&amp;gt; /usr/lib/i386-linux-gnu/libaudio.so.2 (0xb613b000)&lt;/p&gt;
+&lt;p&gt;libglib-2.0.so.0 =&amp;gt; /lib/i386-linux-gnu/libglib-2.0.so.0 (0xb6041000)&lt;/p&gt;
+&lt;p&gt;libpng12.so.0 =&amp;gt; /lib/i386-linux-gnu/libpng12.so.0 (0xb6017000)&lt;/p&gt;
+&lt;p&gt;libfreetype.so.6 =&amp;gt; /usr/lib/i386-linux-gnu/libfreetype.so.6
 (0xb5f7d000)&lt;/p&gt;
-&lt;p&gt;libgobject-2.0.so.0 =&gt; /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
+&lt;p&gt;libgobject-2.0.so.0 =&amp;gt; /usr/lib/i386-linux-gnu/libgobject-2.0.so.0
 (0xb5f2e000)&lt;/p&gt;
-&lt;p&gt;libSM.so.6 =&gt; /usr/lib/i386-linux-gnu/libSM.so.6 (0xb5f25000)&lt;/p&gt;
-&lt;p&gt;libICE.so.6 =&gt; /usr/lib/i386-linux-gnu/libICE.so.6 (0xb5f0a000)&lt;/p&gt;
-&lt;p&gt;libXi.so.6 =&gt; /usr/lib/i386-linux-gnu/libXi.so.6 (0xb5efa000)&lt;/p&gt;
-&lt;p&gt;libXrender.so.1 =&gt; /usr/lib/i386-linux-gnu/libXrender.so.1 (0xb5ef0000)&lt;/p&gt;
-&lt;p&gt;libXext.so.6 =&gt; /usr/lib/i386-linux-gnu/libXext.so.6 (0xb5ede000)&lt;/p&gt;
-&lt;p&gt;libX11.so.6 =&gt; /usr/lib/i386-linux-gnu/libX11.so.6 (0xb5daa000)&lt;/p&gt;
-&lt;p&gt;libdl.so.2 =&gt; /lib/i386-linux-gnu/libdl.so.2 (0xb5da4000)&lt;/p&gt;
-&lt;p&gt;librt.so.1 =&gt; /lib/i386-linux-gnu/librt.so.1 (0xb5d9b000)&lt;/p&gt;
+&lt;p&gt;libSM.so.6 =&amp;gt; /usr/lib/i386-linux-gnu/libSM.so.6 (0xb5f25000)&lt;/p&gt;
+&lt;p&gt;libICE.so.6 =&amp;gt; /usr/lib/i386-linux-gnu/libICE.so.6 (0xb5f0a000)&lt;/p&gt;
+&lt;p&gt;libXi.so.6 =&amp;gt; /usr/lib/i386-linux-gnu/libXi.so.6 (0xb5efa000)&lt;/p&gt;
+&lt;p&gt;libXrender.so.1 =&amp;gt; /usr/lib/i386-linux-gnu/libXrender.so.1 (0xb5ef0000)&lt;/p&gt;
+&lt;p&gt;libXext.so.6 =&amp;gt; /usr/lib/i386-linux-gnu/libXext.so.6 (0xb5ede000)&lt;/p&gt;
+&lt;p&gt;libX11.so.6 =&amp;gt; /usr/lib/i386-linux-gnu/libX11.so.6 (0xb5daa000)&lt;/p&gt;
+&lt;p&gt;libdl.so.2 =&amp;gt; /lib/i386-linux-gnu/libdl.so.2 (0xb5da4000)&lt;/p&gt;
+&lt;p&gt;librt.so.1 =&amp;gt; /lib/i386-linux-gnu/librt.so.1 (0xb5d9b000)&lt;/p&gt;
 &lt;p&gt;/lib/ld-linux.so.2 (0xb76f3000)&lt;/p&gt;
-&lt;p&gt;libexpat.so.1 =&gt; /lib/i386-linux-gnu/libexpat.so.1 (0xb5d71000)&lt;/p&gt;
-&lt;p&gt;libXt.so.6 =&gt; /usr/lib/i386-linux-gnu/libXt.so.6 (0xb5d15000)&lt;/p&gt;
-&lt;p&gt;libXau.so.6 =&gt; /usr/lib/i386-linux-gnu/libXau.so.6 (0xb5d11000)&lt;/p&gt;
-&lt;p&gt;libpcre.so.3 =&gt; /lib/i386-linux-gnu/libpcre.so.3 (0xb5cd4000)&lt;/p&gt;
-&lt;p&gt;libffi.so.6 =&gt; /usr/lib/i386-linux-gnu/libffi.so.6 (0xb5ccd000)&lt;/p&gt;
-&lt;p&gt;libuuid.so.1 =&gt; /lib/i386-linux-gnu/libuuid.so.1 (0xb5cc7000)&lt;/p&gt;
-&lt;p&gt;libxcb.so.1 =&gt; /usr/lib/i386-linux-gnu/libxcb.so.1 (0xb5ca6000)&lt;/p&gt;
-&lt;p&gt;libXdmcp.so.6 =&gt; /usr/lib/i386-linux-gnu/libXdmcp.so.6 (0xb5c9e000)&lt;/p&gt;
+&lt;p&gt;libexpat.so.1 =&amp;gt; /lib/i386-linux-gnu/libexpat.so.1 (0xb5d71000)&lt;/p&gt;
+&lt;p&gt;libXt.so.6 =&amp;gt; /usr/lib/i386-linux-gnu/libXt.so.6 (0xb5d15000)&lt;/p&gt;
+&lt;p&gt;libXau.so.6 =&amp;gt; /usr/lib/i386-linux-gnu/libXau.so.6 (0xb5d11000)&lt;/p&gt;
+&lt;p&gt;libpcre.so.3 =&amp;gt; /lib/i386-linux-gnu/libpcre.so.3 (0xb5cd4000)&lt;/p&gt;
+&lt;p&gt;libffi.so.6 =&amp;gt; /usr/lib/i386-linux-gnu/libffi.so.6 (0xb5ccd000)&lt;/p&gt;
+&lt;p&gt;libuuid.so.1 =&amp;gt; /lib/i386-linux-gnu/libuuid.so.1 (0xb5cc7000)&lt;/p&gt;
+&lt;p&gt;libxcb.so.1 =&amp;gt; /usr/lib/i386-linux-gnu/libxcb.so.1 (0xb5ca6000)&lt;/p&gt;
+&lt;p&gt;libXdmcp.so.6 =&amp;gt; /usr/lib/i386-linux-gnu/libXdmcp.so.6 (0xb5c9e000)&lt;/p&gt;
 &lt;/p&gt;
 &lt;div class="highlight"&gt;
 
@@ -4191,7 +4199,7 @@ To be able to insert the snort rules in to the snort file please double
 check where it is located. You can find the location with the following
 command: find / -name snort.conf Before you continue please change the
 IP address to your server address on line number #6, example alert tcp
-any any -&gt; 192.168.56.X where x is your octet. Then to add the
+any any -&amp;gt; 192.168.56.X where x is your octet. Then to add the
 following rules at the conf file do the following command:&lt;/p&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;code&gt;cat predrag.rules &amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;gt; snort.conf&lt;/code&gt;&lt;/p&gt;
@@ -6694,9 +6702,9 @@ details with following content: In addition of my proposal pls install
 the following script:
 &lt;a href="http://windows.php.net/downloads/releases/php-5.3.8-nts-Win32-VC9-x86.msi"&gt;http://windows.php.net/downloads/releases/php-5.3.8-nts-Win32-VC9-x86.msi&lt;/a&gt;
 in the installation process in the section of Select Web Server you wish
-to setup please chose Do not setup a web server -&gt; Next click on the
+to setup please chose Do not setup a web server -&amp;gt; Next click on the
 PHP small narrow down icon and select Entire future will be installed on
-local hard drive (second option) -&gt; Next -&gt;Install&lt;/p&gt;
+local hard drive (second option) -&amp;gt; Next -&amp;gt;Install&lt;/p&gt;
 &lt;/p&gt;
 &lt;p&gt;The results and graphs of the above proposal are demonstrated in the
 next section.&lt;/p&gt;
@@ -8049,8 +8057,8 @@ wordpress plugin: WP Super Cache Version 0.9.9.9&lt;/p&gt;
 &lt;a href="http://192.168.56.102/wordpress/wp-admin"&gt;http://192.168.56.102/wordpress/&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;a href="http://192.168.56.102/wordpress/wp-admin"&gt;wp-admin&lt;/a&gt;, log in with the
-credentials, from the panel select &lt;em&gt;Plugins&lt;/em&gt; -&gt; &lt;em&gt;WP-Super-Cache&lt;/em&gt; -&gt;
-&lt;em&gt;Activate&lt;/em&gt;. After the activation is done, go to &lt;em&gt;Settings&lt;/em&gt; -&gt;
+credentials, from the panel select &lt;em&gt;Plugins&lt;/em&gt; -&amp;gt; &lt;em&gt;WP-Super-Cache&lt;/em&gt; -&amp;gt;
+&lt;em&gt;Activate&lt;/em&gt;. After the activation is done, go to &lt;em&gt;Settings&lt;/em&gt; -&amp;gt;
 &lt;em&gt;WP-Super-Cache&lt;/em&gt;, on the first tab activate the cache by selecting the
 On cache and on the Advance tab select only the “(Recommended)”
 settings. After your done, select &lt;em&gt;Update Settings&lt;/em&gt; and on the bottom of
@@ -8111,7 +8119,7 @@ applications, yet this laboratory report is performed only with three
 easy and maintained steps.&lt;/p&gt;
 &lt;/p&gt;
 &lt;p&gt;Please log in to the wordpress administration panel, and on &lt;em&gt;Settings&lt;/em&gt;
--&gt; &lt;em&gt;Permalinks&lt;/em&gt; select &lt;em&gt;Default&lt;/em&gt;. After the step is done, then we need
+-&amp;gt; &lt;em&gt;Permalinks&lt;/em&gt; select &lt;em&gt;Default&lt;/em&gt;. After the step is done, then we need
 to edit the &lt;em&gt;.htaccess&lt;/em&gt; file and add the following lines at the end of
 the file and please save it:&lt;/p&gt;
 &lt;/p&gt;
@@ -8796,7 +8804,7 @@ REGISTRATION SERVICES , &lt;a href="http://lacnic.net/cgi-bin/lacnic/whois?lg=EN
 &lt;/p&gt;
 &lt;p&gt;AfriNIC: AfriNIC LTD, Query the AfriNIC Whois Database, 2011,
 href="http://www.afrinic.net/cgi-bin/whois"
-target="_blank"&gt;http://www.afrinic.net/cgi-bin/whois&lt;/a&gt;&lt;/p&gt;
+target="_blank"&amp;gt;http://www.afrinic.net/cgi-bin/whois&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
 &lt;p&gt;APNIC: APNIC, APNIC – Query the APNIC Whois Database, 2011,
 &lt;a href="http://wq.apnic.net/apnic-bin/whois.pl"&gt;http://wq.apnic.net/apnic-bin/whois.pl&lt;/a&gt;&lt;/p&gt;

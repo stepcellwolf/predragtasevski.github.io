@@ -185,7 +185,7 @@ REGISTRATION SERVICES , &lt;a href="http://lacnic.net/cgi-bin/lacnic/whois?lg=EN
 &lt;/p&gt;
 &lt;p&gt;AfriNIC: AfriNIC LTD, Query the AfriNIC Whois Database, 2011,
 href="http://www.afrinic.net/cgi-bin/whois"
-target="_blank"&gt;http://www.afrinic.net/cgi-bin/whois&lt;/a&gt;&lt;/p&gt;
+target="_blank"&amp;gt;http://www.afrinic.net/cgi-bin/whois&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
 &lt;p&gt;APNIC: APNIC, APNIC – Query the APNIC Whois Database, 2011,
 &lt;a href="http://wq.apnic.net/apnic-bin/whois.pl"&gt;http://wq.apnic.net/apnic-bin/whois.pl&lt;/a&gt;&lt;/p&gt;

@@ -561,7 +561,7 @@ To be able to insert the snort rules in to the snort file please double
 check where it is located. You can find the location with the following
 command: find / -name snort.conf Before you continue please change the
 IP address to your server address on line number #6, example alert tcp
-any any -&gt; 192.168.56.X where x is your octet. Then to add the
+any any -&amp;gt; 192.168.56.X where x is your octet. Then to add the
 following rules at the conf file do the following command:&lt;/p&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;code&gt;cat predrag.rules &amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;gt; snort.conf&lt;/code&gt;&lt;/p&gt;
@@ -1535,9 +1535,9 @@ details with following content: In addition of my proposal pls install
 the following script:
 &lt;a href="http://windows.php.net/downloads/releases/php-5.3.8-nts-Win32-VC9-x86.msi"&gt;http://windows.php.net/downloads/releases/php-5.3.8-nts-Win32-VC9-x86.msi&lt;/a&gt;
 in the installation process in the section of Select Web Server you wish
-to setup please chose Do not setup a web server -&gt; Next click on the
+to setup please chose Do not setup a web server -&amp;gt; Next click on the
 PHP small narrow down icon and select Entire future will be installed on
-local hard drive (second option) -&gt; Next -&gt;Install&lt;/p&gt;
+local hard drive (second option) -&amp;gt; Next -&amp;gt;Install&lt;/p&gt;
 &lt;/p&gt;
 &lt;p&gt;The results and graphs of the above proposal are demonstrated in the
 next section.&lt;/p&gt;

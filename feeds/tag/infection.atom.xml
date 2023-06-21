@@ -95,7 +95,7 @@ with various web browsers, all of them showed that it contained malware.&lt;/p&g
 &lt;/p&gt;
 &lt;p&gt;Additionally, we can always use an Find function, which will help as to
 identify certain traffic or site. Figure 2 demonstrated the usage of the
-Find function, accessible from menu Edit -&gt; Find.&lt;/p&gt;
+Find function, accessible from menu Edit -&amp;gt; Find.&lt;/p&gt;
 &lt;/p&gt;
 &lt;p&gt;Illustration 2: Wireshark, Find function&lt;/p&gt;
 &lt;/p&gt;
